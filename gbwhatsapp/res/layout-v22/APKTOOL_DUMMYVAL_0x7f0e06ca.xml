@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d98" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060ab5" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:text="@string/APKTOOL_DUMMYVAL_0x7f121518" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f65" android:gravity="center" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:text="@string/APKTOOL_DUMMYVAL_0x7f121517" android:lineSpacingExtra="4.0sp" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+        <LinearLayout android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" style="@style/APKTOOL_DUMMYVAL_0x7f1502ca">
+            <com.gbwhatsapp.WaImageView android:src="@drawable/vec_ic_description" android:tint="?APKTOOL_DUMMYVAL_0x7f040b71" style="@style/APKTOOL_DUMMYVAL_0x7f1502c9" />
+            <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121513" android:lineSpacingExtra="4.0sp" />
+        </LinearLayout>
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1502ca">
+            <com.gbwhatsapp.WaImageView android:src="@drawable/vec_ic_person" android:tint="?APKTOOL_DUMMYVAL_0x7f040b71" style="@style/APKTOOL_DUMMYVAL_0x7f1502c9" />
+            <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121514" android:lineSpacingExtra="4.0sp" />
+        </LinearLayout>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/close_bottom_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:text="@string/APKTOOL_DUMMYVAL_0x7f1228e8" />
+    </LinearLayout>
+</ScrollView>

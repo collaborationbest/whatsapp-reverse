@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/group_info_add_group_to_community" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040542="?APKTOOL_DUMMYVAL_0x7f0407e7" style="@style/APKTOOL_DUMMYVAL_0x7f150259"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/add_to_community_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070caf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070caf" android:scaleType="fitCenter" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:layout_weight="1.0">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070611" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/add_to_community_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12102a" />
+            <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/add_to_community_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121029" />
+        </LinearLayout>
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

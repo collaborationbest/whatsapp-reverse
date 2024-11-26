@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b6c"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButtonToggleGroup android:layout_gravity="center_horizontal" android:id="@id/reactions_tab_buttons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0408b7="true" app:APKTOOL_DUMMYVAL_0x7f040948="true">
+        <com.google.android.material.button.MaterialButton android:id="@id/reactions_button_all" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122aba" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f15033b" />
+        <com.google.android.material.button.MaterialButton android:id="@id/reactions_button_contacts" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122abb" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f15033b" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+    <com.gbwhatsapp.WaViewPager android:id="@id/reactions_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true" />
+</LinearLayout>

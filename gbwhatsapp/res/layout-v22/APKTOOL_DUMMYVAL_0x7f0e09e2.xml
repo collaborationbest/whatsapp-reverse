@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:id="@id/upcoming_events_info_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150259"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/upcoming_events_title_row" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:paddingEnd="0.0dip">
+        <com.gbwhatsapp.WaTextView android:id="@id/upcoming_events_title" android:layout_width="0.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120d3c" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150239" />
+        <com.gbwhatsapp.WaTextView android:id="@id/upcoming_events_info" android:includeFontPadding="false" whatsapp:APKTOOL_DUMMYVAL_0x7f0402e1="@color/APKTOOL_DUMMYVAL_0x7f0607dd" style="@style/APKTOOL_DUMMYVAL_0x7f150237" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/upcoming_events_list" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" />
+</com.gbwhatsapp.InfoCard>

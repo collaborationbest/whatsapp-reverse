@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/member_suggested_groups_management_toolbar" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f040010" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+    <ViewStub android:id="@id/warning_container" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0639" android:inflatedId="@id/warning_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/warning_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f150364" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/member_suggested_groups_management_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:textAlignment="center" style="@style/APKTOOL_DUMMYVAL_0x7f150644" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f150364" />
+    <FrameLayout android:id="@id/overall_progress_spinner" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="32.0dip" app:APKTOOL_DUMMYVAL_0x7f04027c="@color/APKTOOL_DUMMYVAL_0x7f0608b0" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/pending_group_suggestion_requests_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/no_pending_suggestions_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0636" android:inflatedId="@id/no_pending_suggestions_view_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/button_container" android:background="@color/APKTOOL_DUMMYVAL_0x7f060be9" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/APKTOOL_DUMMYVAL_0x7f060be9">
+        <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/member_suggested_groups_management_reject_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12133c" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/member_suggested_groups_management_approve_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12133b" />
+        </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
+    </FrameLayout>
+</LinearLayout>

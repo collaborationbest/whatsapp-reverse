@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/search_map_preview_map_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/map_loading" />
+    <com.gbwhatsapp.location.WaMapView android:id="@id/search_map_preview_map" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/search_map_preview_avatar_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:background="@drawable/ic_live_location_places" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bec" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bec" />
+        <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/search_map_preview_contact_thumbnail" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bed" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bed" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f0409f9="?APKTOOL_DUMMYVAL_0x7f040642" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fa="1.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fb="false" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070c83" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/search_map_preview_contact_thumbnail_overlay" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bed" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bed" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/live_location_expired_contact_mask" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:id="@id/search_map_preview_thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/send_sms_to_wa_title_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040a48="@style/APKTOOL_DUMMYVAL_0x7f1507e3">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/send_sms_to_wa_title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f7b" style="@style/APKTOOL_DUMMYVAL_0x7f15033f" />
+    </com.gbwhatsapp.wds.components.topbar.WDSToolbar>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" style="@style/APKTOOL_DUMMYVAL_0x7f1501ae">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:id="@id/send_sms_to_wa_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f82" android:lineSpacingMultiplier="1.25" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+            <com.gbwhatsapp.WaImageView android:id="@id/send_sms_to_wa_icon" android:background="@drawable/missed_call_circle_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" app:APKTOOL_DUMMYVAL_0x7f0405d6="parent" app:APKTOOL_DUMMYVAL_0x7f0405da="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/send_sms_to_wa_subtitle" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_reg_sms_normal" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0406cd" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/send_sms_to_wa_button" android:layout_width="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:text="@string/APKTOOL_DUMMYVAL_0x7f1225c2" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/send_sms_to_wa_icon" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

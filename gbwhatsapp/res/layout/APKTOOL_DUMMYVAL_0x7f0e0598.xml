@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/background_media_retry" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    <com.gbwhatsapp.WaImageView android:id="@id/ic_retry_background" android:layout_width="40.0dip" android:layout_height="40.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/retry_icon_background" />
+    <com.gbwhatsapp.WaImageView android:id="@id/ic_retry" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060d59" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_refresh" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bottom_divider" style="@style/APKTOOL_DUMMYVAL_0x7f150361" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/message_business_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1216d4" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+</LinearLayout>

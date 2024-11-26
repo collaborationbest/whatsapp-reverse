@@ -1,0 +1,225 @@
+.class public LX/16o;
+.super LX/0x1;
+.source ""
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
+
+    move-result-object v2
+
+    const/4 v1, 0x0
+
+    new-instance v0, LX/0uo;
+
+    invoke-direct {v0, v2, v1}, LX/0uo;-><init>(Ljava/lang/Object;LX/004;)V
+
+    invoke-direct {p0, v0}, LX/0x1;-><init>(LX/006;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(LX/006;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, LX/0x1;-><init>(LX/006;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public A00(LX/123;)V
+    .locals 2
+
+    invoke-virtual {p0}, LX/0x0;->getObservers()Ljava/lang/Iterable;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/17k;
+
+    invoke-virtual {v0, p1}, LX/17k;->A04(LX/123;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public A01(LX/123;)V
+    .locals 2
+
+    invoke-virtual {p0}, LX/0x0;->getObservers()Ljava/lang/Iterable;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/17k;
+
+    invoke-virtual {v0, p1}, LX/17k;->A05(LX/123;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public A02(Lcom/whatsapp/jid/UserJid;)V
+    .locals 2
+
+    invoke-virtual {p0}, LX/0x0;->getObservers()Ljava/lang/Iterable;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/17k;
+
+    invoke-virtual {v0, p1}, LX/17k;->A07(Lcom/whatsapp/jid/UserJid;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public A03(Lcom/whatsapp/jid/UserJid;)V
+    .locals 2
+
+    invoke-virtual {p0}, LX/0x0;->getObservers()Ljava/lang/Iterable;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/17k;
+
+    invoke-virtual {v0, p1}, LX/17k;->A06(Lcom/whatsapp/jid/UserJid;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public A04(Ljava/util/Collection;)V
+    .locals 2
+
+    invoke-virtual {p0}, LX/0x0;->getObservers()Ljava/lang/Iterable;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/17k;
+
+    invoke-virtual {v0, p1}, LX/17k;->A09(Ljava/util/Collection;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public A05(Ljava/util/Collection;)V
+    .locals 2
+
+    invoke-virtual {p0}, LX/0x0;->getObservers()Ljava/lang/Iterable;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/17k;
+
+    invoke-virtual {v0, p1}, LX/17k;->A0B(Ljava/util/Collection;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method

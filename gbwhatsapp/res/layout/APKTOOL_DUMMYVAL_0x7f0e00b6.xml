@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060bff" android:gravity="center_horizontal" android:id="@id/non_admin_members_add_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+        <RadioGroup android:layout_gravity="center" android:orientation="vertical" android:id="@id/allow_non_admin_add_members_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/non_admin_members_add_title">
+            <com.gbwhatsapp.radio.RadioButtonWithSubtitle android:id="@id/non_admin_members_add_everyone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+            <com.gbwhatsapp.radio.RadioButtonWithSubtitle android:id="@id/non_admin_members_add_admin_only" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/non_admin_members_add_everyone" />
+        </RadioGroup>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

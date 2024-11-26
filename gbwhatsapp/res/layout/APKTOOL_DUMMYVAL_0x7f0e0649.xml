@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/my_profile_photo_tap_area" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/my_profile_photo_area" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.CircleWaImageView android:id="@id/my_profile_photo" android:background="@drawable/me_tab_me_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f0708c0" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0708c2" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0708c2" android:src="@drawable/avatar_contact" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122a5e" />
+    </LinearLayout>
+    <ViewStub android:id="@id/my_profile_badge_viewstub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e002d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/my_profile_photo_area" android:layout_alignRight="@id/my_profile_photo_area" />
+    <Space android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0708c1" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0708c2" android:layout_toEndOf="@id/my_profile_photo_area" />
+</RelativeLayout>

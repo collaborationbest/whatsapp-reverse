@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:gravity="center_vertical" android:layout_gravity="center|left|top" android:id="@id/newsletter_thumbnail" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/avatar_newsletter" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f0409f9="?APKTOOL_DUMMYVAL_0x7f0402d2" app:APKTOOL_DUMMYVAL_0x7f0409fa="1.0dip" app:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070c83" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip">
+        <com.gbwhatsapp.WaTextView android:textSize="17.0sp" android:id="@id/newsletter_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f150429" />
+        <com.gbwhatsapp.WaTextView android:textSize="15.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c5e" android:ellipsize="end" android:id="@id/newsletter_follower_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f15042a" />
+    </LinearLayout>
+</LinearLayout>

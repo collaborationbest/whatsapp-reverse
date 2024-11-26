@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/APKTOOL_DUMMYVAL_0x7f070284" />
+            <solid android:color="?APKTOOL_DUMMYVAL_0x7f0402bf" />
+        </shape>
+    </item>
+    <item android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="6.0dip">
+        <shape>
+            <gradient android:startColor="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:endColor="@color/APKTOOL_DUMMYVAL_0x7f060cab" android:angle="90.0" android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" android:color="?APKTOOL_DUMMYVAL_0x7f0401e1" android:alpha="@dimen/APKTOOL_DUMMYVAL_0x7f07079d" />
+    <item android:color="?APKTOOL_DUMMYVAL_0x7f0401d3" app:APKTOOL_DUMMYVAL_0x7f040985="true" />
+    <item android:color="?APKTOOL_DUMMYVAL_0x7f0401e9" app:APKTOOL_DUMMYVAL_0x7f040986="true" />
+    <item android:state_checked="true" android:color="?APKTOOL_DUMMYVAL_0x7f0401e9" />
+    <item android:state_checked="false" android:color="?APKTOOL_DUMMYVAL_0x7f0401e3" />
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/community_navigation_item_section" android:background="?APKTOOL_DUMMYVAL_0x7f0408b3" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="start|center" android:id="@id/community_navigation_item_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070650" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070650" android:scaleType="center" android:tint="@color/APKTOOL_DUMMYVAL_0x7f06058c" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_member_suggested_groups_inner" />
+        <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaTextView android:layout_gravity="start|center" android:id="@id/community_navigation_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1207f1" style="@style/APKTOOL_DUMMYVAL_0x7f150645" />
+            <com.gbwhatsapp.WaTextView android:layout_gravity="start|center" android:id="@id/community_navigation_item_description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150646" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

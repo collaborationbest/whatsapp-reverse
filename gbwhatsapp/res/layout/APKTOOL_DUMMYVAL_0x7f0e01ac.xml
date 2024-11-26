@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:id="@id/captcha_warning_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_warning" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060ca2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

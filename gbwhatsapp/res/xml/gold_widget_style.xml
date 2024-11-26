@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/acj_bg" android:key="ModWdgBKColor" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoContactNameC" android:key="ModWdgTitleColor" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/contactstatusTC" android:key="ModWdgStatusColor" />
+</PreferenceScreen>

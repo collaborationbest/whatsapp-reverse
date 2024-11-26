@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:theme="@style/APKTOOL_DUMMYVAL_0x7f1501d8" android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f040a79" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070069" />
+    <FrameLayout android:id="@id/privacy_checkup_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

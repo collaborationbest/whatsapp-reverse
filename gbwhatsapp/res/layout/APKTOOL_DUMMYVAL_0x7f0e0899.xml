@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:id="@id/business_search_location" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150140"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/divider" android:background="?APKTOOL_DUMMYVAL_0x7f0408ec" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/search_filter_recycler_view" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07045b" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07045b" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

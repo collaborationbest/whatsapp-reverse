@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f0400cb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:paddingTop="64.0dip" android:paddingBottom="64.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/audio_controls" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.gbwhatsapp.WaImageButton android:id="@id/audio_control_btn" android:padding="0.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/inline_audio_play" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060d59" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+            <com.gbwhatsapp.voicerecorder.VoiceNoteSeekBar android:id="@id/audio_seekbar" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0" whatsapp:APKTOOL_DUMMYVAL_0x7f040ad4="@color/APKTOOL_DUMMYVAL_0x7f060d76" whatsapp:APKTOOL_DUMMYVAL_0x7f040ad5="@color/APKTOOL_DUMMYVAL_0x7f060d59" whatsapp:APKTOOL_DUMMYVAL_0x7f040ad6="12.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f040ad7="3.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1505e8" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d59" android:id="@id/progress_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="00:00" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:id="@id/audio_icon" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="24.0dip" android:layout_above="@id/audio_controls" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1201df" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/mviewer_thumb_audio" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0607dc" />
+    </RelativeLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0630" />
+</FrameLayout>

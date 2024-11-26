@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.abuarab.gold.colorPicker.ColorPanelView android:id="@id/cpv_preference_preview_color_panel" android:layout_width="@dimen/cpv_color_preference_normal" android:layout_height="@dimen/cpv_color_preference_normal" app:cpv_colorShape="circle" />
+</LinearLayout>

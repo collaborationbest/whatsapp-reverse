@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <include whatsapp:APKTOOL_DUMMYVAL_0x7f0405c4="@id/send_to_upi_container" whatsapp:APKTOOL_DUMMYVAL_0x7f0405c9="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f0405dc="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f0405e0="parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09cc" />
+    <include android:id="@id/send_to_upi_container" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:APKTOOL_DUMMYVAL_0x7f0405c9="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f0405dc="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f0405df="@id/toolbar" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e023e" />
+</androidx.constraintlayout.widget.ConstraintLayout>

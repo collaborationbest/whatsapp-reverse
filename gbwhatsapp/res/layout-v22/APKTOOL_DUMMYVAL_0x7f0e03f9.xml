@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_marginVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" style="@style/APKTOOL_DUMMYVAL_0x7f150366" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/event_cancel_row" android:background="?android:selectableItemBackground" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070f19">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f1b" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f1b" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_settings_delete" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060c70" />
+        <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c70" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120cfd" style="@style/APKTOOL_DUMMYVAL_0x7f15043a" />
+    </LinearLayout>
+    <View android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" style="@style/APKTOOL_DUMMYVAL_0x7f150366" />
+    <com.gbwhatsapp.WaTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:text="@string/APKTOOL_DUMMYVAL_0x7f120d13" android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" style="@style/APKTOOL_DUMMYVAL_0x7f150646" />
+</LinearLayout>

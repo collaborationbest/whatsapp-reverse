@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <ListPreference android:entries="@array/home_theme" android:title="@string/yoconh" android:key="HomeEntry" android:summary="@string/yoconhS" android:defaultValue="0" android:entryValues="@array/home_theme_values" />
+    <SwitchPreference android:title="@string/MainSize" android:key="main_text_size" android:defaultValue="false" />
+    <com.abuarab.gold.SeekBarPreference android:max="35" android:title="@string/MainSize" android:key="main_text" android:summary="@string/MainSizeS" android:dependency="main_text_size" android:defaultValue="16" robobunny:min="10" robobunny:unitsLeft="" robobunny:unitsRight="sp" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/textcoloruni" android:key="ModConTextColor" android:summary="@string/textcolormain" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoContactNameC" android:key="ModContactNameColor" android:summary="@string/yoContactNameCS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/chats_group_names_mod" android:key="chats_contacts_group_names_color_picker" android:summary="@string/chats_group_names_summary" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/chats_bc_mod" android:key="chats_bc_names_color_picker" android:summary="@string/chats_bc_summary" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/unread_counter" android:key="HomeCounterBK" android:summary="@string/unread_counterS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/unread_textcounter" android:key="HomeCounterText" android:summary="@string/unread_textcounterS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/contact_online_mod" android:key="ModOnlineColor" android:summary="@string/contact_online_summary" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/contact_lastseen_mod" android:key="ModlastseenColor" android:summary="@string/contact_lastseen_mod_summary" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/MentionIndicatorBackgroundColor" android:key="ModHomeMentionIndBackground" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/MentionIndicatorIconColor" android:key="ModHomeMentionIconColor" />
+    <SwitchPreference android:title="@string/yoArchvChat" android:key="Archv_chats" android:summary="@string/yoArchvChatSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/archiv_text" android:key="arch_chats_top" android:summary="@string/archiv_text_sum" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/yoOnlineHome" android:key="onlinechat" android:summary="@string/yoOnlineSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/elapsedT" android:key="elapsed_time" android:summary="@string/elapsedTS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/OnlineDotHome" android:key="onlineDotchat" android:defaultValue="false" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/OnlineDotHomeColor" android:key="onlineDotchatColor" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/chats_from_mod" android:key="chats_from_color_picker" android:summary="@string/chats_from_summary" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/chats_msg_mod" android:key="chats_msg_color_picker" android:summary="@string/chats_msg_summary" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/chats_msg2_mod" android:key="chats_msg2_color_picker" android:summary="@string/chats_msg2_summary" />
+</PreferenceScreen>

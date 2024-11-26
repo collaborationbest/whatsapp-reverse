@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.MainChildCoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0406ad="@id/audio_picker_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/audio_picker_layout" android:background="@drawable/wds_bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/wds_bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/search_toolbar_container" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09cf" />
+        </LinearLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00d8" />
+    </LinearLayout>
+</com.gbwhatsapp.components.MainChildCoordinatorLayout>

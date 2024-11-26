@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07007c"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07007e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07007e" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07007d" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_wa_locked" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04005b" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070081" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408f2" android:id="@id/auth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070080" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    <com.gbwhatsapp.authentication.FingerprintView android:id="@id/fingerprint_view" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f0705a3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:id="@id/app_unlock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12243b" android:textAllCaps="true" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

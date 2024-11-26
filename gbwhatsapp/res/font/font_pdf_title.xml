@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:APKTOOL_DUMMYVAL_0x7f0404ca="@font/roboto_medium_numbers" app:APKTOOL_DUMMYVAL_0x7f0404d7="italic" app:APKTOOL_DUMMYVAL_0x7f0404d9="500" />
+    <font app:APKTOOL_DUMMYVAL_0x7f0404ca="@font/roboto_medium_numbers" app:APKTOOL_DUMMYVAL_0x7f0404d7="normal" app:APKTOOL_DUMMYVAL_0x7f0404d9="500" />
+</font-family>

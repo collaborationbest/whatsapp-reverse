@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:id="@id/business_compliance_error_empty" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:text="@string/APKTOOL_DUMMYVAL_0x7f120489" app:APKTOOL_DUMMYVAL_0x7f0405fe="@dimen/APKTOOL_DUMMYVAL_0x7f070b0b" style="@style/APKTOOL_DUMMYVAL_0x7f150196"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

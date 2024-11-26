@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:text="@string/new_account" android:layout_marginStart="24.0dip" />
+    <com.gbwhatsapp.WaImageView android:id="@id/add_account_btn" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_add_multi_accounts" android:layout_alignParentRight="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/add_account_btn">
+        <LinearLayout android:orientation="vertical" android:id="@id/add_account_row" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    </ScrollView>
+</RelativeLayout>

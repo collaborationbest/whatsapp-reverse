@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/newsletter_guidelines_what_you_need_to_know" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f66" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060959" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121528" />
+    <LinearLayout android:id="@id/newsletter_requirement_layout" style="@style/APKTOOL_DUMMYVAL_0x7f1502ca">
+        <com.gbwhatsapp.WaImageView android:src="@drawable/ic_action_info_wds" style="@style/APKTOOL_DUMMYVAL_0x7f1502c9" />
+        <com.gbwhatsapp.WaTextView android:id="@id/newsletter_requirement_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/newsletter_decision_process_layout" style="@style/APKTOOL_DUMMYVAL_0x7f1502ca">
+        <com.gbwhatsapp.WaImageView android:src="@drawable/ic_settings_secure_wds" style="@style/APKTOOL_DUMMYVAL_0x7f1502c9" />
+        <com.gbwhatsapp.WaTextView android:id="@id/newsletter_decision_process_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+    </LinearLayout>
+    <ViewStub android:id="@id/newsletter_eu_info_layout" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06c1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

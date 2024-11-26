@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="true" android:state_hovered="true">
+        <objectAnimator android:duration="@integer/APKTOOL_DUMMYVAL_0x7f0c0017" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f07078f" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+    <item android:state_enabled="true" android:state_checked="true" android:state_hovered="true">
+        <objectAnimator android:duration="@integer/APKTOOL_DUMMYVAL_0x7f0c0017" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f07078f" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator android:duration="@integer/APKTOOL_DUMMYVAL_0x7f0c0017" android:valueTo="0" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+</selector>

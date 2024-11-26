@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/GB_Mods"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/hide_online_status" android:key="HideSeen" android:defaultValue="false" />
+    <Preference android:title="@string/gb_contacts" android:key="gb_contacts_privacy_key" />
+    <Preference android:title="@string/gb_groups" android:key="gb_groups_privacy_key" />
+    <CheckBoxPreference android:title="@string/read_after_send" android:key="ReadAfterSend" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/HideStatuses" android:key="HideStatus" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/revoke_msg_menu" android:key="DeleteMsgs" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/enable_view_once" android:key="disable_view_once" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/enable_forward" android:key="enable_forward" android:summary="@string/enable_forward_summary" android:defaultValue="false" />
+    <ListPreference android:entries="@array/disable_calls_array" android:title="@string/disable_calls_title" android:key="disable_calls_key" android:defaultValue="0" android:entryValues="@array/disable_calls_values" />
+</PreferenceScreen>

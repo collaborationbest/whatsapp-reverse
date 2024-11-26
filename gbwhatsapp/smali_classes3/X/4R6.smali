@@ -1,0 +1,72 @@
+.class public final LX/4R6;
+.super LX/00c;
+.source ""
+
+# interfaces
+.implements LX/02t;
+
+
+# instance fields
+.field public final synthetic $assistedFactory:LX/4TE;
+
+.field public final synthetic $groupJid:LX/14v;
+
+
+# direct methods
+.method public constructor <init>(LX/4TE;LX/14v;)V
+    .locals 1
+
+    iput-object p1, p0, LX/4R6;->$assistedFactory:LX/4TE;
+
+    iput-object p2, p0, LX/4R6;->$groupJid:LX/14v;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/00c;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 5
+
+    iget-object v1, p0, LX/4R6;->$assistedFactory:LX/4TE;
+
+    iget-object v4, p0, LX/4R6;->$groupJid:LX/14v;
+
+    check-cast v1, LX/3fn;
+
+    iget-object v0, v1, LX/3fn;->A00:LX/1RJ;
+
+    iget-object v0, v0, LX/1RJ;->A00:LX/1RI;
+
+    invoke-static {v0}, LX/1RI;->A3C(LX/1RI;)Lcom/gbwhatsapp/reporttoadmin/xmpp/RtaXmppClient;
+
+    move-result-object v3
+
+    iget-object v1, v1, LX/3fn;->A00:LX/1RJ;
+
+    iget-object v0, v1, LX/1RJ;->A01:LX/0uf;
+
+    invoke-static {v0}, LX/1kk;->A0Z(LX/0uf;)LX/1HF;
+
+    move-result-object v2
+
+    iget-object v0, v1, LX/1RJ;->A00:LX/1RI;
+
+    iget-object v0, v0, LX/1RI;->A1H:LX/005;
+
+    invoke-interface {v0}, LX/004;->get()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, LX/2zN;
+
+    new-instance v0, LX/1uK;
+
+    invoke-direct {v0, v1, v2, v4, v3}, LX/1uK;-><init>(LX/2zN;LX/1HF;LX/14v;Lcom/gbwhatsapp/reporttoadmin/xmpp/RtaXmppClient;)V
+
+    return-object v0
+.end method

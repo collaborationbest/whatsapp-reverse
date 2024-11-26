@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:id="@id/filter_sheet_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.mediacomposer.doodle.ImagePreviewContentLayout android:id="@id/media_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0622" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03af" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03ab" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0436" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

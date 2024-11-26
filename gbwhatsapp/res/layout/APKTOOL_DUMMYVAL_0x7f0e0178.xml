@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15016e"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

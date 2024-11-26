@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070133" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060221" android:id="@id/question" android:background="@drawable/selector_orange_gradient" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toLeftOf="@id/radio" android:layout_centerVertical="true" />
+    <RadioButton android:theme="?APKTOOL_DUMMYVAL_0x7f0408c2" android:id="@id/radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

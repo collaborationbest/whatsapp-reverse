@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+    <com.gbwhatsapp.PagerSlidingTabStrip android:id="@id/contact_qr_tab_strip" android:background="?APKTOOL_DUMMYVAL_0x7f04071d" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040804="@color/APKTOOL_DUMMYVAL_0x7f060ad6" app:APKTOOL_DUMMYVAL_0x7f040805="?APKTOOL_DUMMYVAL_0x7f04080d" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager.widget.ViewPager android:id="@id/contact_qr_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gbwhatsapp.WaImageView android:id="@id/contact_qr_preview" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    </FrameLayout>
+</LinearLayout>

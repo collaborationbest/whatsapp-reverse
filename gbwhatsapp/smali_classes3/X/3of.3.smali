@@ -1,0 +1,74 @@
+.class public LX/3of;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/4aK;
+
+
+# instance fields
+.field public final A00:LX/0xC;
+
+
+# direct methods
+.method public constructor <init>(LX/0xC;)V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-static {p1, v0}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LX/3of;->A00:LX/0xC;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final BLS(LX/3Sq;)Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final BMH(LX/3Sq;)Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public BnM(LX/3J7;LX/3Sq;)V
+    .locals 4
+
+    const/4 v3, 0x0
+
+    invoke-static {p2, v3}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    iget v0, p2, LX/3Sq;->A1J:I
+
+    iget-object v2, p0, LX/3of;->A00:LX/0xC;
+
+    invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "pin-in-chat-not-supported-rendering"
+
+    invoke-virtual {v2, v0, v1, v3}, LX/0xC;->A0E(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    return-void
+.end method
+
+.method public final Bwt(LX/3Sq;)Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method

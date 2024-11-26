@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/title_toolbar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c4="@id/scroll_view" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" app:APKTOOL_DUMMYVAL_0x7f040a48="@style/APKTOOL_DUMMYVAL_0x7f1507e3">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="start|center" android:id="@id/close_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1228e8" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_close" style="@style/APKTOOL_DUMMYVAL_0x7f150001" />
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1200c1" style="@style/APKTOOL_DUMMYVAL_0x7f15033f" />
+    </com.gbwhatsapp.wds.components.topbar.WDSToolbar>
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:fadeScrollbars="false" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/title_toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501ae">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f0700f3" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+                <com.gbwhatsapp.WaImageView android:layout_width="112.0dip" android:layout_height="112.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/registration_device_confirmation" />
+                <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a40" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:text="@string/APKTOOL_DUMMYVAL_0x7f1200be" android:lineSpacingExtra="1.0sp" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:textColorLink="?APKTOOL_DUMMYVAL_0x7f040606" android:gravity="center" android:id="@id/backup_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginBottom="72.0dip" android:lineSpacingExtra="5.0sp" />
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="16.0dip">
+                    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/stay_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f1200c0" style="@style/APKTOOL_DUMMYVAL_0x7f150605" />
+                    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/move_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f1200bc" style="@style/APKTOOL_DUMMYVAL_0x7f150605" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+.class public LX/3iL;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/166;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public synthetic B6O(LX/15T;LX/39E;LX/3RH;)V
+    .locals 2
+
+    const-string v1, "group_notification_version_index"
+
+    const-string v0, "CREATE UNIQUE INDEX IF NOT EXISTS group_notification_version_index ON group_notification_version (group_jid_row_id)"
+
+    invoke-virtual {p3, v1, v0}, LX/3RH;->A07(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public B6R(LX/39E;LX/3RH;)V
+    .locals 5
+
+    invoke-static {}, LX/3LP;->A00()LX/3LP;
+
+    move-result-object v4
+
+    const/4 v0, 0x4
+
+    new-array v3, v0, [LX/3PC;
+
+    const-string v0, "group_jid_row_id"
+
+    iput-object v0, v4, LX/3LP;->A02:Ljava/lang/String;
+
+    sget-object v2, LX/2qs;->A06:LX/2qs;
+
+    invoke-static {v4, v2, v3}, LX/3LP;->A0h(LX/3LP;LX/2qs;[Ljava/lang/Object;)Z
+
+    move-result v1
+
+    const-string v0, "subject_timestamp"
+
+    invoke-static {v4, v2, v0, v3, v1}, LX/3LP;->A0R(LX/3LP;LX/2qs;Ljava/lang/String;[Ljava/lang/Object;Z)V
+
+    const-string v0, "announcement_version"
+
+    invoke-static {v4, v2, v0, v3, v1}, LX/3LP;->A0S(LX/3LP;LX/2qs;Ljava/lang/String;[Ljava/lang/Object;Z)V
+
+    const-string v0, "participant_version"
+
+    invoke-static {v4, v2, v0, v3, v1}, LX/3LP;->A0T(LX/3LP;LX/2qs;Ljava/lang/String;[Ljava/lang/Object;Z)V
+
+    const-string v0, "group_notification_version"
+
+    invoke-virtual {p2, v0, v3}, LX/3RH;->A0B(Ljava/lang/String;[LX/3PC;)V
+
+    return-void
+.end method
+
+.method public synthetic B6T(LX/15T;LX/39E;LX/3RH;)V
+    .locals 0
+
+    return-void
+.end method

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06c0" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d73" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060959" android:id="@id/newsletter_appeal_outcome_title" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" android:textAlignment="center" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f65" android:id="@id/newsletter_appeal_outcome_description" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:textAlignment="center" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070e95" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e95" android:src="@drawable/ic_info_icon" android:tint="@color/APKTOOL_DUMMYVAL_0x7f0601d2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+                <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/newsletter_appeal_outcome_request_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <androidx.fragment.app.FragmentContainerView android:id="@id/newsletter_guidelines_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/newsletter_appeal_outcome_additional_section" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

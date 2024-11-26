@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/conversations_locked_header" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070307" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/locked_row_icon" android:layout_width="48.0dip" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040651="false" app:APKTOOL_DUMMYVAL_0x7f040654="?APKTOOL_DUMMYVAL_0x7f040060" app:APKTOOL_DUMMYVAL_0x7f04065b="false" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/locked_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212d3" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+</LinearLayout>

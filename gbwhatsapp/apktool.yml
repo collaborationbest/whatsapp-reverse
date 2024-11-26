@@ -1,0 +1,167 @@
+version: 2.10.0
+apkFileName: gbwhatsapp.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 2147483647
+  versionName: 2.24.16.76
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  car-app-api.level: 0
+  core-common.properties: 8
+  firebase-common.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-iid.properties: 8
+  firebase-measurement-connector.properties: 8
+  firebase-messaging.properties: 8
+  googleid.properties: 8
+  integrity.properties: 8
+  play-services-ads-identifier.properties: 8
+  play-services-auth-api-phone.properties: 8
+  play-services-auth-base.properties: 8
+  play-services-auth-blockstore.properties: 8
+  play-services-auth.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-clearcut.properties: 8
+  play-services-cronet.properties: 8
+  play-services-fido.properties: 8
+  play-services-flags.properties: 8
+  play-services-location.properties: 8
+  play-services-maps.properties: 8
+  play-services-nearby.properties: 8
+  play-services-phenotype.properties: 8
+  play-services-places-placereport.properties: 8
+  play-services-safetynet.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  play-services-vision-common.properties: 8
+  play-services-vision.properties: 8
+  play-services-wearable.properties: 8
+  recaptcha.properties: 8
+  review.properties: 8
+  signer.crt: 8
+  commonMain/default/manifest: 8
+  commonMain/default/linkdata/module: 8
+  commonMain/default/linkdata/package_androidx.annotation/0_annotation.knm: 8
+  commonMain/default/linkdata/package_androidx.collection.internal/0_internal.knm: 8
+  commonMain/default/linkdata/package_androidx.collection.internal/1_internal.knm: 8
+  commonMain/default/linkdata/package_androidx.collection/0_collection.knm: 8
+  commonMain/default/linkdata/package_androidx.collection/1_collection.knm: 8
+  commonMain/default/linkdata/package_androidx.collection/2_collection.knm: 8
+  commonMain/default/linkdata/package_androidx.collection/3_collection.knm: 8
+  commonMain/default/linkdata/package_androidx.collection/4_collection.knm: 8
+  commonMain/default/linkdata/package_androidx.collection/5_collection.knm: 8
+  commonMain/default/linkdata/package_androidx/0_androidx.knm: 0
+  commonMain/default/linkdata/root_package/0_.knm: 0
+  nativeMain/default/manifest: 8
+  nativeMain/default/linkdata/module: 8
+  nativeMain/default/linkdata/package_androidx.collection.internal/0_internal.knm: 8
+  nativeMain/default/linkdata/package_androidx.collection.internal/1_internal.knm: 8
+  nativeMain/default/linkdata/package_androidx.collection/0_collection.knm: 8
+  nativeMain/default/linkdata/package_androidx/0_androidx.knm: 0
+  nativeMain/default/linkdata/root_package/0_.knm: 0
+  nonJvmMain/default/manifest: 8
+  nonJvmMain/default/linkdata/module: 8
+  nonJvmMain/default/linkdata/package_androidx.annotation/0_annotation.knm: 8
+  org/apache/xml/security/resource/config.dtd: 8
+  org/apache/xml/security/resource/config.xml: 8
+  org/apache/xml/security/resource/log4j.properties: 8
+  org/apache/xml/security/resource/xmlsecurity_de.properties: 8
+  org/apache/xml/security/resource/xmlsecurity_en.properties: 8
+  org/apache/xml/security/resource/schema/etsi.xsd: 8
+  org/apache/xml/security/resource/schema/xenc-schema.rng: 8
+  org/apache/xml/security/resource/schema/xenc-schema.xsd: 8
+  org/apache/xml/security/resource/schema/xmldsig-core-schema.dtd: 8
+  org/apache/xml/security/resource/schema/xmldsig-core-schema.rng: 8
+  org/apache/xml/security/resource/schema/xmldsig-core-schema.xsd: 8
+  org/spongycastle/x509/CertPathReviewerMessages.properties: 8
+  org/spongycastle/x509/CertPathReviewerMessages_de.properties: 8
+  xplat/storageconfigs/android_acra_minidumps.json: 8
+  xplat/storageconfigs/android_crudo_light_shared_prefs.json: 8
+  xplat/storageconfigs/android_exoplayer_cache.json: 8
+  xplat/storageconfigs/android_exoplayer_files.json: 8
+doNotCompress:
+- resources.arsc
+- png
+- webp
+- ogg
+- m4a
+- assets/cl-app.properties
+- assets/compressed/arm64-v8a/libs.spo
+- assets/compressed/emojis/emojis.oba
+- assets/compressed/strings/strings_af.spo
+- assets/compressed/strings/strings_am.spo
+- assets/compressed/strings/strings_ar.spo
+- assets/compressed/strings/strings_az.spo
+- assets/compressed/strings/strings_bg.spo
+- assets/compressed/strings/strings_bn.spo
+- assets/compressed/strings/strings_ca.spo
+- assets/compressed/strings/strings_cs.spo
+- assets/compressed/strings/strings_da.spo
+- assets/compressed/strings/strings_de.spo
+- assets/compressed/strings/strings_el.spo
+- assets/compressed/strings/strings_en.spo
+- assets/compressed/strings/strings_es.spo
+- assets/compressed/strings/strings_et.spo
+- assets/compressed/strings/strings_fa.spo
+- assets/compressed/strings/strings_fi.spo
+- assets/compressed/strings/strings_fr.spo
+- assets/compressed/strings/strings_ga.spo
+- assets/compressed/strings/strings_gu.spo
+- assets/compressed/strings/strings_ha.spo
+- assets/compressed/strings/strings_hi.spo
+- assets/compressed/strings/strings_hr.spo
+- assets/compressed/strings/strings_hu.spo
+- assets/compressed/strings/strings_in.spo
+- assets/compressed/strings/strings_it.spo
+- assets/compressed/strings/strings_iw.spo
+- assets/compressed/strings/strings_ja.spo
+- assets/compressed/strings/strings_kk.spo
+- assets/compressed/strings/strings_kn.spo
+- assets/compressed/strings/strings_ko.spo
+- assets/compressed/strings/strings_lo.spo
+- assets/compressed/strings/strings_lt.spo
+- assets/compressed/strings/strings_lv.spo
+- assets/compressed/strings/strings_mk.spo
+- assets/compressed/strings/strings_ml.spo
+- assets/compressed/strings/strings_mr.spo
+- assets/compressed/strings/strings_ms.spo
+- assets/compressed/strings/strings_nb.spo
+- assets/compressed/strings/strings_nl.spo
+- assets/compressed/strings/strings_om.spo
+- assets/compressed/strings/strings_pa.spo
+- assets/compressed/strings/strings_pl.spo
+- assets/compressed/strings/strings_pt.spo
+- assets/compressed/strings/strings_ro.spo
+- assets/compressed/strings/strings_ru.spo
+- assets/compressed/strings/strings_sl.spo
+- assets/compressed/strings/strings_sq.spo
+- assets/compressed/strings/strings_sr.spo
+- assets/compressed/strings/strings_sv.spo
+- assets/compressed/strings/strings_sw.spo
+- assets/compressed/strings/strings_ta.spo
+- assets/compressed/strings/strings_te.spo
+- assets/compressed/strings/strings_th.spo
+- assets/compressed/strings/strings_tl.spo
+- assets/compressed/strings/strings_tr.spo
+- assets/compressed/strings/strings_uk.spo
+- assets/compressed/strings/strings_ur.spo
+- assets/compressed/strings/strings_uz.spo
+- assets/compressed/strings/strings_vi.spo
+- assets/compressed/strings/strings_zh-rCN.spo
+- assets/compressed/strings/strings_zh-rHK.spo
+- assets/compressed/strings/strings_zh-rTW.spo
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

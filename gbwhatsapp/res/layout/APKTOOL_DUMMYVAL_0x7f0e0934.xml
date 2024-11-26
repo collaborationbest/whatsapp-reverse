@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/spam_report_dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/report_spam_dialog_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150648" android:gravity="center" android:id="@id/report_spam_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150644" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c5e" android:id="@id/report_spam_dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/block_container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <CheckBox android:id="@id/block_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" />
+                <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150644" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c5e" android:id="@id/block_checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/report_spam_dialog_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1228d6" android:layout_marginEnd="8.0dip" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/report_spam_dialog_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121dc3" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/report_spam_dialog_loading" android:padding="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150643" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121de9" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ProgressBar android:id="@id/loader" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+            <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150646" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121d4c" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/newsletter_report_result_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0935" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

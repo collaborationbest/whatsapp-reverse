@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f15055c" android:id="@id/appbar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/wallpaper_thumbnail_recyclerview" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c4="@id/wallpaper_thumbnail_error_container" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/appbar" style="@style/APKTOOL_DUMMYVAL_0x7f1501ad" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/wallpaper_thumbnail_error_container" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070e88" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c4="@id/wallpaper_thumbnails_progress_container" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/wallpaper_thumbnail_recyclerview">
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1227e6" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/wallpaper_thumbnail_reload_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140.0dip" android:layout_marginBottom="140.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1227e7" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/wallpaper_thumbnails_progress_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/wallpaper_thumbnail_error_container">
+        <ProgressBar android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

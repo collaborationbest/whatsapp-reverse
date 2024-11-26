@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.conversation.comments.ContactNamePrimary android:ellipsize="end" android:id="@id/comment_header_contact_name_primary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f1501c5" />
+    <com.whatsapp.conversation.comments.ContactNameSecondary android:id="@id/comment_header_contact_name_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" style="@style/APKTOOL_DUMMYVAL_0x7f1501c8" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/control_frame" android:background="@drawable/exo_player_gray_circle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:id="@id/play" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layoutDirection="ltr">
+        <FrameLayout android:layout_gravity="left" android:id="@id/left_panel" android:background="@drawable/video_player_semi_circle_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:alpha="0.0" android:scaleX="-1.0">
+            <FrameLayout android:layout_gravity="center_vertical" android:background="@drawable/exo_player_gray_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:scaleX="-1.0">
+                <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/rewind_10" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="right" android:id="@id/right_panel" android:background="@drawable/video_player_semi_circle_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:alpha="0.0">
+            <FrameLayout android:layout_gravity="center_vertical" android:background="@drawable/exo_player_gray_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07064b">
+                <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/fast_forward_10" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/main_controls" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="start|center|top" android:id="@id/back" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="32.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_cam_back" style="@style/APKTOOL_DUMMYVAL_0x7f150001" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/footer" android:background="@color/APKTOOL_DUMMYVAL_0x7f0607ec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <LinearLayout android:orientation="horizontal" android:id="@id/controls" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d59" android:layout_gravity="center_vertical" android:id="@id/time_current" android:paddingTop="30.0dip" android:paddingRight="4.0dip" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/APKTOOL_DUMMYVAL_0x7f0607eb" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" android:paddingEnd="4.0dip" />
+                <SeekBar android:layout_gravity="center_vertical" android:id="@id/mediacontroller_progress" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="3.0dip" android:progressDrawable="@drawable/wa_exoplayer_seekbar_progress" android:minHeight="3.0dip" android:layout_weight="1.0" android:layoutDirection="ltr" app:APKTOOL_DUMMYVAL_0x7f040a53="@color/APKTOOL_DUMMYVAL_0x7f0602f1" style="?android:progressBarStyleHorizontal" />
+                <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d59" android:layout_gravity="center_vertical" android:id="@id/time" android:paddingLeft="4.0dip" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/APKTOOL_DUMMYVAL_0x7f0607eb" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" android:paddingStart="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070383">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e032a" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09ae" />
+        <com.whatsapp.conversation.conversationrow.DynamicButtonsRowContentLayout android:id="@id/dynamic_reply_buttons_message_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.whatsapp.conversation.conversationrow.NativeFlowButtonsRowContentLayout android:id="@id/native_flow_action_button_content" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070383" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.whatsapp.conversation.conversationrow.DynamicButtonsLayout android:id="@id/dynamic_reply_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

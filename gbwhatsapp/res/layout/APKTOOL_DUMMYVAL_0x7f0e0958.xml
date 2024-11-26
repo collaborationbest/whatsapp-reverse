@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/voice_status_view_container" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d05" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d05" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.status.playback.widget.VoiceStatusContentView android:id="@id/message_voice" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d06" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d07" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d07" />
+    </FrameLayout>
+</merge>

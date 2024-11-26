@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/contact_list_item_small" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_photo_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c8="4:5" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <com.gbwhatsapp.WaImageView android:id="@id/contact_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/avatar_contact" />
+    </FrameLayout>
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060bff" android:ellipsize="end" android:id="@id/name" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="20.0sp" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/contact_photo_container" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c00" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="16.0sp" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

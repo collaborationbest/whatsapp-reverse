@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/ig_posts_toolbar" android:layout_height="56.0dip" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+    <View android:id="@id/separator" android:layout_width="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/ig_posts_toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f150177" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/separator">
+        <LinearLayout android:orientation="vertical" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.ui.media.MediaCardGrid android:id="@id/media_card_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" app:APKTOOL_DUMMYVAL_0x7f040542="?APKTOOL_DUMMYVAL_0x7f0407e7" style="@style/APKTOOL_DUMMYVAL_0x7f150259" />
+            <View android:layout_width="fill_parent" android:layout_height="42.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

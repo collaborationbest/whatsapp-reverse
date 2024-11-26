@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@id/fingerprint_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginBottom="16.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120def" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07007f" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408f1" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fingerprint_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120df0" />
+</merge>

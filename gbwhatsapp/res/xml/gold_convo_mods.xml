@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="gold_convo_mods"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/show_mod_in_groups" android:key="grpAdmin_enabled" android:summary="@string/show_mod_in_groups_sum" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/convo_confirm_before_sendingStkr" android:key="stkr_wantsendconfirmation" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/new_convoattachment_design" android:key="newAttach_BottomDesign" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoHideInfo" android:key="yo_hideinfo" android:summary="@string/yoHideInfoSum" android:defaultValue="true" />
+    <com.abuarab.gold.settings.GoldSwitchPreference android:title="@string/fab_chat_hide" android:key="naljaede_key_fab_caht" android:summary="@string/fab_chat_hide_sum" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/hide_scrollup" android:key="key_hide_scrollup" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/hide_scrolldown" android:key="key_hide_scrolldown" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/AutoTextAssem_Hide" android:key="hide_auto_text_icon" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/chat_hide_translation_icon" android:key="entry_translate" android:defaultValue="false" />
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/yoAudio">
+        <SwitchPreference android:title="@string/yoAudioSensor" android:key="Audio_sensor" android:summary="@string/yoAudioSensorSum" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoAudioEars" android:key="Audio_ears" android:summary="@string/yoAudioEarsSum" android:dependency="Audio_sensor" android:defaultValue="false" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+</PreferenceScreen>

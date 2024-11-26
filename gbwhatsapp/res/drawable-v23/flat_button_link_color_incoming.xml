@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="false" android:color="?APKTOOL_DUMMYVAL_0x7f040606" />
+    <item android:state_focused="true" android:state_pressed="true" android:color="?APKTOOL_DUMMYVAL_0x7f040608" />
+    <item android:state_focused="false" android:state_pressed="true" android:color="?APKTOOL_DUMMYVAL_0x7f040608" />
+    <item android:color="?APKTOOL_DUMMYVAL_0x7f040606" />
+</selector>

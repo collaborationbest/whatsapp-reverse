@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:background="?APKTOOL_DUMMYVAL_0x7f0402d2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/blurb" android:background="@drawable/txn_details_rounded_blurb_bg" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1224f5" android:drawableLeft="@drawable/vec_ic_action_info_filled" android:drawablePadding="10.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:APKTOOL_DUMMYVAL_0x7f0402e0="@drawable/vec_ic_action_info_filled" app:APKTOOL_DUMMYVAL_0x7f0402e1="@color/APKTOOL_DUMMYVAL_0x7f060adf" />
+</LinearLayout>

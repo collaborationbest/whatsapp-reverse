@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f150068" parent="@style/APKTOOL_DUMMYVAL_0x7f1500ce" />
+    <style name="APKTOOL_DUMMYVAL_0x7f15006f" parent="@style/APKTOOL_DUMMYVAL_0x7f1500cf" />
+    <style name="APKTOOL_DUMMYVAL_0x7f150113" parent="@style/APKTOOL_DUMMYVAL_0x7f1500d0" />
+    <style name="APKTOOL_DUMMYVAL_0x7f1502a6">
+        <item name="android:textSize">@dimen/APKTOOL_DUMMYVAL_0x7f0701d1</item>
+        <item name="android:textColor">?APKTOOL_DUMMYVAL_0x7f0407e8</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:lineHeight">@dimen/APKTOOL_DUMMYVAL_0x7f070ca9</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15049e" parent="@style/APKTOOL_DUMMYVAL_0x7f150493">
+        <item name="android:windowBackground">?APKTOOL_DUMMYVAL_0x7f0400cf</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">?APKTOOL_DUMMYVAL_0x7f0400cf</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150616">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">24.0dip</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_marginRight">24.0dip</item>
+        <item name="android:layout_marginHorizontal">24.0dip</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15062b" parent="@style/APKTOOL_DUMMYVAL_0x7f150629">
+        <item name="android:textAppearance">@style/APKTOOL_DUMMYVAL_0x7f150642</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:imeOptions">actionSearch|flagNoExtractUi</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:importantForAutofill">no</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1506b1" parent="@android:style/Widget">
+        <item name="android:background">?APKTOOL_DUMMYVAL_0x7f0401e9</item>
+        <item name="android:stateListAnimator">@animator/APKTOOL_DUMMYVAL_0x7f020000</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500ce" parent="@style/APKTOOL_DUMMYVAL_0x7f1500c8">
+        <item name="APKTOOL_DUMMYVAL_0x7f0401d3">?android:colorError</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500cf" parent="@style/APKTOOL_DUMMYVAL_0x7f1500c9">
+        <item name="APKTOOL_DUMMYVAL_0x7f0401d3">?android:colorError</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500d0" parent="@style/APKTOOL_DUMMYVAL_0x7f1500da">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

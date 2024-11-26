@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="@drawable/bg_map_entrypoint_shimmer" android:layout_width="fill_parent" android:layout_height="146.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b22" style="BusinessLoadingFilterBarShimmerItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

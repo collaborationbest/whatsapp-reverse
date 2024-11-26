@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <com.abuarab.gold.FloatingActionsMenu android:id="@id/multiple_actions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" fab:fab_addButtonColorNormal="#ff075e54" fab:fab_addButtonColorPressed="#ff075e54" fab:fab_addButtonPlusIconColor="#ffffffff" fab:fab_labelStyle="@style/menu_labels_style">
+        <com.abuarab.gold.FloatingActionButton android:id="@id/fab_themes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_brush" fab:fab_colorNormal="#ff075e54" fab:fab_colorPressed="#ff075e54" fab:fab_title="Themes" />
+        <com.abuarab.gold.FloatingActionButton android:id="@id/fab_gb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_edit2" fab:fab_colorNormal="#ff075e54" fab:fab_colorPressed="#ff075e54" fab:fab_title="GBSettings" />
+        <com.abuarab.gold.FloatingActionButton android:id="@id/fab_openlog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_description_white_24dp" fab:fab_colorNormal="#ff075e54" fab:fab_colorPressed="#ff075e54" fab:fab_title="Open Logs" />
+    </com.abuarab.gold.FloatingActionsMenu>
+</RelativeLayout>

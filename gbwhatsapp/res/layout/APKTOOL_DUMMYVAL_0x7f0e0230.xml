@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/contact_info_security_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150259"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/contact_info_security_card_layout" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/third_party_chat_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_provider_info" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f122317" />
+        <ViewStub android:id="@id/encryption_info" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03ec" android:inflatedId="@id/encryption_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.chatinfo.EphemeralMessagesInfoView android:id="@id/ephemeral_msg_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/chat_lock_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040611="@string/APKTOOL_DUMMYVAL_0x7f1206aa" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_chat_lock_outline" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f1206a4" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/expiring_groups_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_group_ephemeral" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f120d67" />
+        <com.gbwhatsapp.info.views.PhoneNumberPrivacyInfoView android:id="@id/phone_number_sharing_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/group_settings_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_settings_settings" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f12109d" />
+        <ViewStub android:id="@id/security_description_only_info" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08c9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

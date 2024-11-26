@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.mediacomposer.doodle.shapepicker.ShapePickerView android:id="@id/shape_picker" android:background="@color/APKTOOL_DUMMYVAL_0x7f0600d8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.mediacomposer.doodle.shapepicker.ShapePickerRecyclerView android:id="@id/shapes" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c69" android:paddingTop="?APKTOOL_DUMMYVAL_0x7f040010" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c69" android:paddingBottom="?APKTOOL_DUMMYVAL_0x7f040010" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <View android:id="@id/shape_picker_gradient" android:background="@drawable/doodle_shape_picker_gradient" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" />
+    <View android:id="@id/shape_picker_header_background" android:background="@color/APKTOOL_DUMMYVAL_0x7f060a38" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c54" android:layout_alignBottom="@id/shape_picker_header" android:layout_alignParentTop="true" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c56" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c57" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c58" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c57" android:layout_centerHorizontal="true" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0914" />
+    <FrameLayout android:id="@id/shape_picker_subcategories_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sticker_shape_subcategories_recyclerview" android:background="@color/APKTOOL_DUMMYVAL_0x7f060a3a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c6f" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/emoji_shape_subcategories_recyclerview" android:background="@color/APKTOOL_DUMMYVAL_0x7f060a3a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c6f" />
+    </FrameLayout>
+</com.gbwhatsapp.mediacomposer.doodle.shapepicker.ShapePickerView>

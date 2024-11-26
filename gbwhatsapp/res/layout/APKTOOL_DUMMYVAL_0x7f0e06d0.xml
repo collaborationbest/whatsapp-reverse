@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/header_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07066a" />
+    <View android:id="@id/header_bottom_shadow" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f15028e" />
+    <ViewStub android:id="@id/newsletter_details_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b8" android:inflatedId="@id/newsletter_details_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b6" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b1" />
+    <ViewStub android:id="@id/newsletter_info_similar_newsletters_card_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06d4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06d3" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06ce" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06c5" />
+</LinearLayout>

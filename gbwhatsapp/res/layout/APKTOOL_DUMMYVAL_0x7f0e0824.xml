@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaEditText android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070c4c" android:textColorHint="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/proxy_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="5" android:inputType="number" />
+    <CheckBox android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070c4c" android:textColorHint="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/proxy_use_tls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:paddingStart="16.0dip" android:layout_marginStart="4.0dip" />
+</LinearLayout>

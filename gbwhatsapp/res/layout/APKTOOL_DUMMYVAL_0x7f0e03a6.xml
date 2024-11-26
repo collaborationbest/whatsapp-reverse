@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/document_picker_item" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c88" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070c88"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/selection_check" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|left" android:id="@id/icon" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f0704a1" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c87" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c87" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0704a0" android:scaleType="fitCenter" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07049c" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0704a0">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070b72" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070b71" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150291" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070b71" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150291" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

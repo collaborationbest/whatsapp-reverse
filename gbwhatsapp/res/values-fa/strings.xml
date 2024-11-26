@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AG_Effect">پاسخ خودکار - پیام برنامه ریزی شده</string>
+    <string name="AG_Not">اطلاعیه</string>
+    <string name="Assem_Clear">فایل های موقت واتس اپ را پاک کنید</string>
+    <string name="AutoTextAssem_Hide">پنهان کردن نماد متن خودکار</string>
+    <string name="alex_CancelButton">لغو</string>
+    <string name="Bubbles">سبک حباب</string>
+    <string name="BubblesSum">سبک حباب های چت خود را انتخاب کنید</string>
+    <string name="ChangeP">رمز عبور را تغییر دهید</string>
+    <string name="ChangePS">رمز عبور پیش فرض این است: 0000، آن را به مال خود تغییر دهید!</string>
+    <string name="ChangePt">تغییر الگو</string>
+    <string name="DownloadThemes">دانلود تم</string>
+    <string name="DownloadThemesSum">تم ها را از Themes Online دریافت کنید</string>
+    <string name="EchangeLPW">تصویر زمینه قفل سفارشی را فعال کنید</string>
+    <string name="EnableP">الگو را فعال کنید</string>
+    <string name="EnablePS">بین پین/الگو/اثرانگشت به عنوان صفحه قفل انتخاب کنید</string>
+    <string name="EntryBak">پس زمینه ورود متن</string>
+    <string name="Forward_Settings">تنظیمات فوروارد</string>
+    <string name="alex_UpdateButton">اکنون به‌روزرسانی کنید</string>
+    <string name="alex_UpdateTitle">به‌روزرسانی جدید موجود است</string>
+    <string name="alex_addons">افزونه ها</string>
+    <string name="alex_backup_folder_settings">📂 پوشه پشتیبان : /Documents/GBBackup</string>
+    <string name="alex_ban_description">متأسفانه، سرور واتس‌اپ شماره شما را از استفاده از GBWhatsApp یا سایر MODهای واتس‌اپ منع کرده است</string>
+    <string name="alex_ban_how_btn">چگونه از طریق تصاویر بیاموزید</string>
+    <string name="alex_ban_text">هنوز می‌توانید از GBWhatsApp به عنوان یک دستگاه مرتبط استفاده کنید:</string>
+    <string name="alex_ban_text_1">1- WhatsApp رسمی را نصب و تأیید کنید.</string>
+    <string name="alex_ban_text_2">2- GBWhatsApp > پیوند را به عنوان دستگاه همراه باز کنید.</string>
+    <string name="alex_ban_text_3">3- از کد QR GBWhatsApp اسکرین شات بگیرید و آن را به تلفن دیگری ارسال کنید.</string>
+    <string name="alex_ban_text_4">4- واتس‌اپ > منو > دستگاه‌های پیوند داده شده > پیوند دادن یک دستگاه را باز کنید.</string>
+    <string name="alex_ban_text_5">5- کد QR را در واتساپ رسمی اسکن کنید.</string>
+    <string name="alex_ban_title">شما از استفاده از نسخه های تغییر یافته WhatsApp منع شده اید</string>
+    <string name="alex_calls">تماس‌ها</string>
+    <string name="GBHidePlay">میکروفون آبی را مخفی کنید</string>
+    <string name="GBHideRecord">پنهان کردن ضبط</string>
+    <string name="alex_chats">چت‌ها</string>
+    <string name="alex_click_here">اینجا را کلیک کنید</string>
+    <string name="alex_click_here_hint">روی آخرین گزینه (هرگز) کلیک کنید</string>
+    <string name="GBRestoreTitle">بازیابی</string>
+    <string name="alex_google_drive_not_supported">شما از نسخه تغییر یافته WhatsApp استفاده می کنید، بنابراین متأسفانه نمی توانید از نسخه پشتیبان Google Drive استفاده کنید.</string>
+    <string name="GB_Mods">تنظیمات GB</string>
+    <string name="alex_hide_lastseen">پنهان کردن وضعیت آنلاین</string>
+    <string name="alex_media_gifs">GIF</string>
+    <string name="alex_media_images">عکس‌ها</string>
+    <string name="alex_media_videos">ویدیوها</string>
+    <string name="alex_more_options">گزینه های بیشتر</string>
+    <string name="alex_ok_got_it">خوب، متوجه شدم</string>
+    <string name="alex_share_button">اشتراک گذاری واتس اپ Plus</string>
+    <string name="HangoutsBK">پس‌زمینه ورودی رابط کاربری مکالمه</string>
+    <string name="HangoutsBKS">رنگ پس‌زمینه ورودی را تغییر دهید</string>
+    <string name="HangoutsBt">رنگی دکمه های رابط کاربری مکالمه</string>
+    <string name="HangoutsBtS">رنگ آیکون های ورودی را تغییر دهید</string>
+    <string name="HideFAB">پنهان کردن دکمه اکشن شناور (FAB)</string>
+    <string name="Lock">قفل واتس اپ</string>
+    <string name="MainSize">اندازه متن صفحه اصلی/تماس ها/مخاطبین</string>
+    <string name="MainSizeS">اندازه متن را در کل صفحه اصلی تغییر دهید</string>
+    <string name="MentionIndicatorBackgroundColor">پس زمینه نشانگر را ذکر کنید</string>
+    <string name="MentionIndicatorIconColor">رنگ نماد را ذکر کنید</string>
+    <string name="OnlineDotHome">نقطه آنلاین را غیرفعال کنید</string>
+    <string name="OnlineDotHomeColor">آنلاین نقطه رنگ</string>
+    <string name="Ringtone">آهنگ زنگ تماس نان تست</string>
+    <string name="RingtoneS">آهنگ زنگ برای پخش هنگام آنلاین شدن مخاطب</string>
+    <string name="alex_themes_folder_settings">📂 پوشه تم ها : /Download/GBThemes</string>
+    <string name="SeenST">وضعیت دیده شد</string>
+    <string name="SeenSTS">رنگ را برای وضعیت دیده شدن دایره انتخاب کنید</string>
+    <string name="alex_web_update">به‌روزرسانی از وب</string>
+    <string name="TB">طراحی ظاهر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f120996">کپی</string>
+    <string name="Themes">تم ها</string>
+    <string name="Ticks">سبک تیک</string>
+    <string name="TicksSum">سبک Ticks خود را انتخاب کنید</string>
+    <string name="UnSeenST">وضعیت دیده نشده</string>
+    <string name="UnSeenSTS">رنگ را برای وضعیت دیده نشده دایره انتخاب کنید</string>
+    <string name="abu3rab_video_player">فعال کردن پخش کننده ویدیو</string>
+    <string name="abu3rab_video_player_sum">وقتی فعال باشد، ویدیوها به جای پخش کننده رسانه پیش فرض واتس اپ در یک برنامه خارجی پخش می شوند.</string>
+    <string name="abu3rab_video_player_title">پخش کننده ویدیو</string>
+    <string name="acjGoog">+Google من</string>
+    <string name="acjGoogs">برای به روز ماندن من را دنبال کنید!</string>
+    <string name="acj_actionbar">نوار اکشن</string>
+    <string name="acj_auto_stat">نوار وضعیت رنگ خودکار</string>
+    <string name="acj_auto_stat_sum">نوار وضعیت رنگ خودکار رنگ مطابق نوار عمل</string>
+    <string name="acj_bg">زمینه</string>
+    <string name="acj_chat_actionbar_sum">تغییر رنگ ActionBar در صفحه چت</string>
+    <string name="acj_chat_dt">دو تیک دیده شده</string>
+    <string name="acj_chat_dt_sum">تغییر رنگ کنه های دوتایی دیده شده پیش فرض سبز است.</string>
+    <string name="acj_chat_mic">رنگ دکمه میکروفون</string>
+    <string name="acj_chat_mic_sum">تغییر رنگ دکمه میکروفون</string>
+    <string name="acj_chat_nav_sum">تغییر رنگ نوار ناوبری در صفحه چت</string>
+    <string name="acj_chat_stat_sum">تغییر رنگ نوار وضعیت در صفحه چت</string>
+    <string name="acj_chat_text">رنگ متن حباب چت راست</string>
+    <string name="acj_chat_textLeft">رنگ متن حباب چت چپ</string>
+    <string name="acj_chat_text_sum">رنگ متن حباب چت راست را تنظیم می کند</string>
+    <string name="acj_chat_text_sumleft">رنگ متن حباب چت چپ را تنظیم می کند</string>
+    <string name="acj_cons_actionbar_sum">تغییر رنگ ActionBar در صفحه اصلی</string>
+    <string name="acj_cons_nav_sum">تغییر رنگ نوار ناوبری در صفحه اصلی</string>
+    <string name="acj_cons_stat_sum">تغییر رنگ نوار وضعیت در صفحه اصلی</string>
+    <string name="acj_cp_actionbar_sum">رنگ ActionBar را در صفحه انتخابگر مخاطب تغییر دهید</string>
+    <string name="acj_cp_nav_sum">رنگ نوار ناوبری را در صفحه انتخابگر مخاطب تغییر دهید</string>
+    <string name="acj_cp_stat_sum">رنگ نوار وضعیت را در صفحه انتخابگر مخاطب تغییر دهید</string>
+    <string name="acj_fab_bg">رنگ پس زمینه Fab</string>
+    <string name="acj_fab_bg_anim_sum">مکان شروع انیمیشن پس زمینه Fab را تنظیم کنید</string>
+    <string name="acj_fab_bg_anim_tut">این یک پیوند به ویدیوی یوتیوب است که نحوه استفاده از موقعیت Fab Animation را نشان می دهد</string>
+    <string name="acj_fab_bg_pos">موقعیت انیمیشن پس زمینه Fab</string>
+    <string name="acj_fab_bg_sum">تغییر رنگ پس زمینه Fab</string>
+    <string name="acj_fab_bg_tut">آموزش موقعیت انیمیشن Fab</string>
+    <string name="acj_fab_icons">رنگ نمادهای فاب</string>
+    <string name="acj_fab_normal">طبیعیه عالیه</string>
+    <string name="acj_fab_normal_sum">تغییر رنگ Fab Normal</string>
+    <string name="acj_fab_pressed">Fab فشرده شده است</string>
+    <string name="acj_fab_pressed_sum">تغییر رنگ Fab فشرده شده است</string>
+    <string name="acj_left_bubble">رنگ حباب چپ</string>
+    <string name="acj_left_bubble_sum">رنگ حباب چت چپ را تغییر دهید</string>
+    <string name="acj_navbar">نوار ناوبری</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f120df2">شناسایی نشد</string>
+    <string name="acj_right_bubble">رنگ حباب راست</string>
+    <string name="acj_right_bubble_sum">رنگ حباب چت سمت راست را تغییر دهید</string>
+    <string name="acj_statbar">نوار وضعیت</string>
+    <string name="acj_statnav">رنگ نوار وضعیت و ناوبری</string>
+    <string name="acj_uni_actionbar_sum">رنگ ActionBar را در هر صفحه تغییر دهید</string>
+    <string name="acj_uni_bg_sum">تغییر رنگ پس زمینه پیش فرض سفید است</string>
+    <string name="acj_uni_nav_sum">تغییر رنگ نوار ناوبری در هر صفحه</string>
+    <string name="acj_uni_stat_sum">تغییر رنگ نوار وضعیت در هر صفحه</string>
+    <string name="acj_uni_statnav_sum">رنگ وضعیت و نوار ناوبری را در هر صفحه تغییر دهید</string>
+    <string name="acjchat">صفحه مکالمه</string>
+    <string name="acjchatsum">مدهای قالب برای صفحه مکالمه</string>
+    <string name="acjcolor">رنگ ها</string>
+    <string name="acjcons">صفحه اصلی</string>
+    <string name="acjconssum">مدهای قالب برای صفحه اصلی</string>
+    <string name="acjcontacts">صفحه نمایش مخاطبین</string>
+    <string name="acjcontactssum">حالت‌های قالب‌بندی برای صفحه انتخابگر تماس</string>
+    <string name="acjfabsum">مدهای قالب برای دکمه اکشن شناور</string>
+    <string name="acjfabtab">دکمه اکشن شناور</string>
+    <string name="acjicons">نمادها</string>
+    <string name="acjiconssum">نماد راه‌انداز واتس‌اپ را تغییر می‌دهد</string>
+    <string name="acjoa_detail">با نصب برنامه های دیگر من پشتیبانی کنید</string>
+    <string name="acjother">عمومی</string>
+    <string name="acjotherapps">اپلیکیشن های دیگر</string>
+    <string name="acjothersettings">تنظیمات دیگر</string>
+    <string name="acjpass">کلمه عبور</string>
+    <string name="acjpasssum">الگوی رمز عبور را برای واتس اپ تنظیم می کند</string>
+    <string name="acjreset">بازنشانی کنید</string>
+    <string name="acjresetsum">تمام تنظیمات را بازنشانی کنید</string>
+    <string name="acjrestart">راه اندازی مجدد</string>
+    <string name="acjrestartsum">برای اعمال تغییرات واتس اپ را مجددا راه اندازی می کند</string>
+    <string name="acjunisum">رنگ را در سراسر واتس اپ تنظیم می کند</string>
+    <string name="acjuniversal">جهانی</string>
+    <string name="action_required_title">اقدام لازم است</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="add_schedule_message">پیام شما</string>
+    <string name="add_schedule_name">ارسال به</string>
+    <string name="add_schedule_repeat">تکرار ارسال</string>
+    <string name="add_schedule_time">زمان ارسال</string>
+    <string name="agwa_add_account">نمایش نماد افزودن حساب</string>
+    <string name="yoViewAll">مشاهده همه</string>
+    <string name="already_saved">قبلاً ذخیره شده است</string>
+    <string name="antiviewonce">ضد نمایش یکبار</string>
+    <string name="antiviewonceS">پیام های \"مشاهده یک بار\" را نامحدود باز کنید</string>
+    <string name="archiv_text">چت‌ها را در بالا بایگانی کنید</string>
+    <string name="archiv_text_sum">نمایش چت‌های آرشیو در بالای چت‌ها</string>
+    <string name="background_gradient_mode">جهت شیب</string>
+    <string name="bg_counter_color">پیش‌زمینه شمارنده</string>
+    <string name="bg_counter_color_sum">تغییر رنگ پس‌زمینه شمارنده داستان‌ها</string>
+    <string name="btnSchedule">برنامه</string>
+    <string name="btnTime">زمان</string>
+    <string name="btn_voice_color">دکمه پخش یادداشت صوتی</string>
+    <string name="btn_voice_color_sum">تنظیم رنگ پیام صوتی دکمه پخش</string>
+    <string name="changeLPW">تغییر والپیپر قفل/الگو</string>
+    <string name="change_p_s">تغییر نمایه عکس / پیش‌نمایش وضعیت</string>
+    <string name="change_privacy_settings">تنظیمات حریم خصوصی را تغییر دهید.</string>
+    <string name="chatInfoBalloonsBK">رنگ پس زمینه بالن های اطلاعات</string>
+    <string name="chatInfoBalloonsBKS">رنگ پس‌زمینه حباب‌های تاریخ و تماس از دست رفته</string>
+    <string name="chatInfoBalloonsText">بالن اطلاعات رنگ متن</string>
+    <string name="chatInfoBalloonsTextS">تاریخ و تماس از دست رفته حباب های رنگی متن</string>
+    <string name="chat_bg_forward">پس زمینه جلو</string>
+    <string name="chat_contact_pic">عکس تماس با چت</string>
+    <string name="chat_contact_pic_summary">نمایش عکس مخاطب در هر پیام</string>
+    <string name="chat_hide_translation_icon">پنهان کردن نماد ترجمه</string>
+    <string name="chat_icon_forward">نماد جلو</string>
+    <string name="chat_list_animations">پویانمایی فهرست چت</string>
+    <string name="chat_my_pic">چت عکس من</string>
+    <string name="chat_my_pic_group">Chat My Pic Group</string>
+    <string name="chat_my_pic_group_summary">نمایش عکس من در هر پیام گروهی</string>
+    <string name="chat_my_pic_summary">نمایش عکس من در هر پیام چت</string>
+    <string name="chat_text_size">اندازه متن پیام</string>
+    <string name="chat_text_size_summary">اندازه متن چت را تنظیم کنید</string>
+    <string name="chats">چت‌ها</string>
+    <string name="chats_bc_mod">رنگ پخش</string>
+    <string name="chats_bc_summary">انتخاب رنگ برای نام‌های پخش در صفحه چت</string>
+    <string name="chats_date_mod">رنگ خرما</string>
+    <string name="chats_date_pending_mod">تاریخ در انتظار پیام</string>
+    <string name="chats_date_pending_summary">رنگ تاریخ پیام معلق را در صفحه داستان انتخاب کنید</string>
+    <string name="chats_date_summary">رنگ را برای تاریخ در صفحه اصلی انتخاب کنید</string>
+    <string name="chats_from_mod">رنگ شرکت کننده</string>
+    <string name="chats_from_summary">رنگ فرستنده آخرین پیام گروهی را در صفحه چت انتخاب کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122848">رفتن به بالا</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12284a">تمام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12284d">خاموش</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12284e">روشن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12284f">‎Alt+‎</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122850">‎Ctrl+‎</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122851">حذف</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122852">enter</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122853">‎Function+‎</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122854">‎Meta+‎</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122855">‎Shift+‎</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122856">فاصله</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122857">‎Sym+‎</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122858">منو+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122859">جستجو…‏</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12285a">پاک کردن پُرسمان</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12285b">درخواست جستجو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12285c">جستجو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12285d">ارسال پُرسمان</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12285e">جستجوی گفتاری</string>
+    <string name="chats_group_names_mod">رنگ نام گروه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122861">کوچک کردن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122864">‏اعلان‌های امنیتی، تغییر شماره</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122865">‏تأیید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122866">‏تعویض حساب‌ها امکان‌پذیر نیست. لطفاً بعداً دوباره امتحان کنید.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122867">‏مشکلی پیش آمد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122868">‏از سیستم این حساب خارج می‌شوید؟</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122869">‏موافقت</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12286f">‏اطلاعات انجمن</string>
+    <string name="chats_group_names_summary">انتخاب رنگ برای نام گروه در صفحه چت</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122872">‏مشاهده اعضا</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122873">‏افزودن حساب</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122875">‏افزودن وضعیت</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122877">‏محافظت از نشانی IP در تماس‌ها، غیرفعال کردن پیش‌نمایش‌های پیوند</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122878">‏پیشرفته</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122898">‏بایگانی تمام گفتگوها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12289d">‏ذخیره</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12289e">‏برچسب‌های چهره‌نما</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12289f">‏بازگشت</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228b0">‏مشاهده عکس نمایه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228b1">‏مشاهده وضعیت</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228b4">‏گفتگو کردن با هوش مصنوعی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228bb">جمع کردن برگ زیرین</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228bc">ازهم بازکردن برگ زیرین</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228bd">گسترده کردن تا نیمه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228be">روی دستگیره کشاندن دوضربه زده شد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228bf">دستگیره کشاندن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228c3">‏%s دیگر نمی‌تواند به شما پیام ارسال کند یا با شما تماس بگیرد.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228c4">‏نوع کسب‌وکار</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228c5">‏جزئیات کسب‌وکار</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228c6">‏تماس</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228ce">‏برای سخت‌تر کردن امکان شناسایی مکان شما توسط افراد دیگر، تماس‌های این دستگاه به‌طور ایمن ازطریق سرورهای واتساپ منتقل می‌شود. این کار باعث کاهش کیفیت تماس خواهد شد. &lt;a href=call_relaying_help>بیشتر بدانید&lt;/a></string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228cf">‏محافظت از نشانی IP در تماس‌ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228d0">‏تماس‌ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228d3">‏از جلوه‌های دوربین مانند چهره‌نمای خودتان در تماس‌ها استفاده کنید. &lt;a href=\"%s\">بیشتر بدانید&lt;/a></string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228d4">‏جلوه‌های دوربین</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228d5">‏دوربین واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228d6">‏لغو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228db">‏بازارسال محصول</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228dc">‏سبد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228dd">‏کشور مبدأ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228de">‏گزارش کردن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228e0">‏اشتراک‌گذاری</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228e1">نویسه‌های واردشده %1$d از %2$d</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228e2">محدودیت نویسه از حد مجاز %1$d از %2$d بیشتر شده است</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228e4">‏طرح زمینه، کاغذدیواری، سابقه گفتگو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228e5">‏پاک کردن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228e6">‏پاک کردن تمام گفتگوها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228e7">پاک کردن نوشتار</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228e8">‏بستن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228ec">فعال کردن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228ed">‏تا وقتی «خدمات Google Play» را فعال نکنید، %1$s کار نمی‌کند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228ee">‏‫فعال کردن «خدمات Google Play»</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228ef">نصب</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f0">‏%1$s بدون خدمات Google Play که در دستگاه شما وجود ندارد اجرا نمی‌شود.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f1">‏دریافت «خدمات Google Play»</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f2">‏دردسترس بودن خدمات Google Play</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f3">‏خطا در خدمات Google Play</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f4">‏%1$s برای استفاده از خدمات Google Play با مشکل روبرو است. لطفاً دوباره امتحان کنید.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f5">‏%1$s بدون خدمات Google Play که در دستگاه شما پشتیبانی نمی‌شود، اجرا نخواهد شد.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f6">به‌روزرسانی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f7">‏تاز مانی که «خدمات Google Play» را به‌روزرسانی نکنید، %1$s اجرا نمی‌شود.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f8">‏‫به‌روزرسانی «خدمات Google Play»</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228f9">‏%1$s بدون «خدمات Google Play» که درحال حاضر درحال به‌روزرسانی هستند، کار نمی‌کند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228fa">‏نسخه جدید «خدمات Google Play» نیاز است. به‌زودی به‌طور خودکار به‌روزرسانی می‌شود.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228fb">باز کردن در تلفن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228fe">‏فقط مدیران انجمن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1228ff">‏فقط مدیران انجمن می‌توانند گروه اضافه کنند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122900">‏همه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122901">‏همه اعضای انجمن می‌توانند گروه اضافه کنند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122902">‏اعلان‌های امنیتی، خروج از سیستم</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122907">‏وارد کردن شناسه کاربر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122908">‏انتخاب برنامه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122909">استفاده از گذرواژه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12290b">‏تماس با ما</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12290c">‏عکس نمایه مخاطب</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12290d">‏کد QR واتساپ را اسکن کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12290e">‏ازطریق ایمیل با ما تماس بگیرید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122915">‏گفتگوی واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122917">‏ایجاد کانال</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12291b">‏مصرف شبکه، دانلود خودکار</string>
+    <string name="chats_list_animations">پویانمایی فهرست چت</string>
+    <string name="chats_msg2_mod">پیام رنگی خوانده نشده</string>
+    <string name="chats_msg2_summary">یک پیام رنگی خوانده نشده در مکالمات انتخاب کنید</string>
+    <string name="chats_msg_mod">رنگ پیام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12293c">خطای ناشناس</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12293e">‏حذف</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12293f">‏درحال حذف…</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122940">‏حذف همه گفتگوها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122941">‏با این کار مخاطب از موارد زیر حذف خواهد شد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122942">‏واتساپ و دفترچه تلفنتان</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122943">‏شرح</string>
+    <string name="chats_msg_summary">رنگ پیام در صفحه چت را انتخاب کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122946">‏برای اعمال این تغییر، واتساپ بسته خواهد شد. ممکن است لازم باشد برنامه‌تان را بازراه‌اندازی کنید.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122947">‏اعمال تغییر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122948">‏برای کمک به محافظت از نشانی IP شما برای جلوگیری از کشف آن توسط وب‌سایت‌های شخص ثالث، دیگر پیش‌نمایش پیوندهایی که در گفتگوها به‌اشتراک می‌گذارید ایجاد نخواهد شد. &lt;a href=disable_link_previews_help>بیشتر بدانید&lt;/a></string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122949">‏غیرفعال کردن پیش‌نمایش‌های پیوند</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122953">‏اعمال زمان‌سنج در گفتگوها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122955">‏زمان‌سنج پیش‌فرض پیام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122959">‏اطلاعات بیشتر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12295a">‏ویرایش</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12296a">‏ایموجی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12296c">خطا</string>
+    <string name="chats_names_mod">رنگ نام ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122977">‏تصویری</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122978">‏صوتی</string>
+    <string name="chats_names_summary">رنگ را برای نام مخاطبین/گروه در صفحه چت انتخاب کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12298e">مکث</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f12298f">پخش</string>
+    <string name="chats_row_divider_mod">تقسیم کننده چت</string>
+    <string name="chats_row_divider_picker_summary">رنگ خط را بین چت ها تنظیم کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229ad">خودکار</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229ae">هیچ‌کدام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229b7">پیشرفته</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229b9">نمایش منوی کرکره‌ای</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229bc">‏فیس‌بوک</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229c1">‏باز کردن در مرورگر</string>
+    <string name="fcm_fallback_notification_channel_label">موارد دیگر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229c7">‏مشاهده شرایط افشای حریم خصوصی واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229c8">حسگر اثر انگشت را لمس کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229c9">سخت‌افزار اثر انگشت در دسترس نیست.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229ca">این دستگاه حسگر اثر انگشت ندارد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229cb">تعداد تلاش‌ها بیش از حد مجاز است. لطفاً بعداً دوباره امتحان کنید.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229cc">اثر انگشتی ثبت نشده است.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229cd">کاربر عملیات اثر انگشت را لغو کرد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229ce">‏بزرگ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229cf">‏متوسط</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229d0">‏کوچک</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229d2">‏بازارسال به</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229d4">‏پاک کردن همه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229d5">‏گزارش کردن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229d6">‏امتحان مجدد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229d8">‏در حال آماده سازی نسخه پشتیبان…</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229d9">‏در حال گرفتن نسخه پشتیبان</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229da">‏در حال آماده سازی …</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229db">‏در حال بازیابی رسانه ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229dc">پین، الگو، یا گذرواژه‌ای تنظیم نشده است.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229dd">این دستگاه از پین، الگو، یا گذرواژه پشتیبانی نمی‌کند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229de">کاربر اصالت‌سنجی را لغو کرد.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229e7">‏انتهای فهرست</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229e8">‏۳ مورد در فهرست</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229ea">‏بخش راهنما، تماس با ما، شیوه‌نامه حریم خصوصی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229ef">درحال انجام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229f0">برخی موارد علامت‌گذاری شده است</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229f4">‏این ویدیو در حال پخش به صورت تصویر در تصویر است.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229f5">‏Instagram</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229f6">‏پیوند دادن به واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f1229ff">برگه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a00">‏زبان برنامه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a01">واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a02">‏بیشتر بدانید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a03">‏دستگاه‌های پیوندداده‌شده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a08">واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a09">‏وقتی از سیستم خارج شوید واتساپ بسته خواهد شد.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a0a">‏مطمئنید می‌خواهید از سیستم خارج شوید؟</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a26">‏مدیریت کاربران مسدودشده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a27">‏نمایش ترافیک</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a28">‏نمای نقشه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a29">‏نمای ماهواره‌ای</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a2a">‏نمای زمینی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a41">انتخاب .ق.ظ. یا ب.ظ.</string>
+    <string name="clean_whatsapp_databases">پشتیبان گیری از چت های قدیمی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a4f">ق.ظ</string>
+    <string name="clean_whatsapp_logs">حذف WhatsApp.Logs</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a53">ب.ظ</string>
+    <string name="clean_whatsapp_shared">کش رسانه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a56">‏درحال بارگیری رسانه…</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a57">‏افزودن به «موارد محبوب»</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a58">‏حذف</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a59">‏ویرایش موارد محبوب</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a5d">‏به‌روزرسانی‌ وضعیت جدید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a5e">‏تنظیمات</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a5f">‏پررنگ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a60">‏مورب</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a61">‏هم‌عرض</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a62">‏خط خورده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a63">‏پیام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a65">‏تماس دوباره</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a6a">‏بیشتر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a6b">اعلان جدید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a77">برداشتن %1$s</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a78">بیش از %1$d اعلان جدید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a7a">تغییر به ماه بعدی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a7b">تغییر به ماه قبلی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a84">ستون روز: %1$s</string>
+    <string name="clearemoji">ایموجی های اخیر را پاک کنید</string>
+    <string name="clearlogs">لاگ های واتس اپ را پاک کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a8b">رفتن به سال %1$s</string>
+    <string name="color_hex_invalid">رنگ نامعتبر است</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a9c">رفتن به رفتن به حالت انتخاب روز ضربه بزنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122a9e">برای رفتن به حالت انتخاب سال ضربه بزنید</string>
+    <string name="color_new_color">رنگ جدید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aa9">‏بی‌صدا کردن اعلان‌ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aaa">‏به‌روزرسانی‌های بی‌صداشده</string>
+    <string name="color_old_color">رنگ قدیمی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ab1">‏گروه جدید ایجاد شود؟ &lt;font color=#%s>&lt;b>نحوه ایجاد آن را ببینید&lt;/b>&lt;/font></string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ab3">‏۱ روز</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ab4">‏تنظیم پیش‌فرض برنامه (%s)</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ab5">‏۱ ماه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ab6">‏هرگز</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ab7">‏١ هفته</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ab8">‏پیدا کردن کانال‌ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ab9">‏نماد کانال</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aba">‏همه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122abb">‏مخاطبان</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122abd">‏پیام خوانده نشده ای موجود نیست</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122abf">انتخاب‌نشده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ac0">تنظیم نشده است</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ac1">‏صدای زنگ تماس، گروه و پیام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ac2">‏جستجو برای پیام جدید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122acd">خاموش</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ace">روشن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122acf">‏فقط مدیران می‌توانند پیام بفرستند</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ad0">‏فقط مدیران انجمن می‌توانند اعلان‌ها را ارسال کنند</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ad1">‏رفتن به مرحله پرداخت</string>
+    <string name="color_select_color">یک رنگ را انتخاب کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122ae1">نمایش گذرواژه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aea">‏پخش</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aeb">‏دنبال‌کنندگان نمی‌توانند ببینند شما چه زمانی کانال را دنبال می‌کنید یا با آن در تعامل هستید.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aec">‏مدیران نمی‌توانند شماره تلفن کاملتان را ببینند، مگر اینکه شما را به‌عنوان مخاطب ذخیره کرده باشند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aed">‏همچنین ممکن است مدیران براساس تنظیمات حریم خصوصی‌تان عکس نمایه‌تان را ببینند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aee">‏مدیران می‌توانند نام نمایه‌تان را ببینند</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122aef">‏فقط رأی‌هایی را می‌توانید ببینید که قبل از خروجتان ثبت شده‌اند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af0">‏همیشه پاپ آپ ها را نمایش بده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af1">‏بدون پنجره</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af2">‏فقط زمانی که صفحه «خاموش» است</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af3">‏فقط زمانی که صفحه «روشن» است</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af4">«%1$s» در بریده‌دان کپی شد.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af5">‏مسدود کردن مخاطبان، پیام‌های‌ مدت‌دار</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af6">‏دیدن جزئیات بیشتر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af7">‏عکس نمایه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122af9">‏درباره</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122afa">‏نام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122afc">‏میزبان پروکسی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b00">‏خاموش</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b01">‏روشن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b05">‏شماره خود را تأييد كنيد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b07">‏مسدود کردن مخاطب و حذف گفتگو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b08">‏گزارش کردن اشکال</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b09">[داخلی]</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b0c">‏اسکن کردن کد QR</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b10">‏جستجو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b13">‏جستجو در گفتگوها با مخاطبان</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b14">‏قبل‌تر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b15">‏جستجو در گفتگوهای گروهی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b16">‏جدیدتر</string>
+    <string name="contact_lastseen_mod">آخرین رنگ دیده شده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b18">‏جستجو در گفتگوهای خوانده‌نشده</string>
+    <string name="contact_lastseen_mod_summary">تغییر رنگ آخرین مشاهده در صفحه اصلی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b1d">‏انتخاب چند مورد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b1e">انتخاب شد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b20">‏ارسال به %s</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b21">‏عکس نمایه واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b22">‏حساب</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b23">‏گفتگوهای شخص‌ثالث</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b24">‏صدا</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b25">‏اسناد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b26">‏عکس‌ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b27">‏ویدیوها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b28">‏آگاه سازی های تماس</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b29">‏زنگ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b2a">‏یک زنگ برای تماس های ورودی واتساپ انتخاب کنید.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b2b">‏هنگام دریافت تماس ورودی واتساپ از لرزش استفاده کن.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b2c">‏گفتگوها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b2d">‏صادر کردن گفتگو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b2e">‏تنظیمات</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b2f">‏راهنما</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b30">‏گفتگوهای شخص‌ ثالث</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b31">‏شما</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b32">‏خودکار (توصیه می‌شود)</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b33">‏بهترین کیفیت</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b34">‏صرفه‌جویی در مصرف داده‌ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b35">‏کیفیت HD</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b36">‏ذخیره</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b37">‏ارسال کندتر، رسانه‌ها می‌تواند ۶ برابر بزرگ‌تر باشد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b38">‏کیفیت استاندارد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b39">‏ارسال سریع‌تر، فایل با اندازه کوچک‌تر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b3a">‏تنظیمات پیشرفته</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b3b">‏گزارش‌های کانال</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b3c">‏اعلان‌های پیام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b3d">‏نور</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b3e">‏یک رنگ برای اعلان انتخاب کنید تا موقعی که پیام جدیدی دریافت می‌کنید چشمک بزند.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b3f">‏اعلان بازشو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b40">‏نشان دادن اعلان به صورت popup هنگامی که برنامه در پشت صحنه است.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b41">‏آهنگ اعلان</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b42">‏يك صدا را براى اعلان پيام جديد انتخاب كنيد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b43">‏استفاده از اعلان‌های شخصی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b44">‏استفاده از اعلان‌های اولویت بالا</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b45">‏نشان دادن پیش‌نمایش اعلان‌ها در بالای صفحه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b46">‏لرزش</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b47">‏لرزش(ویبره) دستگاه هنگام رسیدن پیام جدید هنگامی که برنامه در حال اجرا است</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b48">‏اعلان‌ها</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b49">‏کیفیت عکس‌ها و ویدیوها را برای ارسال در گفتگو انتخاب کنید.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b4a">‏حریم خصوصی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b4b">‏هیچ نتیجه‌ای در تنظیمات پیدا نشد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b4c">‏میزان مصرف فضای ذخیره‌سازی و داده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b50">‏تماس‌های دریافتی از شماره‌های ناشناس بی‌صدا خواهد شد. این تماس‌ها همچنان در برگه «تماس‌ها» و در اعلان‌هایتان نشان داده خواهد شد. &lt;a href=calling_privacy_help>بیشتر بدانید&lt;/a></string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b51">‏بی‌صدا کردن تماس‌گیرندگان ناشناس</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b52">‏رد شدن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b54">‏مرتب‌سازی براساس تاریخ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b56">‏چیدن بر اساس نام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b57">‏مرتب‌سازی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b58">‏پیام‌های ستاره‌دار</string>
+    <string name="contact_online_mod">تماس با رنگ آنلاین</string>
+    <string name="contact_online_summary">تغییر رنگ آنلاین در صفحه اصلی</string>
+    <string name="contact_online_tone_do">موقعیت نان تست را تغییر دهید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b5e">999+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b5f">‏در باشگاه ورزشی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b60">‏در سینما</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b61">‏سر کلاس</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b62">‏سر كار</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b63">‏در دسترس</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b64">‏شارژ باتری رو به اتمام</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b65">‏مشغول</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b66">‏نمی‌توانم صحبت کنم، فقط واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b67">‏در جلسه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b68">‏درحال خواب</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b69">‏فقط تماس‌های ضروری</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b6a">‏حریم خصوصی وضعیت</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b70">‏افزودن به موارد محبوب</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b71">‏به واتساپ اجازه خواندن و نمایش استیکرهای برنامه‌های دیگر را می‌دهد.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b72">‏خواندن و نمایش استیکرهای واتساپ از برنامه‌های استیکر دیگر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b74">‏هیجان‌زده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b75">‏دردسترس برای گفتگو</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b76">‏درحال گوش دادن به موسیقی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b77">‏در سفر</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b78">‏درحال کار کردن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b7a">%1$s، %2$s</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b7b">کلید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b7c">برگه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b7d">‏نادیده گرفتن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b7e">‏دعوت از دوست</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122b7f">%1$d درصد.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bb0">‏پیام رسان واتساپ</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bb1">‏مخاطب به واتساپ و تلفن اضافه شد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bb2">‏مخاطب به واتساپ اضافه شد</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bcd">‏وضعیتی تایپ کنید</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bcf">خاموش</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd0">روشن</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd1">‏تأیید کد امنیتی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd2">‏پیش‌فرض</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd3">‏طولانی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd4">‏خاموش</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd5">‏کوتاه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd6">‏تصویری</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd8">‏صوتی</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bd9">‏سرتاسر رمزگذاری‌شده</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122bdb">‏پیوستن</string>
+    <string name="contacts_group_names_mod">رنگ نام گروه</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f122c09">‏این وب‌سایت توسط پروتکل امنیتی استاندارد صنعتی HTTPS محافظت می‌شود.</string>
+    <string name="contactstatusC">پس زمینه وضعیت تماس</string>
+    <string name="contactstatusCS">متن وضعیت تماس عمومی را در صفحه مکالمه تغییر دهید</string>
+    <string name="contactstatusCSB">پس زمینه وضعیت تماس عمومی را در صفحه مکالمه تغییر دهید</string>
+    <string name="contactstatusTC">رنگ متن وضعیت تماس</string>
+    <string name="conversation_chat_pics">عکس ها</string>
+    <string name="conversation_chat_pics_summary">برای تغییر پیکربندی عکس های مخاطب در صفحه چت، اینجا را وارد کنید</string>
+    <string name="convo_confirm_before_sendingStatus">قبل از ارسال وضعیت تأیید کنید</string>
+    <string name="convo_confirm_before_sendingStkr">قبل از ارسال استیکر تأیید کنید</string>
+    <string name="copyWA">کپی اطلاعات واتساپ</string>
+    <string name="copyselectSt">کپی انتخاب</string>
+    <string name="createShort">ایجاد میانبر در صفحه اصلی</string>
+    <string name="createShort_sum">ایجاد میانبر برای حل شمارنده پیام ها در صفحه اصلی</string>
+    <string name="create_link_contact">لینک تماس مستقیم</string>
+    <string name="creditsS">وام</string>
+    <string name="custom_chats_auto_media_item">دانلود خودکار رسانه</string>
+    <string name="custom_wall_profilepic">تصویر زمینه عکس پروفایل</string>
+    <string name="custom_wall_profilepicS">در صورت وجود، عکس نمایه را به عنوان تصویر زمینه تنظیم کنید</string>
+    <string name="customfont">نوع قلم</string>
+    <string name="customfont_sum">تغییر سبک فونت</string>
+    <string name="customwall">تصویر زمینه سفارشی برای هر مخاطب</string>
+    <string name="customwallS">به شما امکان می دهد کاغذ دیواری سفارشی برای هر فرد/مکالمه تنظیم کنید</string>
+    <string name="darkui">رابط کاربری تاریک</string>
+    <string name="date_bubble">حباب خرما</string>
+    <string name="date_bubble_summary">رنگ را برای حباب تاریخ در صفحه مکالمه انتخاب کنید</string>
+    <string name="date_divider_mod">رنگ متن تقسیم کننده تاریخ</string>
+    <string name="date_divider_summary">رنگ را برای متن تقسیم کننده تاریخ در صفحه مکالمه انتخاب کنید</string>
+    <string name="deletethemes">تمام تم های ذخیره شده/نصب شده را حذف کنید</string>
+    <string name="deletethemessum">تمام طرح‌های زمینه را در پوشه تم‌ها پاک کنید</string>
+    <string name="devweb">Dev را باز کنید سایت اینترنتی</string>
+    <string name="dialog_call_msg">واقعا میخوای زنگ بزنی؟</string>
+    <string name="dialog_call_title">تماس بگیر</string>
+    <string name="disableFingerprintFirst">برای استفاده از سایر انواع قفل، لطفاً ابتدا اثر انگشت را غیرفعال کنید</string>
+    <string name="disableHiddenAccess">غیرفعال کردن کلیک بر روی \"واتس اپ\"</string>
+    <string name="disableHiddenAccessSum">با کلیک بر روی \"واتس اپ\" در هدر، چت های مخفی باز نمی شوند</string>
+    <string name="disable_auto_reply_hideread">غیرفعال کردن پاسخ خودکار</string>
+    <string name="disable_auto_reply_hideread_sum">اگر تیک های خوانده شده را پنهان می کنید، پاسخ خودکار را غیرفعال کنید</string>
+    <string name="disable_dttl">واکنش Double Tap را غیرفعال کنید</string>
+    <string name="disablestatus">وضعیت تحت نام من را غیرفعال کنید</string>
+    <string name="disablestatusSum">خط وضعیت شما را در زیر نام شما در صفحه اصلی حذف می کند</string>
+    <string name="elapsedT">زمان سپری شده</string>
+    <string name="elapsedTS">از زمان سپری شده (آخرین بازدید ساعت و دقیقه قبل)، در صفحه اصلی و صفحه مکالمه استفاده کنید!</string>
+    <string name="em_set">نوع ایموجی</string>
+    <string name="em_setS">تغییر نوع ایموجی ها</string>
+    <string name="emojiBackColor">رنگ پس زمینه انتخابگر ایموجی</string>
+    <string name="emojiBackColorSum">تغییر رنگ پس‌زمینه بازشو ایموجی</string>
+    <string name="emojiHeadIconsColor">رنگ نمادهای سرصفحه ایموجی</string>
+    <string name="emojiHeadIconsColorSum">تغییر رنگ نمادهای بازشو ایموجی</string>
+    <string name="emojiHeaderColor">رنگ سرصفحه ایموجی</string>
+    <string name="emojiHeaderColorSum">رنگ سرصفحه بازشو ایموجی را تغییر دهید</string>
+    <string name="emoji_delete">اموجی های اخیر را حذف کنید</string>
+    <string name="enable_gold">پیوند به عنوان دستگاه همراه</string>
+    <string name="endDate">تاریخ پایان</string>
+    <string name="entryText">رنگ ورودی متن</string>
+    <string name="entryTextSum">رنگ متن را در کادر گفتگو تغییر دهید</string>
+    <string name="fab">رنگ فاب</string>
+    <string name="fab_chat_hide">پنهان کردن چت FAB</string>
+    <string name="fab_chat_hide_sum">پنهان کردن دکمه مثبت در سمت راست بالای صفحه چت</string>
+    <string name="first_message">اولین پیام</string>
+    <string name="follow_developer">توسعه دهنده را دنبال کنید</string>
+    <string name="frequently_contacted">اغلب تماس گرفته شده است</string>
+    <string name="frequently_contacted_sum">پنهان کردن تماس های مکرر از بخش Forward</string>
+    <string name="from_mod">رنگ نام شرکت کنندگان</string>
+    <string name="from_summary">رنگ را برای نام شرکت کنندگان در صفحه چت گروهی انتخاب کنید</string>
+    <string name="gb_auto_reply">پاسخ خودکار</string>
+    <string name="gb_contacts">مخاطبین</string>
+    <string name="gb_groups">گروه ها</string>
+    <string name="ghost_mode">حالت شبح 👻</string>
+    <string name="go_to_first_msg">برو به اولین پیام</string>
+    <string name="group_participant_pic">عکس شرکت کننده</string>
+    <string name="group_participant_pic_summary">نمایش عکس شرکت کننده گروه در هر پیام</string>
+    <string name="groups_participation">گروه ها</string>
+    <string name="grpSeparate">چت/گروه جداگانه</string>
+    <string name="grpSeparateSum">صفحه وضعیت با چت های گروهی جایگزین می شود و \"داستان های مشابه اینستاگرام\" اجباری می شود.</string>
+    <string name="grparticpantName_color">رنگ نام شرکت کننده در گروه</string>
+    <string name="grparticpantName_colorS">تغییر رنگ نام عضو/شرکت کننده گروه در پیام</string>
+    <string name="header_gd_bg_picker">رنگ گرادیان</string>
+    <string name="hidden_chats_lock_type">نوع قفل</string>
+    <string name="hidden_chats_lock_type_finger">اثر انگشت</string>
+    <string name="hidden_chats_lock_type_pattern">الگو</string>
+    <string name="hidden_chats_lock_type_pin">پین کردن</string>
+    <string name="hidden_chats_lock_type_without_lock">بدون قفل (نمی توان پنهان کرد!)</string>
+    <string name="hideRStatus">به روز رسانی های اخیر</string>
+    <string name="hideRstatussum">پنهان کردن بخش به‌روزرسانی‌های اخیر</string>
+    <string name="hide_action_s">پنهان کردن ✂️ FAB</string>
+    <string name="hide_actiona">FAB را مخفی کنید</string>
+    <string name="hide_actionb">LastSeen FAB را مخفی کنید</string>
+    <string name="hide_actionl">پنهان کردن واتساپ لاگ FAB</string>
+    <string name="hide_actionm">پنهان کردن پیام جدید FAB</string>
+    <string name="hide_chat">پنهان کردن چت</string>
+    <string name="hide_lastseen">پنهان کردن آخرین بازدید</string>
+    <string name="hide_no">پنهان نکن</string>
+    <string name="hide_notifications">مخفی کردن اعلان ها</string>
+    <string name="hide_notificationsSum">هنگام ورود پیام جدید، صدا/ارتعاشات را متوقف کنید</string>
+    <string name="hide_notifybar_always">همه چیز را پنهان کنید</string>
+    <string name="hide_notifybar_contacts">مخفی کردن مخاطبین</string>
+    <string name="hide_notifybar_groups">پنهان کردن گروه ها</string>
+    <string name="hide_notifybar_groups_mute">پنهان کردن گروه ها در حالت نادیده گرفتن</string>
+    <string name="hide_offline">پنهان کردن آفلاین</string>
+    <string name="hide_online">پنهان کردن آنلاین</string>
+    <string name="hide_online_status">پنهان کردن وضعیت آنلاین</string>
+    <string name="hide_read_ticks">پنهان کردن تیک‌های آبی</string>
+    <string name="hide_scrolldown">پنهان کردن نماد اسکرول پایین</string>
+    <string name="hide_scrollup">پنهان کردن نماد اسکرول به بالا</string>
+    <string name="hide_second_tick">پنهان کردن تیک دوم</string>
+    <string name="hide_shakeHome">واتساپ را در چت تکان دهید</string>
+    <string name="hide_writing_status">پنهان کردن وضعیت نوشتن</string>
+    <string name="hidesMStatus">به‌روزرسانی‌های بی‌صدا</string>
+    <string name="hidesMStatussum">پنهان کردن بخش به روز رسانی های بی صدا</string>
+    <string name="hidesVStatus">به روز رسانی ها را مشاهده کرد</string>
+    <string name="hidesVStatussum">قسمت به روز رسانی مشاهده شده را مخفی کنید</string>
+    <string name="igStories">استوری های مشابه اینستاگرام را فعال کنید</string>
+    <string name="igStoriesSum">تب های صفحه اصلی را با وضعیت واتس اپ به سبک داستان های دایره ای جایگزین کنید</string>
+    <string name="inconvo_trans_option">تنظیمات گزینه ترجمه</string>
+    <string name="inconvo_trans_option_explainer">نحوه عملکرد نماد ترجمه را انتخاب کنید. سرور = بدون برنامه خارجی.</string>
+    <string name="inside_bubble">داخل</string>
+    <string name="last_message">آخرین پیام</string>
+    <string name="launchericons">نمادهای لانچر</string>
+    <string name="launchericonsSum">نماد راه‌انداز مورد علاقه خود را انتخاب کنید</string>
+    <string name="limit">فقط ساعات آخر نمایش داده شود</string>
+    <string name="listBackground">پس‌زمینه فهرست (فقط یک رابط کاربری)</string>
+    <string name="listBackgroundSum">تغییر پس‌زمینه چت‌های فهرست در One UI.</string>
+    <string name="listanimation0">استاندارد</string>
+    <string name="loadTheme">بارگیری تم</string>
+    <string name="loadThemeSum">بارگیری تم های ذخیره شده در کارت sd</string>
+    <string name="load_customfont">بارگیری قلم…</string>
+    <string name="lock">قفل کردن مکالمه</string>
+    <string name="locked">قفل شده است</string>
+    <string name="locktype_fingerprint">اثر انگشت</string>
+    <string name="locktype_pattern">الگو</string>
+    <string name="locktype_pin">پین</string>
+    <string name="mass_spam_warning">اگر از این ویژگی برای ارسال پیام‌های هرزنامه زیادی استفاده کنید، حساب شما مسدود می‌شود. با مسئولیت خود استفاده کنید.</string>
+    <string name="massmsgr_title">فرستنده پیام انبوه</string>
+    <string name="meesage_to_unsave_number">به یک شماره پیام دهید</string>
+    <string name="mention_color_chat">رنگ را ذکر کنید</string>
+    <string name="mention_color_chats">رنگ را ذکر کنید</string>
+    <string name="menuDeleteText">حذف پیام</string>
+    <string name="menuEditText">ویرایش پیام</string>
+    <string name="missed_call_bg">حباب تماس از دست رفته</string>
+    <string name="missed_call_icon_bg">نماد تماس از دست رفته</string>
+    <string name="missed_call_text_color">متن تماس از دست رفته</string>
+    <string name="mod_ghost">👻 فعال کردن حالت شبح</string>
+    <string name="mod_ghost_sum">می توانید علامت چک دوم (علامت بررسی رسید) را بدون تاخیر در رسیدن پیام ها پنهان کنید</string>
+    <string name="msg_link_mod">رنگ متن اسناد</string>
+    <string name="msg_link_summary">رنگ را برای متن اسناد در صفحه مکالمه انتخاب کنید</string>
+    <string name="msg_num">به یک شماره پیام دهید</string>
+    <string name="msg_scheduler_clearall">همه را پاک کن</string>
+    <string name="msg_scheduler_create">یک زمانبندی ایجاد کنید</string>
+    <string name="msg_scheduler_date">تاریخ ارسال پیام</string>
+    <string name="msg_scheduler_delete">پیام برنامه ریزی شده را حذف کنید</string>
+    <string name="msg_scheduler_edit">ویرایش پیام برنامه ریزی شده</string>
+    <string name="msg_scheduler_error">مقدار مورد نیاز را وارد کنید.</string>
+    <string name="msg_scheduler_expirydate">تاریخ انقضا</string>
+    <string name="msg_scheduler_msg">پیام برای ارسال</string>
+    <string name="msg_scheduler_msgsetdone">خوب، پیام برنامه ریزی شده تنظیم شده است.</string>
+    <string name="msg_scheduler_name">نام تماس</string>
+    <string name="msg_scheduler_saveschedmsg">ذخیره پیام زمانبند</string>
+    <string name="msg_scheduler_schedmsgsent">پیام برنامه ریزی شده ارسال شد.</string>
+    <string name="msg_scheduler_setscheduler">تنظیم زمانبندی</string>
+    <string name="msg_scheduler_timetosend">زمان ارسال پیام</string>
+    <string name="msg_scheduler_title">زمانبندی پیام</string>
+    <string name="msg_scheduler_to">"به: "</string>
+    <string name="msg_to_groups_menu">فرستنده پیام انبوه</string>
+    <string name="multiChat">کارت های مکالمه (چت چندگانه)</string>
+    <string name="multiChatsS">هر چتی که باز می‌کنید به یک کارت تبدیل می‌شود، می‌توانید به راحتی از اخیراً جابجا شوید (Lollipop و بالاتر)</string>
+    <string name="name_contact_sto">نام مخاطب</string>
+    <string name="name_contact_sto_sum">تغییر رنگ نام مخاطب در استوری</string>
+    <string name="ncall">تماس تلفنی</string>
+    <string name="new_Effects">اثرات</string>
+    <string name="new_convoattachment_design">رابط کاربری جدید انتخابگر پیوست</string>
+    <string name="night_mode">نماد حالت شب</string>
+    <string name="no_calls">بدون تماس</string>
+    <string name="no_internet_title">بدون اینترنت</string>
+    <string name="not_show_in_gallery">اگر رسانه هنوز در گالری نمایش داده نمی‌شود</string>
+    <string name="offline_str">آفلاین</string>
+    <string name="oldEmoji">طراحی ایموجی های قدیمی</string>
+    <string name="oldEmojiS">از طرح ایموجی های استوک قدیمی به جای استوک جدید استفاده کنید</string>
+    <string name="online_str">برخط</string>
+    <string name="other_contacts">سایر مخاطبین</string>
+    <string name="other_contacts_sum">سایر مخاطبین را از بخش Forward مخفی کنید</string>
+    <string name="pagerColor">رنگ پس‌زمینه زبانه‌ها</string>
+    <string name="pagerColorS">رنگ پس زمینه برگه ها را در صفحه اصلی تغییر دهید</string>
+    <string name="pat_disableVibration">لرزش الگو را غیرفعال کنید</string>
+    <string name="pat_disableVibrationS">هنگام استفاده از الگو، بازخورد لمسی را غیرفعال کنید</string>
+    <string name="pat_invisible">الگو را نامرئی کنید</string>
+    <string name="pat_invisibleS">هنگام باز کردن برنامه، مسیر الگو را پنهان می کند</string>
+    <string name="photo_changed_toast_s">هنگامی که شخصی عکس نمایه را تغییر می‌دهد، نان تست نشان داده شود</string>
+    <string name="photo_changed_toast_t">تست تغییر عکس نمایه تماس</string>
+    <string name="pic_chat_size">اندازه عکس چت</string>
+    <string name="pic_chat_size_summary">اندازه عکس چت را تنظیم کنید</string>
+    <string name="pic_location">قرار دادن تصویر</string>
+    <string name="pic_locationS">انتخاب کنید که تصویر در اولین یا آخرین پیام یا همه نشان داده شود</string>
+    <string name="preview_failed">پیش نمایش ناموفق بود</string>
+    <string name="privacy_everyone">همه</string>
+    <string name="privacy_nobody">هیچ کس</string>
+    <string name="privacy_switch">فقط حریم خصوصی</string>
+    <string name="profile_name">نام پروفایل:</string>
+    <string name="profilepic">نماد عکس نمایه</string>
+    <string name="quoteBackColor">رنگ پس زمینه نقل شده</string>
+    <string name="quoteDivColor">رنگ تقسیم کننده نقل شده</string>
+    <string name="quoteMsgColor">رنگ پیام نقل شده</string>
+    <string name="quoteNameColor">رنگ اسم نقل شده</string>
+    <string name="read_log_pref">Log را باز کنید</string>
+    <string name="read_moree">حذف ادامه مطلب...</string>
+    <string name="read_moree_sum">دکمه Read more... را حذف می کند و هنگامی که پیامی با کاراکترهای زیاد دریافت می کنید به طور خودکار پیام را باز می کند</string>
+    <string name="reboot">واتس اپ را مجددا راه اندازی کنید</string>
+    <string name="recent_chats">چت های اخیر</string>
+    <string name="recent_chats_sum">مخفی کردن گفتگوهای اخیر از بخش Forward</string>
+    <string name="reset">بازنشانی</string>
+    <string name="resetPriv">بازنشانی حریم خصوصی</string>
+    <string name="resetPrivSum">حریم خصوصی پیش‌فرض واتس اپ را تنظیم می‌کند</string>
+    <string name="resetPrivacyonly">تم فعلی حفظ شود؟</string>
+    <string name="resetPrivacyonlyS">Keep: تم کاربردی را حفظ کنید تنظیم مجدد: رنگ‌های پیش‌فرض/ موجودی واتس اپ</string>
+    <string name="resetThemes">تنظیمات برگزیده را بازنشانی کنید</string>
+    <string name="resetThemesSum">تنظیمات پیش فرض را برمی گرداند</string>
+    <string name="reset_themes_confirma">آیا مطمئن هستید که می‌خواهید همه تنظیمات برگزیده Themeing را بازنشانی کنید؟</string>
+    <string name="restart_phone">تلفن خود را راه اندازی مجدد کنید</string>
+    <string name="restoreTheme">بازیابی تم</string>
+    <string name="restoreThemeS">طرح زمینه ذخیره شده در پوشه تم ها را بارگیری کنید</string>
+    <string name="rowResizer">تغییر اندازه ردیف</string>
+    <string name="rowResizer_sum">اندازه سطرها را در صفحه اصلی تغییر می دهد. 0 = غیر فعال</string>
+    <string name="saveTheme">ذخیره تم</string>
+    <string name="saveThemeS">تنظیمات فعلی خود را در پوشه تم ها ذخیره کنید</string>
+    <string name="schedule_title_activity_edit">ویرایش پیام</string>
+    <string name="scheduled_message_daily">روزانه</string>
+    <string name="scheduled_message_monthly">ماهانه</string>
+    <string name="scheduled_message_once">یکبار</string>
+    <string name="scheduled_message_sent_toast">پیام برنامه ریزی شده ارسال شد</string>
+    <string name="scheduled_message_unsent_toast">شما پیام‌هایی را برنامه‌ریزی کرده‌اید که ارسال نشده‌اند</string>
+    <string name="scheduled_message_weekly">هفتگی</string>
+    <string name="scheduled_message_yearly">سالانه</string>
+    <string name="scheduler_delete_all">حذف همه</string>
+    <string name="seekbar_color">نوار پخش یادداشت صوتی</string>
+    <string name="seekbar_color_sum">تنظیم رنگ نوار پخش پیام صوتی</string>
+    <string name="select_contacts">مخاطبین را انتخاب کنید</string>
+    <string name="select_status_recipients_black_list">مخاطبین من به جز…</string>
+    <string name="select_status_recipients_my_contacts">مخاطبین من</string>
+    <string name="selected_tabPagerTitle">رنگ متن عنوان انتخاب شده صفحه</string>
+    <string name="selected_tabPagerTitleS">تغییر رنگ انتخابی CHATS، STATUS، CALLS</string>
+    <string name="settings_help">راهنما</string>
+    <string name="settings_language">زبان برنامه</string>
+    <string name="settings_privacy1">حریم خصوصی</string>
+    <string name="settings_privsec">حریم خصوصی و امنیت</string>
+    <string name="settings_security">امنیت</string>
+    <string name="share_link">اشتراک گذاری پیوند</string>
+    <string name="share_to_wa">اشتراک گذاری در WhatsApp</string>
+    <string name="showAirplaneMode">نمایش حالت هواپیما</string>
+    <string name="showAirplaneModeS">به شما امکان می‌دهد تا زمانی که پیام‌های واتساپ خاموش نشود، دریافت پیام‌های واتساپ را متوقف کنید</string>
+    <string name="showNightMode">نمایش حالت نور/شب</string>
+    <string name="show_accounts">نمایش حساب‌ها</string>
+    <string name="show_all">نمایش همه</string>
+    <string name="show_mod_in_groups">نمایش عنوان سرپرست در گروه</string>
+    <string name="show_mod_in_groups_sum">نمایش عنوان Admin در گروه</string>
+    <string name="show_name">نمایش نام</string>
+    <string name="somehelp">کمی کمک؟</string>
+    <string name="specificPrivacy">حریم خصوصی سفارشی</string>
+    <string name="specificPrivacy_enabled">فعال شد</string>
+    <string name="specificPrivacy_sum">گزینه های حریم خصوصی را برای هر مخاطب/گروه به طور جداگانه سفارشی کنید</string>
+    <string name="square_photo_ratio">گوشه های عکس</string>
+    <string name="square_photo_ratio_summary">0: مربع - 100: گرد</string>
+    <string name="starred_message_message_mod">رنگ پیام</string>
+    <string name="startDate">تاریخ شروع</string>
+    <string name="status_date_pending_mod">وضعیت تاریخ</string>
+    <string name="status_date_pending_summary">رنگ را برای تاریخ وضعیت/پیام داستان در صفحه داستان انتخاب کنید</string>
+    <string name="status_splitter">تقسیم کننده وضعیت</string>
+    <string name="statuses">وضعیت</string>
+    <string name="statusesTitleBack">نوار به روز رسانی های اخیر</string>
+    <string name="statusesTitleBackS">تغییر رنگ پس‌زمینه نوار به‌روزرسانی‌های اخیر/مشاهده‌شده در صفحه وضعیت</string>
+    <string name="statusesTitleText">متن به‌روزرسانی‌های اخیر</string>
+    <string name="statusesTitleTextS">رنگ نوار به‌روزرسانی‌های اخیر/مشاهده‌شده متن را در صفحه وضعیت تغییر دهید</string>
+    <string name="story_style">سبک داستان</string>
+    <string name="sum_change_p_s">تغییر نمایش در Stories از تصویر نمایه به پیش‌نمایش وضعیت</string>
+    <string name="supportyo">حمایت کردن</string>
+    <string name="tabPagerIndicator">رنگ زیر خط برگه انتخاب شد</string>
+    <string name="tabPagerTitle">رنگ متن عنوان صفحه</string>
+    <string name="tabPagerTitleS">تغییر رنگ Chats، STATUS، CALLS</string>
+    <string name="tabindicator">رنگ زیر خط برگه انتخاب شد</string>
+    <string name="telegram_account">توسعه دهندگان را دنبال کنید</string>
+    <string name="telegram_account_sum">AlexMods را برای به‌روزرسانی‌ها و اخبار جدید دنبال کنید :)</string>
+    <string name="text_counter_color">متن شمارنده</string>
+    <string name="text_counter_color_sum">تغییر متن رنگی شمارنده</string>
+    <string name="textcolormain">تغییر رنگ در کل صفحه اصلی</string>
+    <string name="textcoloruni">رنگ متن</string>
+    <string name="themes_alert_lightdarkInfo">درخواست دادن؟ توجه: پس از اعمال تم، اگر ظاهر درستی نداشت، سپس به حالت روشن/تاریک بروید و دوباره اعمال کنید.</string>
+    <string name="time_ago">%s پیش</string>
+    <string name="title_activity_list_message_scheduled">پیام های برنامه ریزی شده</string>
+    <string name="title_activity_schedule">برنامه زمانبندی پیام</string>
+    <string name="title_pref_transformer">انیمیشن Transformer ViewPager</string>
+    <string name="tone_top">بالای صفحه</string>
+    <string name="transformer0">پیش‌فرض</string>
+    <string name="translateSt">ترجمه کردن</string>
+    <string name="transparent">شفاف</string>
+    <string name="txtName">نام</string>
+    <string name="txtText">پیام خود را تایپ کنید</string>
+    <string name="typing_toast">تایپ - ضبط نان تست</string>
+    <string name="typing_toast_sum">نمایش نان تست هنگامی که شخصی در حال تایپ - ضبط برای شما است</string>
+    <string name="unhide_chat">نمایش گپ</string>
+    <string name="unlock">باز کردن قفل مکالمه</string>
+    <string name="unread_counter">رنگ شمارنده پیام خوانده نشده</string>
+    <string name="unread_counterS">رنگ پس زمینه شمارنده/شاخص پیام خوانده نشده را تغییر دهید</string>
+    <string name="unread_textcounter">رنگ متن پیشخوان خوانده نشده</string>
+    <string name="unread_textcounterS">رنگ متن شمارنده پیام خوانده نشده را تغییر دهید</string>
+    <string name="up1">زمانبندی پیام</string>
+    <string name="updatess">به روز رسانی ها</string>
+    <string name="view_conversation_media">رسانه</string>
+    <string name="viewallmsgs">مشاهده همه پیام‌های %s</string>
+    <string name="viewed_your_status_toast">مشاهده نان تست داستان</string>
+    <string name="viewed_your_status_toastS">وقتی کسی وضعیت شما را با پیام نان تست مشاهده کرد، فوراً بدانید.</string>
+    <string name="voicechanger">تغییر صدا</string>
+    <string name="voicechanger_sound_baby">عزیزم</string>
+    <string name="voicechanger_sound_deep">عمیق</string>
+    <string name="voicechanger_sound_drunk">مست</string>
+    <string name="voicechanger_sound_fast">سریع</string>
+    <string name="voicechanger_sound_fun1">سرگرمی شماره 1</string>
+    <string name="voicechanger_sound_reverse">معکوس</string>
+    <string name="voicechanger_sound_robot">ربات</string>
+    <string name="voicechanger_sound_slowmotion">حرکت اهسته</string>
+    <string name="voicechanger_sound_teenager">نوجوان</string>
+    <string name="voicechanger_sound_underwater">زیر آب</string>
+    <string name="voip_declined">تماس رد شد</string>
+    <string name="voip_not_allowed_never">نمی‌تواند تماس‌های WhatsApp را دریافت کند.</string>
+    <string name="voip_not_answered">پاسخ داده نشد</string>
+    <string name="wa_moved">داده های واتس اپ با موفقیت کپی شد، اکنون می توانید مراحل را تکمیل کنید!</string>
+    <string name="whocancall">چه کسی می تواند با من تماس بگیرد؟</string>
+    <string name="wmavno">1</string>
+    <string name="yoAOnline">همیشه آنلاین را فعال کنید</string>
+    <string name="yoAOnlineSum">برای غیرفعال کردن، همیشه آنلاین بمانید را روشن کنید، اما از موارد اخیر نبندید!</string>
+    <string name="yoAntiRevoke">پیام های ضد حذف</string>
+    <string name="yoAntiRevokeS">افراد دیگر نمی توانند پیام های شما را حذف کنند</string>
+    <string name="yoAntiRevokeStatus">وضعیت ضد حذف</string>
+    <string name="yoAntiRevokeStatusS">وضعیت ها/داستان های حذف شده برای شما حذف نمی شوند</string>
+    <string name="yoArchvChat">مخفی کردن چت های آرشیو شده</string>
+    <string name="yoArchvChatSum">پنهان کردن دکمه چت های بایگانی شده از صفحه مکالمات (نیاز به راه اندازی مجدد)</string>
+    <string name="yoAttach">نمایش دکمه پیوست</string>
+    <string name="yoAttachS">دکمه پیوست در مکالمه به طور پیش فرض غیرفعال است، اگر می خواهید دوباره آن را فعال کنید.</string>
+    <string name="yoAudio">یادداشت های صوتی / حالت های صوتی</string>
+    <string name="yoAudioEars">غیرفعال کردن سوئیچینگ خروجی</string>
+    <string name="yoAudioEarsSum">از تعویض بلندگو/گوشی در حین پخش جلوگیری می کند</string>
+    <string name="yoAudioSensor">سنسور مجاورت را فعال کنید</string>
+    <string name="yoAudioSensorSum">به طور پیش فرض فعال است، برای خاموش کردن آن را غیرفعال کنید.</string>
+    <string name="yoBackup">پشتیبان گیری از داده های واتس اپ</string>
+    <string name="yoBackupDone">اتمام پشتیبان!</string>
+    <string name="yoBackupFail">پشتیبان گیری انجام نشد!</string>
+    <string name="yoBackupMsg">در حال پشتیبان‌گیری از داده‌ها…</string>
+    <string name="yoBackupRestore">پشتیبان گیری و بازیابی</string>
+    <string name="yoBackupSum">ایجاد یک نسخه پشتیبان از واتس اپ (پشتیبان گیری از تیتانیوم مانند پشتیبان گیری از داده ها)</string>
+    <string name="yoBackupTitle">پشتیبان گیری</string>
+    <string name="yoBlueOnReply">نمایش تیک آبی پس از پاسخ</string>
+    <string name="yoBlueOnReplyS">مخاطب فقط پس از پاسخ دادن تیک های آبی را می بیند</string>
+    <string name="yoBottombar">نوار پایین</string>
+    <string name="yoCallBtn">پنهان کردن دکمه تماس</string>
+    <string name="yoCallBtnSum">دکمه تماس را از نوار اقدام مکالمه پنهان کنید</string>
+    <string name="yoColors">رنگ ها</string>
+    <string name="yoContactNameC">رنگ نام تماس</string>
+    <string name="yoContactNameCS">رنگ نام مخاطب را در صفحه اصلی تغییر دهید</string>
+    <string name="yoContactStatus">وضعیت تماس را غیرفعال کنید</string>
+    <string name="yoContactStatusSum">خط وضعیت تماس را که زیر سرصفحه پوشش قرار دارد حذف می کند</string>
+    <string name="yoCopy">وضعیت در کلیپ بورد کپی شد</string>
+    <string name="yoDeveloped">توسعه یافته توسط</string>
+    <string name="yoDeveloper">توسعه دهنده</string>
+    <string name="yoDisableAudioHeads">اعلان پخش صدا را غیرفعال کنید</string>
+    <string name="yoDisableAudioHeadsS">هنگام پخش یادداشت های صوتی/صوتی، اعلان را حذف کنید</string>
+    <string name="yoDisableBCounter">شمارنده نشان را غیرفعال کنید</string>
+    <string name="yoDisableBCounterS">شمارنده پیام‌ها را روی نماد در صفحه اصلی/راه‌انداز غیرفعال می‌کند</string>
+    <string name="yoDisableChatSwipe">برای خروج از مکالمه، Swipe را غیرفعال کنید</string>
+    <string name="yoDisableChatSwipeS">از بستن مکالمه با کشیدن انگشت از چپ به راست جلوگیری می کند (مانند تلگرام)</string>
+    <string name="yoDisableFwd">Forwarded را غیرفعال کنید</string>
+    <string name="yoDisableFwdS">به شما امکان می دهد پیام ها را بدون برچسب فوروارد شده مجددا ارسال کنید</string>
+    <string name="yoEmojibtn">رنگ دکمه ایموجی</string>
+    <string name="yoEmojibtnS">دکمه ایموجی در رنگ صفحه مکالمه</string>
+    <string name="yoFiveMinStatus">وضعیت 5 دقیقه ای</string>
+    <string name="yoFiveMinStatusS">به شما امکان می دهد یک ویدیوی 5 دقیقه ای را به جای 30 ثانیه به عنوان وضعیت قرار دهید. توجه: فقط کاربران WA می توانند وضعیت کامل را ببینند! سایر کاربران فقط 30 ثانیه را خواهند دید.</string>
+    <string name="yoFullResBtn">ارسال ستاد</string>
+    <string name="yoFwdLim">افزایش حد Forward</string>
+    <string name="yoFwdLimSum">پیام ها را تا 250 چت فوروارد کنید!</string>
+    <string name="yoGeneral">عمومی</string>
+    <string name="yoGradientTitle">رنگ گرادیان</string>
+    <string name="yoHeds">اعلان Heads-Up را غیرفعال کنید</string>
+    <string name="yoHedsSum">Heads-Up Popup را در دستگاه های Lollipop غیرفعال کنید</string>
+    <string name="yoHideCompose">مخفی کردن تایپ…</string>
+    <string name="yoHideComposeSum">به فرستنده نگویید که دارید پیامی را تایپ می کنید.</string>
+    <string name="yoHideDiv">مخفی کردن Chats Divider</string>
+    <string name="yoHideDivS">خط خاکستری بین چت ها را در صفحه اصلی حذف می کند</string>
+    <string name="yoHideInfo">تاریخ و نام را پنهان کنید</string>
+    <string name="yoHideInfoSum">هنگام کپی کردن 2 پیام یا بیشتر، تاریخ و نام را پنهان کنید</string>
+    <string name="yoHidePlay">میکروفون آبی را مخفی کنید</string>
+    <string name="yoHidePlaySumB">به فرستنده پخش نگویید که نت صوتی را پخش کرده اید.</string>
+    <string name="yoHidePlaySumC">به فرستنده نگویید که نت صوتی را پخش کرده اید.</string>
+    <string name="yoHidePlaySumG">به گروه نگویید که نت صوتی را پخش کرده اید.</string>
+    <string name="yoHideProfileName">پنهان کردن نام مخاطب</string>
+    <string name="yoHideProfileNameS">نام شخصی را که با او صحبت می کنید پنهان می کند</string>
+    <string name="yoHideRead">کنه های آبی را پنهان کنید</string>
+    <string name="yoHideReadSumB">به فرستنده پخش نگویید که پیام را خوانده اید.</string>
+    <string name="yoHideReadSumC">به فرستنده نگویید که پیام را خوانده اید.</string>
+    <string name="yoHideReadSumG">به گروه نگویید که پیام ها را خوانده اید.</string>
+    <string name="yoHideReceipt">مخفی کردن تیک دوم</string>
+    <string name="yoHideReceiptSumB">با مسئولیت خود از این مود استفاده کنید! پیام‌ها ممکن است دیر تحویل/دریافت شوند.</string>
+    <string name="yoHideReceiptSumC">تا زمانی که این را غیرفعال نکنید، پیام‌ها به‌عنوان تحویل‌شده یا خوانده علامت‌گذاری نمی‌شوند!</string>
+    <string name="yoHideReceiptSumG">با مسئولیت خود از این مود استفاده کنید! پیام‌ها ممکن است دیر تحویل/دریافت شوند.</string>
+    <string name="yoHideRecord">مخفی کردن ضبط…</string>
+    <string name="yoHideRecordSum">به فرستنده نگویید که در حال ضبط یک پیام صوتی هستید.</string>
+    <string name="yoHideSeen">فریز آخرین بازدید</string>
+    <string name="yoHideSeenSum">لطفاً واتس اپ را مجدداً راه اندازی کنید تا تغییرات اعمال شوند.</string>
+    <string name="yoHideStatusView">مخفی کردن وضعیت نمایش</string>
+    <string name="yoHideStatusViewSum">به مخاطب نگویید که وضعیت آنها را مشاهده کرده اید</string>
+    <string name="yoHomeUIStyle">سبک UI صفحه اصلی</string>
+    <string name="yoHow">شماره خود را با پیامک تأیید کنید. یا اگر قبلاً یک نسخه پشتیبان از واتس اپ تهیه کرده اید، می توانید آن را بازیابی کنید.</string>
+    <string name="yoHowMove">اگر می‌خواهید تاریخچه چت‌ها را از واتس‌اپ بازیابی کنید، مطمئن شوید که از پیام‌های خود یک نسخه پشتیبان تهیه کرده‌اید، سپس می‌توانید با فشار دادن دکمه زیر آن را بازیابی کنید، سپس شماره خود را قرار داده و (بعدی) را فشار دهید.</string>
+    <string name="yoHyperLinksColor">رنگ هایپرلینک ها</string>
+    <string name="yoHyperLinksColorSum">تغییر رنگ Hyperlinks در Chat Bubbles</string>
+    <string name="yoImg">حالت های تصویر/ویدیو</string>
+    <string name="yoImgHiBtn">ارسال تصاویر با وضوح کامل</string>
+    <string name="yoImgHiBtnSum">تصاویر با بالاترین کیفیت/رزولیشن ارسال خواهند شد</string>
+    <string name="yoLeftTime">رنگ زمان حباب چپ</string>
+    <string name="yoLeftTimeS">رنگ زمان را در داخل حباب سمت چپ تغییر دهید</string>
+    <string name="yoMisc">مدهای متفرقه</string>
+    <string name="yoMods">تنظیمات GB</string>
+    <string name="yoName">نام من را تنظیم کنید</string>
+    <string name="yoNameSum">نام خود را به جای واتس اپ در صفحه اصلی تنظیم کنید</string>
+    <string name="yoNicon">تغییر نماد اعلان</string>
+    <string name="yoNiconSum">این نمادی است که در نوار وضعیت شما ظاهر می شود</string>
+    <string name="yoNific">نمایش فقط نام فرستنده پیام در کنار نماد نوار اطلاع رسانی</string>
+    <string name="yoNoBackup">در (/Documents/GBBackup) پشتیبان پیدا نمی شود!</string>
+    <string name="yoNotif">Shrink Notification</string>
+    <string name="yoOnline">آن به طور پیش فرض فعال است! اگر نان تست آنلاین را نمی خواهید روشن کنید</string>
+    <string name="yoOnlineHome">وضعیت تماس آنلاین/آخرین بازدید را غیرفعال کنید</string>
+    <string name="yoOnlineSum">وضعیت تماس آنلاین/آخرین مشاهده را از صفحه اصلی حذف می کند</string>
+    <string name="yoOnlineTo">تماس آنلاین نان تست را غیرفعال کنید</string>
+    <string name="yoOnlineToLocation">با محل نان تست آنلاین تماس بگیرید</string>
+    <string name="yoPrivacySum">حریم خصوصی خاص</string>
+    <string name="yoProfilePic">عکس نمایه مخاطب را مخفی کنید</string>
+    <string name="yoProfilePicS">عکس نمایه مخاطب را از سرصفحه صفحه مکالمه حذف می کند</string>
+    <string name="yoRestore">بازیابی اطلاعات واتس اپ</string>
+    <string name="yoRestoreDone">بازیابی به پایان رسید!</string>
+    <string name="yoRestoreFail">بازیابی ناموفق بود!</string>
+    <string name="yoRestoreMsg">در حال بازیابی اطلاعات…</string>
+    <string name="yoRestoreSum">آخرین نسخه پشتیبان را بازیابی کنید</string>
+    <string name="yoRestoreTitle">بازگرداندن</string>
+    <string name="yoRevokedIconColor">رنگ نماد پیام حذف شده</string>
+    <string name="yoRevokedIconColorS">رنگ نماد ابطال شده را در پیام های حذف شده تغییر دهید</string>
+    <string name="yoRightTime">رنگ زمان حباب سمت راست</string>
+    <string name="yoRightTimeS">رنگ زمان را داخل حباب سمت راست تغییر دهید</string>
+    <string name="yoSendBK">میکروفن/ارسال دایره پس زمینه</string>
+    <string name="yoSendBKS">رنگ دایره پشت Send/Mic را تغییر دهید</string>
+    <string name="yoSendBtn">رنگ دکمه ارسال</string>
+    <string name="yoSendBtnS">ارسال/رنگ میکروفون در صفحه مکالمه</string>
+    <string name="yoShare">اشتراک گذاری</string>
+    <string name="yoShareSbj">ggg</string>
+    <string name="yoShareSum">ggg را با دوستان به اشتراک بگذارید!</string>
+    <string name="yoStyling">سبک ها (نگاه و احساس)</string>
+    <string name="yoSwipeRow">روی ردیف بکشید</string>
+    <string name="yoSwipeRowS">به شما امکان می دهد برای انجام اقدامات سریع، هر ردیف مکالمه را به سمت چپ یا راست بکشید</string>
+    <string name="yoText">رنگ متن تست شده</string>
+    <string name="yoTextSum">رنگ متن نان تست آنلاین را تغییر دهید</string>
+    <string name="yoThemes">تم ها</string>
+    <string name="yoTost">رنگ پس زمینه نان تست</string>
+    <string name="yoTostSum">رنگ پس زمینه نان تست آنلاین را تغییر دهید</string>
+    <string name="yoTxtSelect">متن را قابل انتخاب کنید</string>
+    <string name="yoTxtSelectSum">انتخاب متن حباب چت را فعال کنید</string>
+    <string name="yoUIBottomStyle">سبک نوار پایین</string>
+    <string name="yoVoiceNotePlayBtn">دکمه پخش یادداشت صوتی</string>
+    <string name="yoVoiceNotePlayBtnS">تغییر رنگ پیام صوتی دکمه پخش</string>
+    <string name="yoVoiceNoteSeekbar">نوار پخش نت صوتی</string>
+    <string name="yoVoiceNoteSeekbarS">تغییر رنگ نوار پخش پیام صوتی</string>
+    <string name="yo_About">در باره</string>
+    <string name="yo_CUpdates">برای به روز رسانی ها را بررسی کنید</string>
+    <string name="yo_Cancel">لغو کنید</string>
+    <string name="yo_Connect">بارگذاری…</string>
+    <string name="yo_ErrUp">اطلاعات به‌روزرسانی بازیابی نشد.</string>
+    <string name="yo_Later">بستن</string>
+    <string name="yo_Mods">حریم خصوصی</string>
+    <string name="yo_OK">خوب</string>
+    <string name="yo_Report">گزارش</string>
+    <string name="yo_UDownload">دانلود!</string>
+    <string name="yo_UpInfo">بررسی کنید که آیا نسخه جدیدی از ggg موجود است یا خیر!</string>
+    <string name="yo_UpToDate">نسخه شما به روز است.</string>
+    <string name="yo_airplane_mode_warning">در حالی که حالت هواپیما روشن است، نمی توانید پیام ارسال یا دریافت کنید.</string>
+    <string name="yo_all">همه</string>
+    <string name="yo_apperance">ظاهر</string>
+    <string name="yo_changelog">واتس اپ تغییرات</string>
+    <string name="yo_changelogS">بررسی کنید چه چیزی در این نسخه جدید است!</string>
+    <string name="yo_enable_old">رابط کاربری قدیمی (2014)</string>
+    <string name="yo_follow">برای به روز ماندن من را دنبال کنید!</string>
+    <string name="yo_hidemedia">مخفی کردن رسانه از گالری</string>
+    <string name="yo_misc">مدهای دیگر</string>
+    <string name="yo_mods">مدها</string>
+    <string name="yo_online_toast">با نان تست آنلاین تماس بگیرید</string>
+    <string name="yo_sethidepass">قبل از مخفی کردن چت، ابتدا یک پین/الگو تنظیم کنید!</string>
+    <string name="yo_settings_bubblesticks">حباب و کنه</string>
+    <string name="yo_settings_header">سرتیتر</string>
+    <string name="yo_settings_privsec">حریم خصوصی و امنیت</string>
+    <string name="yo_settings_rows">ردیف ها</string>
+    <string name="yo_uaction">رنگ متن ActionBar جهانی</string>
+    <string name="yo_uactionS">رنگ Actionbar را در تمام صفحه ها تغییر می دهد</string>
+    <string name="yo_universal">رنگ جهانی</string>
+    <string name="yo_universal_sum">رنگ را در همه جا تغییر می دهد، از جمله UI!</string>
+    <string name="yo_webdl">دانلود وب</string>
+    <string name="yo_webdlS">ggg را از وب سایت رسمی دانلود کنید</string>
+    <string name="yocent">سبک نوار ابزار مکالمه</string>
+    <string name="yocentS">تغییر سبک هدر در صفحه مکالمه</string>
+    <string name="yoconh">سبک خانه</string>
+    <string name="yoconhS">تغییر سبک صفحه اصلی</string>
+    <string name="yoconv">سبک ورود به مکالمه</string>
+    <string name="yoconvS">سبک ورودی پایین در صفحه مکالمه را تغییر دهید</string>
+    <string name="yoconvback">رنگ پس زمینه مکالمه</string>
+    <string name="yoconvobackS">وقتی روی \"بدون کاغذدیواری\" تنظیم شده است، رنگ پس‌زمینه مکالمه را تغییر دهید</string>
+    <string name="yocustom">شخصی سازی حریم خصوصی (مخاطبین، گروه ها، پخش ها)</string>
+    <string name="yoverbase">واتس اپ 2.19.230</string>
+    <string name="yoversion">پایه در 2.19.230</string>
+    <string name="yowaUpdate">به روز رسانی ها</string>
+    <string name="yowa_widget">ویجت</string>
+</resources>

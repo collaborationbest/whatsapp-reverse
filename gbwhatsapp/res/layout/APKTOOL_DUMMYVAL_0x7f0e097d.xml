@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.productinfra.avatar.ui.stickers.upsell.AvatarStickerUpsellView android:id="@id/sticker_avatar_upsell" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" app:APKTOOL_DUMMYVAL_0x7f0401b1="false" app:APKTOOL_DUMMYVAL_0x7f04031c="StickerStore" app:APKTOOL_DUMMYVAL_0x7f04092d="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

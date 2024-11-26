@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.avatar.profilephoto.AvatarProfilePhotoColorView android:background="?APKTOOL_DUMMYVAL_0x7f0408b3" android:focusable="true" android:clickable="true" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700bd" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700bd" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0700c7" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0700c7"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

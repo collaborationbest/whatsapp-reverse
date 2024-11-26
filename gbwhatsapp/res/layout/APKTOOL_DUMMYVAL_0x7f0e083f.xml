@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f040300" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sticker_grid" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ac3" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0400d1" android:gravity="center" android:layout_gravity="center" android:id="@id/empty" android:paddingBottom="44.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f1221c7" />
+</FrameLayout>

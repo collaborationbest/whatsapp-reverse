@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="false" android:color="?APKTOOL_DUMMYVAL_0x7f040606" />
+    <item android:state_enabled="true" android:state_selected="true" android:color="@color/APKTOOL_DUMMYVAL_0x7f060236" />
+    <item android:state_enabled="false" android:color="@color/APKTOOL_DUMMYVAL_0x7f060236" />
+</selector>

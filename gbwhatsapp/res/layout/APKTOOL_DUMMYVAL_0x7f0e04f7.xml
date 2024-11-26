@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/APKTOOL_DUMMYVAL_0x7f1501d8" android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" app:APKTOOL_DUMMYVAL_0x7f040232="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0407c7="@style/APKTOOL_DUMMYVAL_0x7f1505d1">
+            <RelativeLayout android:id="@id/website_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <com.gbwhatsapp.WaImageView android:id="@id/icon_lock" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_settings_privacy" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060960" />
+                <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150645" android:textStyle="normal" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:ellipsize="end" android:gravity="left" android:id="@id/website_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_toLeftOf="@id/icon_lock" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/icon_lock" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:ellipsize="end" android:id="@id/website_url" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_below="@id/website_title" android:layout_alignLeft="@id/website_title" android:layout_alignRight="@id/website_title" android:layout_alignStart="@id/website_title" android:layout_alignEnd="@id/website_title" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.gbwhatsapp.webview.ui.WebViewWrapperView android:id="@id/webview_wrapper_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer_stub" android:layout_below="@id/appbar" />
+    <ViewStub android:id="@id/footer_stub" android:inflatedId="@id/footer_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

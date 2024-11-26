@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/emojiHeaderColor" android:key="emojipopup_header" android:summary="@string/emojiHeaderColorSum" />
+    <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="emojipopup_header_GCDir" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="emojipopup_header_GC" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/emojiHeadIconsColor" android:key="emojipopup_icons" android:summary="@string/emojiHeadIconsColorSum" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/emojiBackColor" android:key="emojipopup_body" android:summary="@string/emojiBackColorSum" />
+    <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="emojipopup_body_GCDir" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="emojipopup_body_GC" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoHyperLinksColor" android:key="ModChatBubbleHyperlinks" android:summary="@string/yoHyperLinksColorSum" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/chatInfoBalloonsText" android:key="date_divider_color_picker" android:summary="@string/chatInfoBalloonsTextS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/chatInfoBalloonsBK" android:key="date_bubble_color_picker" android:summary="@string/chatInfoBalloonsBKS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/grparticpantName_color" android:key="participant_name_color_picker" android:summary="@string/grparticpantName_colorS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoVoiceNoteSeekbar" android:key="seekbar_color_chat_picker" android:summary="@string/yoVoiceNoteSeekbarS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoVoiceNotePlayBtn" android:key="btn_voice_color_chat_picker" android:summary="@string/yoVoiceNotePlayBtnS" />
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/scheduled_call_container" android:background="@drawable/scheduled_call_bubble_gray_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070baf">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070bac">
+                <FrameLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaDynamicRoundCornerImageView android:layout_gravity="center" android:id="@id/conversation_row_scheduled_call_pattern" android:background="@drawable/scheduled_call_bubble_pattern_bg" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bab" android:scaleType="centerCrop" android:alpha="@dimen/APKTOOL_DUMMYVAL_0x7f070a80" app:APKTOOL_DUMMYVAL_0x7f040828="@dimen/APKTOOL_DUMMYVAL_0x7f070bb2" />
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/scheduled_call_bubble_icon" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bab" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_scheduled_call_bubble_icon" />
+                </FrameLayout>
+                <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070bb0" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070bb1" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bb0" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bb1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070bb0" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070bb1">
+                    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070bad" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c00" android:id="@id/call_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e87" android:maxLines="2" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" />
+                    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070bb3" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060bff" android:id="@id/call_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+                    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070bae" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c00" android:id="@id/scheduled_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" />
+                    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070bae" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c00" android:id="@id/scheduled_call_privacy_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e92" android:maxLines="2" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02a2" />
+        </com.gbwhatsapp.components.TextAndDateLayout>
+        <ViewStub android:id="@id/action_join_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0887" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/action_cancel_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0886" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/canceled_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0888" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

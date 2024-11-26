@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/row_list_host" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:orientation="horizontal" android:id="@id/row_addon_start" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c3="@id/row_content" app:APKTOOL_DUMMYVAL_0x7f0405d6="parent" app:APKTOOL_DUMMYVAL_0x7f0405d9="@id/row_content" app:APKTOOL_DUMMYVAL_0x7f0405e0="@id/row_content" />
+    <ViewStub android:orientation="horizontal" android:id="@id/row_addon_end" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c3="@id/row_content" app:APKTOOL_DUMMYVAL_0x7f0405d7="@id/row_content" app:APKTOOL_DUMMYVAL_0x7f0405da="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="@id/row_content" />
+    <ViewStub android:orientation="vertical" android:id="@id/row_addon_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405d6="@id/row_content" app:APKTOOL_DUMMYVAL_0x7f0405da="@id/row_content" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/row_content" />
+    <ViewStub android:id="@id/row_divider" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0aa4" android:layout_width="fill_parent" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/row_addon_bottom" />
+    <ViewStub android:orientation="vertical" android:id="@id/row_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="72.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c4="@id/row_addon_bottom" app:APKTOOL_DUMMYVAL_0x7f0405d7="@id/row_addon_start" app:APKTOOL_DUMMYVAL_0x7f0405d9="@id/row_addon_end" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+</merge>

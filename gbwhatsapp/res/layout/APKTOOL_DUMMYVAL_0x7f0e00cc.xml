@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/tile_background" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/voice_call_grid_pip_background" />
+    <com.gbwhatsapp.WaDynamicRoundCornerImageView android:id="@id/call_grid_blur_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.3" app:APKTOOL_DUMMYVAL_0x7f040828="@dimen/APKTOOL_DUMMYVAL_0x7f070188" />
+    <include android:id="@id/picture_in_picture_container" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07a3" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/audio_call_grid" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/audio_call_participant_photo" android:focusable="false" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="8.0dip" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c8="h,1:1" app:APKTOOL_DUMMYVAL_0x7f0405ca="@id/audio_call_participant_wave" app:APKTOOL_DUMMYVAL_0x7f0405d1="0.6" app:APKTOOL_DUMMYVAL_0x7f0405d3="packed" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+        <com.whatsapp.calling.callgrid.view.VoiceParticipantAudioWave android:id="@id/audio_call_participant_wave" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="8.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405d1="0.6" app:APKTOOL_DUMMYVAL_0x7f0405db="@id/audio_call_participant_photo" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/dark_overlay" android:background="@drawable/voice_call_grid_pip_dark_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+</FrameLayout>

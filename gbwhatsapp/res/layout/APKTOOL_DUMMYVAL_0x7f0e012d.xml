@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ac3" android:layout_marginStart="44.0dip" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+                <com.google.android.material.button.MaterialButtonToggleGroup android:layout_gravity="center_vertical" android:id="@id/browser_tabs" android:layout_width="0.0dip" android:layout_height="28.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0408b7="true" app:APKTOOL_DUMMYVAL_0x7f040948="true">
+                    <com.google.android.material.button.MaterialButton android:id="@id/emojis" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/vec_ic_emoji" style="@style/APKTOOL_DUMMYVAL_0x7f150224" />
+                    <com.google.android.material.button.MaterialButton android:id="@id/gifs" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/vec_ic_gif" style="@style/APKTOOL_DUMMYVAL_0x7f150224" />
+                    <com.google.android.material.button.MaterialButton android:id="@id/avatar_stickers" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/ic_avatar_tray_normal" style="@style/APKTOOL_DUMMYVAL_0x7f150224" />
+                    <com.google.android.material.button.MaterialButton android:id="@id/stickers" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/vec_ic_sticker" style="@style/APKTOOL_DUMMYVAL_0x7f150224" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+                <com.abuarab.gold.ex android:layout_gravity="right" android:id="@id/delete_symbol_tb" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120240" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/emoji_x" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+                <FrameLayout android:layout_gravity="right" android:id="@id/contextual_action_button_holder" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent">
+                    <com.abuarab.gold.ex android:layout_gravity="center" android:id="@id/contextual_action_button" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04033e" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+                    <View android:layout_gravity="center|right|top" android:id="@id/contextual_action_badge" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1503c9" />
+                </FrameLayout>
+            </LinearLayout>
+            <include android:id="@id/search_bar_layout" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0422" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/search_button" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_width="60.0dip" android:layout_height="44.0dip" android:layout_marginStart="8.0dip" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+            <com.abuarab.gold.ex android:layout_gravity="top" android:layout_width="40.0dip" android:layout_height="44.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122b10" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_search" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04033e" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/browser_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:nestedScrollingEnabled="true" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/header_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

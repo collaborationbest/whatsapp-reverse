@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/google_drive_progress_view" android:background="?APKTOOL_DUMMYVAL_0x7f0408b2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0703fd">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/google_drive_image_view" android:background="@drawable/conversations_google_drive_media_placeholder" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0702e6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0702e6" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:scaleType="center" android:cropToPadding="false" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_in_progress" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040500" />
+        <LinearLayout android:orientation="vertical" android:id="@id/google_drive_backup_info" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070712" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaTextView android:layout_gravity="left" android:id="@id/google_drive_backup_info_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1229db" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/google_drive_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:progressTint="?APKTOOL_DUMMYVAL_0x7f0406b6" android:indeterminateTint="?APKTOOL_DUMMYVAL_0x7f0406b6" android:indeterminateTintMode="src_atop" style="?android:progressBarStyleHorizontal" />
+            <com.gbwhatsapp.WaTextView android:layout_gravity="center|left" android:id="@id/google_drive_backup_info_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1229da" style="@style/APKTOOL_DUMMYVAL_0x7f150291" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

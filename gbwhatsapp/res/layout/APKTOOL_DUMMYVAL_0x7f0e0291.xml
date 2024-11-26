@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09b1" />
+        <com.whatsapp.conversation.conversationrow.DynamicButtonsRowContentLayout android:id="@id/dynamic_reply_buttons_message_content" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070383" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.whatsapp.conversation.conversationrow.DynamicButtonsLayout android:id="@id/dynamic_reply_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

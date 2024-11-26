@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0704fe" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0704fe">
+            <com.gbwhatsapp.WaTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f121fdf" style="@style/APKTOOL_DUMMYVAL_0x7f1501fc" />
+            <com.gbwhatsapp.WaImageView android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070500" android:layout_marginTop="48.0dip" android:rotation="45.0" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_key" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0407e5" />
+            <com.gbwhatsapp.WaTextView android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c24" style="@style/APKTOOL_DUMMYVAL_0x7f1501f3" />
+            <com.gbwhatsapp.WaImageView android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070500" android:layout_marginTop="48.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_warning" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04083c" />
+            <com.gbwhatsapp.WaTextView android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c23" style="@style/APKTOOL_DUMMYVAL_0x7f1501f3" />
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/enable_education_create_password_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c22" style="@style/APKTOOL_DUMMYVAL_0x7f1501f8" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/enable_education_use_encryption_key_button" style="@style/APKTOOL_DUMMYVAL_0x7f1501f9" />
+</LinearLayout>

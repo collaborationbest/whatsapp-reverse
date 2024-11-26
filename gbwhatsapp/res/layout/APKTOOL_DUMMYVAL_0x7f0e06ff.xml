@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/participant_container" style="@style/APKTOOL_DUMMYVAL_0x7f1505f0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d74" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:theme="?APKTOOL_DUMMYVAL_0x7f040af9" android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d7f" android:id="@id/ring_all_btn" android:background="@drawable/btn_default" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="36.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e56" android:importantForAccessibility="no" android:layout_marginEnd="-6.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f04000c="calling" whatsapp:APKTOOL_DUMMYVAL_0x7f040ac7="tonal" whatsapp:APKTOOL_DUMMYVAL_0x7f040b41="small" />
+</LinearLayout>

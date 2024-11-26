@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e80">
+        <com.gbwhatsapp.WaRoundCornerImageView android:id="@id/wallpaper_category_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f040828="@dimen/APKTOOL_DUMMYVAL_0x7f070e83" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/wallpaper_category_preview_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070e82" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e81" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/wallpaper_category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070e84" />
+</merge>

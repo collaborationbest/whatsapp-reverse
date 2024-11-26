@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_enabled="true" android:state_pressed="true">
+            <set>
+                <objectAnimator android:duration="@integer/APKTOOL_DUMMYVAL_0x7f0c0031" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f0707a9" android:valueType="floatType" android:propertyName="translationZ" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f0707a2" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+        <item android:state_enabled="true" android:state_hovered="true">
+            <set>
+                <objectAnimator android:duration="@integer/APKTOOL_DUMMYVAL_0x7f0c0031" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f0707a6" android:valueType="floatType" android:propertyName="translationZ" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f0707a2" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+        <item android:state_focused="true" android:state_enabled="true">
+            <set>
+                <objectAnimator android:duration="@integer/APKTOOL_DUMMYVAL_0x7f0c0031" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f0707a4" android:valueType="floatType" android:propertyName="translationZ" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f0707a2" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+        <item android:state_enabled="true">
+            <set>
+                <objectAnimator android:duration="@integer/APKTOOL_DUMMYVAL_0x7f0c0031" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f07094b" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="@integer/APKTOOL_DUMMYVAL_0x7f0c0030" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f0707a2" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+        <item>
+            <set>
+                <objectAnimator android:duration="0" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f070940" android:valueType="floatType" android:propertyName="translationZ" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f07093f" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+    </selector>
+</set>

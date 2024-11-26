@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e032a" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09b3" />
+        <ViewStub android:id="@id/suspicious_link_indicator_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09a5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.whatsapp.conversation.conversationrow.InteractiveMessageView android:orientation="vertical" android:id="@id/interactive_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070383" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:id="@id/date" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15060f" />
+        </LinearLayout>
+        <View android:id="@id/button_div" style="@style/APKTOOL_DUMMYVAL_0x7f150361" />
+        <com.whatsapp.conversation.conversationrow.InteractiveMessageButton android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

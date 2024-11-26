@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+    <LinearLayout android:gravity="center|left" android:layout_gravity="center|left" android:orientation="vertical" android:id="@id/content" android:background="@drawable/selector_orange_gradient" android:paddingLeft="68.0dip" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c89" android:paddingRight="8.0dip" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070c89" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c88">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center|left" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center|left" android:id="@id/subtitle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122583" style="@style/APKTOOL_DUMMYVAL_0x7f150291" />
+    </LinearLayout>
+</LinearLayout>

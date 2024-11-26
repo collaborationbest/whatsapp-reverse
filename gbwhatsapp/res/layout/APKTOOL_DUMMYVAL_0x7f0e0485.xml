@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f040300" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/gif_recents_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121cc7" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_recent" />
+        <View android:layout_gravity="bottom" android:id="@id/gif_recent_marker" android:background="?APKTOOL_DUMMYVAL_0x7f040798" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/gif_favorites_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122150" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_gif_favorites" />
+        <View android:layout_gravity="bottom" android:id="@id/gif_favorites_marker" android:background="?APKTOOL_DUMMYVAL_0x7f040798" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/gif_category_recycler" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="7.0" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+</LinearLayout>

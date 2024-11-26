@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0704fe" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0704fe">
+            <com.gbwhatsapp.WaTextView android:id="@id/enc_backup_password_input_title" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c14" style="@style/APKTOOL_DUMMYVAL_0x7f1501fc" />
+            <com.gbwhatsapp.WaTextView android:id="@id/enc_backup_password_input_instruction" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c12" style="@style/APKTOOL_DUMMYVAL_0x7f1501fa" />
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/enc_backup_password_input_forgot_password" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c38" style="@style/APKTOOL_DUMMYVAL_0x7f1501fb" />
+            <com.gbwhatsapp.CodeInputField android:id="@id/enc_backup_password_input" android:hint="@string/APKTOOL_DUMMYVAL_0x7f120c39" style="@style/APKTOOL_DUMMYVAL_0x7f1501f7" />
+            <com.gbwhatsapp.WaTextView android:id="@id/enc_backup_password_input_requirement" style="@style/APKTOOL_DUMMYVAL_0x7f1501fa" />
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="bottom|center" android:id="@id/enc_backup_password_input_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c11" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+    <com.gbwhatsapp.WaTextView android:id="@id/enc_backup_password_input_use_encryption_key_button" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1501fb" />
+</LinearLayout>

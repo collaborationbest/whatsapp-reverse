@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/screen_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:id="@id/modPriv" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/privacy" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/settings_privsec" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:id="@id/modDon" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/addons" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/alex_addons" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modUpdate" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/updates" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/updatess" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modAbout" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/about" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/yo_About" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:id="@id/modThemes" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/themes" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:id="@id/yoThemes" android:paddingRight="0.0dip" android:text="@string/yoThemes" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/AG_Effects" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/effects" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/new_Effects" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modUni" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/universal" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/acjuniversal" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modHome" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/home" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/acjcons" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modChat" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/chat" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/acjchat" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/wdg_mod" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/widget" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/yowa_widget" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:id="@id/AG_media" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/ag_media" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/AG_media" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/AG_Not" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/alex_notifications" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/AG_Not" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/AG_Backup" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/universal_backup" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/yoBackupRestore" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+                <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/goldMsg" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/alex_scheduled_message" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/AG_Effect" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/Assem_Clear" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/alex_clear" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/Assem_Clear" android:paddingEnd="0.0dip" style="@style/GoldSettings_row_more" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:layout_marginBottom="15.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/modShare" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/share" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:id="@id/yoShareSum" android:text="@string/alex_share_button" style="@style/GoldSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:gravity="center" android:layout_marginBottom="0.0dip" android:text="" style="@style/GoldSettings_rowxx" />
+        <TextView android:gravity="center" android:id="@id/appInfo" android:layout_width="0.0dip" android:layout_height="0.0dip" style="@style/GoldSettings_row" />
+    </LinearLayout>
+</ScrollView>

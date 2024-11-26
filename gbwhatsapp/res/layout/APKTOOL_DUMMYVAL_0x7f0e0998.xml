@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0702e6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0702e6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:id="@id/parent_group_image" android:focusable="false" android:clickable="false" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0702ad" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0702ad" android:scaleType="centerCrop" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1200a1" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+    <com.gbwhatsapp.WaImageView android:id="@id/expand_subgroup_switcher_indicator" android:background="@drawable/white_circle_green_border" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d44" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d44" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0702ac" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0702ac" android:scaleType="center" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_subgroup_switcher_chevron_down" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0407dc" />
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_inner_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewFlipper android:id="@id/view_switcher" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progressbar_otp" android:background="#ffffffff" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <TextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06086d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Submitting Your details" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/webViewLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="right" android:id="@id/refreshButtonLayout" android:background="@color/APKTOOL_DUMMYVAL_0x7f060872" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06086b" android:layout_gravity="center_vertical" android:id="@id/refreshButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="REFRESH" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progressbar_layout" android:background="#ff000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.5">
+                <ProgressBar android:layout_width="48.0dip" android:layout_height="48.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

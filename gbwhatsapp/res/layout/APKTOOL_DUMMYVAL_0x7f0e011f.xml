@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/meta_ai_container" android:layout_width="fill_parent" android:layout_height="320.0dip">
+        <ViewStub android:layout_gravity="center" android:id="@id/meta_ai_static_logo" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0121" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+        <ViewStub android:layout_gravity="center" android:id="@id/meta_ai_animated_logo" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0120" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+        <com.gbwhatsapp.WaTextView android:textSize="28.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060ab5" android:layout_gravity="center" android:id="@id/meta_ai_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1203c9" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0405fe="36.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:orientation="horizontal" android:id="@id/empty_search_carousel" android:layout_width="2000.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:APKTOOL_DUMMYVAL_0x7f0405b7="androidx.recyclerview.widget.StaggeredGridLayoutManager" app:APKTOOL_DUMMYVAL_0x7f04095e="3" />
+    </LinearLayout>
+</FrameLayout>

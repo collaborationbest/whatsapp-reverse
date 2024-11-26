@@ -1,0 +1,35 @@
+.class public LX/39q;
+.super Ljava/lang/Object;
+.source ""
+
+
+# instance fields
+.field public A00:I
+
+.field public A01:I
+
+.field public A02:I
+
+.field public A03:I
+
+.field public A04:LX/0D3;
+
+
+# direct methods
+.method public constructor <init>(LX/0D3;IIII)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LX/39q;->A04:LX/0D3;
+
+    iput p2, p0, LX/39q;->A00:I
+
+    iput p3, p0, LX/39q;->A01:I
+
+    iput p4, p0, LX/39q;->A02:I
+
+    iput p5, p0, LX/39q;->A03:I
+
+    return-void
+.end method

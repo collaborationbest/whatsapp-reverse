@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150377"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/status_row" android:maxLines="1" android:singleLine="true" style="@style/APKTOOL_DUMMYVAL_0x7f150379" />
+    <com.gbwhatsapp.WaImageView android:id="@id/status_selected_check" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_done" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0408e1" style="@style/APKTOOL_DUMMYVAL_0x7f15036a" />
+</LinearLayout>

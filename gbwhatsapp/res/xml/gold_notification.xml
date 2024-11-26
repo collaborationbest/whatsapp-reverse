@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/online_toast_main" />
+    <SwitchPreference android:title="@string/yoOnlineTo" android:key="chats_show_contact_online_toast_check" android:summary="@string/yoOnline" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/viewed_your_status_toast" android:key="want_status_toast" android:summary="@string/viewed_your_status_toastS" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/photo_changed_toast_t" android:key="profile_toast" android:summary="@string/photo_changed_toast_s" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/typing_toast" android:key="typing_toast_check" android:summary="@string/typing_toast_sum" android:defaultValue="false" />
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/Themes" />
+    <ListPreference android:entries="@array/online_tone_mode" android:title="@string/contact_online_tone_do" android:key="contact_online_tone_do" android:summary="%s" android:defaultValue="0" android:entryValues="@array/online_tone_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoTost" android:key="yoTostC" android:summary="@string/yoTostSum" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoText" android:key="yoTostT" android:summary="@string/yoTextSum" />
+</PreferenceScreen>

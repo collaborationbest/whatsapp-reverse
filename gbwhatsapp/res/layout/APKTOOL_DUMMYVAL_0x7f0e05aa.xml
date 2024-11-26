@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/linked_account_open_profile_layout" android:background="@drawable/linked_account_media_open_profile" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/linked_account_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060ca5" />
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060ca6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b22" android:text="@string/APKTOOL_DUMMYVAL_0x7f121254" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

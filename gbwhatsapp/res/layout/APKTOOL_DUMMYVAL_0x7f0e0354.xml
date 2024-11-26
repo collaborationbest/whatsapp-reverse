@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/create_new_group_button" android:background="@drawable/chat_info_list_selector" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07066c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070c88"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/create_new_group_icon" android:background="@drawable/primary_light_circle_background" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_add_new_group" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040558" style="@style/APKTOOL_DUMMYVAL_0x7f150290" />
+    <com.gbwhatsapp.WaTextView android:ellipsize="end" android:id="@id/create_new_group_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1209b0" android:maxLines="2" android:singleLine="false" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+</LinearLayout>

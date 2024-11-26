@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/contact_info_header" android:background="?APKTOOL_DUMMYVAL_0x7f0408b2" android:padding="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@id/contact_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_profile" android:scaleType="fitCenter" android:adjustViewBounds="true" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f122bca" app:APKTOOL_DUMMYVAL_0x7f0407f2="x_large" />
+        <com.gbwhatsapp.TextEmojiLabel android:ellipsize="end" android:gravity="left" android:layout_gravity="center" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="2" android:scrollHorizontally="false" android:singleLine="false" style="@style/APKTOOL_DUMMYVAL_0x7f15064e" />
+        <com.gbwhatsapp.WaTextView android:gravity="left" android:layout_gravity="center" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:text="@string/APKTOOL_DUMMYVAL_0x7f1204b0" app:APKTOOL_DUMMYVAL_0x7f0404d9="500" style="@style/APKTOOL_DUMMYVAL_0x7f15064f" />
+    </LinearLayout>
+</merge>

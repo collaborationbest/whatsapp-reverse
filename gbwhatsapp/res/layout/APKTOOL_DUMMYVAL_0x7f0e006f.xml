@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/channel_alert_item" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/alerts_list_loading_indicator_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00b5" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07021f" />
+    <ViewStub android:layout_gravity="center" android:id="@id/alerts_list_empty_results_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00b4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/alerts_list_generic_error_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06c2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

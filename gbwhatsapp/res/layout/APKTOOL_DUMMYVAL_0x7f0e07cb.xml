@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.MaxHeightLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0400c1="true" app:APKTOOL_DUMMYVAL_0x7f0405bb="com.google.android.material.bottomsheet.BottomSheetBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f67" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a40" android:layout_gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120565" android:textAlignment="center" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f65" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:layout_gravity="center" android:id="@id/description" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+        <View style="@style/APKTOOL_DUMMYVAL_0x7f150366" />
+    </LinearLayout>
+    <ViewStub android:id="@id/recycler_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07cc" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/start_call_button" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/recycler_view_divider_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07cd" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cae" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/start_group_call_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+    </LinearLayout>
+</com.gbwhatsapp.components.MaxHeightLinearLayout>

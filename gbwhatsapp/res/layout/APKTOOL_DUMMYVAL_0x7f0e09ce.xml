@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/toolbar_holder" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?APKTOOL_DUMMYVAL_0x7f040034"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09cc" />
+    <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" />
+</FrameLayout>

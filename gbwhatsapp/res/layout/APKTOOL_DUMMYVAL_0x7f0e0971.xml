@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.button.WDSButton android:gravity="end" android:layout_gravity="end" android:id="@id/sticker_info_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+</FrameLayout>

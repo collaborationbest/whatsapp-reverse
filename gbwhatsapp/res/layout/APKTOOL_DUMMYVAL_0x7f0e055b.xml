@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/APKTOOL_DUMMYVAL_0x7f150267">
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150269">
+            <com.caverock.androidsvg.SVGImageView app:APKTOOL_DUMMYVAL_0x7f0409cf="graphics/stella_wa.svg" style="@style/APKTOOL_DUMMYVAL_0x7f150260" />
+            <com.gbwhatsapp.WaTextView android:id="@id/instrumentation_auth_perm_title" android:text="@string/APKTOOL_DUMMYVAL_0x7f121180" style="@style/APKTOOL_DUMMYVAL_0x7f150268" />
+            <com.gbwhatsapp.WaTextView android:id="@id/instrumentation_auth_perm_paragraph_one" android:text="@string/APKTOOL_DUMMYVAL_0x7f12117b" style="@style/APKTOOL_DUMMYVAL_0x7f150266" />
+            <com.gbwhatsapp.WaTextView android:id="@id/instrumentation_auth_perm_paragraph_two" android:text="@string/APKTOOL_DUMMYVAL_0x7f12117d" style="@style/APKTOOL_DUMMYVAL_0x7f150266" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15025e">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/instrumentation_auth_perm_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f12117a" style="@style/APKTOOL_DUMMYVAL_0x7f15025f" />
+    </LinearLayout>
+</LinearLayout>

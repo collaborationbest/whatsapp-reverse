@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|right" android:layout_gravity="right" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30.0dip">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+        <view android:id="@id/conversation_text_row" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.gbwhatsapp.components.TextAndDateLayout">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0705b9" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408a2" android:gravity="start|center" android:layout_gravity="left" android:id="@id/message_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0703df" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0703df" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:drawablePadding="@dimen/APKTOOL_DUMMYVAL_0x7f0705ba" android:textAlignment="center" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02a3" />
+        </view>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f122545" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+    <com.gbwhatsapp.payments.ui.widget.PaymentMethodRow android:id="@id/debit_card_option" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.payments.ui.widget.PaymentMethodRow android:id="@id/aadhaar_card_option" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

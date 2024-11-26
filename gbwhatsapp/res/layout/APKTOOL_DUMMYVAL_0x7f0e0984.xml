@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:id="@id/plus_icon" android:background="@drawable/sticker_tray_plus_icon_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d30" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d30" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_add"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

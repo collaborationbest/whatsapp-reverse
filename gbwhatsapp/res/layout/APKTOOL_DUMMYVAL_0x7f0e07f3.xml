@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/external_dir_migration_section" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/setting_manual_external_dir_migration_divider" style="@style/APKTOOL_DUMMYVAL_0x7f15036d" />
+    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:text="@string/APKTOOL_DUMMYVAL_0x7f122015" style="?APKTOOL_DUMMYVAL_0x7f0408d6" />
+    <LinearLayout android:orientation="vertical" android:id="@id/manual_external_dir_migration_layout" android:paddingLeft="72.0dip" android:paddingTop="15.0dip" android:paddingRight="16.0dip" android:paddingBottom="15.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150371">
+        <com.gbwhatsapp.WaTextView android:id="@id/manual_external_dir_migration" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212fa" style="?APKTOOL_DUMMYVAL_0x7f0408db" />
+    </LinearLayout>
+</LinearLayout>

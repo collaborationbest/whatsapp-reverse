@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.wds.components.button.WDSButtonGroup android:id="@id/restore_actions_view" android:clipChildren="false" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a63" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/perform_restore" android:layout_width="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f121428" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121429" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/dont_restore" android:layout_width="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b52" style="@style/APKTOOL_DUMMYVAL_0x7f150604" />
+    </LinearLayout>
+</com.gbwhatsapp.wds.components.button.WDSButtonGroup>

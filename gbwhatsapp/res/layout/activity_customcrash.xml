@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/customactivityoncrash_activity_horizontal_margin" android:paddingTop="@dimen/customactivityoncrash_activity_vertical_margin" android:paddingRight="@dimen/customactivityoncrash_activity_horizontal_margin" android:paddingBottom="@dimen/customactivityoncrash_activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.abuarab.gold.font_text android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/waVer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.abuarab.gold.font_text android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/package" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/customactivityoncrash_activity_vertical_margin" />
+            <ImageView android:id="@id/customactivityoncrash_error_activity_image" android:background="@drawable/crash_error" android:paddingTop="@dimen/customactivityoncrash_activity_vertical_margin" android:paddingBottom="@dimen/customactivityoncrash_activity_vertical_margin" android:layout_width="96.0dip" android:layout_height="96.0dip" android:scaleType="fitCenter" android:contentDescription="@null" />
+            <com.abuarab.gold.font_text android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:paddingBottom="@dimen/customactivityoncrash_activity_vertical_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/customactivityoncrash_activity_vertical_margin" android:text="@string/error_unexpected" />
+            <Button android:id="@id/gold" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/GB_Mods" />
+            <Button android:id="@id/clearPrefs" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/resetThemes" />
+            <Button android:id="@id/restart" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/acjrestart" />
+            <Button android:textStyle="bold|italic" android:textColor="#ffe53935" android:id="@id/sendEmail" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" />
+            <Button android:id="@id/backup" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/yoBackupTitle" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

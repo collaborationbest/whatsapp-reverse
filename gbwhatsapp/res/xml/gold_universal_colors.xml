@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yo_universal" android:key="ModConPickColor" android:summary="@string/yo_universal_sum" />
+    <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="ModConPickColor_GCDir" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="ModConPickColor_GC" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yo_uaction" android:key="HomeBarText" android:summary="@string/yo_uactionS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/acj_bg" android:key="ModConBackColor" android:summary="@string/acj_uni_bg_sum" />
+    <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="ModConBackColor_GCDir" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="ModConBackColor_GC" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/listBackground" android:key="list_bg_color" android:summary="@string/listBackgroundSum" />
+    <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="list_bg_color_GCDir" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="list_bg_color_GC" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/acj_statbar" android:key="ModDarkConPickColor" android:summary="@string/acj_uni_stat_sum" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/acj_navbar" android:key="ModDarkConPickColorNav" android:summary="@string/acj_uni_nav_sum" />
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" app:APKTOOL_DUMMYVAL_0x7f040542="?APKTOOL_DUMMYVAL_0x7f0407e7" style="@style/APKTOOL_DUMMYVAL_0x7f150259"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f150236">
+        <com.gbwhatsapp.WaTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f1203f3" style="@style/APKTOOL_DUMMYVAL_0x7f150239" />
+    </FrameLayout>
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a40" android:id="@id/business_command_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:text="@string/APKTOOL_DUMMYVAL_0x7f1203f2" android:lineSpacingExtra="5.0sp" android:letterSpacing="0.02" />
+    <com.google.android.material.chip.ChipGroup android:id="@id/business_bot_command_chip_layout" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040198="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+</com.gbwhatsapp.InfoCard>

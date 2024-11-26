@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageButton android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07012a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070127" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f040097="@color/APKTOOL_DUMMYVAL_0x7f060b2b" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_settings_bug_report" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060d59"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

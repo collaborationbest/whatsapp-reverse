@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/business_hours_grid" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/business_hours_day_layout_0" style="@style/APKTOOL_DUMMYVAL_0x7f15015d">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0146" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_1" style="@style/APKTOOL_DUMMYVAL_0x7f15015c">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0146" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_2" style="@style/APKTOOL_DUMMYVAL_0x7f15015c">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0146" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_3" style="@style/APKTOOL_DUMMYVAL_0x7f15015c">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0146" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_4" style="@style/APKTOOL_DUMMYVAL_0x7f15015c">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0146" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_5" style="@style/APKTOOL_DUMMYVAL_0x7f15015c">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0146" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/business_hours_day_layout_6" style="@style/APKTOOL_DUMMYVAL_0x7f15015e">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0146" />
+    </LinearLayout>
+</LinearLayout>

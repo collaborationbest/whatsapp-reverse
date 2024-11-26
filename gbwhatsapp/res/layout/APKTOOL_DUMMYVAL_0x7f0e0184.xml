@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0703e2" android:textStyle="italic" android:textColor="?APKTOOL_DUMMYVAL_0x7f040245" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca8" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12051e"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

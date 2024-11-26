@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0703fd" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408f1" android:id="@id/notes_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122344" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+        <com.gbwhatsapp.text.ReadMoreTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f0408f2" android:gravity="left" android:id="@id/payment_note_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:singleLine="false" android:drawablePadding="4.0dip" android:layout_below="@id/notes_title" app:APKTOOL_DUMMYVAL_0x7f04084e="2" app:APKTOOL_DUMMYVAL_0x7f040850="?APKTOOL_DUMMYVAL_0x7f040606" app:APKTOOL_DUMMYVAL_0x7f040851="@string/APKTOOL_DUMMYVAL_0x7f121cbe" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+    </RelativeLayout>
+</FrameLayout>

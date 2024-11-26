@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="center|left" android:id="@id/conversations_row_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070347" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062d" android:ellipsize="end" android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/conversations_row_date" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070664" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.gbwhatsapp.WaImageView android:ellipsize="end" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/telegram_status_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginStart="6.0dip" />
+    <ViewStub android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/conversations_row_important_indicator" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070664" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a3c" android:inflatedId="@id/conversations_row_important_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/conversations_row_unread_indicator" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070664" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a47" android:inflatedId="@id/conversations_row_unread_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+</merge>

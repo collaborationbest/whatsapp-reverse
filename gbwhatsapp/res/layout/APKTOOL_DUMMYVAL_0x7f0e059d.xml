@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_sup_bottom_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/sup_nux_glasses" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d4b" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d4a" android:layout_centerHorizontal="true" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottom_sheet_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d4c" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060a9a" android:gravity="center" android:id="@id/title" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d4b" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405d6="parent" app:APKTOOL_DUMMYVAL_0x7f0405da="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/sup_bottom_sheet_privacy" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d4d" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d4d" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d4d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070d4d" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070d4d" app:APKTOOL_DUMMYVAL_0x7f0405b7="LinearLayoutManager" />
+    <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d56" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060a99" android:layout_gravity="center_horizontal" android:id="@id/sup_ed_glasses_text" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d57" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/bottom_sheet_glasses_confirmation_button" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070d48" style="@style/APKTOOL_DUMMYVAL_0x7f150603" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060ab5" android:id="@id/reactions_tab_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:minHeight="24.0dip" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d4" android:textAlignment="gravity" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:letterSpacing="0.02" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/reactions_tab_list" android:background="@android:color/transparent" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/reactions_tab_loader_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+</FrameLayout>

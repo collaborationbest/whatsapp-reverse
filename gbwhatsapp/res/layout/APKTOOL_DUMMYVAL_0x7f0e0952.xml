@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="48.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f150006"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/status_playback_views_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_views" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d59" android:id="@id/read_receipt_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/APKTOOL_DUMMYVAL_0x7f0600d9" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070400" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070400">
+        <com.gbwhatsapp.collections.ObservableRecyclerView android:id="@id/updates_list" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070dd4" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ViewStub android:layout_gravity="end" android:id="@id/view_stub_see_all_tooltip" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08cd" android:inflatedId="@id/see_all_tooltip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

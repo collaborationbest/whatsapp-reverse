@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.settings.SettingsRowBanner android:id="@id/privacy_carrot_entry" app:APKTOOL_DUMMYVAL_0x7f0408c4="@string/APKTOOL_DUMMYVAL_0x7f121c1f" app:APKTOOL_DUMMYVAL_0x7f0408c7="@string/APKTOOL_DUMMYVAL_0x7f121c20" style="@style/APKTOOL_DUMMYVAL_0x7f150372" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

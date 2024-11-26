@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:id="@id/category_name" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1202d0" app:APKTOOL_DUMMYVAL_0x7f040a08="true" style="@style/APKTOOL_DUMMYVAL_0x7f1503ca"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

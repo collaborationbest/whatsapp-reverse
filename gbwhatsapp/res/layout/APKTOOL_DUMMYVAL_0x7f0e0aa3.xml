@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/search_view_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f53" app:APKTOOL_DUMMYVAL_0x7f040232="0.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f150629"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150642" android:id="@id/search_view_edit_text" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:inputType="textNoSuggestions" android:imeOptions="actionSearch|flagNoExtractUi" android:textDirection="firstStrong" />
+        <ImageButton android:id="@id/search_view_clear_button" android:background="?APKTOOL_DUMMYVAL_0x7f04000e" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070f5d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_search_clear" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122b19" />
+        <com.gbwhatsapp.WaImageButton android:id="@id/search_by_date_button" android:background="?APKTOOL_DUMMYVAL_0x7f04000e" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070f5d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search_by_date" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

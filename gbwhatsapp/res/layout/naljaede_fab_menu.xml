@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chatFab" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <rc.views.mod.bomfab.fab.FloatingActionMenu android:id="@id/FloatingActionMenu1" android:paddingLeft="3.0dip" android:paddingTop="10.0dip" android:paddingRight="3.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentRight="true" xmlns:fab="http://schemas.android.com/apk/res-auto">
+        <rc.views.mod.bomfab.fab.FloatingActionButton android:id="@id/subFloatingMenu7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/naljaede_anwa" android:onClick="Impress_Icon" fab:fab_title="" />
+        <rc.views.mod.bomfab.fab.FloatingActionButton android:id="@id/subFloatingMenu5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/naljaede_heart_emogi" android:onClick="Heart_Impress_Icon" fab:fab_title="send heart" />
+        <rc.views.mod.bomfab.fab.FloatingActionButton android:id="@id/subFloatingMenu6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/naljaede_thank_u_emogi" android:onClick="Thenk_U_Icon" fab:fab_title="send thanku" />
+        <rc.views.mod.bomfab.fab.FloatingActionButton android:id="@id/subFloatingMenu1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/naljaede_top_autotext" fab:fab_title="Bomb" />
+        <rc.views.mod.bomfab.fab.FloatingActionButton android:id="@id/subFloatingMenu3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/naljaede_top_autoset" fab:fab_title="Bomb Settings" />
+    </rc.views.mod.bomfab.fab.FloatingActionMenu>
+</FrameLayout>

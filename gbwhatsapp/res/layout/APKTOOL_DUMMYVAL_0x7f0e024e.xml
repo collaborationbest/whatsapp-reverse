@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:enabled="false" android:orientation="horizontal" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|left" android:id="@id/whatsapp_toolbar_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122848" app:APKTOOL_DUMMYVAL_0x7f04096f="?APKTOOL_DUMMYVAL_0x7f040537" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04023f" style="@style/APKTOOL_DUMMYVAL_0x7f150001" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/contact_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center|left" android:id="@id/conversation_contact_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f0407f2="small" />
+        <ViewStub android:id="@id/conversation_interop_profile_photo" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0273" android:inflatedId="@id/conversation_interop_profile_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/transition_start" style="@style/APKTOOL_DUMMYVAL_0x7f1501cf" />
+        <ViewStub android:id="@id/change_photo_progress_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e024f" style="@style/APKTOOL_DUMMYVAL_0x7f1501ce" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|right" android:id="@id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040097="?APKTOOL_DUMMYVAL_0x7f040a79" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_ephemeral" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04087a" />
+        <ViewStub android:layout_gravity="bottom|center|right" android:id="@id/data_disclosure_status" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a39" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+    </FrameLayout>
+</LinearLayout>

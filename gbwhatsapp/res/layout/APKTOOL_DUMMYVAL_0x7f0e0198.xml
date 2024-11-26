@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@android:id/content" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.collections.observablelistview.ObservableListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150256" />
+    <com.gbwhatsapp.HoverAwareRecyclerView android:id="@id/calls_recyclerView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150256" />
+    <FrameLayout android:id="@android:id/empty" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0704f8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:gravity="center" android:id="@id/welcome_calls_layout_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e019f" android:inflatedId="@id/welcome_calls_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:gravity="center" android:id="@id/search_no_matches_text_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e019d" android:inflatedId="@id/search_no_matches" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:gravity="center" android:id="@id/search_no_matches_frame_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08b6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/calls_empty_no_contacts_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0196" android:inflatedId="@id/calls_empty_no_contacts" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center" android:id="@id/contacts_empty_permission_denied_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03d3" android:inflatedId="@id/contacts_empty_permission_denied" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="center" android:id="@id/calls_progress_bar_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0199" android:inflatedId="@id/calls_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_gravity="center" android:id="@id/no_search_results_e2ee_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03b6" />
+</LinearLayout>

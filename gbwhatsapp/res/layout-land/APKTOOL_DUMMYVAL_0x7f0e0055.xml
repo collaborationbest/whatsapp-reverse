@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f8" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01fb" />
+            <androidx.appcompat.widget.SearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="flagNoExtractUi" style="@style/APKTOOL_DUMMYVAL_0x7f15035f" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01fa" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

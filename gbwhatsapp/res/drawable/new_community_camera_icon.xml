@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip">
+        <shape android:shape="oval">
+            <stroke android:width="2.0dip" android:color="?APKTOOL_DUMMYVAL_0x7f0407e7" />
+            <solid android:width="8.0dip" android:color="?APKTOOL_DUMMYVAL_0x7f040508" />
+        </shape>
+    </item>
+    <item android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip">
+        <bitmap android:src="@drawable/ic_home_camera" android:tint="?APKTOOL_DUMMYVAL_0x7f0407e7" />
+    </item>
+</layer-list>

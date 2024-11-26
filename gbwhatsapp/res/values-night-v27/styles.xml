@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f15048e" parent="@style/APKTOOL_DUMMYVAL_0x7f1504e9">
+        <item name="android:navigationBarColor">?APKTOOL_DUMMYVAL_0x7f0405fb</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

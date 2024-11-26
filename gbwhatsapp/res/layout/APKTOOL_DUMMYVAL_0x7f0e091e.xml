@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <View android:orientation="horizontal" android:id="@id/top_divider" android:background="@color/APKTOOL_DUMMYVAL_0x7f060a6b" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cae" whatsapp:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    <com.gbwhatsapp.WaImageButton android:id="@id/status_send_button" android:background="@drawable/green_circle" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070cb7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cb7" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:scaleType="center" whatsapp:APKTOOL_DUMMYVAL_0x7f0405da="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f0405e0="parent" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/input_send_wds" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040558" />
+</androidx.constraintlayout.widget.ConstraintLayout>

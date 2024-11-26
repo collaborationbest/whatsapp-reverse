@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:name="com.gbwhatsapp.conversationslist.InteropConversationsFragment" android:id="@id/fragment_container_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom|center|right" android:id="@id/start_conversation_fab_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0567" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070576" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070576" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070576" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070576" />
+</FrameLayout>

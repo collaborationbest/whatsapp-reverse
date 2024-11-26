@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/conversation_fts_not_ready_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0705d1" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:id="@id/conversation_fts_not_ready_text" android:background="?APKTOOL_DUMMYVAL_0x7f040894" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0705cd" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0705cf" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0705ce" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0705cc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e23" />
+    <View android:layout_alignTop="@id/conversation_fts_not_ready_text" style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+    <View android:background="@drawable/bottom_elevation" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705d0" android:layout_below="@id/conversation_fts_not_ready_text" />
+</RelativeLayout>

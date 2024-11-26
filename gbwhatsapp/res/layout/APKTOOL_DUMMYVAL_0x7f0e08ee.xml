@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0700f4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1501ad">
+        <com.gbwhatsapp.WaTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f1209f2" style="@style/APKTOOL_DUMMYVAL_0x7f150378" />
+        <LinearLayout android:id="@id/status_layout" style="@style/APKTOOL_DUMMYVAL_0x7f150377">
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/status_tv" style="@style/APKTOOL_DUMMYVAL_0x7f150379" />
+            <com.gbwhatsapp.WaImageView android:id="@id/status_tv_edit_icon" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120b91" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_settings_edit" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0408ee" style="@style/APKTOOL_DUMMYVAL_0x7f15036a" />
+        </LinearLayout>
+        <View android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+        <com.gbwhatsapp.WaTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f121f17" style="@style/APKTOOL_DUMMYVAL_0x7f150378" />
+        <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" />
+        <View android:id="@id/list_empty" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

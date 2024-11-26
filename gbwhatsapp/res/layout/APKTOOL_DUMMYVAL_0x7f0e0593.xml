@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:id="@id/description_shimmer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040909="true" app:APKTOOL_DUMMYVAL_0x7f04090a="0.5" app:APKTOOL_DUMMYVAL_0x7f04090b="?APKTOOL_DUMMYVAL_0x7f040630"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:background="@drawable/business_line_template" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:background="@drawable/business_line_template" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070467" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.facebook.shimmer.ShimmerFrameLayout>

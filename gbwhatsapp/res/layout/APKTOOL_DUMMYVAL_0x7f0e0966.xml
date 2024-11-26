@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageButton android:id="@id/status_like_button" android:background="@drawable/ib_new_round" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_reply_like_button_selector" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060c2c" android:backgroundTint="@color/APKTOOL_DUMMYVAL_0x7f060ca9"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

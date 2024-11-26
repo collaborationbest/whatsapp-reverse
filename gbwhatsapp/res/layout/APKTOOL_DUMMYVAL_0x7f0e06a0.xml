@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/call_grid_top_right_icon_container_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070189" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070189"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0709aa" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709aa" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_network_health_poor_v2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

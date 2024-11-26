@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/stacked_contact_icon" android:visibility="visible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070585" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070585" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f0409f9="?APKTOOL_DUMMYVAL_0x7f0407e7" app:APKTOOL_DUMMYVAL_0x7f0409fa="@dimen/APKTOOL_DUMMYVAL_0x7f070581" app:APKTOOL_DUMMYVAL_0x7f0409fb="false" app:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070584"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

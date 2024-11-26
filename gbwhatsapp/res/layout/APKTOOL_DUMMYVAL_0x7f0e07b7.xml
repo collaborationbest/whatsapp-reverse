@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.KeyboardPopupLayout android:id="@id/main" android:background="?APKTOOL_DUMMYVAL_0x7f0402bf" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/toolbar_holder" android:background="?APKTOOL_DUMMYVAL_0x7f040a79" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/out_of_chat_playback_holder" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09ce" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_below="@id/toolbar_holder" android:layout_centerInParent="true" style="@style/APKTOOL_DUMMYVAL_0x7f1501ad">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/poll_results_users_recycler_view" android:layout_width="0.0dip" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gbwhatsapp.KeyboardPopupLayout>

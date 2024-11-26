@@ -1,0 +1,149 @@
+{
+  "fiat_currencies": [
+    {
+      "code": "USD",
+      "symbol": "$",
+      "icon": "D",
+      "requestIcon": "d",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 55
+    },
+    {
+      "code": "GTQ",
+      "symbol": "Q",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 99999
+    },
+    {
+      "code": "SGD",
+      "symbol": "S$",
+      "icon": "D",
+      "requestIcon": "d",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 55
+    },
+    {
+      "code": "AED",
+      "symbol": "د.إ",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 55
+    },
+    {
+      "code": "NPR",
+      "symbol": "Nprरु",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 55
+    },
+    {
+      "code": "BTN",
+      "symbol": "Nu",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 55
+    },
+    {
+      "code": "MUR",
+      "symbol": "Murरु",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 55
+    },
+    {
+      "code": "MXN",
+      "symbol": "Mex$",
+      "offset": 100,
+      "displayExponent": 2,
+      "weight": 55
+    },
+    {
+      "code": "GBP",
+      "symbol": "£",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    },
+    {
+      "code": "COP",
+      "symbol": "Col$",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    },
+    {
+      "code": "PEN",
+      "symbol": "S/",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    },
+    {
+      "code": "ARS",
+      "symbol": "Arg$",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    },
+    {
+      "code": "ILS",
+      "symbol": "₪",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    },
+    {
+      "code": "TRY",
+      "symbol": "₺",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    },
+    {
+      "code": "IDR",
+      "symbol": "Rp",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    },
+    {
+      "code": "MYR",
+      "symbol": "RM",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    },
+    {
+      "code": "CLP",
+      "symbol": "$",
+      "offset": 100,
+      "displayExponent":  0,
+      "weight": 55
+    },
+    {
+      "code": "HKD",
+      "symbol": "HK$",
+      "offset": 100,
+      "displayExponent":  2,
+      "weight": 55
+    }
+  ],
+  "crypto_currencies": [
+    {
+      "code": "USDP",
+      "symbol": "USDP",
+      "offset": 1000000,
+      "displayExponent": 2,
+      "weight": 50,
+      "isStable": true,
+      "defaultMatchingFiat": "USD",
+      "matchingFiats": [
+        "USD",
+        "GTQ"
+      ]
+    }
+  ]
+}

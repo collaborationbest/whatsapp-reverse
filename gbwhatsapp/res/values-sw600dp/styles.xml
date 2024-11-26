@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f1506b9" parent="@style/APKTOOL_DUMMYVAL_0x7f150115">
+        <item name="APKTOOL_DUMMYVAL_0x7f0409da">center</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0409e7">fixed</item>
+    </style>
+</resources>

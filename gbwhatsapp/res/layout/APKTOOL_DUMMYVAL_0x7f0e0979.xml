@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaNetworkResourceImageView android:layout_gravity="center" android:focusable="false" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705de" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705de" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/sticker_sample_laugh"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

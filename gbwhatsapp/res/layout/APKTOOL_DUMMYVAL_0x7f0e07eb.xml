@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.WaSwitchView android:id="@id/chat_settings_notify_new_message_switch_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040b06="@string/APKTOOL_DUMMYVAL_0x7f1201b3" app:APKTOOL_DUMMYVAL_0x7f040b07="?APKTOOL_DUMMYVAL_0x7f0408d7" app:APKTOOL_DUMMYVAL_0x7f040b08="@string/APKTOOL_DUMMYVAL_0x7f1201b2" app:APKTOOL_DUMMYVAL_0x7f040b09="?APKTOOL_DUMMYVAL_0x7f0408db" style="@style/APKTOOL_DUMMYVAL_0x7f1507f1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

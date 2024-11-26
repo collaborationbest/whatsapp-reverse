@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:background="?APKTOOL_DUMMYVAL_0x7f040303" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/search_result" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ac4" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ac4" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704f5" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ac4" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ac4" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040304" android:gravity="center" android:layout_gravity="center" android:id="@id/no_results" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704f5" android:layout_marginLeft="8.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120f4b" />
+        <FrameLayout android:id="@id/progress_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704f5">
+            <ProgressBar android:layout_gravity="center" android:id="@id/emoji_trending_progress" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip">
+        <com.abuarab.gold.ex android:layout_gravity="center_vertical" android:id="@id/back" android:layout_width="40.0dip" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12289f" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_back" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06058c" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+        <com.gbwhatsapp.InterceptingEditText android:layout_gravity="center_vertical" android:id="@id/search_bar" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUMMYVAL_0x7f120be0" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionSearch" />
+        <com.abuarab.gold.ex android:layout_gravity="center_vertical" android:id="@id/clear_search_btn" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1228e5" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06058c" app:APKTOOL_DUMMYVAL_0x7f040a60="src_atop" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+    </LinearLayout>
+</LinearLayout>

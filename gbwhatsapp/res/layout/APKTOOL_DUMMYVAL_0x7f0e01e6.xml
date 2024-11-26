@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/decryption_failure_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.conversation.comments.ContactPictureView android:layout_gravity="top" android:id="@id/decryption_failure_profile_pic" android:focusable="true" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070620" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070620" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:src="@drawable/avatar_contact" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f07061f" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.conversation.comments.CommentHeader android:id="@id/decryption_failure_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center|left" android:id="@id/decryption_failure_icon" android:background="@drawable/primary_color_circle" android:layout_width="30.0dip" android:layout_height="30.0dip" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_msg_clock" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040559" />
+            <com.gbwhatsapp.components.TextAndDateLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.whatsapp.conversation.comments.DecryptionFailureMessageView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d77" android:textStyle="italic" android:textColor="?APKTOOL_DUMMYVAL_0x7f040ab5" android:gravity="center_vertical" android:id="@id/decryption_failure_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.whatsapp.conversation.comments.MessageDate android:layout_gravity="end|bottom|center" android:id="@id/comment_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:maxLines="1" style="@style/APKTOOL_DUMMYVAL_0x7f15060f" />
+            </com.gbwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

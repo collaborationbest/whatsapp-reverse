@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/request_review_view" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070f5e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/request_review_title" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121566" style="@style/APKTOOL_DUMMYVAL_0x7f150649" />
+        <RadioGroup android:id="@id/request_review_reason_group" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:enabled="false" android:id="@id/request_review_submit_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e09" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+    </LinearLayout>
+</ScrollView>

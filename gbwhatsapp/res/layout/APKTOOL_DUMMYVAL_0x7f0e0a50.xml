@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/picture_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/picture" android:layout_width="62.0dip" android:layout_height="62.0dip" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/avatar_contact" />
+        <com.gbwhatsapp.WaImageView android:id="@id/picture_in_group" android:visibility="gone" android:layout_width="62.0dip" android:layout_height="62.0dip" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/fast_playback_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="3.0dip" android:minWidth="74.0dip" app:APKTOOL_DUMMYVAL_0x7f04000c="media" app:APKTOOL_DUMMYVAL_0x7f040ac7="tonal" app:APKTOOL_DUMMYVAL_0x7f040b41="small" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|left" android:id="@id/headphone_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/headphone_played" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|center|left" android:id="@id/mic_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/mic_played" />
+</merge>

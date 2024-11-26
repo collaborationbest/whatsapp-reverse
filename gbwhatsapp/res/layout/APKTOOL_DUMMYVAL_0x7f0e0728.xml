@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/payment_button_nux" android:clickable="false" android:layout_width="30.0dip" android:layout_height="30.0dip" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/sticker_store_halo_pulse"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

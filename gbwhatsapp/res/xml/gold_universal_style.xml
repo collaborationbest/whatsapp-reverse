@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cmwmobile="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/launchericons" android:key="acjicons" android:summary="@string/launchericonsSum" />
+    <Preference android:entries="@array/gb_iconss" android:title="@string/yoNicon" android:key="yo_nicons" android:summary="@string/yoNiconSum" android:defaultValue="0" android:entryValues="@array/gb_iconsv" cmwmobile:entryImages="@array/gb_iconsi" />
+    <Preference android:title="@string/customfont" android:key="font" android:summary="@string/customfont_sum" android:defaultValue="0" />
+    <Preference android:title="@string/load_customfont" android:key="load_customfont" android:summary="@string/customfont_sum" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pending_requests_notification" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityTraversalBefore="@android:id/list"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_pending_participants" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04050a" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a40" android:id="@id/pending_requests_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_weight="1.0" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d4" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/pending_participants_dismiss" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingRight="14.0dip" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1228e8" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04050a" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/APKTOOL_DUMMYVAL_0x7f150362" />
+</LinearLayout>

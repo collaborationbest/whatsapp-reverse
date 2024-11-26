@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/selector_orange_gradient" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b1c" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/view_all_popular_categories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/APKTOOL_DUMMYVAL_0x7f1507ec" />
+    <com.gbwhatsapp.WaTextView android:id="@id/title" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1202a9" android:layout_toLeftOf="@id/view_all_popular_categories" android:layout_alignParentLeft="true" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" style="@style/APKTOOL_DUMMYVAL_0x7f1507ed" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/popular_categories_recycler_view" android:background="@null" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1c" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_below="@id/title" />
+</RelativeLayout>

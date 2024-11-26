@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.TextEmojiLabel android:layout_gravity="start" android:id="@id/community_suspended_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12226e" style="@style/APKTOOL_DUMMYVAL_0x7f150293"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

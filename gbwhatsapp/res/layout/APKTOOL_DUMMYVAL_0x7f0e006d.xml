@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/form_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    <Button android:id="@id/add_information_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122874" android:layout_below="@id/form_recycler_view" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    <Button android:id="@id/save_information" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b0a" android:layout_alignParentBottom="true" />
+</RelativeLayout>

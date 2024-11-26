@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.wds.components.banners.WDSBanner android:id="@id/audience_selection_nux" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15061f" />
+</LinearLayout>

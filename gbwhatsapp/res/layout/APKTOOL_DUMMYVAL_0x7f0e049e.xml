@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070606"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/contact_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0702e6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0702e6" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122af7" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+        <com.gbwhatsapp.WaTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f04083c" android:id="@id/participant_call_log_result" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaImageButton android:id="@id/call_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="50.0dip" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1201db" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_call" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0407e5" />
+    <com.gbwhatsapp.WaImageButton android:id="@id/video_call_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1225e3" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_videocall" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0407e5" />
+</LinearLayout>

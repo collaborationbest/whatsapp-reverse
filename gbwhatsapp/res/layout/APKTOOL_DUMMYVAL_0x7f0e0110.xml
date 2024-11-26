@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/bonsai_discovery_activity_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0405bb="@string/APKTOOL_DUMMYVAL_0x7f122886" app:APKTOOL_DUMMYVAL_0x7f04090a="1.0" app:APKTOOL_DUMMYVAL_0x7f04090b="?APKTOOL_DUMMYVAL_0x7f0400d4" app:APKTOOL_DUMMYVAL_0x7f04090d="true" app:APKTOOL_DUMMYVAL_0x7f040910="2000" app:APKTOOL_DUMMYVAL_0x7f040914="1.0" app:APKTOOL_DUMMYVAL_0x7f040915="@color/APKTOOL_DUMMYVAL_0x7f0600ed" app:APKTOOL_DUMMYVAL_0x7f04091b="0.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150749" />
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:id="@id/touch_interceptor" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0402fb="0.0dip">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09ce" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

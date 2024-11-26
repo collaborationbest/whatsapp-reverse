@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/newsletter_followers_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View style="@style/APKTOOL_DUMMYVAL_0x7f15029e" />
+    <LinearLayout android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingTop="0.0dip" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" style="@style/APKTOOL_DUMMYVAL_0x7f150236">
+        <com.gbwhatsapp.WaTextView android:id="@id/newsletter_followers_title" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f15023a" />
+        <com.gbwhatsapp.WaImageView android:id="@id/newsletter_followers_search" android:background="?APKTOOL_DUMMYVAL_0x7f04000e" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="-12.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121ec5" android:paddingEnd="12.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_search" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06058c" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/invite_admins_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c88" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07066c" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07066c">
+        <com.gbwhatsapp.WaImageView android:id="@id/invite_admins_icon" android:background="@drawable/primary_light_circle_background" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_add" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040558" style="@style/APKTOOL_DUMMYVAL_0x7f150290" />
+        <com.gbwhatsapp.WaTextView android:id="@id/invite_admins_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1211b4" android:layout_toRightOf="@id/invite_admins_icon" android:layout_centerVertical="true" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+    </RelativeLayout>
+    <com.gbwhatsapp.components.InviteViaLinkView android:id="@id/newsletter_invite_via_link_button" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c88" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.CircleWaImageView android:id="@id/business_avatar" android:background="@drawable/avatar_frame" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700df" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700df" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07064a" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07064a" android:src="@drawable/avatar_contact" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07064a" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07064a" />
+    <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="center_vertical" android:id="@id/business_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07064a" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07064a" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" style="@style/APKTOOL_DUMMYVAL_0x7f150296" />
+</LinearLayout>

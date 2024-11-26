@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="true" android:state_hovered="true">
+        <objectAnimator android:interpolator="?APKTOOL_DUMMYVAL_0x7f0406eb" android:duration="?APKTOOL_DUMMYVAL_0x7f0406e1" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f07078b" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?APKTOOL_DUMMYVAL_0x7f0406de" />
+    </item>
+    <item android:state_enabled="true">
+        <objectAnimator android:interpolator="?APKTOOL_DUMMYVAL_0x7f0406eb" android:duration="?APKTOOL_DUMMYVAL_0x7f0406e1" android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f070789" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?APKTOOL_DUMMYVAL_0x7f0406de" />
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:interpolator="?APKTOOL_DUMMYVAL_0x7f0406eb" android:duration="?APKTOOL_DUMMYVAL_0x7f0406db" android:valueTo="0.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+        </set>
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueTo="0.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+</selector>

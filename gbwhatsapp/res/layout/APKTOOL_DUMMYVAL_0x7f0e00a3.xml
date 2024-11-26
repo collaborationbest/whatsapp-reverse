@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/chat_messages_participant_row" style="@style/APKTOOL_DUMMYVAL_0x7f1505f0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/avatar" android:focusable="false" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070c83" style="@style/APKTOOL_DUMMYVAL_0x7f1501a4" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f66" android:textColor="?APKTOOL_DUMMYVAL_0x7f040a40" android:id="@id/name" android:focusable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <CheckBox android:gravity="end" android:id="@id/selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:buttonTint="@color/APKTOOL_DUMMYVAL_0x7f060c24" />
+</LinearLayout>

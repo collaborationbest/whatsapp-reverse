@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505dd" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textStyle="bold" android:id="@id/variants_label" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ca2" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b2c" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070b2d" android:letterSpacing="0.02" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/variants_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b2b" app:APKTOOL_DUMMYVAL_0x7f0405b7="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.gbwhatsapp.WaTextView android:id="@id/variants_dropdown" android:visibility="gone" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b2b" style="@style/APKTOOL_DUMMYVAL_0x7f1505de" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

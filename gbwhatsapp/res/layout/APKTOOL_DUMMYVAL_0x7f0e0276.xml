@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/business_balloon" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07040b" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07040c" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07040b" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07040a" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070348" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0600dc" android:gravity="center" android:id="@id/info" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/divider" android:background="@drawable/payments_system_message_divider_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060a37" android:gravity="center" android:layout_gravity="center" android:id="@id/setup_payment_account_button" android:background="@drawable/selector_orange_gradient" android:paddingLeft="7.0dip" android:paddingTop="7.0dip" android:paddingRight="7.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+    </LinearLayout>
+</merge>

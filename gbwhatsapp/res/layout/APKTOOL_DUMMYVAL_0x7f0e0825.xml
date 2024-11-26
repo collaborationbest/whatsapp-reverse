@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/push_to_record_media_tooltip" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0827" android:inflatedId="@id/push_to_record_media_tooltip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070e40" android:layout_above="@id/edit_layout" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_group_banner" android:background="?APKTOOL_DUMMYVAL_0x7f040176" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/content_icon" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_settings_edit" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06058c" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070227" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f040033" android:id="@id/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07022c" android:text="@string/APKTOOL_DUMMYVAL_0x7f121448" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d4" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07022c" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/close_btn" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070228" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070228" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070229" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070228" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1228e8" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06058c" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/APKTOOL_DUMMYVAL_0x7f150362" />
+</LinearLayout>

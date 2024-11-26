@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbarlayout" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0402fb="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070b01" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407ed" android:ellipsize="end" android:gravity="center|top" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app:APKTOOL_DUMMYVAL_0x7f0405fe="@dimen/APKTOOL_DUMMYVAL_0x7f070b00" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070aff" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060964" android:gravity="center|top" android:id="@id/price" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/appbarlayout" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/loading_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c3="@id/price" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="@id/appbarlayout">
+        <ProgressBar android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070b01" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407ed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212bd" android:maxLines="1" android:layout_marginStart="4.0dip" app:APKTOOL_DUMMYVAL_0x7f0405fe="@dimen/APKTOOL_DUMMYVAL_0x7f070b00" />
+    </LinearLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/variants_carousel_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/price" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/cart_container" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070b1d" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/variants_carousel_fragment">
+        <com.gbwhatsapp.biz.catalog.view.widgets.QuantitySelector android:gravity="center" android:layout_gravity="center" android:id="@id/quantity_selector" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b22" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/action_button" android:layout_width="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f122604" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

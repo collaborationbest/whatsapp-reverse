@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/profile_photo_halo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/business_profile_photo_bg" />
+    <com.gbwhatsapp.wds.components.profilephoto.WDSProfilePhoto android:layout_gravity="center" android:id="@id/wds_profile_picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:src="@drawable/ic_settings_profile" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122af7" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f122bca" app:APKTOOL_DUMMYVAL_0x7f0407f2="xx_large" />
+</merge>

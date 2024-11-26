@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/verify_email_title_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040a48="@style/APKTOOL_DUMMYVAL_0x7f1507e3">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/verify_email_title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120bbe" style="@style/APKTOOL_DUMMYVAL_0x7f15033f" />
+    </com.gbwhatsapp.wds.components.topbar.WDSToolbar>
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:paddingTop="8.0dip" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9">
+            <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center_horizontal" android:id="@id/verify_email_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070caf" android:text="@string/APKTOOL_DUMMYVAL_0x7f12259f" android:breakStrategy="simple" style="@style/APKTOOL_DUMMYVAL_0x7f150644" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.CodeInputField android:textSize="22.0sp" android:gravity="bottom|center" android:id="@id/verify_email_code_input" android:background="@null" android:layout_width="160.0sp" android:layout_height="wrap_content" android:singleLine="true" android:digits=" 0123456789" android:inputType="phone" />
+                <ProgressBar android:id="@id/progress_bar_code_input_blocked" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:progressDrawable="@drawable/email_auth_selector_progress_bar" android:importantForAccessibility="no" style="@android:style/Widget.ProgressBar.Horizontal" />
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0704ee" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407dc" android:layout_gravity="center_horizontal" android:id="@id/resend_code_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120bc2" style="@style/APKTOOL_DUMMYVAL_0x7f1503d8" />
+                <ViewStub android:id="@id/shortest_wait_time_text_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0924" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.wds.components.button.WDSButton android:enabled="false" android:id="@id/verify_email_submit" android:layout_width="fill_parent" android:layout_marginTop="8.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f12159b" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/verify_email_skip" android:layout_width="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f12161e" android:layout_marginVertical="12.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

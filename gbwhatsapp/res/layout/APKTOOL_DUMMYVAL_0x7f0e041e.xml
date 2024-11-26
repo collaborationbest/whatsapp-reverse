@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f150138" android:orientation="vertical" android:id="@id/expressions_view_root" android:background="?APKTOOL_DUMMYVAL_0x7f040341" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e041d" />
+    <include android:id="@id/browser_view" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e012d" />
+</LinearLayout>

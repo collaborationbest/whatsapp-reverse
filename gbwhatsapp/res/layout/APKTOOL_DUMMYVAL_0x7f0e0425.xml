@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/payment_background_selection" android:background="@drawable/expressive_theme_selected_background" android:visibility="invisible" android:layout_width="116.0dip" android:layout_height="74.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405d6="parent" app:APKTOOL_DUMMYVAL_0x7f0405da="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    <androidx.cardview.widget.CardView android:id="@id/payment_background_card_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040144="?APKTOOL_DUMMYVAL_0x7f04034c" app:APKTOOL_DUMMYVAL_0x7f040145="4.0dip" app:APKTOOL_DUMMYVAL_0x7f040146="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <com.gbwhatsapp.WaImageView android:id="@id/background_theme" android:layout_width="112.0dip" android:layout_height="70.0dip" android:scaleType="fitXY" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/retry_download_icon" android:background="@drawable/download_background" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070565" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070564" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/btn_download" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/asset_download_progress" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070567" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070566" android:indeterminate="true" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

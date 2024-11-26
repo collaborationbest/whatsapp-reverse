@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageButton android:id="@id/universal_tool_switch_button" android:background="@drawable/font_item_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070dc5" android:scaleType="fitCenter" android:adjustViewBounds="true" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_color_tool" />
+    <View android:background="@drawable/new_text_entry_divider" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/universal_tool_recycler_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</merge>

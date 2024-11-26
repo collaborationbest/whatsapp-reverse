@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/action_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/APKTOOL_DUMMYVAL_0x7f1507ec" />
+    <com.gbwhatsapp.WaTextView android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_label" style="@style/APKTOOL_DUMMYVAL_0x7f1507ed" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="@null" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_below="@id/title_view" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/GB_Mods" xmlns:robobunny="http://robobunny.com"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/gb_groups">
+        <CheckBoxPreference android:title="@string/hide_read_ticks" android:key="yoHideReadG" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/hide_second_tick" android:key="yoHideReceiptG" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/hide_writing_status" android:key="yoHideComposeG" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/GBHideRecord" android:key="yoHideRecordG" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/GBHidePlay" android:key="yoHidePlayG" android:defaultValue="false" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+</PreferenceScreen>

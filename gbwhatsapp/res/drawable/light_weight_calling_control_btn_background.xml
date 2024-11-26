@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/APKTOOL_DUMMYVAL_0x7f0600d4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060601" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060600" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040630" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:text="@string/APKTOOL_DUMMYVAL_0x7f12086e" android:layout_marginStart="72.0dip" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040630" android:layout_gravity="end|center" android:id="@id/amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/phone_container" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c88"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:id="@id/phone_content" android:background="@drawable/selector_orange_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center|left" android:id="@id/primary_action_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:layout_width="0.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c88" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center|left" android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:layout_gravity="left" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+                <com.gbwhatsapp.WaTextView android:layout_gravity="left" android:id="@id/subtitle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150294" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/contact_info_phone_actions" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@id/primary_action_icon" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121389" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_chat_filled" style="@style/APKTOOL_DUMMYVAL_0x7f15028f" />
+            <com.gbwhatsapp.WaImageView android:id="@id/secondary_action_btn" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1201db" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_call" style="@style/APKTOOL_DUMMYVAL_0x7f15028f" />
+            <com.gbwhatsapp.WaImageView android:id="@id/third_action_btn" android:visibility="gone" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1225e3" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_videocall" style="@style/APKTOOL_DUMMYVAL_0x7f15028f" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+</LinearLayout>

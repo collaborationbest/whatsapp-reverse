@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaFrameLayout android:id="@id/flows_footer_layout" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07056b" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaLinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/footer_with_logo_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="start" android:id="@id/footer_business_logo" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0442" android:inflatedId="@id/footer_logo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705c7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705c7" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07056e" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0705c6" android:ellipsize="end" android:layout_gravity="center" android:id="@id/business_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07056c" android:singleLine="true" android:layout_weight="1.0" />
+        <com.gbwhatsapp.FAQTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0705c6" android:gravity="end" android:layout_gravity="center" android:id="@id/learn_more_faq_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </com.gbwhatsapp.WaLinearLayout>
+    <com.gbwhatsapp.FAQTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0705c6" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/footer_faq_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" />
+</com.gbwhatsapp.WaFrameLayout>

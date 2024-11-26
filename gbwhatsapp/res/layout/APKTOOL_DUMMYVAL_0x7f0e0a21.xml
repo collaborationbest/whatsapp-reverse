@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15043a" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="start|center" android:id="@id/search_hint" android:background="@drawable/prominent_searchbar_text_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070494" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0402de="@drawable/vec_ic_search_24dp" app:APKTOOL_DUMMYVAL_0x7f0402e1="@color/APKTOOL_DUMMYVAL_0x7f06058c" />
+</merge>

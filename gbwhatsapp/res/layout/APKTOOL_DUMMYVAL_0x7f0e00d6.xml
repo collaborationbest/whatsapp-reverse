@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.wds.components.button.WDSButton android:layout_width="0.0dip" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f04000c="calling" app:APKTOOL_DUMMYVAL_0x7f040b41="large" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

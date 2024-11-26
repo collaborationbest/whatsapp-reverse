@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" style="@style/APKTOOL_DUMMYVAL_0x7f15015f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="left" android:id="@id/title_item" android:background="@color/APKTOOL_DUMMYVAL_0x7f0600c8" android:layout_width="80.0dip" android:layout_height="16.0dip" style="BusinessLoadingFilterBarShimmerItem" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/popular_categories_recycler_view" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060ad6" />
+</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="8.0dip" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_contacts_permissions_needed_layout" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/teal_circle" android:padding="60.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/permission_contacts" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040558" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:paddingTop="45.0dip" android:paddingBottom="33.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121aac" style="@style/APKTOOL_DUMMYVAL_0x7f1503d6" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/button_open_permission_settings" android:layout_marginBottom="20.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f121ae6" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+    </LinearLayout>
+</ScrollView>

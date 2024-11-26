@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070529" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/APKTOOL_DUMMYVAL_0x7f0603d3" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070529" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0604a1" android:ellipsize="end" android:id="@id/bloks_error_title_text" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070529" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <LinearLayout android:gravity="end" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070528" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07052b" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06047c" android:id="@id/bloks_error_mute_button" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070529" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MUTE" />
+            <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07052b" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06047c" android:id="@id/bloks_error_view_button" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070529" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07052a" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07052a" android:text="VIEW" android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f07052a" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

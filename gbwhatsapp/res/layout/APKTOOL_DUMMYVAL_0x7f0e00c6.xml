@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+    <com.gbwhatsapp.components.WaSwitchView android:id="@id/notify_new_message_switch_view" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:APKTOOL_DUMMYVAL_0x7f040b06="@string/APKTOOL_DUMMYVAL_0x7f1201b3" whatsapp:APKTOOL_DUMMYVAL_0x7f040b07="?APKTOOL_DUMMYVAL_0x7f0408d7" whatsapp:APKTOOL_DUMMYVAL_0x7f040b08="@string/APKTOOL_DUMMYVAL_0x7f1201b2" whatsapp:APKTOOL_DUMMYVAL_0x7f040b09="?APKTOOL_DUMMYVAL_0x7f0408db" />
+    <com.gbwhatsapp.components.WaSwitchView android:id="@id/auto_hide_switch_view" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:APKTOOL_DUMMYVAL_0x7f040b06="@string/APKTOOL_DUMMYVAL_0x7f122899" whatsapp:APKTOOL_DUMMYVAL_0x7f040b08="@string/APKTOOL_DUMMYVAL_0x7f12289a" />
+</LinearLayout>

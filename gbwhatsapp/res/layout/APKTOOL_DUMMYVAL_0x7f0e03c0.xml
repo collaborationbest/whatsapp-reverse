@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501ee"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/email_logo_shimmer" android:layout_width="112.0dip" android:layout_height="112.0dip" />
+        <View android:background="@drawable/email_text_shimmer" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+        <View android:background="@drawable/email_text_shimmer" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

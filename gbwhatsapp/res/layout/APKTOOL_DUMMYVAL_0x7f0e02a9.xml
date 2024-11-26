@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e032a" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02ab" />
+        </LinearLayout>
+        <ViewStub android:id="@id/suspicious_link_indicator_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09a5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150612" android:layout_gravity="left" android:id="@id/caption" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070120" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070120" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07011e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070349" />
+            <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15060f" />
+            </LinearLayout>
+        </com.gbwhatsapp.components.TextAndDateLayout>
+    </LinearLayout>
+</merge>

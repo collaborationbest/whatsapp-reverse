@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/filter_bottom_sheet" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom|center" android:id="@id/filter_selector" android:background="@color/APKTOOL_DUMMYVAL_0x7f0604e2" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070594" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070595" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070594" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070595" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070593" />
+</FrameLayout>

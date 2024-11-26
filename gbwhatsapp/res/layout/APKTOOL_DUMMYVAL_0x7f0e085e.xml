@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/delete_payments_account_action_upi" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c43" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070c43" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/delete_payments_account_image" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070aac" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070aac" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c2f" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_delete" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070c48" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060a36" android:id="@id/delete_payments_account_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120a88" />
+</LinearLayout>

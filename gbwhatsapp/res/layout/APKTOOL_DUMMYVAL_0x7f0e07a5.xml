@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:text="@string/APKTOOL_DUMMYVAL_0x7f121b91" style="@style/APKTOOL_DUMMYVAL_0x7f1503d8" />
+    <ViewStub android:id="@id/pin_messages_ephemeral_message_disclaimer_view_stub" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07a6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" />
+    <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RadioGroup android:id="@id/expiration_options_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070caa" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" />
+    </ScrollView>
+</LinearLayout>

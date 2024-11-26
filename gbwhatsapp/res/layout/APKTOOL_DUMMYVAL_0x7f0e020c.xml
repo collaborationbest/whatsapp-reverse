@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/bootstrap_animation" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e020d" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaImageView android:id="@id/header_image" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0702b3" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0702b1" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0702b0" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_linked_android" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_indicator" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0702b4" android:layout_height="wrap_content" android:progressTint="?APKTOOL_DUMMYVAL_0x7f0407e5" android:indeterminateTint="?APKTOOL_DUMMYVAL_0x7f0407e5" android:indeterminateTintMode="src_atop" style="?android:progressBarStyleHorizontal" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0702b5" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="4.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f12081c" />
+        <com.gbwhatsapp.WaLinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0706e8" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706e8" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_encryption_lock" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0706e8" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c5e" />
+        </com.gbwhatsapp.WaLinearLayout>
+    </LinearLayout>
+</ScrollView>

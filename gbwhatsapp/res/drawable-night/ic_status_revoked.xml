@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060ca5" />
+        </shape>
+    </item>
+    <item android:left="@dimen/APKTOOL_DUMMYVAL_0x7f070cbe" android:top="@dimen/APKTOOL_DUMMYVAL_0x7f070cbe" android:right="@dimen/APKTOOL_DUMMYVAL_0x7f070cbe" android:bottom="@dimen/APKTOOL_DUMMYVAL_0x7f070cbe">
+        <bitmap android:src="@drawable/ic_attachment_gallery" android:tint="@color/APKTOOL_DUMMYVAL_0x7f060ca1" />
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/fb_ig_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/fb_layout" android:background="@drawable/linked_account_selector" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+        <com.gbwhatsapp.WaImageView android:id="@id/fb_icon" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_facebook" style="@style/APKTOOL_DUMMYVAL_0x7f150288" />
+        <com.gbwhatsapp.WaTextView android:id="@id/fb_likes" style="@style/APKTOOL_DUMMYVAL_0x7f150289" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ig_layout" android:background="@drawable/linked_account_selector" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/ig_icon" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_instagram" style="@style/APKTOOL_DUMMYVAL_0x7f150288" />
+        <com.gbwhatsapp.WaTextView android:id="@id/ig_followers" style="@style/APKTOOL_DUMMYVAL_0x7f150289" />
+    </LinearLayout>
+</LinearLayout>

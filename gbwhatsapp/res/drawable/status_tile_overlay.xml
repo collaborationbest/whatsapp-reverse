@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/APKTOOL_DUMMYVAL_0x7f060cb0" android:endColor="@android:color/transparent" android:angle="270.0" android:type="linear" android:centerY="0.25" android:centerColor="@color/APKTOOL_DUMMYVAL_0x7f060cac" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/APKTOOL_DUMMYVAL_0x7f060cb0" android:endColor="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:angle="90.0" android:type="linear" android:centerY="0.25" android:centerColor="@color/APKTOOL_DUMMYVAL_0x7f060cac" />
+        </shape>
+    </item>
+</layer-list>

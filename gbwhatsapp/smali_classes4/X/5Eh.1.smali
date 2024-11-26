@@ -1,0 +1,70 @@
+.class public abstract LX/5Eh;
+.super LX/1UO;
+.source ""
+
+
+# instance fields
+.field public final A00:LX/0xi;
+
+
+# direct methods
+.method public constructor <init>(LX/0xl;LX/0vo;LX/0z0;LX/1UR;LX/0xi;LX/006;Ljava/lang/String;Ljava/util/Map;LX/004;LX/004;J)V
+    .locals 13
+
+    move-object v1, p0
+
+    move-object v2, p1
+
+    move-object v3, p2
+
+    move-object/from16 v4, p3
+
+    move-object/from16 v5, p4
+
+    move-object/from16 v6, p6
+
+    move-object/from16 v7, p7
+
+    move-object/from16 v8, p8
+
+    move-object/from16 v9, p9
+
+    move-object/from16 v10, p10
+
+    move-wide/from16 v11, p11
+
+    invoke-direct/range {v1 .. v12}, LX/1UO;-><init>(LX/0xl;LX/0vo;LX/0z0;LX/1UR;LX/006;Ljava/lang/String;Ljava/util/Map;LX/004;LX/004;J)V
+
+    move-object/from16 v0, p5
+
+    iput-object v0, p0, LX/5Eh;->A00:LX/0xi;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public A02()Ljava/lang/String;
+    .locals 1
+
+    instance-of v0, p0, LX/5S8;
+
+    if-eqz v0, :cond_0
+
+    const-string v0, "WhatsApp"
+
+    invoke-static {}, Lcom/abuarab/gold/GoldInfo;->insideMedia()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    iget-object v0, p0, LX/5Eh;->A00:LX/0xi;
+
+    invoke-virtual {v0}, LX/0xi;->A03()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/abu3rab_video_player_title">
+        <SwitchPreference android:title="@string/abu3rab_video_player" android:key="abu3rab_media_video_player" android:summary="@string/abu3rab_video_player_sum" android:defaultValue="false" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+</PreferenceScreen>

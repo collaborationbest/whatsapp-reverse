@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/status_pager" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" />
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom|center" android:id="@id/status_pager_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070e19" android:layout_marginTop="16.0dip" android:layout_marginBottom="0.0dip" android:overScrollMode="never" app:APKTOOL_DUMMYVAL_0x7f0409d8="@drawable/tab_dot_selector" app:APKTOOL_DUMMYVAL_0x7f0409da="center" app:APKTOOL_DUMMYVAL_0x7f0409e3="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0409e5="@dimen/APKTOOL_DUMMYVAL_0x7f070e1a" />
+    <ViewStub android:id="@id/updates_contextual_status_and_channel_linked_share_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070322" />
+    <ViewStub android:id="@id/updates_contextual_status_and_channel_unlinked_share_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070322" android:layout_marginBottom="8.0dip" />
+    <ViewStub android:id="@id/updates_contextual_status_and_channel_share_view_next_gen_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09e9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070322" android:layout_marginBottom="8.0dip" />
+</LinearLayout>

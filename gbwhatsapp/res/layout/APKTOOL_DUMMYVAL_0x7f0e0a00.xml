@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.expressionstray.stickergrid.StickersUpsellItemView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0705e3" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0700d0" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0700cf" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0700d0" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070d32" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0705e3" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0700cf" />
+</FrameLayout>

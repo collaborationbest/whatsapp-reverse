@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070bfa"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/contact_selector" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bfe" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bfd">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/contact_row_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070bf9" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bf9" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fb="false" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070c83" />
+        <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/close" android:layout_width="21.0dip" android:layout_height="21.0dip">
+            <com.gbwhatsapp.WaImageView android:background="@drawable/primary_color_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/iv_close" android:background="@drawable/grey_circle" android:layout_width="18.0dip" android:layout_height="18.0dip" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121d58" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_profile_x" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0408b8" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070bfe" android:singleLine="true" />
+</LinearLayout>

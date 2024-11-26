@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/security_description_only_info" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_info_icon" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f122059"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

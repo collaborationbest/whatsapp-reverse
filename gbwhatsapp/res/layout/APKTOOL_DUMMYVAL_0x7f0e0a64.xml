@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/participant_container" style="@style/APKTOOL_DUMMYVAL_0x7f1505f0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/avatar" android:focusable="false" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070c83" style="@style/APKTOOL_DUMMYVAL_0x7f1501a4" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040af7" android:id="@id/name" android:focusable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+    <ViewStub android:id="@id/connect_icon_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a61" android:inflatedId="@id/connect_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+    <ViewStub android:id="@id/ring_btn_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a62" android:inflatedId="@id/ring_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/ringing_dots_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a63" android:inflatedId="@id/ringing_dots" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

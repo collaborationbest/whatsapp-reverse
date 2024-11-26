@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="right" android:layout_gravity="top" android:id="@id/emoji_view" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="230.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/emoji_icons_layout" android:background="?APKTOOL_DUMMYVAL_0x7f040301" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <include android:id="@id/avatar_picker_header" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00e4" />
+        <include android:id="@id/sticker_picker_header" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0976" />
+        <include android:id="@id/gif_picker_header" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0485" />
+        <include android:id="@id/emoji_group_layout" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03c9" />
+        <FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f040300" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <androidx.viewpager.widget.ViewPager android:id="@id/sticker_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <androidx.viewpager.widget.ViewPager android:id="@id/gif_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <androidx.viewpager.widget.ViewPager android:id="@id/avatar_sticker_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:id="@id/fallback_divider" android:background="?APKTOOL_DUMMYVAL_0x7f0400cb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:alpha="0.1" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/emoji_tip" android:background="?APKTOOL_DUMMYVAL_0x7f040300" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer_toolbar_cont">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="bottom" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1220dd" android:lineSpacingMultiplier="1.25" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/all_samples" android:background="@drawable/panel" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.abuarab.gold.ex android:layout_gravity="center|top" android:id="@id/sample_current" android:background="?APKTOOL_DUMMYVAL_0x7f040302" android:padding="8.0dip" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0704f5" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704f5" android:layout_marginTop="8.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="bottom|center|right" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1216a5" style="@style/APKTOOL_DUMMYVAL_0x7f1505ff" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/gif_trending" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="?APKTOOL_DUMMYVAL_0x7f040301" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.whatsapp.infra.gifsearch.controls.AdaptiveRecyclerView android:id="@id/gif_trending_grid" android:background="?APKTOOL_DUMMYVAL_0x7f0404fc" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/footer_toolbar_cont" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ac3" android:layout_alignParentBottom="true">
+        <com.gbwhatsapp.emoji.EmojiPopupFooter android:id="@id/footer_toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f040302" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.abuarab.gold.ex android:layout_gravity="left" android:id="@id/search_button" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122b10" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_search_normal" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609c3" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.abuarab.gold.ex android:layout_gravity="center_vertical" android:id="@id/emoji_tab" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120bde" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_emoticon_selected" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+                <com.abuarab.gold.ex android:layout_gravity="center_vertical" android:id="@id/gif_tab" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120f48" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_gif_normal" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+                <FrameLayout android:id="@id/sticker_tab" android:visibility="gone" android:clipChildren="false" android:layout_width="40.0dip" android:layout_height="fill_parent">
+                    <com.abuarab.gold.ex android:id="@id/sticker_tab_icon" android:layout_width="40.0dip" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1221fa" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_sticker_normal" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+                    <com.abuarab.gold.ex android:layout_gravity="center" android:id="@id/sticker_onboarding_badge" android:visibility="gone" android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/sticker_store_halo_pulse" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/avatar_sticker_tab" android:visibility="gone" android:clipChildren="false" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip">
+                    <com.abuarab.gold.ex android:id="@id/avatar_tab_icon" android:layout_width="40.0dip" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120236" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_avatar_tray_normal" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+                    <com.abuarab.gold.ex android:layout_gravity="center" android:id="@id/avatar_sticker_onboarding_badge" android:visibility="gone" android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/sticker_store_halo_pulse" />
+                </FrameLayout>
+            </LinearLayout>
+            <com.abuarab.gold.ex android:layout_gravity="right" android:id="@id/delete_symbol_tb" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120240" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/emoji_x" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+            <FrameLayout android:layout_gravity="right" android:id="@id/store_button_view" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.abuarab.gold.ex android:layout_gravity="right" android:id="@id/store_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1221e6" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_add_sticker_pack" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609c3" style="@style/APKTOOL_DUMMYVAL_0x7f150006" />
+                <View android:layout_gravity="center|right|top" android:id="@id/store_badge" style="@style/APKTOOL_DUMMYVAL_0x7f1503c9" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="right" android:id="@id/avatar_edit_button_bottom" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.abuarab.gold.ex android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_edit" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060a80" />
+                <View android:layout_gravity="center|right|top" android:id="@id/avatar_home_badge" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1503c9" />
+            </FrameLayout>
+        </com.gbwhatsapp.emoji.EmojiPopupFooter>
+    </FrameLayout>
+    <FrameLayout android:id="@id/gif_trending_additions" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer_toolbar_cont">
+        <View android:id="@id/hbe" android:background="?APKTOOL_DUMMYVAL_0x7f040301" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0400d1" android:gravity="center" android:layout_gravity="center" android:id="@id/no_results" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120f4b" />
+        <FrameLayout android:id="@id/progress_container" android:background="?APKTOOL_DUMMYVAL_0x7f0404fc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:id="@id/gif_trending_progress" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        </FrameLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e048a" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/avatar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer_toolbar_cont">
+        <View android:background="?APKTOOL_DUMMYVAL_0x7f040301" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </FrameLayout>
+</RelativeLayout>

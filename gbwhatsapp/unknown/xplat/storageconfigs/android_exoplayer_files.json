@@ -1,0 +1,11 @@
+{
+  "type": "path",
+  "oncall": "android_playback_triage",
+  "path": {
+    "name": "ExoPlayerCacheDir",
+    "location": "PERSISTENT_FILES"
+  },
+  "privacy": "NOT_SCOPED",
+  "name": "android_exoplayer_files",
+  "id": 189418750
+}

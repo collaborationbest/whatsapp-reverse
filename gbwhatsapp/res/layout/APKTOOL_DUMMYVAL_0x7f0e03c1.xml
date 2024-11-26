@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/email_verification_shimmer_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03c0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/email_verification_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.WaImageView android:id="@id/email_verification_logo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0704ed" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704ec" android:src="@drawable/wds_picto_email" />
+                <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center_horizontal" android:id="@id/email_verification_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:text="@string/APKTOOL_DUMMYVAL_0x7f120b9f" style="@style/APKTOOL_DUMMYVAL_0x7f150644" />
+                <ViewStub android:id="@id/email_row_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03bf" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/verified_state_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a0b" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/unverified_state_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09df" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <ViewStub android:id="@id/add_email_btn_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e009b" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

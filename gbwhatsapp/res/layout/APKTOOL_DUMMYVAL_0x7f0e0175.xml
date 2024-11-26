@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/mainInfoContainer" android:background="@drawable/rounded_corner_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/no_video_available_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="fitCenter" android:layout_marginEnd="16.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_voip_switch_to_voice_control" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060d47" />
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c9e" android:layout_gravity="center" android:id="@id/additional_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1204ef" />
+    </LinearLayout>
+</FrameLayout>

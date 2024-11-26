@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070559" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070559"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c5c" android:gravity="center" android:layout_gravity="center" android:id="@id/more_sticker_count" android:background="@drawable/sticker_pack_more_ripple" android:focusable="true" android:clickable="true" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a62" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a62" style="@style/APKTOOL_DUMMYVAL_0x7f150645" />
+</FrameLayout>

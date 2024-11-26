@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:state_pressed="false">
+        <layer-list>
+            <item android:gravity="bottom">
+                <shape>
+                    <size android:height="@dimen/APKTOOL_DUMMYVAL_0x7f07028c" />
+                    <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f0602a0" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

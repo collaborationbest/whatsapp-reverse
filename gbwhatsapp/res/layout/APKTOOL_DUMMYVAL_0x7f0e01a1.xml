@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.MainChildCoordinatorLayout android:id="@id/camera_coordinator" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0406ad="@id/bottom_sheet"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/gradient" android:background="@drawable/camera_gradient" android:layout_width="fill_parent" android:layout_height="126.0dip" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/bottom_sheet" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0400c3="@dimen/APKTOOL_DUMMYVAL_0x7f0709b0" app:APKTOOL_DUMMYVAL_0x7f0405bb="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <FrameLayout android:id="@id/gallery_container" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/drag_gallery_strip_layout" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0704c5" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704c4">
+            <com.gbwhatsapp.camera.DragGalleryStripIndicator android:id="@id/drag_gallery_strip_indicator" android:padding="4.0dip" android:visibility="invisible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0704c3" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704c2" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/gallery_strip_container" android:focusable="false" android:clickable="false" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="72.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/recent_media" android:layout_width="fill_parent" android:layout_height="72.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.camera.CameraActionsLayout android:id="@id/camera_actions" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+        <com.gbwhatsapp.camera.mode.CameraModeTabLayout android:id="@id/camera_mode_tab_layout" android:background="@color/APKTOOL_DUMMYVAL_0x7f060153" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0701cd" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0701cd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c3="@id/camera_actions" app:APKTOOL_DUMMYVAL_0x7f0409dd="@drawable/camera_tab_selected_background" app:APKTOOL_DUMMYVAL_0x7f0409e0="?APKTOOL_DUMMYVAL_0x7f04013e" app:APKTOOL_DUMMYVAL_0x7f0409e2="center" app:APKTOOL_DUMMYVAL_0x7f0409e3="@dimen/APKTOOL_DUMMYVAL_0x7f0701cb" app:APKTOOL_DUMMYVAL_0x7f0409e7="scrollable" app:APKTOOL_DUMMYVAL_0x7f0409ed="@null" app:APKTOOL_DUMMYVAL_0x7f0409f0="@color/APKTOOL_DUMMYVAL_0x7f060d3e" app:APKTOOL_DUMMYVAL_0x7f0409f2="@style/APKTOOL_DUMMYVAL_0x7f150174" app:APKTOOL_DUMMYVAL_0x7f0409f3="@color/APKTOOL_DUMMYVAL_0x7f060d76" />
+        <com.gbwhatsapp.camera.recording.RecordingView android:id="@id/recording_view" android:background="@drawable/camera_info_background" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:APKTOOL_DUMMYVAL_0x7f0405d6="parent" app:APKTOOL_DUMMYVAL_0x7f0405da="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="@id/camera_actions" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a5" />
+</com.gbwhatsapp.components.MainChildCoordinatorLayout>

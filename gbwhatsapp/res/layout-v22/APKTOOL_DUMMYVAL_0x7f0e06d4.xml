@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:id="@id/newsletter_info_similar_newsletters_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15025a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" style="@style/APKTOOL_DUMMYVAL_0x7f150236">
+        <com.gbwhatsapp.WaTextView android:ellipsize="end" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:text="@string/APKTOOL_DUMMYVAL_0x7f1220d5" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" style="@style/APKTOOL_DUMMYVAL_0x7f15023a" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/newsletter_info_similar_newsletters_shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/newsletter_info_similar_newsletters_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_marginVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" app:APKTOOL_DUMMYVAL_0x7f0405b7="androidx.recyclerview.widget.LinearLayoutManager" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

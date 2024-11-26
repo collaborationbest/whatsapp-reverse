@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f15055c" android:id="@id/appbar" android:background="@drawable/disclosure_fragment_curved_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0402fb="0.0dip">
+                <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070491" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070492" app:APKTOOL_DUMMYVAL_0x7f0402d0="gone" app:APKTOOL_DUMMYVAL_0x7f04070f="@string/APKTOOL_DUMMYVAL_0x7f12294c" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07048a" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07048a" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07048a" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ViewStub android:layout_gravity="center" android:id="@id/privacy_disclosure_head_icon_view_stub" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07048d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07048d" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07048f" />
+                <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070490" style="@style/APKTOOL_DUMMYVAL_0x7f150329" />
+                <com.gbwhatsapp.TextEmojiLabel android:gravity="center" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070481" style="@style/APKTOOL_DUMMYVAL_0x7f150325" />
+                <LinearLayout android:orientation="vertical" android:id="@id/privacy_disclosure_bullets" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07048a" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07048a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07048b" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07048b">
+        <com.gbwhatsapp.TextEmojiLabel android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07048b" android:lineSpacingExtra="3.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f150328" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070ea3" android:id="@id/button_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070ea3" android:id="@id/button_secondary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070488" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070489" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe" />
+    </LinearLayout>
+</merge>

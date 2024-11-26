@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070069">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="start|center" android:id="@id/replies_close_button" android:background="?APKTOOL_DUMMYVAL_0x7f0408b3" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1228e8" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06058c" />
+        <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150152" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/replies_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07027d" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07027d" android:text="@string/APKTOOL_DUMMYVAL_0x7f1207ae" />
+    </FrameLayout>
+    <View android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" style="@style/APKTOOL_DUMMYVAL_0x7f150366" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/comments_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/comments_bottom_sheet_disabled_input_disclaimer" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01ec" android:inflatedId="@id/comments_bottom_sheet_disabled_input_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0262" />
+</LinearLayout>

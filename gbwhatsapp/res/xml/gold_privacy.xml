@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_privacy1" android:summary="@string/yoPrivacySum"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/hide_online_status" android:key="stat_cat">
+        <SwitchPreference android:title="@string/yoHideSeen" android:key="yoHideSeen" android:summary="@string/yoHideSeenSum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/mod_ghost" android:key="ghost_mod" android:summary="@string/mod_ghost_sum" android:defaultValue="false" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/settings_privacy1" android:key="stat_cat">
+        <Preference android:title="@string/gb_contacts" android:key="cat_pc" android:summary="@string/change_privacy_settings" />
+        <Preference android:title="@string/gb_groups" android:key="cat_pg" android:summary="@string/change_privacy_settings" />
+        <Preference android:title="@string/specificPrivacy" android:key="yoCustomPrivList" android:summary="@string/yoViewAll" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/alex_calls" android:key="stat_cat">
+        <Preference android:title="@string/whocancall" android:key="yoCallsPrivacy" android:summary="@string/privacy_everyone" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/chats">
+        <SwitchPreference android:title="@string/yoDisableFwd" android:key="yoDisableFwd" android:summary="@string/yoDisableFwdS" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoAntiRevoke" android:key="yoAntiRevoke" android:summary="@string/yoAntiRevokeS" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/antiviewonce" android:key="anti_vw_once" android:summary="@string/antiviewonceS" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoBlueOnReply" android:key="yoBlueOnReply" android:summary="@string/yoBlueOnReplyS" android:defaultValue="false" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/statuses" android:key="stat_cat">
+        <SwitchPreference android:title="@string/yoHideStatusView" android:key="yoHideStatViewV2" android:summary="@string/yoHideStatusViewSum" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoAntiRevokeStatus" android:key="yoAntiRevokeStatus" android:summary="@string/yoAntiRevokeStatusS" android:defaultValue="true" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+</PreferenceScreen>

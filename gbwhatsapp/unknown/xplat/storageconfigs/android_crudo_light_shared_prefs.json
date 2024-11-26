@@ -1,0 +1,13 @@
+{
+  "type": "path",
+  "oncall": "mobile_storage_infra",
+  "path": {
+    "name": "light_prefs",
+    "location": "PERSISTENT_ROOT"
+  },
+  "privacy": "NOT_SCOPED",
+  "description": "light shared preferences",
+  "used_in_early_startup": true,
+  "name": "android_crudo_light_shared_prefs",
+  "id": 1239662554
+}

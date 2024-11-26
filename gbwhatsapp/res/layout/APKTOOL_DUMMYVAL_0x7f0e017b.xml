@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingBottom="24.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="200.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/cancel_call_back" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/cancel_call_back_btn" android:background="@drawable/decline_call_background" android:layout_width="58.0dip" android:layout_height="58.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1228d6" app:APKTOOL_DUMMYVAL_0x7f040097="@color/APKTOOL_DUMMYVAL_0x7f060d59" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_call_cancel" />
+        <com.gbwhatsapp.WaTextView android:textSize="11.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d5e" android:gravity="center" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1228d6" android:alpha="0.7" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <ViewStub android:id="@id/message" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e017c" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/call_back" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/call_back_btn" android:background="@drawable/ic_call_accept_voice" android:layout_width="58.0dip" android:layout_height="58.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122a65" />
+        <com.gbwhatsapp.WaTextView android:textSize="11.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d5e" android:gravity="center_horizontal" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122a65" android:alpha="0.7" android:importantForAccessibility="no" />
+    </LinearLayout>
+</LinearLayout>

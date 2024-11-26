@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.MaxHeightLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.wds.components.textlayout.WDSTextLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/about_bottom_sheet_fragment" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070069" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center" app:APKTOOL_DUMMYVAL_0x7f0404da="content_end" app:APKTOOL_DUMMYVAL_0x7f040518="@drawable/wds_picto_third_party_chats_android" app:APKTOOL_DUMMYVAL_0x7f0405b8="view" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</com.gbwhatsapp.components.MaxHeightLinearLayout>

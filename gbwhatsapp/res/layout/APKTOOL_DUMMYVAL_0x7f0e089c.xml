@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705e1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.stickers.StickerView android:gravity="center" android:layout_gravity="center" android:id="@id/fun_sticker_image_view" android:background="@drawable/search_fun_stickers_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705e1" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705e1" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:id="@id/shimmer_row_view" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122a56" android:importantForAccessibility="yes" app:APKTOOL_DUMMYVAL_0x7f040910="2000">
+        <View android:background="@drawable/shimmer_fun_stickers_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

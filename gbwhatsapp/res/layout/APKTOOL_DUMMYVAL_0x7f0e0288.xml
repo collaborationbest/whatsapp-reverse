@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/feedback_positive" android:background="@drawable/bonsai_conversation_row_bot_inline_feedback_background" android:padding="12.0dip" android:layout_width="56.0dip" android:layout_height="40.0dip" android:tint="@color/APKTOOL_DUMMYVAL_0x7f0600e9" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_positive_bot_feedback" />
+    <com.gbwhatsapp.WaImageView android:id="@id/feedback_negative" android:background="@drawable/bonsai_conversation_row_bot_inline_feedback_background" android:padding="12.0dip" android:layout_width="56.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:tint="@color/APKTOOL_DUMMYVAL_0x7f0600e9" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_negative_bot_feedback" />
+</LinearLayout>

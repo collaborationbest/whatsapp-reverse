@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e032a" />
+        <FrameLayout android:id="@id/media_container" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f0703f0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <view android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" class="com.whatsapp.conversation.conversationrow.ConversationRowImage$RowImageView" />
+            <ViewStub android:layout_gravity="bottom|center|left" android:id="@id/hd_icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04d4" android:inflatedId="@id/hd_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="2.0dip" />
+            <FrameLayout android:layout_gravity="center" android:id="@id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ViewStub android:layout_gravity="center" android:id="@id/progress_bar" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01da" android:inflatedId="@id/progress_bar" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+                <ViewStub android:layout_gravity="center" android:id="@id/cancel_download" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a7" android:inflatedId="@id/cancel_download" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/control_btn" style="@style/APKTOOL_DUMMYVAL_0x7f1501bf" />
+            </FrameLayout>
+        </FrameLayout>
+        <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150612" android:layout_gravity="left" android:id="@id/caption" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070120" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070120" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07011e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/newsletter_message_view_count" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06de" android:inflatedId="@id/newsletter_message_view_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.gbwhatsapp.WaTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040258" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150611" />
+                <com.gbwhatsapp.WaImageView android:id="@id/status" android:paddingLeft="4.0dip" android:layout_width="19.0dip" android:layout_height="10.0dip" android:scaleType="center" />
+            </LinearLayout>
+        </com.gbwhatsapp.components.TextAndDateLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/play_frame_without_save" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/play_button_without_save" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/ic_search_web" />
+    </FrameLayout>
+</merge>

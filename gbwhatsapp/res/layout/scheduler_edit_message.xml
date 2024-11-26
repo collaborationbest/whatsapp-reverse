@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="@color/actionBar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="300.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapseActionView" android:background="@color/actionBar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.Toolbar android:id="@id/open_chat_toolbar" android:background="@color/actionBar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.cardview.widget.CardView android:id="@id/message_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" app:APKTOOL_DUMMYVAL_0x7f040145="8.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/input_layout_message" android:background="@color/white" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/edit_schedule_message" android:background="@android:color/transparent" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/txtText" android:lines="4" android:lineSpacingExtra="2.0dip" android:inputType="textMultiLine" android:importantForAutofill="no" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <com.gbwhatsapp.wds.components.fab.WDSFab android:textColor="@android:color/white" android:id="@id/msg_to_edit_btn" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:tint="@color/white" android:text="@string/open_chat_btn" android:layout_marginEnd="20.0dip" android:backgroundTint="@color/actionBar" app:APKTOOL_DUMMYVAL_0x7f04057c="@id/message_container" app:APKTOOL_DUMMYVAL_0x7f0405ba="bottom|center|right" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

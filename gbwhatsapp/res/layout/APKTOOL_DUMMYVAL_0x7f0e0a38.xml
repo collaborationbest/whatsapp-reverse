@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" android:scaleType="fitStart" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121353" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/important_message" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040ab3" xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/side_bar_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <ViewStub android:id="@id/side_bar_button_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070db3" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070db3" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_see_more_details" android:title="@string/APKTOOL_DUMMYVAL_0x7f122af6" app:APKTOOL_DUMMYVAL_0x7f040923="never" />
+</menu>

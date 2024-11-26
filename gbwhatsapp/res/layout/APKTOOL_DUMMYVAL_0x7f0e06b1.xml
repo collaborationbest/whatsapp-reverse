@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/actions_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15025a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/vcards_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07066f" android:text="@string/APKTOOL_DUMMYVAL_0x7f122588" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/mute_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_settings_notification" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f12135b" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/auto_delete_media_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/vec_ic_auto_delete" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f1201f8" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

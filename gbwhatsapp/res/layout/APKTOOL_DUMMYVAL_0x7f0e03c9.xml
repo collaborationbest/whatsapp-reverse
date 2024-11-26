@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/emoji_group_layout" android:background="?APKTOOL_DUMMYVAL_0x7f040300" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_recent_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_recent" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_recent_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_people_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_people" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_people_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_nature_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_nature" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_nature_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_food_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_food" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_food_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_activity_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_activity" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_activity_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_travel_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_travel" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_travel_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_objects_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_objects" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_objects_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_symbols_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_symbols" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_symbols_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/bg_del" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.abuarab.gold.ex android:id="@id/emoji_flags_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/selector_emoji_flags" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0609f3" />
+            <View android:layout_gravity="bottom" android:id="@id/emoji_flags_marker" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

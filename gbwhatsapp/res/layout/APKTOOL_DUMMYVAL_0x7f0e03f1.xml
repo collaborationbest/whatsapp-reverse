@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="top" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f1b" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f1b" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_calendar" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06058c" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@id/event_info_date" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150642" />
+            <ViewStub android:id="@id/event_add_to_calendar" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03f0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/event_info_location_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0401" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" />
+    <ViewStub android:id="@id/event_info_call_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03fc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" />
+    <View android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" style="@style/APKTOOL_DUMMYVAL_0x7f150366" />
+</LinearLayout>

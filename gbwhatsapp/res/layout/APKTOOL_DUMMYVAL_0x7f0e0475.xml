@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/gallery_selected_container" android:background="@color/APKTOOL_DUMMYVAL_0x7f0604f7" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f0705ed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/gallery_selected_media" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageButton android:layout_gravity="center_vertical" android:id="@id/gallery_done_btn" android:background="@drawable/input_circle" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705ec" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705ec" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121327" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f0705ed" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_done" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040558" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/shops_container" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070666" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070666"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/shop_product_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" />
+</LinearLayout>

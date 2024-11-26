@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/status_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150259"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f150236">
+            <com.gbwhatsapp.WaTextView android:id="@id/status_and_phone_title" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:text="@string/APKTOOL_DUMMYVAL_0x7f1208a7" style="@style/APKTOOL_DUMMYVAL_0x7f150239" />
+        </FrameLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0232" />
+        <View android:id="@id/status_separator" style="@style/APKTOOL_DUMMYVAL_0x7f150238" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e022f" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

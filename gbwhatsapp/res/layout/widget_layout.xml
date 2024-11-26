@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/z_widget_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/header" android:background="#b3202c33" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/logo" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/alex_widget_user" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip">
+            <TextView android:textSize="0.0sp" android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GBWhatsApp Pro" style="@style/TitleTextStyle" />
+            <TextView android:textSize="20.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GBWhatsApp Pro" style="@style/TitleTextStyle" />
+            <TextView android:textSize="17.0sp" android:ellipsize="end" android:id="@id/subtitle" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Online" android:singleLine="true" style="@style/TitleTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:layout_gravity="end|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageButton android:textColor="@color/white" android:id="@id/hideseen" android:background="@drawable/online_offline_icon_bg" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginStart="12.0dip" />
+            <ImageButton android:textColor="@color/white" android:id="@id/GBPreference" android:background="@drawable/wdg_mods" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginStart="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

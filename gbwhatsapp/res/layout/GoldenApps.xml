@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/screen_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="downWaGoldLink" android:layoutDirection="ltr">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="38.0dip" android:layout_height="fill_parent" android:src="@drawable/addons_stickers" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="GBStickers" android:paddingEnd="0.0dip" style="@style/GoldSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@id/logo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0704ed" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0704ec" android:src="@drawable/wds_picto_email" />
+            <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060959" android:gravity="center_horizontal" android:id="@id/add_email_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" style="@style/APKTOOL_DUMMYVAL_0x7f150649" />
+            <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center_horizontal" android:id="@id/add_email_description_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150644" />
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/add_email_button" android:layout_width="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/skip_email_button" android:layout_width="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b52" style="@style/APKTOOL_DUMMYVAL_0x7f150604" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070559"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/shape_sticker" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070558" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070558" android:scaleType="fitCenter" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12296a" />
+</FrameLayout>

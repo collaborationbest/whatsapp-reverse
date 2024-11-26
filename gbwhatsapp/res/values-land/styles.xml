@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f1506b9" parent="@style/APKTOOL_DUMMYVAL_0x7f150115">
+        <item name="APKTOOL_DUMMYVAL_0x7f0409da">center</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0409e7">fixed</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15079f" parent="@style/APKTOOL_DUMMYVAL_0x7f1506ab">
+        <item name="android:textAppearance">?APKTOOL_DUMMYVAL_0x7f040a18</item>
+        <item name="android:textColor">?APKTOOL_DUMMYVAL_0x7f0401dc</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/APKTOOL_DUMMYVAL_0x7f0c0033</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1507a2" parent="@style/APKTOOL_DUMMYVAL_0x7f15012d">
+        <item name="android:layout_gravity">start|bottom|center</item>
+    </style>
+</resources>

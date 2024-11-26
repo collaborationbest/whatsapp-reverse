@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rta_messages_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060ad6" app:APKTOOL_DUMMYVAL_0x7f0405b7="androidx.recyclerview.widget.LinearLayoutManager" />
+    <ViewStub android:id="@id/rta_messages_empty_state" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0862" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/rta_messages_search_progress" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0863" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="top" android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f122bc6" />
+    <View android:layout_gravity="bottom" android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f122bc5" />
+</FrameLayout>

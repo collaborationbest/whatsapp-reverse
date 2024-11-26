@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@id/device_image" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/device_list_ic_unknown_browser" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/device_name_container" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/device_name_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120b83" android:lineSpacingExtra="3.0sp" />
+                <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:lineSpacingExtra="2.0sp" />
+            </LinearLayout>
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/device_name_edit_btn" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="4.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_edit" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060a2d" />
+        </LinearLayout>
+        <View style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120b81" />
+        <LinearLayout android:id="@id/status_container" style="@style/APKTOOL_DUMMYVAL_0x7f1501df">
+            <com.gbwhatsapp.WaImageView android:id="@id/status_icon" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_business_hours" style="@style/APKTOOL_DUMMYVAL_0x7f1501e0" />
+            <com.gbwhatsapp.WaTextView android:id="@id/status_text" style="@style/APKTOOL_DUMMYVAL_0x7f1501e1" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/platform_container" style="@style/APKTOOL_DUMMYVAL_0x7f1501df">
+            <com.gbwhatsapp.WaImageView android:id="@id/platform_icon" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_settings_roaming" style="@style/APKTOOL_DUMMYVAL_0x7f1501e0" />
+            <com.gbwhatsapp.WaTextView android:id="@id/platform_text" style="@style/APKTOOL_DUMMYVAL_0x7f1501e1" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/location_container" style="@style/APKTOOL_DUMMYVAL_0x7f1501df">
+            <com.gbwhatsapp.WaImageView android:id="@id/location_icon" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_current_location" style="@style/APKTOOL_DUMMYVAL_0x7f1501e0" />
+            <com.gbwhatsapp.WaTextView android:id="@id/location_text" style="@style/APKTOOL_DUMMYVAL_0x7f1501e1" />
+        </LinearLayout>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/log_out_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212d5" style="@style/APKTOOL_DUMMYVAL_0x7f150602" />
+    </LinearLayout>
+</ScrollView>

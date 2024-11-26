@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/favorites_menu_group">
+        <item android:icon="@drawable/menu_favorites_edit" android:id="@id/edit_favorites" android:orderInCategory="100" android:title="@string/APKTOOL_DUMMYVAL_0x7f122a59" app:APKTOOL_DUMMYVAL_0x7f040923="always" />
+    </group>
+    <item android:icon="@drawable/ic_person_add" android:id="@id/add_favorites" android:orderInCategory="200" android:title="@string/APKTOOL_DUMMYVAL_0x7f122a57" app:APKTOOL_DUMMYVAL_0x7f040923="always" />
+</menu>

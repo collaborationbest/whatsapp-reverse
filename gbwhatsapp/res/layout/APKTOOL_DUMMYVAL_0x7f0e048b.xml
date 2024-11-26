@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/gif_expressions_tab_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0705f9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.whatsapp.infra.gifsearch.controls.AdaptiveRecyclerView android:id="@id/search_result_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/gifs_search_no_results" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f0400d1" android:gravity="center" android:layout_gravity="center" android:id="@id/gifs_no_results_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120d90" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0400d1" android:layout_gravity="center" android:id="@id/gifs_tab_try_again_view" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120d93" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/progress_container_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705f7">
+            <ProgressBar android:layout_gravity="center" android:id="@id/gif_trending_progress_bar" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        </FrameLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e048a" />
+    </FrameLayout>
+</LinearLayout>

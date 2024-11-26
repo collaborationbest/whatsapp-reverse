@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.wds.components.banners.WDSBanner android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0402b5="@string/APKTOOL_DUMMYVAL_0x7f122158" app:APKTOOL_DUMMYVAL_0x7f04051c="@string/APKTOOL_DUMMYVAL_0x7f122157" style="@style/APKTOOL_DUMMYVAL_0x7f150619"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

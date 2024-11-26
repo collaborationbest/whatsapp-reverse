@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/conversation_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.settings.chat.wallpaper.WallPaperView android:id="@id/placeholder_background" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.28" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/image_placeholder" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070644" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070644" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_chat_placeholder" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07036d" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06057c" android:gravity="center" android:id="@id/txt_home_placeholder_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07036c" android:text="@string/APKTOOL_DUMMYVAL_0x7f120972" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07036a">
+        <com.gbwhatsapp.WaImageView android:id="@id/e2ee_description_image" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_home_placeholder_lock" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07036b" android:gravity="center_horizontal" android:id="@id/txt_home_placeholder_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0704cc" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0704cd" android:text="@string/APKTOOL_DUMMYVAL_0x7f120971" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/call_notification_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/divider" android:background="?APKTOOL_DUMMYVAL_0x7f04096d" android:layout_width="1.0px" android:layout_height="fill_parent" />
+</FrameLayout>

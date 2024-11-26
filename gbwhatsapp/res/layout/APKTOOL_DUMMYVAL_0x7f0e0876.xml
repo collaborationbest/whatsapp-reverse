@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/review_and_cancel_container" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/review_and_cancel_divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040606" android:layout_gravity="center" android:id="@id/review_and_cancel" android:paddingLeft="10.0dip" android:paddingTop="9.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121993" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+</LinearLayout>

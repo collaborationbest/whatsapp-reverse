@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:id="@id/toggle_container" android:background="@drawable/action_button_background_circle" android:padding="8.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="8.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/bar_progress" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminate="true" android:indeterminateTint="@color/APKTOOL_DUMMYVAL_0x7f060981" android:indeterminateTintMode="src_atop" />
+    <com.gbwhatsapp.WaImageView android:id="@id/bar_toggle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_overflow_key" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060981" />
+</androidx.appcompat.widget.LinearLayoutCompat>

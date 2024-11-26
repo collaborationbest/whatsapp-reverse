@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:ellipsize="end" android:gravity="start" android:id="@id/search_row_poll_name" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405fe="17.0sp" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:ellipsize="end" android:gravity="end" android:id="@id/search_row_poll_options" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405fe="17.0sp" />
+</merge>

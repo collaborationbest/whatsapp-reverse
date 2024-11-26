@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.navigationrail.NavigationRailView android:theme="@style/APKTOOL_DUMMYVAL_0x7f1504fd" android:id="@id/nav_rail" android:layout_width="wrap_content" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040519="@layout/APKTOOL_DUMMYVAL_0x7f0e04df" app:APKTOOL_DUMMYVAL_0x7f0405a6="unlabeled" app:APKTOOL_DUMMYVAL_0x7f0406c2="center" style="@style/APKTOOL_DUMMYVAL_0x7f15065d" />
+    <View android:background="?APKTOOL_DUMMYVAL_0x7f04070d" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="?APKTOOL_DUMMYVAL_0x7f040b6b" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/whatsapp_doodle" android:tint="?APKTOOL_DUMMYVAL_0x7f040b6c" />
+    </item>
+</layer-list>

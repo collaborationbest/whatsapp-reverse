@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/custom_view" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070331" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070331" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070332" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0251" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e024e" />
+</RelativeLayout>

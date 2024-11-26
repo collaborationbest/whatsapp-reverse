@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/APKTOOL_DUMMYVAL_0x7f1502e6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/list_items_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/divider" android:background="@color/APKTOOL_DUMMYVAL_0x7f06025d" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/account_1" android:layout_width="fill_parent" android:layout_height="56.0dip" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0523" />
+        <View android:id="@id/divider_2" android:background="@color/APKTOOL_DUMMYVAL_0x7f06025d" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+        <include android:id="@id/account_2" android:layout_width="fill_parent" android:layout_height="56.0dip" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0523" />
+        <View android:id="@id/divider_3" android:background="@color/APKTOOL_DUMMYVAL_0x7f06025d" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

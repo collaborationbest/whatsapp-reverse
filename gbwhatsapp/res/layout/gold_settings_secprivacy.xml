@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/screen_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="settings_general"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/gold_toolbar" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.abuarab.gold.font_text android:text="@string/settings_privacy1" style="@style/GoldSettings_row_title" />
+            <com.abuarab.gold.ScrollListView android:id="@android:id/list" android:paddingLeft="@dimen/info_screen_padding" android:paddingRight="@dimen/info_screen_padding" android:paddingBottom="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@drawable/divider_gray" android:layout_weight="1.0" android:paddingStart="@dimen/info_screen_padding" android:paddingEnd="@dimen/info_screen_padding" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.abuarab.gold.font_text android:text="@string/settings_security" style="@style/GoldSettings_row_title" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/id4" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.abuarab.gold.settings.Icon android:id="@id/id3" android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/AGLock" android:scaleType="fitCenter" />
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0">
+                    <Switch android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/checkbox" android:tag="applockV2" android:paddingLeft="@dimen/settings_row_horizontal_padding" android:paddingTop="@dimen/info_screen_padding" android:paddingRight="@dimen/settings_row_horizontal_padding" android:paddingBottom="@dimen/info_screen_card_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Lock" android:paddingStart="@dimen/settings_row_horizontal_padding" android:paddingEnd="@dimen/settings_row_horizontal_padding" />
+                    <RadioGroup android:id="@id/checkbox_area" android:tag="lock_typeV2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_list_padding_top">
+                        <RadioButton android:id="@id/action_btn_1" android:tag="Fingerprint" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/locktype_fingerprint" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                        <RadioButton android:id="@id/action_btn_2" android:tag="Pattern" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/locktype_pattern" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                        <RadioButton android:id="@id/action_btn_3" android:tag="PIN" android:padding="@dimen/list_row_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/locktype_pin" android:layout_marginStart="@dimen/settings_icon_margin_end" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:id="@id/modPassword" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:id="@id/id4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.abuarab.gold.settings.Icon android:id="@id/id13" android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/ChangeP" android:scaleType="fitCenter" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/id4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <com.abuarab.gold.font_text android:text="@string/ChangeP" style="@style/GoldSettings_row" />
+                        <com.abuarab.gold.font_text android:text="@string/ChangePS" style="@style/GoldSettings_row_subtitle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/set_wallpaper_button" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.abuarab.gold.settings.Icon android:id="@id/id5" android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/changeLPW" android:scaleType="fitCenter" />
+                <com.abuarab.gold.font_text android:text="@string/changeLPW" style="@style/GoldSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id8" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.abuarab.gold.settings.Icon android:id="@id/id7" android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/pat_invisible" android:scaleType="fitCenter" />
+                <Switch android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/button1" android:tag="pattern_invisible" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pat_invisible" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id9" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.abuarab.gold.settings.Icon android:id="@id/id10" android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/pat_disableVibration" android:scaleType="fitCenter" />
+                <Switch android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/button2" android:tag="pattern_novibration" android:padding="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pat_disableVibration" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="priv_reset">
+                <com.abuarab.gold.font_text android:text="@string/resetPriv" style="@style/GoldSettings_row" />
+                <com.abuarab.gold.font_text android:text="@string/resetPrivSum" style="@style/GoldSettings_row_subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

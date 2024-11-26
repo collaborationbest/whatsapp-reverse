@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/acj_actionbar" android:key="ModChatColor" android:summary="@string/acj_chat_actionbar_sum" />
+    <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="ModChatColor_GCDir" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="ModChatColor_GC" />
+    <SwitchPreference android:title="@string/yoProfilePic" android:key="PicProf" android:summary="@string/yoProfilePicS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoHideProfileName" android:key="NameProf" android:summary="@string/yoHideProfileNameS" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoCallBtn" android:key="Conv_call_btn" android:summary="@string/yoCallBtnSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoContactStatus" android:key="statuschat" android:summary="@string/yoContactStatusSum" android:defaultValue="false" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/contactstatusC" android:key="ModChatGStatusB" android:summary="@string/contactstatusCSB" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/contactstatusTC" android:key="ModChatGStatusT" android:summary="@string/contactstatusCS" />
+    <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="ModChatGStatusT_GCDir" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="ModChatGStatusT_GC" />
+    <ListPreference android:entries="@array/conversation_style_toolbar" android:title="@string/yocent" android:key="convostyle" android:summary="@string/yocentS" android:entryValues="@array/conversation_style_toolbar_values" />
+</PreferenceScreen>

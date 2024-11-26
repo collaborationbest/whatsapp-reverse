@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:id="@id/control_button_container" android:layout_width="32.0dip" android:layout_height="32.0dip">
+        <com.gbwhatsapp.WaImageButton android:gravity="center" android:id="@id/control_btn" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122aea" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/inline_audio_play" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060076" />
+        <ViewStub android:layout_gravity="center" android:id="@id/progress_bar" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01d7" android:inflatedId="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/controls" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.conversation.waveforms.VoiceVisualizer android:layout_gravity="center_vertical" android:id="@id/audio_visualizer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="24.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f0407fb="@color/APKTOOL_DUMMYVAL_0x7f060b37" whatsapp:APKTOOL_DUMMYVAL_0x7f0408ae="@color/APKTOOL_DUMMYVAL_0x7f060b38" whatsapp:APKTOOL_DUMMYVAL_0x7f0408af="4.799988dip" whatsapp:APKTOOL_DUMMYVAL_0x7f0408b0="2.5dip" />
+        <com.gbwhatsapp.voicerecorder.VoiceNoteSeekBar android:layout_gravity="center_vertical" android:id="@id/audio_seekbar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" whatsapp:APKTOOL_DUMMYVAL_0x7f040ad6="12.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f040ad7="3.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1505e8" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:id="@id/fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/contacts_perm_banner_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0614" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

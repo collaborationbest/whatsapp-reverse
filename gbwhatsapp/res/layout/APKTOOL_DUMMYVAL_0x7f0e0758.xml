@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/payment_loading_error" android:background="@drawable/payment_loading_error_box" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a7e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04078b" android:textColorHighlight="?APKTOOL_DUMMYVAL_0x7f04078a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12181a" android:maxLines="4" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" />
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04078b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1218a0" android:maxLines="4" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" />
+</LinearLayout>

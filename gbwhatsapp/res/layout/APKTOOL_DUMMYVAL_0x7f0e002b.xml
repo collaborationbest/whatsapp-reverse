@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07005b"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/account_switching_shimmer_item_profile_photo" android:background="@drawable/account_switching_shimmer_profile" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07005d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07005d" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07005b" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07005c" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07005b" android:layout_weight="1.0">
+        <View android:id="@id/account_switching_shimmer_item_name" android:background="@drawable/account_switching_shimmer_info" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+        <View android:id="@id/account_switching_shimmer_item_message" android:background="@drawable/account_switching_shimmer_info" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="35.0dip" />
+    </LinearLayout>
+    <View android:id="@id/account_switching_shimmer_item_time" android:background="@drawable/account_switching_shimmer_info" android:layout_width="29.0dip" android:layout_height="10.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07005c" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07005c" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+</LinearLayout>

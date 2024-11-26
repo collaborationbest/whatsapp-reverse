@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501ae">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0700f3" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0700f3" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+                <com.gbwhatsapp.WaTextView android:id="@id/dm_setting_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:text="@string/APKTOOL_DUMMYVAL_0x7f120b2f" style="@style/APKTOOL_DUMMYVAL_0x7f150376" />
+                <RadioGroup android:orientation="vertical" android:id="@id/dm_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="left" android:id="@id/dm_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" />
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040606" android:id="@id/dm_learn_more" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:text="@string/APKTOOL_DUMMYVAL_0x7f122a02" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

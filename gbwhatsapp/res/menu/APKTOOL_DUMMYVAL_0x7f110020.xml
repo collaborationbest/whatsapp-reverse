@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_select_multiple_teal" android:enabled="true" android:id="@id/multi_select" android:visible="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f122b1d" android:titleCondensed="@string/APKTOOL_DUMMYVAL_0x7f122b1d" app:APKTOOL_DUMMYVAL_0x7f040554="?APKTOOL_DUMMYVAL_0x7f0404f3" app:APKTOOL_DUMMYVAL_0x7f040923="always" />
+    <item android:icon="@drawable/vec_ic_more" android:enabled="true" android:id="@id/more" android:visible="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f122a6a" android:titleCondensed="@string/APKTOOL_DUMMYVAL_0x7f122a6a" app:APKTOOL_DUMMYVAL_0x7f040554="?APKTOOL_DUMMYVAL_0x7f0404f3" app:APKTOOL_DUMMYVAL_0x7f040923="always">
+        <menu />
+    </item>
+</menu>

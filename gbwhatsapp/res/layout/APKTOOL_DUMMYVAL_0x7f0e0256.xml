@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150023"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageButton android:id="@id/icon" style="@style/APKTOOL_DUMMYVAL_0x7f150021" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0255" />
+</LinearLayout>

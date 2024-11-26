@@ -1,0 +1,31 @@
+.class public final LX/5Tt;
+.super LX/6P1;
+.source ""
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 6
+
+    new-instance v5, LX/5Ts;
+
+    invoke-direct {v5}, LX/5Ts;-><init>()V
+
+    const v4, 0x7f070e93
+
+    const v3, 0x7f070e94
+
+    const v2, 0x7f070e96
+
+    const v0, 0x7f070e97
+
+    new-instance v1, LX/6Gq;
+
+    invoke-direct {v1, v4, v3, v2, v0}, LX/6Gq;-><init>(IIII)V
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v1, v5, v0}, LX/6P1;-><init>(LX/6Gq;LX/5zC;Z)V
+
+    return-void
+.end method

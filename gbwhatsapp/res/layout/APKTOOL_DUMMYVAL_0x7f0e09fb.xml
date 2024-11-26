@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070559" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070559"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070558" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070558" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/sticker_loading_indicator" />
+</FrameLayout>

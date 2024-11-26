@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="android_wear_capabilities">
+        <item>wearos_alt_linking_prefill</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030001">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030002">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b26</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b24</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b27</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b25</item>
+    </string-array>
+    <array name="ag_iconsi">
+        <item>@drawable/icon_00</item>
+        <item>@drawable/icon_01</item>
+        <item>@drawable/icon_02</item>
+        <item>@drawable/icon_03</item>
+        <item>@drawable/icon_04</item>
+        <item>@drawable/icon_05</item>
+        <item>@drawable/icon_06</item>
+        <item>@drawable/icon_07</item>
+        <item>@drawable/icon_08</item>
+        <item>@drawable/icon_09</item>
+        <item>@drawable/icon_10</item>
+        <item>@drawable/icon_11</item>
+        <item>@drawable/icon_12</item>
+        <item>@drawable/icon_13</item>
+        <item>@drawable/icon_14</item>
+        <item>@drawable/icon_15</item>
+        <item>@drawable/icon_16</item>
+        <item>@drawable/icon_17</item>
+        <item>@drawable/icon_18</item>
+        <item>@drawable/icon_19</item>
+        <item>@drawable/icon_20</item>
+        <item>@drawable/icon_21</item>
+        <item>@drawable/icon_22</item>
+        <item>@drawable/icon_23</item>
+        <item>@drawable/icon_24</item>
+        <item>@drawable/icon_25</item>
+        <item>@drawable/icon_26</item>
+        <item>@drawable/icon_27</item>
+        <item>@drawable/icon_28</item>
+        <item>@drawable/icon_29</item>
+        <item>@drawable/icon_30</item>
+        <item>@drawable/icon_31</item>
+        <item>@drawable/icon_32</item>
+        <item>@drawable/icon_33</item>
+        <item>@drawable/icon_34</item>
+        <item>@drawable/icon_35</item>
+        <item>@drawable/icon_36</item>
+        <item>@drawable/icon_37</item>
+        <item>@drawable/icon_38</item>
+        <item>@drawable/icon_39</item>
+        <item>@drawable/icon_40</item>
+        <item>@drawable/icon_41</item>
+        <item>@drawable/icon_42</item>
+        <item>@drawable/icon_43</item>
+        <item>@drawable/icon_44</item>
+        <item>@drawable/icon_45</item>
+        <item>@drawable/icon_46</item>
+        <item>@drawable/icon_47</item>
+        <item>@drawable/icon_48</item>
+        <item>@drawable/icon_49</item>
+        <item>@drawable/icon_50</item>
+    </array>
+    <array name="ag_niconsi">
+        <item>@drawable/yo_notifybar_0</item>
+        <item>@drawable/yo_notifybar_1</item>
+        <item>@drawable/yo_notifybar_2</item>
+        <item>@drawable/yo_notifybar_3</item>
+        <item>@drawable/yo_notifybar_4</item>
+        <item>@drawable/yo_notifybar_5</item>
+        <item>@drawable/yo_notifybar_6</item>
+        <item>@drawable/yo_notifybar_7</item>
+        <item>@drawable/yo_notifybar_8</item>
+        <item>@drawable/yo_notifybar_9</item>
+        <item>@drawable/yo_notifybar_10</item>
+        <item>@drawable/yo_notifybar_11</item>
+        <item>@drawable/yo_notifybar_12</item>
+        <item>@drawable/yo_notifybar_13</item>
+        <item>@drawable/yo_notifybar_14</item>
+        <item>@drawable/yo_notifybar_15</item>
+        <item>@drawable/yo_notifybar_16</item>
+        <item>@drawable/yo_notifybar_17</item>
+        <item>@drawable/yo_notifybar_18</item>
+        <item>@drawable/yo_notifybar_19</item>
+        <item>@drawable/yo_notifybar_20</item>
+        <item>@drawable/yo_notifybar_21</item>
+        <item>@drawable/yo_notifybar_22</item>
+        <item>@drawable/yo_notifybar_23</item>
+        <item>@drawable/yo_notifybar_24</item>
+        <item>@drawable/yo_notifybar_25</item>
+        <item>@drawable/yo_notifybar_26</item>
+        <item>@drawable/yo_notifybar_27</item>
+        <item>@drawable/yo_notifybar_28</item>
+        <item>@drawable/yo_notifybar_29</item>
+        <item>@drawable/yo_notifybar_30</item>
+        <item>@drawable/yo_notifybar_31</item>
+        <item>@drawable/yo_notifybar_32</item>
+        <item>@drawable/yo_notifybar_33</item>
+        <item>@drawable/yo_notifybar_34</item>
+        <item>@drawable/yo_notifybar_35</item>
+        <item>@drawable/yo_notifybar_36</item>
+        <item>@drawable/yo_notifybar_37</item>
+        <item>@drawable/yo_notifybar_38</item>
+        <item>@drawable/yo_notifybar_39</item>
+        <item>@drawable/yo_notifybar_40</item>
+        <item>@drawable/yo_notifybar_41</item>
+        <item>@drawable/yo_notifybar_42</item>
+        <item>@drawable/yo_notifybar_43</item>
+        <item>@drawable/yo_notifybar_44</item>
+        <item>@drawable/yo_notifybar_45</item>
+        <item>@drawable/yo_notifybar_46</item>
+        <item>@drawable/yo_notifybar_47</item>
+        <item>@drawable/yo_notifybar_48</item>
+        <item>@drawable/yo_notifybar_49</item>
+        <item>@drawable/yo_notifybar_50</item>
+    </array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030005">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="bubble_style_entries">
+        <item>Stock</item>
+        <item>Facebook Messenger</item>
+        <item>Old Hangouts</item>
+        <item>3D</item>
+        <item>Rounded</item>
+        <item>Materialized</item>
+        <item>MD</item>
+        <item>Samyadeep Crayon Alt</item>
+        <item>New Hangouts 4.0</item>
+        <item>WA+ Paper Redesigned</item>
+        <item>Transparent</item>
+        <item>Twitter</item>
+        <item>Whatsapp LB</item>
+        <item>BBM</item>
+        <item>iOS</item>
+        <item>Hike</item>
+        <item>Textra SMS</item>
+        <item>Go SMS</item>
+        <item>Bubble Drop</item>
+        <item>Samyadeep Dual</item>
+        <item>Plus Messenger ED</item>
+        <item>WA+ Chat On</item>
+        <item>Telegram</item>
+        <item>In</item>
+        <item>Bryed</item>
+        <item>Fold</item>
+        <item>Fold v2</item>
+        <item>Ilkhang</item>
+        <item>Line</item>
+        <item>Popzup</item>
+        <item>DoodleHang</item>
+        <item>Aranbor</item>
+        <item>Win</item>
+        <item>Mood</item>
+        <item>Cr Messenger</item>
+        <item>RC BURBUJA 2</item>
+        <item>RC BURBUJA 5</item>
+        <item>3D V2</item>
+        <item>Kitty</item>
+        <item>Amor</item>
+        <item>RC SAMS BORD</item>
+        <item>RC IOS 11</item>
+        <item>RC GOOGLE ASSISTAN</item>
+        <item>Gabi Outline</item>
+        <item>Gabi Squa</item>
+        <item>Gabi Dot</item>
+        <item>Rc line</item>
+        <item>Gabi Dot 2</item>
+        <item>Roundle</item>
+        <item>Gaby Ron</item>
+        <item>CV ios</item>
+        <item>Rc Pal</item>
+        <item>Rc ios Line</item>
+        <item>Rc IM Line</item>
+        <item>Rc Go SMS</item>
+        <item>Rc tran Line</item>
+        <item>Rc Imess</item>
+        <item>Gabi Mess</item>
+        <item>Rc Fancy</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030007">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122bd6</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122bd8</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030008" />
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030009">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03000a">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b63</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b65</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b61</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b60</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b62</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b64</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b66</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b67</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b5f</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b68</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b69</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03000b">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <array name="bubble_style_images">
+        <item>@drawable/balloon</item>
+        <item>@drawable/fbm</item>
+        <item>@drawable/hangouts</item>
+        <item>@drawable/d3</item>
+        <item>@drawable/rounded</item>
+        <item>@drawable/materialized</item>
+        <item>@drawable/md</item>
+        <item>@drawable/altcr</item>
+        <item>@drawable/hang</item>
+        <item>@drawable/wapaper</item>
+        <item>@drawable/trans</item>
+        <item>@drawable/twitter</item>
+        <item>@drawable/walb</item>
+        <item>@drawable/bbm</item>
+        <item>@drawable/apple</item>
+        <item>@drawable/hike</item>
+        <item>@drawable/textra</item>
+        <item>@drawable/gosms</item>
+        <item>@drawable/bdrop</item>
+        <item>@drawable/dual</item>
+        <item>@drawable/ed</item>
+        <item>@drawable/chaton</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/in</item>
+        <item>@drawable/bryed</item>
+        <item>@drawable/fold</item>
+        <item>@drawable/foldv2</item>
+        <item>@drawable/ilkhang</item>
+        <item>@drawable/line</item>
+        <item>@drawable/popzup</item>
+        <item>@drawable/doodlehang</item>
+        <item>@drawable/aranbor</item>
+        <item>@drawable/win</item>
+        <item>@drawable/mood</item>
+        <item>@drawable/crmessenger</item>
+        <item>@drawable/rcburbuja2</item>
+        <item>@drawable/rcburbuja5</item>
+        <item>@drawable/3d2</item>
+        <item>@drawable/kitty</item>
+        <item>@drawable/amor</item>
+        <item>@drawable/bubble</item>
+        <item>@drawable/ios11</item>
+        <item>@drawable/bolha</item>
+        <item>@drawable/gabioutline</item>
+        <item>@drawable/gabisqua</item>
+        <item>@drawable/gabidot</item>
+        <item>@drawable/rcline</item>
+        <item>@drawable/gabidot2</item>
+        <item>@drawable/roundle</item>
+        <item>@drawable/gabyron</item>
+        <item>@drawable/cvios</item>
+        <item>@drawable/rcpal</item>
+        <item>@drawable/rciosline</item>
+        <item>@drawable/rcimline</item>
+        <item>@drawable/rcgosms</item>
+        <item>@drawable/rctranline</item>
+        <item>@drawable/rcimess</item>
+        <item>@drawable/gabymess</item>
+        <item>@drawable/rcfancy</item>
+    </array>
+    <string-array name="bubble_style_values">
+        <item>yousef</item>
+        <item>fbm</item>
+        <item>hangouts</item>
+        <item>d3</item>
+        <item>rounded</item>
+        <item>materialized</item>
+        <item>md</item>
+        <item>altcr</item>
+        <item>hang</item>
+        <item>wapaper</item>
+        <item>trans</item>
+        <item>twitter</item>
+        <item>walb</item>
+        <item>bbm</item>
+        <item>apple</item>
+        <item>hike</item>
+        <item>textra</item>
+        <item>gosms</item>
+        <item>bdrop</item>
+        <item>dual</item>
+        <item>ed</item>
+        <item>chaton</item>
+        <item>telegram</item>
+        <item>in</item>
+        <item>bryed</item>
+        <item>fold</item>
+        <item>foldv2</item>
+        <item>ilkhang</item>
+        <item>line</item>
+        <item>popzup</item>
+        <item>doodlehang</item>
+        <item>aranbor</item>
+        <item>win</item>
+        <item>mood</item>
+        <item>crmessenger</item>
+        <item>rcburbuja2</item>
+        <item>rcburbuja5</item>
+        <item>3d2</item>
+        <item>kitty</item>
+        <item>amor</item>
+        <item>bubble</item>
+        <item>ios11</item>
+        <item>bolha</item>
+        <item>gabioutline</item>
+        <item>gabisqua</item>
+        <item>gabidot</item>
+        <item>rcline</item>
+        <item>gabidot2</item>
+        <item>roundle</item>
+        <item>gabyron</item>
+        <item>cvios</item>
+        <item>rcpal</item>
+        <item>rciosline</item>
+        <item>rcimline</item>
+        <item>rcgosms</item>
+        <item>rctranline</item>
+        <item>rcimess</item>
+        <item>gabymess</item>
+        <item>rcfancy</item>
+    </string-array>
+    <string-array name="chat_style_entry">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12163a</item>
+        <item>WAMOD Style</item>
+        <item>Hangouts Style</item>
+    </string-array>
+    <string-array name="chat_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030010">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1229d0</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1229cf</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1229ce</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030011">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030012">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060535</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060538</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060539</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06053a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06053b</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06053c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06053d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06053e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06053f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060536</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060537</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030013">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06052a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06052d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06052e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06052f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060530</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060531</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060532</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060533</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060534</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06052b</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06052c</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030014">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060554</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060527</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060555</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06051f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06055d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060553</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060558</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06051c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060528</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060522</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060562</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060541</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06055c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06054a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06054b</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060529</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06054c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060561</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06055a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06055b</item>
+    </array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030015">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="conversation_style_entry">
+        <item>1- YStyle</item>
+        <item>2- WAMOD</item>
+        <item>3- Hangouts</item>
+        <item>4- Simple</item>
+        <item>5- Aran V2</item>
+        <item>6- Mood</item>
+        <item>7- WANH</item>
+        <item>8- Stock (Original)</item>
+        <item>9- Hangouts V2</item>
+        <item>10- Dribble</item>
+        <item>11- Dribble V2</item>
+        <item>12- Allo</item>
+        <item>13- Rounded</item>
+        <item>14- Old Stock (2016)</item>
+        <item>15- RC-MSG Google</item>
+        <item>16- RC-Telegram X iOS</item>
+        <item>17- RC-IOS 11</item>
+        <item>18- RC-Line</item>
+        <item>19- Concept (NEW)</item>
+        <item>20- Instagram (NEW)</item>
+        <item>21- iOS 14 (NEW)</item>
+        <item>22- FB Messenger (NEW)</item>
+        <item>23- RC Mess (NEW)</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030017">
+        <item>000000</item>
+        <item>FFFFFF</item>
+        <item>FF0000</item>
+        <item>FFFF00</item>
+        <item>00FF00</item>
+        <item>00FFFF</item>
+        <item>0000FF</item>
+        <item>FF00FF</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030018">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1213ba</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1213be</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030019">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122ab3</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122ab7</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122ab5</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122ab6</item>
+    </string-array>
+    <string-array name="conversation_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03001b">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122af1</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122af3</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122af2</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122af0</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03001c">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f03001d">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1228b0</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f1228b1</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03001e">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b83</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b89</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b7f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b7d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b86</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b94</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b92</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b85</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b84</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b91</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8b</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b81</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b80</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b7c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b90</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b87</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b82</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b95</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b7e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b88</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b96</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b93</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f03001f">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b84</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b91</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8b</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b88</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b85</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b92</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b96</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b95</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b81</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b82</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b90</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b7c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b89</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b87</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b7f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b7d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b94</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b86</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b83</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b8a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b93</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b80</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b7e</item>
+    </array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030020">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b75</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b78</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b77</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b74</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122b76</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030021">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122bd4</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122bd2</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122bd5</item>
+        <item>@string/APKTOOL_DUMMYVAL_0x7f122bd3</item>
+    </string-array>
+    <string-array name="APKTOOL_DUMMYVAL_0x7f030022">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030023">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060554</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06055f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060555</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06051f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06055d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06055e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060558</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060541</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06054d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060522</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060562</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06051d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06055c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06054e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060560</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060551</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060520</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060521</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060556</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060526</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f06051e</item>
+    </array>
+    <array name="APKTOOL_DUMMYVAL_0x7f030024">
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba1</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060bae</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba8</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba5</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba2</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060baf</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060bab</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060bb3</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba9</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060bb2</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b9e</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b9f</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060bad</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b99</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060bac</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba6</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba4</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b9c</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b9a</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060baa</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060bb1</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba3</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba0</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060ba7</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060bb0</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b9d</item>
+        <item>@color/APKTOOL_DUMMYVAL_0x7f060b9b</item>
+    </array>
+    <string-array name="conversation_style_toolbar">
+        <item>Stock</item>
+        <item>Stock centered</item>
+        <item>WAMOD</item>
+        <item>WAMOD centered</item>
+    </string-array>
+    <string-array name="conversation_style_toolbar_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="disable_calls_array">
+        <item>@string/privacy_everyone</item>
+        <item>@string/privacy_nobody</item>
+        <item>@string/privacy_custom</item>
+    </string-array>
+    <string-array name="disable_calls_entries">
+        <item>@string/disable_calls_enable</item>
+        <item>@string/disable_calls_disable_without_rining</item>
+    </string-array>
+    <string-array name="disable_calls_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="fab_gravity_array">
+        <item>@string/fab_style_gravity_right</item>
+        <item>@string/fab_style_gravity_left</item>
+    </string-array>
+    <string-array name="fab_gravity_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="fab_size_array">
+        <item>@string/fab_style_size_large</item>
+        <item>@string/fab_style_size_small</item>
+    </string-array>
+    <string-array name="fab_size_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="fab_type_array">
+        <item>GBWhatsApp</item>
+        <item>WhatsApp</item>
+    </string-array>
+    <string-array name="fab_type_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="gb_iconsi">
+        <item>@mipmap/icon</item>
+        <item>@drawable/icon_01</item>
+        <item>@drawable/icon_02</item>
+        <item>@drawable/icon_03</item>
+        <item>@drawable/icon_04</item>
+        <item>@drawable/icon_05</item>
+        <item>@drawable/icon_06</item>
+        <item>@drawable/icon_07</item>
+        <item>@drawable/icon_08</item>
+        <item>@drawable/icon_09</item>
+        <item>@drawable/icon_10</item>
+        <item>@drawable/icon_11</item>
+        <item>@drawable/icon_12</item>
+        <item>@drawable/icon_13</item>
+        <item>@drawable/icon_14</item>
+        <item>@drawable/icon_15</item>
+        <item>@drawable/icon_16</item>
+        <item>@drawable/icon_17</item>
+        <item>@drawable/icon_18</item>
+        <item>@drawable/icon_19</item>
+        <item>@drawable/icon_20</item>
+        <item>@drawable/icon_21</item>
+        <item>@drawable/icon_22</item>
+        <item>@drawable/icon_23</item>
+        <item>@drawable/icon_24</item>
+        <item>@drawable/icon_25</item>
+        <item>@drawable/icon_26</item>
+        <item>@drawable/icon_27</item>
+        <item>@drawable/icon_28</item>
+        <item>@drawable/icon_29</item>
+        <item>@drawable/icon_30</item>
+        <item>@drawable/icon_31</item>
+        <item>@drawable/icon_32</item>
+        <item>@drawable/icon_33</item>
+        <item>@drawable/icon_34</item>
+        <item>@drawable/icon_35</item>
+        <item>@drawable/icon_36</item>
+        <item>@drawable/icon_37</item>
+        <item>@drawable/icon_38</item>
+        <item>@drawable/icon_39</item>
+        <item>@drawable/icon_40</item>
+        <item>@drawable/icon_41</item>
+        <item>@drawable/icon_42</item>
+        <item>@drawable/icon_43</item>
+        <item>@drawable/icon_44</item>
+        <item>@drawable/icon_45</item>
+        <item>@drawable/icon_46</item>
+        <item>@drawable/icon_47</item>
+        <item>@drawable/icon_48</item>
+        <item>@drawable/icon_49</item>
+        <item>@drawable/icon_50</item>
+        <item>@drawable/icon_51</item>
+        <item>@drawable/icon_52</item>
+        <item>@drawable/icon_53</item>
+        <item>@drawable/icon_54</item>
+        <item>@drawable/icon_55</item>
+        <item>@drawable/icon_56</item>
+        <item>@drawable/icon_57</item>
+        <item>@drawable/icon_58</item>
+        <item>@drawable/icon_59</item>
+        <item>@drawable/icon_60</item>
+        <item>@drawable/icon_61</item>
+        <item>@drawable/icon_62</item>
+        <item>@drawable/icon_63</item>
+        <item>@drawable/icon_64</item>
+        <item>@drawable/icon_65</item>
+        <item>@drawable/icon_66</item>
+        <item>@drawable/icon_67</item>
+        <item>@drawable/icon_68</item>
+        <item>@drawable/icon_69</item>
+        <item>@drawable/icon_70</item>
+        <item>@drawable/icon_71</item>
+        <item>@drawable/icon_72</item>
+        <item>@drawable/icon_73</item>
+        <item>@drawable/icon_74</item>
+        <item>@drawable/icon_75</item>
+        <item>@mipmap/icon</item>
+        <item>@drawable/icon_77</item>
+        <item>@drawable/icon_78</item>
+        <item>@drawable/icon_79</item>
+        <item>@drawable/icon_80</item>
+        <item>@drawable/icon_81</item>
+        <item>@drawable/icon_82</item>
+        <item>@drawable/icon_83</item>
+        <item>@drawable/icon_84</item>
+    </array>
+    <string-array name="gb_iconss">
+        <item>Default</item>
+        <item>Icon 01</item>
+        <item>Icon 02</item>
+        <item>Icon 03</item>
+        <item>Icon 04</item>
+        <item>Icon 05</item>
+        <item>Icon 06</item>
+        <item>Icon 07</item>
+        <item>Icon 08</item>
+        <item>Icon 09</item>
+        <item>Icon 10</item>
+        <item>Icon 11</item>
+        <item>Icon 12</item>
+        <item>Icon 13</item>
+        <item>Icon 14</item>
+        <item>Icon 15</item>
+        <item>Icon 16</item>
+        <item>Icon 17</item>
+        <item>Icon 18</item>
+        <item>Icon 19</item>
+        <item>Icon 20</item>
+        <item>Icon 21</item>
+        <item>Icon 22</item>
+        <item>Icon 23</item>
+        <item>Icon 24</item>
+        <item>Icon 25</item>
+        <item>Icon 26</item>
+        <item>Icon 27</item>
+        <item>Icon 28</item>
+        <item>Icon 29</item>
+        <item>Icon 30</item>
+        <item>Icon 31</item>
+        <item>Icon 32</item>
+        <item>Icon 33</item>
+        <item>Icon 34</item>
+        <item>Icon 35</item>
+        <item>Icon 36</item>
+        <item>Icon 37</item>
+        <item>Icon 38</item>
+        <item>Icon 39</item>
+        <item>Icon 40</item>
+        <item>Icon 41</item>
+        <item>Icon 42</item>
+        <item>Icon 43</item>
+        <item>Icon 44</item>
+        <item>Icon 45</item>
+        <item>Icon 46</item>
+        <item>Icon 47</item>
+        <item>Icon 48</item>
+        <item>Icon 49</item>
+        <item>Icon 50</item>
+    </string-array>
+    <string-array name="gb_iconsv">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+    </string-array>
+    <array name="gb_niconsi">
+        <item>@drawable/yo_notifybar_0</item>
+        <item>@drawable/yo_notifybar_1</item>
+        <item>@drawable/yo_notifybar_2</item>
+        <item>@drawable/yo_notifybar_3</item>
+        <item>@drawable/yo_notifybar_4</item>
+        <item>@drawable/yo_notifybar_5</item>
+        <item>@drawable/yo_notifybar_6</item>
+        <item>@drawable/yo_notifybar_7</item>
+        <item>@drawable/yo_notifybar_8</item>
+        <item>@drawable/yo_notifybar_9</item>
+        <item>@drawable/yo_notifybar_10</item>
+        <item>@drawable/yo_notifybar_11</item>
+        <item>@drawable/yo_notifybar_12</item>
+        <item>@drawable/yo_notifybar_13</item>
+        <item>@drawable/yo_notifybar_14</item>
+        <item>@drawable/yo_notifybar_15</item>
+        <item>@drawable/yo_notifybar_16</item>
+        <item>@drawable/yo_notifybar_17</item>
+        <item>@drawable/yo_notifybar_18</item>
+        <item>@drawable/yo_notifybar_19</item>
+        <item>@drawable/yo_notifybar_20</item>
+        <item>@drawable/yo_notifybar_21</item>
+        <item>@drawable/yo_notifybar_22</item>
+        <item>@drawable/yo_notifybar_23</item>
+        <item>@drawable/yo_notifybar_24</item>
+        <item>@drawable/yo_notifybar_25</item>
+        <item>@drawable/yo_notifybar_26</item>
+        <item>@drawable/yo_notifybar_27</item>
+        <item>@drawable/yo_notifybar_28</item>
+        <item>@drawable/yo_notifybar_29</item>
+        <item>@drawable/yo_notifybar_30</item>
+        <item>@drawable/yo_notifybar_31</item>
+        <item>@drawable/yo_notifybar_32</item>
+        <item>@drawable/yo_notifybar_33</item>
+        <item>@drawable/yo_notifybar_34</item>
+        <item>@drawable/yo_notifybar_35</item>
+        <item>@drawable/yo_notifybar_36</item>
+        <item>@drawable/yo_notifybar_37</item>
+        <item>@drawable/yo_notifybar_38</item>
+        <item>@drawable/yo_notifybar_39</item>
+        <item>@drawable/yo_notifybar_40</item>
+        <item>@drawable/yo_notifybar_41</item>
+        <item>@drawable/yo_notifybar_42</item>
+        <item>@drawable/yo_notifybar_43</item>
+        <item>@drawable/yo_notifybar_44</item>
+        <item>@drawable/yo_notifybar_45</item>
+        <item>@drawable/yo_notifybar_46</item>
+        <item>@drawable/yo_notifybar_47</item>
+        <item>@drawable/yo_notifybar_48</item>
+        <item>@drawable/yo_notifybar_49</item>
+        <item>@drawable/yo_notifybar_50</item>
+    </array>
+    <string-array name="gb_niconss">
+        <item>Default</item>
+        <item>Icon 01</item>
+        <item>Icon 02</item>
+        <item>Icon 03</item>
+        <item>Icon 04</item>
+        <item>Icon 05</item>
+        <item>Icon 06</item>
+        <item>Icon 07</item>
+        <item>Icon 08</item>
+        <item>Icon 09</item>
+        <item>Icon 10</item>
+        <item>Icon 11</item>
+        <item>Icon 12</item>
+        <item>Icon 13</item>
+        <item>Icon 14</item>
+        <item>Icon 15</item>
+        <item>Icon 16</item>
+        <item>Icon 17</item>
+        <item>Icon 18</item>
+        <item>Icon 19</item>
+        <item>Icon 20</item>
+        <item>Icon 21</item>
+        <item>Icon 22</item>
+        <item>Icon 23</item>
+        <item>Icon 24</item>
+        <item>Icon 25</item>
+        <item>Icon 26</item>
+        <item>Icon 27</item>
+        <item>Icon 28</item>
+        <item>Icon 29</item>
+        <item>Icon 30</item>
+        <item>Icon 31</item>
+        <item>Icon 32</item>
+        <item>Icon 33</item>
+        <item>Icon 34</item>
+        <item>Icon 35</item>
+        <item>Icon 36</item>
+        <item>Icon 37</item>
+        <item>Icon 38</item>
+        <item>Icon 39</item>
+        <item>Icon 40</item>
+        <item>Icon 41</item>
+        <item>Icon 42</item>
+        <item>Icon 43</item>
+        <item>Icon 44</item>
+        <item>Icon 45</item>
+        <item>Icon 46</item>
+        <item>Icon 47</item>
+        <item>Icon 48</item>
+        <item>Icon 49</item>
+        <item>Icon 50</item>
+    </string-array>
+    <string-array name="gb_niconsv">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="gif_search_array">
+        <item>Giphy</item>
+        <item>Tenor</item>
+    </string-array>
+    <string-array name="gif_search_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="gradient_mode">
+        <item>OFF</item>
+        <item>@string/gd_mode_TB</item>
+        <item>@string/gd_mode_LR</item>
+        <item>DIAGONAL</item>
+        <item>BOTTOM_TOP</item>
+        <item>RIGHT_LEFT</item>
+    </string-array>
+    <string-array name="gradient_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="hide_menu_options_array">
+        <item>@string/hide_menu_options_1</item>
+        <item>@string/hide_menu_options_2</item>
+        <item>@string/hide_menu_options_3</item>
+        <item>@string/hide_menu_options_4</item>
+        <item>@string/hide_menu_options_5</item>
+        <item>@string/hide_menu_options_6</item>
+        <item>@string/hide_menu_options_7</item>
+        <item>@string/hide_menu_options_8</item>
+        <item>@string/hide_menu_options_9</item>
+        <item>@string/hide_menu_options_10</item>
+        <item>@string/hide_menu_options_11</item>
+        <item>@string/hide_menu_options_12</item>
+        <item>@string/hide_menu_options_13</item>
+        <item>@string/hide_menu_options_14</item>
+    </string-array>
+    <string-array name="hide_menu_options_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="hide_notify_array">
+        <item>@string/hide_no</item>
+        <item>@string/hide_notifybar_groups</item>
+        <item>@string/hide_notifybar_contacts</item>
+        <item>@string/hide_notifybar_always</item>
+    </string-array>
+    <string-array name="hide_notify_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="home_theme">
+        <item>YOWA</item>
+        <item>Telegram</item>
+        <item>WAMOD</item>
+        <item>WACA</item>
+        <item>WANH</item>
+        <item>NL MODS</item>
+        <item>Old WAMD</item>
+        <item>Stock</item>
+    </string-array>
+    <string-array name="home_theme_values">
+        <item>yowa</item>
+        <item>telegram</item>
+        <item>wamod</item>
+        <item>waca</item>
+        <item>wanh</item>
+        <item>nlmods</item>
+        <item>wamd</item>
+        <item>yousef</item>
+    </string-array>
+    <string-array name="language_array">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12163a</item>
+        <item>العربية</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Italian</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="language_names">
+        <item>Default</item>
+        <item>Arabic</item>
+        <item>English</item>
+        <item>Espanol</item>
+        <item>Italian</item>
+        <item>Porteguese(Brazilian)</item>
+        <item>Hindi</item>
+        <item>German</item>
+        <item>Turkish</item>
+        <item>Russian</item>
+        <item>Indonesian</item>
+        <item>Bahasa Malaysia</item>
+        <item>Azerbaijani</item>
+    </string-array>
+    <string-array name="language_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="listanimation_entry">
+        <item>@string/listanimation0</item>
+        <item>@string/listanimation1</item>
+        <item>@string/listanimation2</item>
+        <item>@string/listanimation3</item>
+        <item>@string/listanimation4</item>
+        <item>@string/listanimation5</item>
+        <item>@string/listanimation6</item>
+        <item>@string/listanimation7</item>
+        <item>@string/listanimation8</item>
+        <item>@string/listanimation9</item>
+        <item>@string/listanimation10</item>
+        <item>@string/listanimation11</item>
+        <item>@string/listanimation12</item>
+        <item>@string/listanimation13</item>
+        <item>@string/listanimation14</item>
+    </string-array>
+    <string-array name="listanimation_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="lock_type_entries">
+        <item>@string/hidden_chats_lock_type_without_lock</item>
+        <item>@string/hidden_chats_lock_type_pattern</item>
+        <item>@string/hidden_chats_lock_type_finger</item>
+    </string-array>
+    <string-array name="lock_type_entries2">
+        <item>@string/hidden_chats_lock_type_pin</item>
+        <item>@string/hidden_chats_lock_type_finger</item>
+    </string-array>
+    <string-array name="lock_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="lock_type_values2">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="old_ui_array">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12163a</item>
+        <item>@string/old_ui_1</item>
+        <item>@string/old_ui_2</item>
+    </string-array>
+    <string-array name="old_ui_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="online_tone_mode">
+        <item>@string/tone_top</item>
+        <item>@string/tone_center</item>
+        <item>@string/tone_bottom</item>
+    </string-array>
+    <string-array name="online_tone_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="restore_Pass_Questions">
+        <item>@string/pattern_adapter_restorePass_1</item>
+        <item>@string/pattern_adapter_restorePass_2</item>
+    </string-array>
+    <string-array name="scheduled_repetition_alert">
+        <item>@string/scheduled_message_once</item>
+        <item>@string/scheduled_message_daily</item>
+        <item>@string/scheduled_message_weekly</item>
+        <item>@string/scheduled_message_monthly</item>
+        <item>@string/scheduled_message_yearly</item>
+    </string-array>
+    <string-array name="selectable_text_off_entries">
+        <item>@string/enable_select_message_old</item>
+        <item>@string/enable_select_message_new</item>
+        <item>@string/disable_select_message</item>
+    </string-array>
+    <string-array name="selectable_text_off_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="stories_entry">
+        <item>STOCK</item>
+        <item>RC NOTIFY</item>
+        <item>RC FACEBOOK</item>
+        <item>RC CONCEPT V2</item>
+        <item>RC CONCEPT</item>
+    </string-array>
+    <string-array name="stories_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="tick_style_entries">
+        <item>Stock</item>
+        <item>Allo</item>
+        <item>Alien</item>
+        <item>Alt CrayonV2</item>
+        <item>Alt Crayon</item>
+        <item>Aran</item>
+        <item>Bar</item>
+        <item>Bat</item>
+        <item>BBM</item>
+        <item>Blend</item>
+        <item>NG Android Bot</item>
+        <item>BPG Circle</item>
+        <item>Circles</item>
+        <item>Samyadeep Circles</item>
+        <item>Coalfield</item>
+        <item>Color Simple</item>
+        <item>Ctoon</item>
+        <item>Eclipsis</item>
+        <item>Face Switch</item>
+        <item>Feet</item>
+        <item>Flat Circles</item>
+        <item>Gifcon</item>
+        <item>Google V2</item>
+        <item>Google</item>
+        <item>GRW</item>
+        <item>Sidzy HD</item>
+        <item>SV Heart</item>
+        <item>Hike</item>
+        <item>Inbox</item>
+        <item>Insect</item>
+        <item>iOS</item>
+        <item>Jalopy</item>
+        <item>Jessy</item>
+        <item>Joaquins</item>
+        <item>Joker Traffic</item>
+        <item>Letter</item>
+        <item>Like</item>
+        <item>Love Switch</item>
+        <item>Material V2</item>
+        <item>Material Switch</item>
+        <item>Messenger</item>
+        <item>Mickey Hands</item>
+        <item>Minions</item>
+        <item>New Waca</item>
+        <item>NEY Heart</item>
+        <item>NHSC</item>
+        <item>Naza NH</item>
+        <item>NL Circle</item>
+        <item>Old Waca</item>
+        <item>Pacman</item>
+        <item>Pixelated</item>
+        <item>Pokemon</item>
+        <item>Quinn</item>
+        <item>SnapChat</item>
+        <item>SDot</item>
+        <item>Seasons</item>
+        <item>Smile</item>
+        <item>Star</item>
+        <item>Flat Switch</item>
+        <item>Time Bomb</item>
+        <item>Joker Traffic</item>
+        <item>Treble</item>
+        <item>Twitter Concept</item>
+        <item>WBG</item>
+        <item>X</item>
+        <item>Pointer</item>
+        <item>TIC TIC circle 2</item>
+        <item>Ice Cream</item>
+        <item>Pony</item>
+        <item>Kitty</item>
+        <item>Flower</item>
+        <item>Sticker</item>
+        <item>RC iOS 11</item>
+        <item>BBM V2</item>
+        <item>B.W Ticks</item>
+        <item>CirCheck</item>
+        <item>Circle Print</item>
+        <item>Gab Circle</item>
+        <item>Gab Face</item>
+        <item>Gab iflo</item>
+        <item>Green Tick</item>
+        <item>iOS 2</item>
+        <item>Letter Circle</item>
+        <item>RC Alo</item>
+        <item>RC Tick</item>
+        <item>Triangle</item>
+        <item>VantCircle</item>
+    </string-array>
+    <array name="tick_style_images">
+        <item>@drawable/stockorg_message_got_read_receipt_from_target</item>
+        <item>@drawable/allo_message_got_read_receipt_from_target</item>
+        <item>@drawable/alien_message_got_read_receipt_from_target</item>
+        <item>@drawable/altcrayonv2_message_got_read_receipt_from_target</item>
+        <item>@drawable/altcrayon_message_got_read_receipt_from_target</item>
+        <item>@drawable/aran_message_got_read_receipt_from_target</item>
+        <item>@drawable/bar_message_got_read_receipt_from_target</item>
+        <item>@drawable/bat_message_got_read_receipt_from_target</item>
+        <item>@drawable/bbm_message_got_read_receipt_from_target</item>
+        <item>@drawable/blend_message_got_read_receipt_from_target</item>
+        <item>@drawable/bot_message_got_read_receipt_from_target</item>
+        <item>@drawable/bpg_message_got_read_receipt_from_target</item>
+        <item>@drawable/circles_message_got_read_receipt_from_target</item>
+        <item>@drawable/circle_message_got_read_receipt_from_target</item>
+        <item>@drawable/coalfield_message_got_read_receipt_from_target</item>
+        <item>@drawable/colorsimple_message_got_read_receipt_from_target</item>
+        <item>@drawable/ctoon_message_got_read_receipt_from_target</item>
+        <item>@drawable/eclipsis_message_got_read_receipt_from_target</item>
+        <item>@drawable/face_message_got_read_receipt_from_target</item>
+        <item>@drawable/feet_message_got_read_receipt_from_target</item>
+        <item>@drawable/flatcircles_message_got_read_receipt_from_target</item>
+        <item>@drawable/gifcon_message_got_read_receipt_from_target</item>
+        <item>@drawable/googlev2_message_got_read_receipt_from_target</item>
+        <item>@drawable/google_message_got_read_receipt_from_target</item>
+        <item>@drawable/grw_message_got_read_receipt_from_target</item>
+        <item>@drawable/hd_message_got_read_receipt_from_target</item>
+        <item>@drawable/heart_message_got_read_receipt_from_target</item>
+        <item>@drawable/hike_message_got_read_receipt_from_target</item>
+        <item>@drawable/inbox_message_got_read_receipt_from_target</item>
+        <item>@drawable/insect_message_got_read_receipt_from_target</item>
+        <item>@drawable/ios_message_got_read_receipt_from_target</item>
+        <item>@drawable/jalopy_message_got_read_receipt_from_target</item>
+        <item>@drawable/jessy_message_got_read_receipt_from_target</item>
+        <item>@drawable/joaquins_message_got_read_receipt_from_target</item>
+        <item>@drawable/joker_message_got_read_receipt_from_target</item>
+        <item>@drawable/letter_message_got_read_receipt_from_target</item>
+        <item>@drawable/like_message_got_read_receipt_from_target</item>
+        <item>@drawable/love_message_got_read_receipt_from_target</item>
+        <item>@drawable/materialv2_message_got_read_receipt_from_target</item>
+        <item>@drawable/material_message_got_read_receipt_from_target</item>
+        <item>@drawable/messenger_message_got_read_receipt_from_target</item>
+        <item>@drawable/mickeyhands_message_got_read_receipt_from_target</item>
+        <item>@drawable/minions_message_got_read_receipt_from_target</item>
+        <item>@drawable/newwaca_message_got_read_receipt_from_target</item>
+        <item>@drawable/ney_message_got_read_receipt_from_target</item>
+        <item>@drawable/nhsc_message_got_read_receipt_from_target</item>
+        <item>@drawable/nh_message_got_read_receipt_from_target</item>
+        <item>@drawable/nlmod2_message_got_read_receipt_from_target</item>
+        <item>@drawable/oldwaca_message_got_read_receipt_from_target</item>
+        <item>@drawable/pacman_message_got_read_receipt_from_target</item>
+        <item>@drawable/pix_message_got_read_receipt_from_target</item>
+        <item>@drawable/pokemon_message_got_read_receipt_from_target</item>
+        <item>@drawable/quinn_message_got_read_receipt_from_target</item>
+        <item>@drawable/sc_message_got_read_receipt_from_target</item>
+        <item>@drawable/SDot_message_got_read_receipt_from_target</item>
+        <item>@drawable/seasons_message_got_read_receipt_from_target</item>
+        <item>@drawable/smail_message_got_read_receipt_from_target</item>
+        <item>@drawable/star_message_got_read_receipt_from_target</item>
+        <item>@drawable/switchMe_message_got_read_receipt_from_target</item>
+        <item>@drawable/tb_message_got_read_receipt_from_target</item>
+        <item>@drawable/traffic_message_got_read_receipt_from_target</item>
+        <item>@drawable/treble_message_got_read_receipt_from_target</item>
+        <item>@drawable/twitter_message_got_read_receipt_from_target</item>
+        <item>@drawable/wbg_message_got_read_receipt_from_target</item>
+        <item>@drawable/x_message_got_read_receipt_from_target</item>
+        <item>@drawable/pointer_message_got_read_receipt_from_target</item>
+        <item>@drawable/circle2_message_got_read_receipt_from_target</item>
+        <item>@drawable/icecream_message_got_read_receipt_from_target</item>
+        <item>@drawable/pony_message_got_read_receipt_from_target</item>
+        <item>@drawable/kitty_message_got_read_receipt_from_target</item>
+        <item>@drawable/flor_message_got_read_receipt_from_target</item>
+        <item>@drawable/sticker_message_got_read_receipt_from_target</item>
+        <item>@drawable/rcios11_message_got_read_receipt_from_target</item>
+        <item>@drawable/bbm2_message_got_read_receipt_from_target</item>
+        <item>@drawable/bwticks_message_got_read_receipt_from_target</item>
+        <item>@drawable/circheck_message_got_read_receipt_from_target</item>
+        <item>@drawable/circleprint_message_got_read_receipt_from_target</item>
+        <item>@drawable/gabcircle_message_got_read_receipt_from_target</item>
+        <item>@drawable/gabface_message_got_read_receipt_from_target</item>
+        <item>@drawable/gabiflo_message_got_read_receipt_from_target</item>
+        <item>@drawable/greentick_message_got_read_receipt_from_target</item>
+        <item>@drawable/ios2_message_got_read_receipt_from_target</item>
+        <item>@drawable/lettercircle_message_got_read_receipt_from_target</item>
+        <item>@drawable/rcalo_message_got_read_receipt_from_target</item>
+        <item>@drawable/rctick_message_got_read_receipt_from_target</item>
+        <item>@drawable/triangle_message_got_read_receipt_from_target</item>
+        <item>@drawable/vantcircle_message_got_read_receipt_from_target</item>
+    </array>
+    <string-array name="tick_style_values">
+        <item>stockorg</item>
+        <item>allo</item>
+        <item>alien</item>
+        <item>altcrayonv2</item>
+        <item>altcrayon</item>
+        <item>aran</item>
+        <item>bar</item>
+        <item>bat</item>
+        <item>bbm</item>
+        <item>blend</item>
+        <item>bot</item>
+        <item>bpg</item>
+        <item>circles</item>
+        <item>circle</item>
+        <item>coalfield</item>
+        <item>colorsimple</item>
+        <item>ctoon</item>
+        <item>eclipsis</item>
+        <item>face</item>
+        <item>feet</item>
+        <item>flatcircles</item>
+        <item>gifcon</item>
+        <item>googlev2</item>
+        <item>google</item>
+        <item>grw</item>
+        <item>hd</item>
+        <item>heart</item>
+        <item>hike</item>
+        <item>inbox</item>
+        <item>insect</item>
+        <item>ios</item>
+        <item>jalopy</item>
+        <item>jessy</item>
+        <item>joaquins</item>
+        <item>joker</item>
+        <item>letter</item>
+        <item>like</item>
+        <item>love</item>
+        <item>materialv2</item>
+        <item>material</item>
+        <item>messenger</item>
+        <item>mickeyhands</item>
+        <item>minions</item>
+        <item>newwaca</item>
+        <item>ney</item>
+        <item>nhsc</item>
+        <item>nh</item>
+        <item>nlmod2</item>
+        <item>oldwaca</item>
+        <item>pacman</item>
+        <item>pix</item>
+        <item>pokemon</item>
+        <item>quinn</item>
+        <item>sc</item>
+        <item>SDot</item>
+        <item>seasons</item>
+        <item>smail</item>
+        <item>star</item>
+        <item>switchMe</item>
+        <item>tb</item>
+        <item>traffic</item>
+        <item>treble</item>
+        <item>twitter</item>
+        <item>wbg</item>
+        <item>x</item>
+        <item>pointer</item>
+        <item>circle2</item>
+        <item>icecream</item>
+        <item>pony</item>
+        <item>kitty</item>
+        <item>flor</item>
+        <item>sticker</item>
+        <item>rcios11</item>
+        <item>bbm2</item>
+        <item>bwticks</item>
+        <item>circheck</item>
+        <item>circleprint</item>
+        <item>gabcircle</item>
+        <item>gabface</item>
+        <item>gabiflo</item>
+        <item>greentick</item>
+        <item>ios2</item>
+        <item>lettercircle</item>
+        <item>rcalo</item>
+        <item>rctick</item>
+        <item>triangle</item>
+        <item>vantcircle</item>
+    </string-array>
+    <string-array name="time_online_toast_array">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12163a</item>
+        <item>@string/time_online_toast_3</item>
+        <item>@string/time_online_toast_4</item>
+        <item>@string/time_online_toast_5</item>
+        <item>@string/time_online_toast_6</item>
+    </string-array>
+    <string-array name="time_online_toast_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="time_view_message_array">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12163a</item>
+        <item>@string/time_online_toast_3</item>
+        <item>@string/time_online_toast_4</item>
+        <item>@string/time_online_toast_5</item>
+        <item>@string/time_online_toast_6</item>
+        <item>@string/time_online_toast_7</item>
+        <item>@string/time_online_toast_8</item>
+        <item>@string/time_online_toast_9</item>
+    </string-array>
+    <string-array name="time_view_message_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="transformer_entry">
+        <item>@string/transformer0</item>
+        <item>@string/transformer1</item>
+        <item>@string/transformer2</item>
+        <item>@string/transformer3</item>
+        <item>@string/transformer4</item>
+        <item>@string/transformer5</item>
+        <item>@string/transformer6</item>
+        <item>@string/transformer7</item>
+        <item>@string/transformer8</item>
+        <item>@string/transformer9</item>
+        <item>@string/transformer10</item>
+        <item>@string/transformer11</item>
+        <item>@string/transformer12</item>
+    </string-array>
+    <string-array name="transformer_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="ui_home_style">
+        <item>ONE UI</item>
+        <item>WhatsApp UI Stock</item>
+        <item>IOS STYLE</item>
+        <item>BUBBLES TAB STYLE</item>
+        <item>BASIC TAB STYLE</item>
+        <item>WhatsApp OLD UI</item>
+    </string-array>
+    <string-array name="ui_home_styleV">
+        <item>one</item>
+        <item>stock</item>
+        <item>ios</item>
+        <item>bubble</item>
+        <item>basic</item>
+        <item>oldstock</item>
+    </string-array>
+    <string-array name="video_player_array">
+        <item>@string/video_player_1</item>
+        <item>@string/video_player_0</item>
+    </string-array>
+    <string-array name="video_player_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wamod_actionbar_array">
+        <item>@string/APKTOOL_DUMMYVAL_0x7f12163a</item>
+        <item>WAMOD Style</item>
+    </string-array>
+    <string-array name="wamod_actionbar_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <ListPreference android:icon="@drawable/title_pref_transformer" android:entries="@array/transformer_entry" android:layout="@layout/delta_preference_layout" android:title="@string/title_pref_transformer" android:key="key_pager_animation" android:summary="%s" android:entryValues="@array/transformer_value" />
+    <ListPreference android:icon="@drawable/chats_list_animations" android:entries="@array/listanimation_entry" android:layout="@layout/delta_preference_layout" android:title="@string/chats_list_animations" android:key="key_chats_listanimation" android:summary="%s" android:entryValues="@array/listanimation_value" />
+    <ListPreference android:icon="@drawable/chat_list_animations" android:entries="@array/listanimation_entry" android:layout="@layout/delta_preference_layout" android:title="@string/chat_list_animations" android:key="key_chat_animation" android:summary="%s" android:entryValues="@array/listanimation_value" />
+</PreferenceScreen>

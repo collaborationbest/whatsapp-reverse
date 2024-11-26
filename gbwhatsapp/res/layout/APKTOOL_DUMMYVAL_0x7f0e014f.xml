@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/catalog_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/stub_toolbar_search" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09ce" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/APKTOOL_DUMMYVAL_0x7f1501ad">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <View android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f122bc6" />
+                    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/business_catalog_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <View android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f122bc5" />
+                </LinearLayout>
+                <View android:layout_gravity="bottom" android:id="@id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            </FrameLayout>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/view_cart" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:layout_marginBottom="10.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/business_catalog_host" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+        <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d59" android:id="@id/update_postcode_tip" android:background="@drawable/tooltip_postcode" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070dcd" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070dcd" android:text="@string/APKTOOL_DUMMYVAL_0x7f122469" app:APKTOOL_DUMMYVAL_0x7f0405be="true" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" app:APKTOOL_DUMMYVAL_0x7f0405e1="0.0" />
+        <FrameLayout android:id="@id/catalog_search_host" android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

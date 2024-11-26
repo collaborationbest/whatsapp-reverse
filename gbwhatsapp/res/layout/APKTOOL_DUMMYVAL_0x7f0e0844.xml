@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/reactions_bottom_sheet_tab" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/reactions_bottom_sheet_tab_emoji_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405d3="packed" app:APKTOOL_DUMMYVAL_0x7f0405d6="parent" app:APKTOOL_DUMMYVAL_0x7f0405d9="@id/reactions_bottom_sheet_tab_counter_text" app:APKTOOL_DUMMYVAL_0x7f0405df="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" style="@style/APKTOOL_DUMMYVAL_0x7f15033c" />
+    <com.gbwhatsapp.WaTextView android:id="@id/reactions_bottom_sheet_tab_counter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" app:APKTOOL_DUMMYVAL_0x7f0405d7="@id/reactions_bottom_sheet_tab_emoji_text" app:APKTOOL_DUMMYVAL_0x7f0405da="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" style="@style/APKTOOL_DUMMYVAL_0x7f15033c" />
+</androidx.constraintlayout.widget.ConstraintLayout>

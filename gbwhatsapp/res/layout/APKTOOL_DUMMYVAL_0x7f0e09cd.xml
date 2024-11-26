@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/dragBarView" android:background="@drawable/wds_bottom_sheet_handle" android:layout_width="32.0dip" android:layout_height="4.0dip" android:layout_marginTop="10.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" android:layout_marginTop="10.0dip" android:minHeight="?APKTOOL_DUMMYVAL_0x7f040010" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/dragBarView" app:APKTOOL_DUMMYVAL_0x7f0407c7="@style/APKTOOL_DUMMYVAL_0x7f1505d1" app:APKTOOL_DUMMYVAL_0x7f040a48="@style/APKTOOL_DUMMYVAL_0x7f1505cd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

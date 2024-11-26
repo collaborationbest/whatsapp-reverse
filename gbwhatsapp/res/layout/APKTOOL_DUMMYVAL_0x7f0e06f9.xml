@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/avatar_not_available_image_set" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/avatar_not_available_image" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700c2" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700c2" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_avatar_empty_first" />
+        <com.gbwhatsapp.WaImageView android:id="@id/avatar_not_available_image2" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700c2" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700c2" android:layout_marginLeft="12.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_avatar_empty_second" />
+        <com.gbwhatsapp.WaImageView android:id="@id/avatar_not_available_image3" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700c2" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700c2" android:layout_marginLeft="12.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_avatar_empty_third" />
+    </LinearLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04034a" android:gravity="center" android:layout_gravity="center" android:id="@id/no_avatar_available_text_view" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120211" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f040033" android:layout_gravity="center" android:id="@id/no_avatar_available_create_button" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122199" />
+</LinearLayout>

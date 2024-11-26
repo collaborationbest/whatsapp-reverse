@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mHolder" android:background="@drawable/rc_dialog_bg" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="70.0dip" android:layout_height="fill_parent" android:src="@drawable/bottomsheet_divider" />
+    </LinearLayout>
+    <com.abuarab.gold.font_text android:textSize="19.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="Title" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.abuarab.gold.font_text android:textSize="16.0sp" android:textColor="@color/primary_text" android:layout_gravity="center" android:id="@id/tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="Text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/button_close" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_marginEnd="10.0dip" />
+        <Button android:id="@id/button_confirm" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/GB_OK" />
+    </LinearLayout>
+</LinearLayout>

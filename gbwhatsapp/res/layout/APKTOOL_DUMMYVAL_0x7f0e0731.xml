@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/order_detail_shimmer_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f040735" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/contact_photo" android:background="@drawable/divider_gray_border" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070a46" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a46" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070a36" />
+        <View android:layout_gravity="center" android:id="@id/shimmer_order_contact_name" android:background="@drawable/category_loading_bg" android:layout_width="70.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070a33" />
+        <View android:layout_gravity="center" android:id="@id/shimmer_order_reference_id" android:background="@drawable/category_loading_bg" android:layout_width="100.0dip" android:layout_height="14.0dip" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070a38" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

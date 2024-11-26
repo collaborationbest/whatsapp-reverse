@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/bloks_dialogfragment_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="?APKTOOL_DUMMYVAL_0x7f040b58" />
+    <FrameLayout android:id="@id/bloks_dialogfragment" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.rendercore.RootHostView android:id="@id/bloks_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:id="@id/contextual_help_bloks_network_error_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05a0" android:inflatedId="@id/contextual_help_bloks_network_error_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/contextual_help_fails_to_load_error_view" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0592" android:inflatedId="@id/contextual_help_fails_to_load_error_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

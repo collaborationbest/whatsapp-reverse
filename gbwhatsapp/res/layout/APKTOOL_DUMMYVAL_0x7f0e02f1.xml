@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/polls_main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0dip">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+        <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150612" android:layout_gravity="left" android:id="@id/poll_name" android:paddingLeft="10.0dip" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+        <include android:id="@id/poll_type_label" android:visibility="gone" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e027b" />
+        <LinearLayout android:orientation="vertical" android:id="@id/poll_options" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:importantForAccessibility="no" />
+        <ViewStub android:id="@id/invalid_poll_text" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0277" android:inflatedId="@id/invalid_poll_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02a2" />
+        <View android:background="@color/APKTOOL_DUMMYVAL_0x7f060914" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:importantForAccessibility="no" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0703e2" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609fc" android:gravity="center" android:id="@id/view_details" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121bf9" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+    </LinearLayout>
+</merge>

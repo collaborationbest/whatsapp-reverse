@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/complaint_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120449" style="@style/APKTOOL_DUMMYVAL_0x7f150604" />
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/transaction_complaint_status" android:background="@drawable/txn_details_rounded_blurb_bg" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070a89" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/transaction_complaint_status_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="18.0dip" android:scaleType="fitCenter" />
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070c46" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/transaction_complaint_status_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" app:APKTOOL_DUMMYVAL_0x7f0405fe="20.0dip" />
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070c46" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/transaction_complaint_status_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" app:APKTOOL_DUMMYVAL_0x7f0405fe="20.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="start" android:orientation="horizontal" android:paddingTop="2.0dip" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070a89" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/transaction_complaint_status_icon_placeholder" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="18.0dip" android:scaleType="fitCenter" />
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/transaction_complaint_status_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" app:APKTOOL_DUMMYVAL_0x7f0405fe="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

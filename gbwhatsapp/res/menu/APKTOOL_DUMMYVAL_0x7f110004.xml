@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_search" android:id="@id/menuitem_search" android:visible="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f122b10" app:APKTOOL_DUMMYVAL_0x7f040923="always|collapseActionView" />
+    <item android:icon="@drawable/ic_shopping_cart" android:id="@id/menu_cart" android:title="@string/APKTOOL_DUMMYVAL_0x7f1228dc" app:APKTOOL_DUMMYVAL_0x7f040923="ifRoom" />
+    <item android:icon="@drawable/ic_action_edit" android:id="@id/menu_edit" android:title="@string/APKTOOL_DUMMYVAL_0x7f12295a" app:APKTOOL_DUMMYVAL_0x7f040923="ifRoom" />
+    <item android:icon="@drawable/ic_invite_link" android:id="@id/menu_share" android:title="@string/APKTOOL_DUMMYVAL_0x7f1228e0" app:APKTOOL_DUMMYVAL_0x7f040923="ifRoom" />
+</menu>

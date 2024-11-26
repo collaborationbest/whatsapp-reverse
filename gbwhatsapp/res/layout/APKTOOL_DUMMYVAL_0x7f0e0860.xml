@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="left" android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070024" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070025" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070024" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.checkbox.RtlCheckBox android:textSize="14.0sp" android:id="@id/block_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b07" />
+</FrameLayout>

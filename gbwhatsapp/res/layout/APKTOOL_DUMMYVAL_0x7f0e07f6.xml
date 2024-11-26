@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/media_quality_section" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/setting_video_quality_divider" style="@style/APKTOOL_DUMMYVAL_0x7f15036d" />
+    <com.gbwhatsapp.WaTextView android:id="@id/media_quality_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:text="@string/APKTOOL_DUMMYVAL_0x7f122016" style="?APKTOOL_DUMMYVAL_0x7f0408d6" />
+    <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408d8" android:id="@id/media_quality_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:layout_marginBottom="12.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f122017" />
+    <ViewStub android:id="@id/setting_photo_quality" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07fd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/setting_video_quality" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07fe" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

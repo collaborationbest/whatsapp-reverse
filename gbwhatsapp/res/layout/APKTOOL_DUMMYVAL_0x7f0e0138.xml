@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040542="?APKTOOL_DUMMYVAL_0x7f0407e7" style="@style/APKTOOL_DUMMYVAL_0x7f150259"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.ListItemWithLeftIcon android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040611="@string/APKTOOL_DUMMYVAL_0x7f120294" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/vec_ic_settings_unfilled_data_usage" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f120295" />
+</com.gbwhatsapp.InfoCard>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.calling.views.MultiContactThumbnail android:id="@id/call_details_contact_photos" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0701b9" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0701b9" whatsapp:APKTOOL_DUMMYVAL_0x7f0406ae="@dimen/APKTOOL_DUMMYVAL_0x7f0701b7" whatsapp:APKTOOL_DUMMYVAL_0x7f0406af="@dimen/APKTOOL_DUMMYVAL_0x7f0701b8" />
+    <ViewStub android:id="@id/lonely_state_button_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e018d" android:inflatedId="@id/lonely_state_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+</merge>

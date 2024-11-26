@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.settings.SettingsRowIconText android:id="@id/text_status" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0408c9="@color/APKTOOL_DUMMYVAL_0x7f060a2d" app:APKTOOL_DUMMYVAL_0x7f0408cc="@drawable/ib_emoji" style="?APKTOOL_DUMMYVAL_0x7f0408ca" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

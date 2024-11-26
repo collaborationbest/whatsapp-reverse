@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1502ca"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:src="@drawable/ic_current_location_wds" style="@style/APKTOOL_DUMMYVAL_0x7f1502c9" />
+    <com.gbwhatsapp.WaTextView android:id="@id/newsletter_eu_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/loading_error_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="240.0dip" android:layout_alignParentTop="true">
+            <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/loading" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070cb1" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cb1" android:indeterminate="true" android:indeterminateOnly="false" android:indeterminateTint="?APKTOOL_DUMMYVAL_0x7f0407e5" android:indeterminateTintMode="src_atop" app:APKTOOL_DUMMYVAL_0x7f04027b="?APKTOOL_DUMMYVAL_0x7f040300" app:APKTOOL_DUMMYVAL_0x7f04027c="?APKTOOL_DUMMYVAL_0x7f0407e5" app:APKTOOL_DUMMYVAL_0x7f040280="4.0" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070527" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:layout_gravity="center" android:id="@id/error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070525" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070525" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" app:APKTOOL_DUMMYVAL_0x7f0405fe="@dimen/APKTOOL_DUMMYVAL_0x7f070526" />
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ext_footer_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/divider_bottom" style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0441" />
+    </LinearLayout>
+</merge>

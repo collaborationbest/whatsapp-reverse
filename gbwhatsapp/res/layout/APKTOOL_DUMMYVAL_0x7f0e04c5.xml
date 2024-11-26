@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070625" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070625" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070621" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070622"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/group_profile_pic" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070625" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070625" android:src="@drawable/avatar_contact_colorable" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f07061e" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d3e" android:gravity="center" android:id="@id/group_profile_initials" android:background="@drawable/circular_background_dark" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070625" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070625" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+</FrameLayout>

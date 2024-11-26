@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:id="@id/toolbar_logo" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d9b" android:layout_marginBottom="15.0dip" android:scaleType="fitStart" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122a08" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_wa_wordmark" />
+</LinearLayout>

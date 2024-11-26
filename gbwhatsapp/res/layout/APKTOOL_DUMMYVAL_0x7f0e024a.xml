@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.stickers.StickerView android:layout_gravity="bottom" android:id="@id/contextual_suggestions_hint_icon_layout" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070324" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070323" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07033e" android:scaleType="center" style="@style/APKTOOL_DUMMYVAL_0x7f150006"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

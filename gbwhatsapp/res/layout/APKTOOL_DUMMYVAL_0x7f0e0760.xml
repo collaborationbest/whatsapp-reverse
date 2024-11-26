@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f040010">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="center_vertical" android:id="@id/back" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12289f" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_back" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06036e" style="?APKTOOL_DUMMYVAL_0x7f040018" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040630" android:gravity="center_horizontal" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f121846" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/icon_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_fbpay_lock_gray" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06036e" />
+    </LinearLayout>
+    <com.gbwhatsapp.BottomSheetListView android:id="@id/methods_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:choiceMode="none" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/additional_bottom_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/footer_view" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/filter_and_locked_chats_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/conversations_reveal_header_combo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversations_reveal_filters_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0334" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703f2" />
+        <ViewStub android:id="@id/conversations_reveal_locked_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0336" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703f5" />
+        <ViewStub android:id="@id/conversations_reveal_interop_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0335" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703f3" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,216 @@
+.class public final LX/8fN;
+.super LX/9rO;
+.source ""
+
+
+# instance fields
+.field public final A00:Ljava/lang/String;
+
+.field public final A01:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(LX/9r5;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
+    .locals 9
+
+    const/4 v0, 0x2
+
+    invoke-static {p2, v0}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    sget-object v1, LX/9n5;->A03:LX/9n5;
+
+    const/4 v5, 0x7
+
+    const/4 v8, 0x0
+
+    const-string v4, "regular_low"
+
+    move-object v0, p0
+
+    move-object v2, p1
+
+    move-object v3, p4
+
+    move-wide v6, p5
+
+    invoke-direct/range {v0 .. v8}, LX/9rO;-><init>(LX/9n5;LX/9r5;Ljava/lang/String;Ljava/lang/String;IJZ)V
+
+    iput-object p2, p0, LX/8fN;->A00:Ljava/lang/String;
+
+    iput-object p3, p0, LX/8fN;->A01:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public A06()LX/8PJ;
+    .locals 5
+
+    sget-object v0, LX/8SN;->DEFAULT_INSTANCE:LX/8SN;
+
+    invoke-virtual {v0}, LX/8Ll;->A0q()LX/8RP;
+
+    move-result-object v4
+
+    iget-object v2, p0, LX/8fN;->A01:Ljava/lang/String;
+
+    invoke-static {v4}, LX/4fe;->A0V(LX/8RP;)LX/8Ll;
+
+    move-result-object v1
+
+    check-cast v1, LX/8SN;
+
+    iget v0, v1, LX/8SN;->bitField0_:I
+
+    or-int/lit8 v0, v0, 0x1
+
+    iput v0, v1, LX/8SN;->bitField0_:I
+
+    iput-object v2, v1, LX/8SN;->version_:Ljava/lang/String;
+
+    invoke-super {p0}, LX/9rO;->A06()LX/8PJ;
+
+    move-result-object v3
+
+    if-eqz v3, :cond_0
+
+    invoke-static {v3}, LX/8RP;->A0I(LX/8RP;)LX/8Wl;
+
+    move-result-object v2
+
+    invoke-virtual {v4}, LX/8RP;->A0U()LX/8Ll;
+
+    move-result-object v1
+
+    check-cast v1, LX/8SN;
+
+    sget v0, LX/8Wl;->AGENT_ACTION_FIELD_NUMBER:I
+
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    iput-object v1, v2, LX/8Wl;->primaryVersionAction_:LX/8SN;
+
+    iget v1, v2, LX/8Wl;->bitField0_:I
+
+    const/high16 v0, 0x4000000
+
+    or-int/2addr v1, v0
+
+    iput v1, v2, LX/8Wl;->bitField0_:I
+
+    return-object v3
+
+    :cond_0
+    const/4 v3, 0x0
+
+    return-object v3
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 5
+
+    invoke-static {}, LX/000;->A0r()Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    const-string v0, "PrimaryVersionMutation{"
+
+    invoke-static {v0, v3}, LX/1kk;->A10(Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "rowId="
+
+    invoke-static {p0, v0, v1}, LX/9rO;->A03(LX/9rO;Ljava/lang/String;Ljava/lang/StringBuilder;)V
+
+    const-string v4, ", "
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1, v3}, LX/4fi;->A0x(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "versionType="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/8fN;->A00:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1, v3}, LX/4fi;->A0x(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "appVersion="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/8fN;->A01:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1, v3}, LX/4fi;->A0x(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string v0, "timestamp="
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-wide v0, p0, LX/9rO;->A04:J
+
+    invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v2, v3}, LX/4fi;->A0x(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "operation="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/9rO;->A05:LX/9n5;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1, v3}, LX/4fi;->A0x(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "collectionName="
+
+    invoke-static {p0, v0, v1}, LX/9rO;->A02(LX/9rO;Ljava/lang/String;Ljava/lang/StringBuilder;)V
+
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {v1, v3}, LX/4fi;->A0x(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "keyId="
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/9rO;->A00:LX/9r5;
+
+    invoke-static {v0, v1}, LX/000;->A0k(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, v3}, LX/1kr;->A0e(Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

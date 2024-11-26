@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+            <FrameLayout android:id="@id/media_container" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f0703f0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <view android:id="@id/thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" class="com.whatsapp.conversation.conversationrow.ConversationRowVideo$RowVideoView" />
+                <com.gbwhatsapp.WaTextView android:textSize="12.5sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="bottom|center|left" android:id="@id/info" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:drawablePadding="4.0dip" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/control_frame" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ViewStub android:layout_gravity="center" android:id="@id/progress_bar" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01da" android:inflatedId="@id/progress_bar" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+                    <ViewStub android:layout_gravity="center" android:id="@id/cancel_download" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a7" android:inflatedId="@id/cancel_download" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/control_btn" style="@style/APKTOOL_DUMMYVAL_0x7f1501be" />
+                </FrameLayout>
+            </FrameLayout>
+            <ViewStub android:id="@id/suspicious_link_indicator_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09a5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150612" android:layout_gravity="left" android:id="@id/caption" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0703f0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ViewStub android:id="@id/newsletter_message_view_count" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06de" android:inflatedId="@id/newsletter_message_view_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.gbwhatsapp.WaTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040258" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15060f" />
+                </LinearLayout>
+            </com.gbwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

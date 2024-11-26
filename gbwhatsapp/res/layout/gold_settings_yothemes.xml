@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/screen_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="showNightMode">
+                <com.abuarab.gold.settings.Icon android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/showNightMode" android:scaleType="fitCenter" />
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0">
+                    <com.abuarab.gold.font_text android:text="@string/showNightMode" style="@style/GoldSettings_row" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_download">
+                <com.abuarab.gold.settings.Icon android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/DownloadThemes" android:scaleType="fitCenter" />
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0">
+                    <com.abuarab.gold.font_text android:text="@string/DownloadThemes" style="@style/GoldSettings_row" />
+                    <com.abuarab.gold.font_text android:text="@string/DownloadThemesSum" style="@style/GoldSettings_row_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_load">
+                <com.abuarab.gold.settings.Icon android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/loadTheme" android:scaleType="fitCenter" />
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0">
+                    <com.abuarab.gold.font_text android:text="@string/loadTheme" style="@style/GoldSettings_row" />
+                    <com.abuarab.gold.font_text android:text="@string/loadThemeSum" style="@style/GoldSettings_row_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_save">
+                <com.abuarab.gold.settings.Icon android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/saveTheme" android:scaleType="fitCenter" />
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0">
+                    <com.abuarab.gold.font_text android:text="@string/saveTheme" style="@style/GoldSettings_row" />
+                    <com.abuarab.gold.font_text android:id="@id/saveThemeS" android:text="@string/saveThemeS" style="@style/GoldSettings_row_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_restore">
+                <com.abuarab.gold.settings.Icon android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/restoreTheme" android:scaleType="fitCenter" />
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0">
+                    <com.abuarab.gold.font_text android:text="@string/restoreTheme" style="@style/GoldSettings_row" />
+                    <com.abuarab.gold.font_text android:id="@id/restoreThemeS" android:text="@string/restoreThemeS" style="@style/GoldSettings_row_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="theme_reset">
+                <com.abuarab.gold.settings.Icon android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/resetThemes" android:scaleType="fitCenter" />
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0">
+                    <com.abuarab.gold.font_text android:text="@string/resetThemes" style="@style/GoldSettings_row" />
+                    <com.abuarab.gold.font_text android:text="@string/resetThemesSum" style="@style/GoldSettings_row_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="deleteAllThemes">
+                <com.abuarab.gold.settings.Icon android:paddingLeft="18.0dip" android:layout_width="56.0dip" android:layout_height="@dimen/settingss_row_horizontal_padding" android:src="@drawable/deletethemes" android:scaleType="fitCenter" />
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0">
+                    <com.abuarab.gold.font_text android:text="@string/deletethemes" style="@style/GoldSettings_row" />
+                    <com.abuarab.gold.font_text android:id="@id/deletethemessum" android:text="@string/deletethemessum" style="@style/GoldSettings_row_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.abuarab.gold.font_text android:textSize="15.0sp" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:text="@string/alex_themes_folder_settings" style="@style/GoldSettings_row_subtitle" />
+        <com.abuarab.gold.font_text android:textSize="0.0sp" android:id="@id/tip" android:layout_marginTop="@dimen/settings_divider_text_margin_top" style="@style/GoldSettings_row_subtitle" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/newsletter_unread_indicator" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f0709d8" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0709d8" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0709e4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709e4" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0709d8" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/green_circle" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040ab3" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060cd5" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/unread_indicator_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502cc" />
+</LinearLayout>

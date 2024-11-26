@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04da" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0601c5" android:id="@id/ok_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1216a4" app:APKTOOL_DUMMYVAL_0x7f0405c4="@id/learn_more_button" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/privacy_text" app:APKTOOL_DUMMYVAL_0x7f040ac7="filled" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/learn_more_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122a02" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/ok_button" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+</LinearLayout>

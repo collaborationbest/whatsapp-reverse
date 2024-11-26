@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060cc5" />
+            <padding android:left="@dimen/APKTOOL_DUMMYVAL_0x7f070a64" android:top="@dimen/APKTOOL_DUMMYVAL_0x7f070a65" android:right="@dimen/APKTOOL_DUMMYVAL_0x7f070a64" android:bottom="@dimen/APKTOOL_DUMMYVAL_0x7f070a65" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_community_people_icon" />
+</layer-list>

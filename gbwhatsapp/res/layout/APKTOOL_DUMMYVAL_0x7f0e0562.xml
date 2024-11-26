@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/interactive_message_header_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/conversation_row_lto_offer_content_holder" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0703f0" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0703f0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/conversation_row_lto_offer_content" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02d6" android:inflatedId="@id/conversation_row_lto_offer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:id="@id/suspicious_link_indicator_holder" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09a5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150612" android:id="@id/description" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:textDirection="firstStrong" />
+    <com.whatsapp.conversation.conversationrow.dynamicview.DynamicMessageView android:gravity="center_horizontal" android:id="@id/dynamic_content" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0703e3" android:textColor="?APKTOOL_DUMMYVAL_0x7f040256" android:id="@id/bottom_message" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingTop="4.0dip" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0703de" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="firstStrong" />
+    <ViewStub android:id="@id/conversation_row_reminder_content" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02ff" android:inflatedId="@id/conversation_row_cancel_reminder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

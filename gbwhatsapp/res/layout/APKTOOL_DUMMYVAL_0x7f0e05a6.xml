@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/simple_groups_background" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501ad"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_groups_new_group" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f6b">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:background="@drawable/green_circle" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070f6c" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070caf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070caf" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_add_new_group" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f040558" />
+        <com.gbwhatsapp.WaTextView android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/create_new_group_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:text="@string/APKTOOL_DUMMYVAL_0x7f121247" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.gbwhatsapp.TextEmojiLabel android:gravity="left" android:id="@id/link_existing_group_picker_title" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f6e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f6d" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/APKTOOL_DUMMYVAL_0x7f150291" />
+</LinearLayout>

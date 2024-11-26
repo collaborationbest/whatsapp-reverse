@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="@drawable/ic_action_search" android:id="@id/action_search" android:title="@string/APKTOOL_DUMMYVAL_0x7f120290" android:showAsAction="always|collapseActionView" android:actionViewClass="androidx.appcompat.widget.SearchView"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</menu>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:background="@drawable/new_community_badge" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

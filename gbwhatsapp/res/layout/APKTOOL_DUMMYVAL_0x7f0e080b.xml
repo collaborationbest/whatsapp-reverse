@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/privacy_disclosure_head_icon_animation_view" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07048d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07048d" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07048f" app:APKTOOL_DUMMYVAL_0x7f040651="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/header_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07066b" />
+    <com.gbwhatsapp.WaTextView android:id="@id/calls_title" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" style="?APKTOOL_DUMMYVAL_0x7f040627" />
+</LinearLayout>

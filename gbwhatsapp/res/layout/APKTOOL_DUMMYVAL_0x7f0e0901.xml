@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="horizontal" android:id="@id/call_relaying_layout" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c42" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070c42" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" style="@style/APKTOOL_DUMMYVAL_0x7f150371">
+            <LinearLayout android:orientation="vertical" android:paddingRight="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:ellipsize="none" android:id="@id/call_relaying_label" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1228cf" android:maxLines="@null" android:singleLine="false" style="?APKTOOL_DUMMYVAL_0x7f0408db" />
+                <com.gbwhatsapp.TextEmojiLabel android:id="@id/call_relaying_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" style="?APKTOOL_DUMMYVAL_0x7f0408d7" />
+            </LinearLayout>
+            <com.gbwhatsapp.wds.components.toggle.WDSSwitch android:id="@id/call_relaying_privacy_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </com.gbwhatsapp.settings.SettingsRowPrivacyLinearLayout>
+        <com.gbwhatsapp.settings.SettingsRowPrivacyLinearLayout android:orientation="horizontal" android:id="@id/disable_link_previews_section" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c42" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070c3d" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070c42" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" style="@style/APKTOOL_DUMMYVAL_0x7f150371">
+            <LinearLayout android:orientation="vertical" android:paddingRight="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:ellipsize="none" android:id="@id/disable_link_previews_label" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122949" android:maxLines="@null" android:singleLine="false" style="?APKTOOL_DUMMYVAL_0x7f0408db" />
+                <com.gbwhatsapp.TextEmojiLabel android:id="@id/disable_link_previews_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" style="?APKTOOL_DUMMYVAL_0x7f0408d7" />
+            </LinearLayout>
+            <com.gbwhatsapp.wds.components.toggle.WDSSwitch android:id="@id/disable_link_previews_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </com.gbwhatsapp.settings.SettingsRowPrivacyLinearLayout>
+    </LinearLayout>
+</ScrollView>

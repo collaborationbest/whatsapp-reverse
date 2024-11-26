@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:layout_gravity="left" android:background="@color/APKTOOL_DUMMYVAL_0x7f0600c8" android:layout_width="80.0dip" android:layout_height="16.0dip" android:layout_marginLeft="72.0dip" android:layout_marginBottom="32.0dip" style="BusinessLoadingFilterBarShimmerItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

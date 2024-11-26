@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/header_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0705a0" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408f2" android:layout_gravity="center" android:id="@id/fingerprint_bottomsheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/fingerprint_view_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="16.0dip" />
+    <FrameLayout android:orientation="horizontal" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07059f" android:textColor="?APKTOOL_DUMMYVAL_0x7f040007" android:layout_gravity="start" android:id="@id/fingerprint_bottomsheet_negative_button" android:background="?APKTOOL_DUMMYVAL_0x7f0408b2" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07059f" android:textColor="?APKTOOL_DUMMYVAL_0x7f040007" android:layout_gravity="end" android:id="@id/fingerprint_bottomsheet_positive_button" android:background="?APKTOOL_DUMMYVAL_0x7f0408b2" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bonsai_list_view_header" android:layout_width="fill_parent" android:layout_height="135.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="24.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0601c9" android:ellipsize="end" android:layout_gravity="bottom|center" android:id="@id/bonsai_list_view_header_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+</FrameLayout>

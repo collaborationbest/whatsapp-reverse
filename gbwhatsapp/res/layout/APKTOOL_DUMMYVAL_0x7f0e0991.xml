@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408f2" android:id="@id/storage_usage_sort_row_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:id="@id/storage_usage_sort_row_checkmark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/countrypicker_checkmark" />
+</merge>

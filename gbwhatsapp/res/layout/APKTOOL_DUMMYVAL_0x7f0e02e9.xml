@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/conversation_row_name_in_group_container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/conversation_row_profile_pic" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070620" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070620" android:src="@drawable/avatar_contact_colorable" android:scaleType="centerCrop" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f07061f" />
+    <LinearLayout android:orientation="vertical" android:id="@id/conversation_row_name_in_group_name_and_role_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView android:layout_gravity="center_vertical" android:id="@id/name_in_group" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501c0">
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501c6" />
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/secondary_name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1501c9" />
+        </com.whatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView>
+        <com.gbwhatsapp.WaTextView android:id="@id/conversation_row_name_in_group_role" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1207b9" style="@style/APKTOOL_DUMMYVAL_0x7f1501c7" />
+    </LinearLayout>
+</LinearLayout>

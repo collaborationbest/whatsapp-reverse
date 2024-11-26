@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0702df" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09cc" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/keyboard_aware_save_button" android:layout_below="@id/toolbar">
+        <include android:id="@id/contact_form_fields" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0228" />
+    </androidx.core.widget.NestedScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/keyboard_aware_save_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0702dc" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0702df" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0702dc" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e63" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+</RelativeLayout>

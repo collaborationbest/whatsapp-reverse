@@ -1,0 +1,68 @@
+.class public final LX/4E6;
+.super LX/00c;
+.source ""
+
+# interfaces
+.implements LX/00d;
+
+
+# instance fields
+.field public final synthetic this$0:LX/2I2;
+
+
+# direct methods
+.method public constructor <init>(LX/2I2;)V
+    .locals 1
+
+    iput-object p1, p0, LX/4E6;->this$0:LX/2I2;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/00c;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 8
+
+    iget-object v0, p0, LX/4E6;->this$0:LX/2I2;
+
+    iget-object v1, v0, LX/2I2;->A01:LX/2zJ;
+
+    iget-object v6, v0, LX/2I2;->A03:LX/14v;
+
+    iget-object v5, v0, LX/2I2;->A02:LX/123;
+
+    iget-object v0, v1, LX/2zJ;->A00:LX/1RJ;
+
+    iget-object v0, v0, LX/1RJ;->A01:LX/0uf;
+
+    invoke-static {v0}, LX/1kl;->A0O(LX/0uf;)LX/0xF;
+
+    move-result-object v2
+
+    iget-object v0, v1, LX/2zJ;->A00:LX/1RJ;
+
+    iget-object v0, v0, LX/1RJ;->A01:LX/0uf;
+
+    invoke-static {v0}, LX/1kl;->A1A(LX/0uf;)LX/0xJ;
+
+    move-result-object v7
+
+    invoke-static {v0}, LX/1kl;->A0T(LX/0uf;)LX/16Z;
+
+    move-result-object v3
+
+    invoke-static {v0}, LX/1kk;->A0V(LX/0uf;)LX/17Z;
+
+    move-result-object v4
+
+    new-instance v1, LX/1t5;
+
+    invoke-direct/range {v1 .. v7}, LX/1t5;-><init>(LX/0xF;LX/16Z;LX/17Z;LX/123;LX/14v;LX/0xJ;)V
+
+    return-object v1
+.end method

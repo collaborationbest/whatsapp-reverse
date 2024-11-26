@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/screen_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="checkForUpdates">
+                <com.abuarab.gold.font_text android:text="@string/yo_CUpdates" android:drawableLeft="@drawable/updates_updates" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/updates_updates" android:drawableTint="@null" style="@style/GoldSettings_row" />
+                <com.abuarab.gold.font_text android:id="@id/yo_UpInfo" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="Alex" style="@style/GoldSettings_row_subtitle" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_row_horizontal_padding" android:layout_marginRight="@dimen/settings_row_horizontal_padding" android:layout_marginStart="@dimen/settings_row_horizontal_padding" android:layout_marginEnd="@dimen/settings_row_horizontal_padding" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openChangelog">
+                <com.abuarab.gold.font_text android:id="@id/yo_changelog" android:text="@string/yo_changelog" android:drawableLeft="@drawable/updates_changelog" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/updates_changelog" android:drawableTint="@null" style="@style/GoldSettings_row" />
+                <com.abuarab.gold.font_text android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="Alex" style="@style/GoldSettings_row_subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:foreground="?android:selectableItemBackground" android:onClick="openWebsite">
+            <com.abuarab.gold.font_text android:text="@string/alex_web_update" android:drawableLeft="@drawable/updates_download" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/updates_download" android:drawableTint="@null" style="@style/GoldSettings_row" />
+            <com.abuarab.gold.font_text android:id="@id/yo_webdlS" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="Alex" style="@style/GoldSettings_row_subtitle" />
+        </LinearLayout>
+        <com.abuarab.gold.font_text android:gravity="center" android:layout_marginTop="15.0dip" android:text="@string/alex_wav" style="@style/GoldSettings_row" />
+    </LinearLayout>
+</ScrollView>

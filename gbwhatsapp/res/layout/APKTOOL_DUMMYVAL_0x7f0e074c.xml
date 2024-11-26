@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09ce" />
+    <ListView android:id="@id/group_participant_picker_list" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0702e2" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0702e3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+</LinearLayout>

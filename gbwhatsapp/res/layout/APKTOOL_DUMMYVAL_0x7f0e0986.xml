@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sticker_pack_preview_layout" android:layout_width="40.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/selector" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070563" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070563" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/shape_category_selected_item" />
+    <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700bf" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700bf" android:src="@drawable/vec_ic_emoji_history" android:scaleType="fitCenter" />
+    <FrameLayout android:id="@id/tap_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="center|right|top" android:id="@id/badge" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1503c9" />
+    <ViewStub android:layout_gravity="bottom|center|right" android:id="@id/plus_icon" android:visibility="gone" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0984" android:inflatedId="@id/plus_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d30" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d30" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d2f" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d2f" />
+</FrameLayout>

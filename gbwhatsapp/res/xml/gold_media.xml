@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/abu3rab_video_player_title">
+        <SwitchPreference android:icon="@drawable/alex_video" android:title="@string/abu3rab_video_player" android:key="abu3rab_media_video_player" android:summary="@string/abu3rab_video_player_sum" android:defaultValue="false" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/view_conversation_media">
+        <SwitchPreference android:icon="@drawable/hide_image_icon" android:title="@string/alex_media_images" android:key="yohide_inimages" />
+        <SwitchPreference android:icon="@drawable/hide_video_icon" android:title="@string/alex_media_videos" android:key="yohide_invideos" />
+        <SwitchPreference android:icon="@drawable/hide_gif_icon" android:title="@string/alex_media_gifs" android:key="yohide_ingifs" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/settings_help">
+        <Preference android:icon="@drawable/hide_restart_button" android:title="@string/reset" android:key="yohide_mediashow" android:summary="@string/resetThemesSum" />
+        <Preference android:icon="@drawable/alex_warning" android:title="@string/not_show_in_gallery" android:key="tips" android:summary="@string/restart_phone" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/report_cag_button" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_spam_report" app:APKTOOL_DUMMYVAL_0x7f040616="?APKTOOL_DUMMYVAL_0x7f04083a" app:APKTOOL_DUMMYVAL_0x7f040617="false" app:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f121d9f" app:APKTOOL_DUMMYVAL_0x7f040619="?APKTOOL_DUMMYVAL_0x7f04083a" app:APKTOOL_DUMMYVAL_0x7f04061a="@dimen/APKTOOL_DUMMYVAL_0x7f070287"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

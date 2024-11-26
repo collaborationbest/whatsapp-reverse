@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <rc.accounts.utils.CircleImageView android:id="@id/picture" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="20.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/sender_identity" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="16.5sp" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AGMods" />
+        <TextView android:textSize="12.0sp" android:id="@id/phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="+91 XXXXXXXXXX" />
+    </LinearLayout>
+</LinearLayout>

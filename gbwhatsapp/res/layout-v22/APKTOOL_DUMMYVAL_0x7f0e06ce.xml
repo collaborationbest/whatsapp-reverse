@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/admin_invites_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150259"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" style="@style/APKTOOL_DUMMYVAL_0x7f150236">
+        <com.gbwhatsapp.WaTextView android:ellipsize="end" android:text="@string/APKTOOL_DUMMYVAL_0x7f121a70" android:singleLine="true" style="@style/APKTOOL_DUMMYVAL_0x7f150239" />
+        <com.gbwhatsapp.WaTextView android:id="@id/admin_invites_info" style="@style/APKTOOL_DUMMYVAL_0x7f150237" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/admin_invites_recycler_view" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca8" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.gbwhatsapp.InfoCard>

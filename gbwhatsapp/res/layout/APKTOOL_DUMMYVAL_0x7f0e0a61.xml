@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:id="@id/connect_icon" android:focusable="false" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1226d2" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/voip_bottom_sheet_joined_indicator"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

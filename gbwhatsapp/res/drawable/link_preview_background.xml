@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/APKTOOL_DUMMYVAL_0x7f0605c0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:drawable="@color/APKTOOL_DUMMYVAL_0x7f060d59" />
+    <item>
+        <selector>
+            <item android:drawable="@color/APKTOOL_DUMMYVAL_0x7f0605bf" android:state_activated="true" />
+            <item android:state_pressed="true" android:drawable="@color/APKTOOL_DUMMYVAL_0x7f0605bf" />
+            <item android:drawable="@color/APKTOOL_DUMMYVAL_0x7f0605be" android:state_activated="false" />
+        </selector>
+    </item>
+</ripple>

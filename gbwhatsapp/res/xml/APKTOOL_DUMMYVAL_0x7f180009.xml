@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/APKTOOL_DUMMYVAL_0x7f120179"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.preference.WaListPreference android:persistent="false" android:entries="@array/APKTOOL_DUMMYVAL_0x7f03001b" android:visibility="gone" android:title="@string/APKTOOL_DUMMYVAL_0x7f122b3f" android:key="jid_message_popup" android:summary="@string/APKTOOL_DUMMYVAL_0x7f122b40" android:defaultValue="0" android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f03001c" app:APKTOOL_DUMMYVAL_0x7f04004b="false" app:APKTOOL_DUMMYVAL_0x7f04004d="false" app:APKTOOL_DUMMYVAL_0x7f040552="false" />
+    <com.gbwhatsapp.preference.WaListPreference android:persistent="false" android:visibility="gone" android:title="@string/APKTOOL_DUMMYVAL_0x7f122b3d" android:key="jid_message_light" android:summary="@string/APKTOOL_DUMMYVAL_0x7f122b3e" android:defaultValue="FFFFFF" android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f030017" app:APKTOOL_DUMMYVAL_0x7f04004b="false" app:APKTOOL_DUMMYVAL_0x7f04004d="false" app:APKTOOL_DUMMYVAL_0x7f040552="false" />
+    <com.gbwhatsapp.preference.WaCheckBoxPreference android:persistent="false" android:visibility="gone" android:title="@string/APKTOOL_DUMMYVAL_0x7f122b44" android:key="jid_use_high_priority_notifications" android:summary="@string/APKTOOL_DUMMYVAL_0x7f122b45" android:defaultValue="true" app:APKTOOL_DUMMYVAL_0x7f04004b="false" app:APKTOOL_DUMMYVAL_0x7f040552="false" />
+</PreferenceScreen>

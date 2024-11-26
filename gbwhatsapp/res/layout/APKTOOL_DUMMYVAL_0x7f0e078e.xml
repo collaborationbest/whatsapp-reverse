@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.MainChildCoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" whatsapp:APKTOOL_DUMMYVAL_0x7f0406ad="@id/send_payment_keyboard_popup_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.KeyboardPopupLayout android:id="@id/send_payment_keyboard_popup_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09cf" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/payment_tabs" android:background="?APKTOOL_DUMMYVAL_0x7f0407dc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar_holder" android:elevation="?APKTOOL_DUMMYVAL_0x7f040034" whatsapp:APKTOOL_DUMMYVAL_0x7f0409d8="?APKTOOL_DUMMYVAL_0x7f0407e7" whatsapp:APKTOOL_DUMMYVAL_0x7f0409e0="@color/APKTOOL_DUMMYVAL_0x7f060cc5" whatsapp:APKTOOL_DUMMYVAL_0x7f0409f0="@color/APKTOOL_DUMMYVAL_0x7f0608e2" whatsapp:APKTOOL_DUMMYVAL_0x7f0409f3="@color/APKTOOL_DUMMYVAL_0x7f0608e3" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e078f" />
+    </com.gbwhatsapp.KeyboardPopupLayout>
+</com.gbwhatsapp.components.MainChildCoordinatorLayout>

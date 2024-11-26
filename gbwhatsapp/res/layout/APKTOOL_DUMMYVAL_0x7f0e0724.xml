@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c43" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070c43" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/pay_hub_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/av_fb_pay" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:layout_weight="3.0">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070c48" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408f2" android:id="@id/pay_hub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120da0" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/pay_hub_desc_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040909="false" style="@style/APKTOOL_DUMMYVAL_0x7f150027">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070c46" android:textColor="?APKTOOL_DUMMYVAL_0x7f0408f1" android:id="@id/pay_hub_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120da1" android:maxLines="10" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip">
+        <com.gbwhatsapp.WaImageView android:id="@id/pay_hub_add" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_add" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0408dd" />
+        <com.gbwhatsapp.WaImageView android:id="@id/pay_hub_chevron" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="6.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/chevron_right" app:APKTOOL_DUMMYVAL_0x7f040b9c="true" />
+        <com.gbwhatsapp.WaImageView android:id="@id/pay_hub_alert" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_alert_round" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0408de" />
+    </FrameLayout>
+</LinearLayout>

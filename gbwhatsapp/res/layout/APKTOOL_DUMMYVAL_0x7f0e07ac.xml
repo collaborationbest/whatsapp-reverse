@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/bubble_send_location" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040b1a="?APKTOOL_DUMMYVAL_0x7f040648"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/place_name" style="@style/APKTOOL_DUMMYVAL_0x7f1502aa" />
+    <com.gbwhatsapp.WaTextView android:id="@id/place_address" style="@style/APKTOOL_DUMMYVAL_0x7f1502a9" />
+</com.gbwhatsapp.WaLinearLayout>

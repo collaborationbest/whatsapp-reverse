@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/GB_Mods"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:key="hidech_shownotif" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/gb_hide_chat_disable_vibration" android:key="hidech_animatehome" android:defaultValue="true" />
+    <SwitchPreference android:key="hidech_playsound" android:defaultValue="true" />
+    <SwitchPreference android:key="hidech_vibrate" android:defaultValue="true" />
+    <SwitchPreference android:key="hidech_showinforward" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/gb_hide_chat_count" android:key="gb_hide_chat_count" android:defaultValue="false" />
+</PreferenceScreen>

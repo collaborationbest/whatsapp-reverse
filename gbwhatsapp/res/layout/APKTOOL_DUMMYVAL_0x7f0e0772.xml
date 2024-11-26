@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:layout_gravity="center" android:id="@id/button_group_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" app:APKTOOL_DUMMYVAL_0x7f04073e="horizontal">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/request_decline_button" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070aaa" android:text="@string/APKTOOL_DUMMYVAL_0x7f1218ec" style="@style/APKTOOL_DUMMYVAL_0x7f150604" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/request_pay_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f12194f" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/request_cancel_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f1218dc" style="@style/APKTOOL_DUMMYVAL_0x7f150604" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/accept_payment_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f1218b6" style="@style/APKTOOL_DUMMYVAL_0x7f150604" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/retry_withdrawal_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f121992" style="@style/APKTOOL_DUMMYVAL_0x7f150604" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:enabled="true" android:id="@id/pause_resume_button" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f12194e" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+    </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
+</LinearLayout>

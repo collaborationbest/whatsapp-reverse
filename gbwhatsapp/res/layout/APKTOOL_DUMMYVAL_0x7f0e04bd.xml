@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/pending_participants_tabs" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a3b" android:inflatedId="@id/pending_participants_tabs" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" />
+    <com.gbwhatsapp.WaViewPager android:id="@id/pending_participants_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?APKTOOL_DUMMYVAL_0x7f040632" android:layout_width="fill_parent" android:layout_height="108.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:indeterminate="true" whatsapp:APKTOOL_DUMMYVAL_0x7f04027b="@color/APKTOOL_DUMMYVAL_0x7f060ad6" whatsapp:APKTOOL_DUMMYVAL_0x7f04027c="?APKTOOL_DUMMYVAL_0x7f040757" style="?android:progressBarStyle" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

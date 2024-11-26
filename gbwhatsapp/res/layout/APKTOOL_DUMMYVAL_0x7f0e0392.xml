@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageButton android:id="@id/dialpad_btn" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_dialpad" style="?APKTOOL_DUMMYVAL_0x7f040ae8" />
+</FrameLayout>

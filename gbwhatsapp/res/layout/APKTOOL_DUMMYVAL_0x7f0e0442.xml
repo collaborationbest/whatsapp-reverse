@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0705c7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0705c7" android:adjustViewBounds="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f122af7" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_logo_placeholder"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

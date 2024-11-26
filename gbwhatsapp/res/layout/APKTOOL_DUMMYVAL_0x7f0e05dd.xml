@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040144="@color/APKTOOL_DUMMYVAL_0x7f0600bf" app:APKTOOL_DUMMYVAL_0x7f040145="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" app:APKTOOL_DUMMYVAL_0x7f040146="0.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07045a" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07045a" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_width="14.0dip" android:layout_height="19.5dip" android:scaleType="fitCenter" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/permission_location" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0600c0" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07045a" android:text="@string/APKTOOL_DUMMYVAL_0x7f1202be" android:textAlignment="center" style="@style/APKTOOL_DUMMYVAL_0x7f15013e" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/allow_location_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:text="@string/APKTOOL_DUMMYVAL_0x7f1202a6" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/ic_location_nearby" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/more_options_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1202c1" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:id="@id/privacy_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:text="@string/APKTOOL_DUMMYVAL_0x7f1202c7" android:textAlignment="center" />
+</LinearLayout>

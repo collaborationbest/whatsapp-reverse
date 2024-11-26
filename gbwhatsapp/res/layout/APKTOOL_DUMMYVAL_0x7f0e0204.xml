@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/member_suggested_groups_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0201" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/upcoming_events_container" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0201" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</merge>

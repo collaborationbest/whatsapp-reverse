@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/upload_download_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no">
+        <FrameLayout android:id="@id/progress_bar_container" android:background="@drawable/circular_background_dark" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0703b5" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703b5" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:importantForAccessibility="no">
+            <ViewStub android:layout_gravity="center" android:id="@id/progress_bar" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01da" android:inflatedId="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+            <ViewStub android:layout_gravity="center" android:id="@id/cancel_download" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a7" android:inflatedId="@id/cancel_download" android:layout_width="12.0dip" android:layout_height="12.0dip" android:importantForAccessibility="yes" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/overlay_button_container" android:background="@drawable/download_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:importantForAccessibility="no">
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/media_retry_btn" android:visibility="gone" android:importantForAccessibility="yes" style="@style/APKTOOL_DUMMYVAL_0x7f1501be" />
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/play_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121bb8" android:importantForAccessibility="yes" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_video_play_conv" />
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

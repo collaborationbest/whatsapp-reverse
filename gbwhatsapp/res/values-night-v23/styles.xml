@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f1504b4" parent="@style/APKTOOL_DUMMYVAL_0x7f1504b1">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0401eb">?APKTOOL_DUMMYVAL_0x7f0407dc</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root_linear_layout" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/header_linear_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="24.0dip" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaImageView android:id="@id/header_image" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_marginTop="56.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_android_devices_link" />
+            <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120167" android:lineSpacingExtra="2.0sp" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:gravity="center" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:lineSpacingExtra="2.0sp" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" />
+        </LinearLayout>
+        <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:id="@id/button_group" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04073e="vertical">
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/confirm_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120165" app:APKTOOL_DUMMYVAL_0x7f040ac7="filled" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1228d6" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+        </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
+    </LinearLayout>
+</ScrollView>

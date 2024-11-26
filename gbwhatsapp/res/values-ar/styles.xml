@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GoldSettings_row_more" parent="@style/GoldSettings_row">
+        <item name="android:drawableRight">@drawable/chevron_left</item>
+        <item name="android:drawableEnd">@drawable/chevron_left</item>
+        <item name="android:drawableTint">#ff667781</item>
+    </style>
+</resources>

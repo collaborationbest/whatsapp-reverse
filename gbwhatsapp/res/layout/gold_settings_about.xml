@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/screen_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="0.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
+            <com.abuarab.gold.font_text android:id="@id/modBy" android:drawablePadding="0.0dip" android:drawableStart="@drawable/icon_06" style="@style/GoldSettings_row" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.abuarab.gold.font_text android:text="@string/yo_About" style="@style/GoldSettings_row_title" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/about_whatsapp" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="@string/alex_wav" android:paddingEnd="0.0dip" style="@style/GoldSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginStart="@dimen/settings_divider_horizontal_margin_left" android:layout_marginEnd="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openWebsite" android:layoutDirection="ltr">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/about_dev" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="By AlexMods.com" android:paddingEnd="0.0dip" style="@style/GoldSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginStart="@dimen/settings_divider_horizontal_margin_left" android:layout_marginEnd="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openSocialFAQs" android:layoutDirection="ltr">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/about_faq" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="FAQs" android:paddingEnd="0.0dip" style="@style/GoldSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.abuarab.gold.font_text android:text="@string/yo_follow" style="@style/GoldSettings_row_title" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openSocialTweet" android:layoutDirection="ltr">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/about_twitter" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="Twitter" android:paddingEnd="0.0dip" style="@style/GoldSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginStart="@dimen/settings_divider_horizontal_margin_left" android:layout_marginEnd="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openSocialTel" android:layoutDirection="ltr">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/about_telegram" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="Telegram" android:paddingEnd="0.0dip" style="@style/GoldSettings_row" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openSocialFB" android:layoutDirection="ltr">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/about_facebook" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="Facebook" android:paddingEnd="0.0dip" style="@style/GoldSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginStart="@dimen/settings_divider_horizontal_margin_left" android:layout_marginEnd="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openSocialVK" android:layoutDirection="ltr">
+                <ImageView android:paddingLeft="18.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/about_vkontakte" android:scaleType="fitCenter" android:tint="#ff00ab94" />
+                <com.abuarab.gold.font_text android:paddingRight="0.0dip" android:text="VKontakte" android:paddingEnd="0.0dip" style="@style/GoldSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.abuarab.gold.font_text android:gravity="center" android:id="@id/yowav" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/info_screen_padding" style="@style/GoldSettings_row" />
+    </LinearLayout>
+</ScrollView>

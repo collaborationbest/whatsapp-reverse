@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.payments.ui.widget.MultiExclusionChip android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060a04" android:id="@id/payment_filter_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040182="@drawable/filter_checkmark_18" app:APKTOOL_DUMMYVAL_0x7f04018b="@color/APKTOOL_DUMMYVAL_0x7f060a03" app:APKTOOL_DUMMYVAL_0x7f04019b="@color/APKTOOL_DUMMYVAL_0x7f060372" app:APKTOOL_DUMMYVAL_0x7f04019c="@dimen/APKTOOL_DUMMYVAL_0x7f070a9d" style="@style/APKTOOL_DUMMYVAL_0x7f150782"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

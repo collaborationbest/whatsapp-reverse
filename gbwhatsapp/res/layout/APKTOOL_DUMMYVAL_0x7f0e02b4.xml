@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/conversation_fmx_card_bg" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0296" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" app:APKTOOL_DUMMYVAL_0x7f04090a="0.4" app:APKTOOL_DUMMYVAL_0x7f04090e="left_to_right" app:APKTOOL_DUMMYVAL_0x7f040910="1200" app:APKTOOL_DUMMYVAL_0x7f040914="0.6" app:APKTOOL_DUMMYVAL_0x7f040918="400" app:APKTOOL_DUMMYVAL_0x7f04091b="20.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+                <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" />
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <ViewStub android:layout_gravity="center" android:id="@id/meta_verified_label" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02b5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f65" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/signals" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:maxLines="3" />
+        <ViewStub android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/hint_chat_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/safety_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120e23" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+        <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/action_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/block_btn_fmx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120335" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/ic_spam_block" app:APKTOOL_DUMMYVAL_0x7f040ac7="outline" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/add_btn_fmx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120e19" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/ic_spam_add" app:APKTOOL_DUMMYVAL_0x7f040ac7="outline" />
+        </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
+    </LinearLayout>
+</merge>

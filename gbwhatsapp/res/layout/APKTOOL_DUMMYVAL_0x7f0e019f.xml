@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0701c6" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:layout_gravity="center" android:id="@id/welcome_calls_message" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0701c5" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0701c5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1200a3" style="@style/APKTOOL_DUMMYVAL_0x7f1503d6" />
+</ScrollView>

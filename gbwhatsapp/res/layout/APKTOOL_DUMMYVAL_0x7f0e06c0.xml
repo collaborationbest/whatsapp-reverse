@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070222"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/channel_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070223" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070223" />
+    <com.gbwhatsapp.WaImageView android:id="@id/channel_badge" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070221" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070221" android:layout_marginBottom="-4.0dip" android:layout_alignBottom="@id/channel_icon" android:layout_alignEnd="@id/channel_icon" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="end|center" android:paddingTop="8.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginEnd="8.0dip" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0832" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="end|center" android:id="@id/quick_action_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+</FrameLayout>

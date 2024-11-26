@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/GB_Mods" xmlns:robobunny="http://robobunny.com"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_bg_odd_mod" android:key="starred_message_bg_odd_color_picker" android:summary="@string/starred_message_bg_odd_summary" android:defaultValue="0xFFFFFFFF" />
+    <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="starred_message_background_gd_bg_mode" android:dependency="starred_message_bg_odd_color_picker" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/header_gd_bg_picker" android:key="starred_message_background_gd_bg_color_picker" android:dependency="starred_message_bg_odd_color_picker" android:defaultValue="@color/white" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_names_mod" android:key="starred_message_names_color_picker" android:summary="@string/starred_message_names_summary" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_date_mod" android:key="starred_message_date_color_picker" android:summary="@string/starred_message_date_summary" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_message_mod" android:key="starred_message_message_color_picker" android:summary="@string/starred_message_message_summary" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_message_bubble_mod" android:key="starred_message_message_bubble_color_picker" android:summary="@string/starred_message_message_bubble_summary" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_date_bubble_mod" android:key="starred_message_date_bubble_color_picker" android:summary="@string/starred_message_date_bubble_summary" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_star_mod" android:key="starred_message_star_color_picker" android:summary="@string/starred_message_star_summary" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_chevron" android:key="starred_message_chevron_color_picker" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_forward" android:key="starred_message_forward_color_picker" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_forward_bg" android:key="starred_message_forward_bg_color_picker" android:defaultValue="0xFF000000" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_messages_row_divider_mod" android:key="starred_messages_row_divider_picker" android:summary="@string/starred_messages_row_divider_summary" android:defaultValue="0xFFFFFFFF" />
+    <CheckBoxPreference android:title="@string/starred_messages_hide_divider_mod" android:key="starred_messages_hide_divider_check" android:summary="@string/starred_messages_hide_divider_summary" android:defaultValue="false" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_msg_link_mod" android:key="starred_messages_message_link_color_picker" android:summary="@string/starred_message_msg_link_summary" android:defaultValue="@color/link_color_outgoing" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_quoted_name" android:key="starred_message_quoted_name_picker" android:defaultValue="@color/blue" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_quoted_text" android:key="starred_message_quoted_text_picker" android:defaultValue="@color/status_2" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_quoted_bg" android:key="starred_message_quoted_bg_picker" android:defaultValue="@color/status_2" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/starred_message_quoted_divider" android:key="starred_message_quoted_divider_picker" android:summary="@string/quoted_divider_sum" android:defaultValue="@color/black" />
+</PreferenceScreen>

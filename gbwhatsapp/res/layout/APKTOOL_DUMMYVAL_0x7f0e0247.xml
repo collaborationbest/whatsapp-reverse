@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.CircularProgressBar android:id="@id/suggested_contacts_progress_bar" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:indeterminate="true" app:APKTOOL_DUMMYVAL_0x7f04027b="@color/APKTOOL_DUMMYVAL_0x7f060ad6" app:APKTOOL_DUMMYVAL_0x7f04027c="?APKTOOL_DUMMYVAL_0x7f040757" style="?android:progressBarStyle" />
+</FrameLayout>

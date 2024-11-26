@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f15055c" android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405f5="enterAlways">
+        <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.gbwhatsapp.KeyboardPopupLayout android:id="@id/popup_keyboard_root" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0405e8="bottom">
+        <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+            <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04c3" />
+                    </FrameLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/colors_recycler" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <com.gbwhatsapp.gifsearch.GifSearchContainer android:id="@id/gif_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.emoji.search.EmojiSearchKeyboardContainer android:id="@id/expressions_emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/virtualKeyboardContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip">
+            <com.gbwhatsapp.WaImageButton android:id="@id/keyboardButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <com.gbwhatsapp.WaEditText android:id="@id/keyboardInput" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </com.gbwhatsapp.KeyboardPopupLayout>
+    <com.gbwhatsapp.expressionstray.conversation.ExpressionsBottomSheetView android:id="@id/keyboard_bottom_sheet" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0400c1="false" app:APKTOOL_DUMMYVAL_0x7f0400c3="@dimen/APKTOOL_DUMMYVAL_0x7f07055a" app:APKTOOL_DUMMYVAL_0x7f0405bb="com.google.android.material.bottomsheet.BottomSheetBehavior" app:APKTOOL_DUMMYVAL_0x7f0405f1="bottom" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0405c4="@id/footer" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/secret_code_description" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121ee0" android:textAlignment="center" style="@style/APKTOOL_DUMMYVAL_0x7f1503d9" />
+            <include android:id="@id/secret_code_input_layout" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08c4" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/footer" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01c5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

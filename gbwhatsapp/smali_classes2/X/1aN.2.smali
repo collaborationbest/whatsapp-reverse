@@ -1,0 +1,73 @@
+.class public final LX/1aN;
+.super LX/1Xy;
+.source ""
+
+
+# instance fields
+.field public final A00:LX/18I;
+
+.field public final A01:LX/1ET;
+
+.field public final A02:LX/1Mt;
+
+
+# direct methods
+.method public constructor <init>(LX/0xC;LX/18I;LX/1ET;LX/19p;LX/1A1;LX/1Mt;LX/0xJ;)V
+    .locals 8
+
+    const/4 v7, 0x1
+
+    move-object v2, p1
+
+    invoke-static {p1, v7}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    const/4 v0, 0x2
+
+    move-object v4, p5
+
+    invoke-static {p5, v0}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    const/4 v0, 0x3
+
+    move-object v3, p4
+
+    invoke-static {p4, v0}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    const/4 v0, 0x4
+
+    move-object v5, p7
+
+    invoke-static {p7, v0}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    const/4 v0, 0x5
+
+    invoke-static {p2, v0}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    const/4 v0, 0x6
+
+    invoke-static {p6, v0}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    const/4 v0, 0x7
+
+    invoke-static {p3, v0}, LX/00D;->A0C(Ljava/lang/Object;I)V
+
+    new-array v6, v7, [I
+
+    const/4 v1, 0x0
+
+    const/16 v0, 0xea
+
+    aput v0, v6, v1
+
+    move-object v1, p0
+
+    invoke-direct/range {v1 .. v7}, LX/1Xy;-><init>(LX/0xC;LX/19p;LX/1A1;LX/0xJ;[IZ)V
+
+    iput-object p2, p0, LX/1aN;->A00:LX/18I;
+
+    iput-object p6, p0, LX/1aN;->A02:LX/1Mt;
+
+    iput-object p3, p0, LX/1aN;->A01:LX/1ET;
+
+    return-void
+.end method

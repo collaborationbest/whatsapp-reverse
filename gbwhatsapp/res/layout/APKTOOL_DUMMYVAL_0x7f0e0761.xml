@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/payment_method_row_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/payment_method_provider_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070aa3" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070aa3" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:scaleType="fitCenter" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1219b2" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/av_bank" />
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/account_number_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_weight="1.0">
+                <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:ellipsize="end" android:id="@id/payment_branding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120da0" android:singleLine="true" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/payment_method_name_shimmer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040909="false" app:APKTOOL_DUMMYVAL_0x7f04090a="0.5" app:APKTOOL_DUMMYVAL_0x7f04090b="?APKTOOL_DUMMYVAL_0x7f040630">
+                        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:layout_gravity="start" android:id="@id/payment_method_bank_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:textAlignment="viewStart" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                </LinearLayout>
+                <com.gbwhatsapp.CopyableTextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/payment_method_account_id" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:ellipsize="end" android:id="@id/payment_method_provider_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <com.gbwhatsapp.WaImageView android:layout_gravity="end|center" android:id="@id/payment_method_decorate_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/countrypicker_checkmark" />
+            <RadioButton android:layout_gravity="end|center" android:id="@id/payment_method_radio_button" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070aa2" />
+</merge>

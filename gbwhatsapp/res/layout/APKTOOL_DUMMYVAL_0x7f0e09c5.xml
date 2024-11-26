@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?APKTOOL_DUMMYVAL_0x7f0402bf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070f5e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070f5e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.thunderstorm.ThunderstormQrCodeCardView android:gravity="center" android:id="@id/contact_qr_card" android:paddingTop="36.0dip" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b9f" android:lineSpacingExtra="2.0dip" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/reset_qrcode_button" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122ba0" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe" />
+    </LinearLayout>
+</ScrollView>

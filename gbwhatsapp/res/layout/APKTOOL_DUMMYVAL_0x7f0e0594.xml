@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/form_item_root" android:paddingTop="40.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060873" android:gravity="center" android:id="@id/form_item_title" android:layout_width="fill_parent" android:layout_height="36.0dip" android:fontFamily="sans-serif-medium" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/form_item_action_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <org.npci.upi.security.pinactivitycomponent.widget.FormItemEditText android:textSize="24.0dip" android:typeface="monospace" android:textStyle="bold" android:id="@id/form_item_input" android:background="@null" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:cursorVisible="false" android:selectAllOnFocus="false" android:digits=" 1234567890" android:inputType="text" android:textIsSelectable="false" android:layoutDirection="ltr" app:APKTOOL_DUMMYVAL_0x7f040799="popIn" app:APKTOOL_DUMMYVAL_0x7f04079d="20.0dip" app:APKTOOL_DUMMYVAL_0x7f04079e="5.0dip" app:APKTOOL_DUMMYVAL_0x7f0407a0="@color/APKTOOL_DUMMYVAL_0x7f0604f0" app:APKTOOL_DUMMYVAL_0x7f0407a1="2.0dip" app:APKTOOL_DUMMYVAL_0x7f0407a3="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="26.0dip">
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/form_item_progress" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" style="?APKTOOL_DUMMYVAL_0x7f0407f6" />
+            <ImageView android:layout_gravity="center" android:id="@id/form_item_image" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="10.0dip" />
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06086b" android:ellipsize="marquee" android:gravity="center" android:id="@id/forgot_upi" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="36.0dip" android:maxWidth="160.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1229d1" android:scrollHorizontally="true" android:layout_alignParentLeft="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="sans-serif-medium" />
+                <Button android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f06086b" android:id="@id/form_item_button" android:background="?APKTOOL_DUMMYVAL_0x7f0408b2" android:padding="0.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f12286e" android:drawableLeft="@drawable/ic_action_reload" android:layout_alignParentRight="true" android:textAllCaps="false" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="13.0dip" android:textStyle="bold" android:id="@id/educational_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="10.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f122960" android:fontFamily="sans-serif" android:textAlignment="center" />
+    </LinearLayout>
+</RelativeLayout>

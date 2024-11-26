@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/map_setting">
+        <item android:icon="@null" android:id="@id/map_type_normal" android:title="@string/APKTOOL_DUMMYVAL_0x7f122a28" />
+        <item android:icon="@null" android:id="@id/map_type_satellite" android:title="@string/APKTOOL_DUMMYVAL_0x7f122a29" />
+        <item android:icon="@null" android:id="@id/map_type_terrain" android:title="@string/APKTOOL_DUMMYVAL_0x7f122a2a" />
+        <item android:icon="@null" android:id="@id/map_traffic" android:title="@string/APKTOOL_DUMMYVAL_0x7f122a27" android:checkable="true" />
+    </group>
+</menu>

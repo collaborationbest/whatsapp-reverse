@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="horizontal" android:background="@drawable/voip_in_call_notification_banner_background" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/icon" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a70" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070650" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070650" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060ce2" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" style="@style/APKTOOL_DUMMYVAL_0x7f150647" />
+</merge>

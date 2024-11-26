@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatCheckBox android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070452" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0604dd" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070451" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070453" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070451" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070453" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04012c="@drawable/filter_bottom_sheet_category_item_radio_button_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

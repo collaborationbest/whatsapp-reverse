@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_fragment" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:layout_gravity="center_vertical" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf">
+        <ViewStub android:id="@id/meta_ai_search_bar_image_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e065e" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+        <com.gbwhatsapp.search.views.TokenizedSearchInput android:id="@id/search_input_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.gbwhatsapp.wds.components.topbar.WDSToolbar>
+    <View android:id="@id/divider" style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+    <Space android:id="@id/space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" />
+    <View android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f122bc6" />
+    <ViewStub android:id="@id/full_screen_progress" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08b8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/result_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070beb" />
+    <com.gbwhatsapp.search.views.ProgressView android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <View android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/APKTOOL_DUMMYVAL_0x7f122bc5" />
+</LinearLayout>

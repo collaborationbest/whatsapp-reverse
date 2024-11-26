@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ff25d366" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.abuarab.gold.font_text android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/title_autotext" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.abuarab.gold.font_text android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_autotext_input" />
+        <EditText android:id="@id/mInput" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        <com.abuarab.gold.font_text android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/title_autotext_count" />
+        <EditText android:id="@id/mCount" android:background="@null" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" android:inputType="number" />
+    </LinearLayout>
+</LinearLayout>

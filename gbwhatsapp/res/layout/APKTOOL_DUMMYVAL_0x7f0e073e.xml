@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?APKTOOL_DUMMYVAL_0x7f0400af" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="72.0dip" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:gravity="center" android:layout_gravity="center" android:id="@id/banner_icon" android:background="@drawable/banner_info_circle" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f0700d7" android:layout_width="48.0dip" android:layout_height="48.0dip" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_info_round" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0400b1" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070a41" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/banner_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070078" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/banner_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121785" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="56.0dip" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/button_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1228e8" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_close" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0601ae" />
+    </FrameLayout>
+</LinearLayout>

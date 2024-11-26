@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02e5" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e032a" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09b2" />
+        <com.whatsapp.conversation.conversationrow.InteractiveMessageView android:orientation="vertical" android:id="@id/interactive_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070383" />
+        <View android:id="@id/button_div" style="@style/APKTOOL_DUMMYVAL_0x7f150361" />
+        <com.whatsapp.conversation.conversationrow.InteractiveMessageButton android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

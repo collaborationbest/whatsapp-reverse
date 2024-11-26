@@ -1,0 +1,58 @@
+.class public final LX/Axs;
+.super LX/00c;
+.source ""
+
+# interfaces
+.implements LX/02t;
+
+
+# instance fields
+.field public final synthetic this$0:LX/1Up;
+
+
+# direct methods
+.method public constructor <init>(LX/1Up;)V
+    .locals 1
+
+    iput-object p1, p0, LX/Axs;->this$0:LX/1Up;
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/00c;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    check-cast p1, Ljava/lang/Number;
+
+    iget-object v2, p0, LX/Axs;->this$0:LX/1Up;
+
+    iget-object v1, v2, LX/1Up;->A0C:LX/1Uh;
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    :goto_0
+    iput v0, v1, LX/1Uh;->A02:I
+
+    iget-object v0, v2, LX/1Up;->A06:LX/08d;
+
+    invoke-virtual {v0, v1}, LX/00s;->A0D(Ljava/lang/Object;)V
+
+    sget-object v0, LX/0AT;->A00:LX/0AT;
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method

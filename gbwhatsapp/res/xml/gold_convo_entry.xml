@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/conversation_style_entry" android:title="@string/yoconv" android:key="ConvoEntry" android:summary="@string/yoconvS" android:defaultValue="7" android:entryValues="@array/conversation_style_entry_values" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/HangoutsBK" android:key="BGColor" android:summary="@string/HangoutsBKS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/HangoutsBt" android:key="ModChatBtnColor" android:summary="@string/HangoutsBtS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoEmojibtn" android:key="ModChatEmojiColor" android:summary="@string/yoEmojibtnS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoSendBtn" android:key="ModChaSendColor" android:summary="@string/yoSendBtnS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/yoSendBK" android:key="ModChaSendBKColor" android:summary="@string/yoSendBKS" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/EntryBak" android:key="ModChatEntry" android:summary="@string/EntryBak" />
+    <com.abuarab.gold.ColorSelectorPreference android:title="@string/entryText" android:key="ModChatTextColor" android:summary="@string/entryTextSum" />
+</PreferenceScreen>

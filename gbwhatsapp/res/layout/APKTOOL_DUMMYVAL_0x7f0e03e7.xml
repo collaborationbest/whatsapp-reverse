@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0704fe" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0704fe">
+            <com.gbwhatsapp.WaTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f120c2e" style="@style/APKTOOL_DUMMYVAL_0x7f1501fc" />
+            <com.gbwhatsapp.WaTextView android:id="@id/encryption_key_info_info" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c2d" style="@style/APKTOOL_DUMMYVAL_0x7f1501f3" />
+            <RelativeLayout android:id="@id/enc_key_background" style="@style/APKTOOL_DUMMYVAL_0x7f1501f6">
+                <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e5" android:id="@id/encryption_key_info_middle_button" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textAllCaps="false" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+                <FrameLayout android:id="@id/encryption_key_info_encryption_key_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/encryption_key_info_bottom_button" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c2c" style="@style/APKTOOL_DUMMYVAL_0x7f1501f8" />
+</LinearLayout>

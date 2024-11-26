@@ -1,0 +1,13 @@
+{
+  "type": "path",
+  "oncall": "android_systems_reliability",
+  "path": {
+    "name": "minidumps",
+    "location": "PERSISTENT_ROOT"
+  },
+  "privacy": "NOT_SCOPED",
+  "description": "Android Crash - Minidumps",
+  "used_in_early_startup": true,
+  "name": "android_acra_minidumps",
+  "id": 1874789883
+}

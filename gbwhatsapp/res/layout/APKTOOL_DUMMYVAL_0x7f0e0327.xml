@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/conversation_row_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30.0dip">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02fe" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e032a" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/view_once_media_container_small" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07032e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070cab" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.conversation.conversationrow.components.ViewOnceDownloadProgressView android:gravity="center" android:layout_gravity="center" android:id="@id/view_once_download_small" android:paddingTop="1.0dip" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07032c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07032d" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07032d" />
+            <com.gbwhatsapp.components.TextAndDateLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0703e2" android:gravity="center_vertical" android:layout_gravity="left" android:id="@id/view_once_media_type_small" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070330" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070330" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02a3" />
+            </com.gbwhatsapp.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

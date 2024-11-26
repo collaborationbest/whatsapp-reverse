@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca4" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060ab7" android:id="@id/sticker_pack_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:id="@id/bullet_sticker_info" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12290f" android:importantForAccessibility="no" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/sticker_pack_publisher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+</LinearLayout>

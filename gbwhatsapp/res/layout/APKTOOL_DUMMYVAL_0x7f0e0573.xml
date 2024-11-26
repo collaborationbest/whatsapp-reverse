@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.wds.components.search.WDSSearchBar android:id="@id/wds_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/compose_view_invite_a_friend_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a28" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/android_view_invite_a_friend_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a27" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

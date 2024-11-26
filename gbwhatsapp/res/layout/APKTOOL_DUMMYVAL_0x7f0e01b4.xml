@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/catalog_item_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/catalog_list_product_image" style="@style/APKTOOL_DUMMYVAL_0x7f15032e" />
+        <ViewStub android:id="@id/hidden_item_indicator_stub" android:inflatedId="@id/hidden_item_indicator" style="@style/APKTOOL_DUMMYVAL_0x7f15032e" />
+        <ViewStub android:layout_gravity="center|left|top" android:id="@id/corner_indicator_stub" android:inflatedId="@id/corner_indicator" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c08" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c08" android:layout_marginLeft="8.0dip" />
+        <com.gbwhatsapp.components.SelectionCheckView android:layout_gravity="bottom|center|right" android:id="@id/selection_check" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c08" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c08" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip">
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/catalog_list_product_title" android:duplicateParentState="true" style="@style/APKTOOL_DUMMYVAL_0x7f150330" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060a0b" android:ellipsize="end" android:id="@id/catalog_list_product_description" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.gbwhatsapp.WaTextView android:id="@id/catalog_list_product_price" android:duplicateParentState="true" style="@style/APKTOOL_DUMMYVAL_0x7f15032f" />
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/catalog_list_product_variant_description" android:duplicateParentState="true" android:textAllCaps="true" style="@style/APKTOOL_DUMMYVAL_0x7f150332" />
+    </LinearLayout>
+</merge>

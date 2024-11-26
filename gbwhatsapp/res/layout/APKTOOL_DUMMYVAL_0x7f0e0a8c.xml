@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070e7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:id="@id/label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122799" android:paddingEnd="2.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f15060f" />
+    <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_wabai_stardust_message" />
+</LinearLayout>

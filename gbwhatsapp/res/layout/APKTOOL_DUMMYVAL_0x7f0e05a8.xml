@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/link_to_community_home_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040542="?APKTOOL_DUMMYVAL_0x7f0407e7" style="@style/APKTOOL_DUMMYVAL_0x7f150259"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/link_to_community_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0706fa" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706fa" android:scaleType="fitCenter" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07066d" android:layout_weight="1.0">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070611" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:id="@id/link_to_community_parent_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:id="@id/link_to_community_parent_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:id="@id/link_to_community_home_arrow" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/chevron_right_wds" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06058c" />
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

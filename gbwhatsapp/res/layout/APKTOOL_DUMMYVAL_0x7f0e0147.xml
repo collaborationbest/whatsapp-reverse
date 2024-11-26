@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/business_hours_icon" android:layout_weight="0.0" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_business_hours" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f06012f" style="@style/APKTOOL_DUMMYVAL_0x7f150164" />
+    <com.gbwhatsapp.biz.BusinessHoursContentView android:layout_gravity="center_vertical" android:id="@id/business_hours_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:id="@id/business_hours_chevron_icon" android:paddingLeft="12.0dip" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07013b" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_chevron_down" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0601fa" />
+</merge>

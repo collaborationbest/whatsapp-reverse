@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/profile_avatar" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d0a" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d0a" android:scaleType="centerCrop" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/mic_overlay" android:background="@drawable/mic_background_incoming_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d09" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/mic_played" whatsapp:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060d59" />
+</merge>

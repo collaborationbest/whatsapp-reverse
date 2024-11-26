@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/retry_panel" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:paddingTop="8.0dip" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12147a" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e37" style="@style/APKTOOL_DUMMYVAL_0x7f1505ff" />
+</LinearLayout>

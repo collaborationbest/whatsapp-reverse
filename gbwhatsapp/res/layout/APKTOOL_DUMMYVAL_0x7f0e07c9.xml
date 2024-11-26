@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/postcode_item" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b17" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b17" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/postcode_item_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b18" android:tint="?APKTOOL_DUMMYVAL_0x7f040559" android:layout_centerVertical="true" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b18" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_business_location" />
+        <RelativeLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/postcode_item_location" android:layout_centerVertical="true" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b19" android:layout_toEndOf="@id/postcode_item_location">
+            <com.gbwhatsapp.WaTextView android:id="@id/postcode_item_text" android:text="@string/APKTOOL_DUMMYVAL_0x7f120605" android:letterSpacing="0.02" style="@style/APKTOOL_DUMMYVAL_0x7f150330" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060a0b" android:id="@id/postcode_item_location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/postcode_item_text" android:letterSpacing="0.02" style="@style/APKTOOL_DUMMYVAL_0x7f15032f" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/APKTOOL_DUMMYVAL_0x7f0600d0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f5d" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:id="@id/total_quantity_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f57" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405d6="parent" app:APKTOOL_DUMMYVAL_0x7f0405d9="@id/add_more_btn" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1502d9" />
+    <ViewStub android:id="@id/add_more_btn" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05b8" android:inflatedId="@id/add_more_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f07071a" app:APKTOOL_DUMMYVAL_0x7f0405c3="@id/total_quantity_textview" app:APKTOOL_DUMMYVAL_0x7f0405da="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="@id/total_quantity_textview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070d52"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaNetworkResourceImageView android:id="@id/sup_bottom_sheet_row_download_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d4f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070d4f" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d50" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070d51" android:layout_centerVertical="true" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070d50" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070d51" />
+    <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d54" android:id="@id/sup_bottom_sheet_row_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/sup_bottom_sheet_row_download_icon" android:layout_toEndOf="@id/sup_bottom_sheet_row_download_icon" />
+    <TextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d53" android:id="@id/sup_bottom_sheet_row_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/sup_bottom_sheet_row_download_icon" android:layout_below="@id/sup_bottom_sheet_row_title_text" android:layout_toEndOf="@id/sup_bottom_sheet_row_download_icon" />
+</RelativeLayout>

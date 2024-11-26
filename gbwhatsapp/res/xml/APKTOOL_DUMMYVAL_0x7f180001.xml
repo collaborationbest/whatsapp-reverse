@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/APKTOOL_DUMMYVAL_0x7f12287f" android:icon="@mipmap/icon" android:accountType="com.gbwhatsapp" android:smallIcon="@mipmap/icon" android:accountPreferences="@xml/APKTOOL_DUMMYVAL_0x7f180000"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

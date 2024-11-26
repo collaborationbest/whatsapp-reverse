@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:gravity="left" android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121c05" app:APKTOOL_DUMMYVAL_0x7f0404d9="500" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1503d6" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060c00" android:gravity="left" android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f121c04" android:lineSpacingExtra="4.0dip" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/dialog_title" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/remove_account_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f121d5e" app:APKTOOL_DUMMYVAL_0x7f0405da="@id/dialog_message" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/dialog_message" style="@style/APKTOOL_DUMMYVAL_0x7f1505ff" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/log_back_in_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212d4" app:APKTOOL_DUMMYVAL_0x7f0405da="@id/remove_account_button" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/remove_account_button" style="@style/APKTOOL_DUMMYVAL_0x7f1505ff" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

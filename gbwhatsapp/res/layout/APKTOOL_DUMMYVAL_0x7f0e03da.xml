@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/container" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:paddingTop="?APKTOOL_DUMMYVAL_0x7f040010" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/empty_invite_image" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03db" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaTextView android:textSize="24.0sp" android:gravity="center" android:paddingTop="20.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1211bb" style="@style/APKTOOL_DUMMYVAL_0x7f1503d6" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f122815" style="@style/APKTOOL_DUMMYVAL_0x7f1503d6" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/invite_button_tell_a_friend" android:layout_width="fill_parent" android:layout_marginBottom="20.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b7e" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:gravity="center" android:id="@id/subtitle_tell_a_friend" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1503d9" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

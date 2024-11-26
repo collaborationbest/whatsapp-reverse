@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bottom_nav_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:theme="@style/APKTOOL_DUMMYVAL_0x7f1504fd" android:id="@id/bottom_nav" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" style="@style/APKTOOL_DUMMYVAL_0x7f150659" />
+</LinearLayout>

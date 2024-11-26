@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f1001b4">
+        <item quantity="other">%d નવા નોટિફિકેશન</item>
+        <item quantity="one">%d નવું નોટિફિકેશન</item>
+    </plurals>
+</resources>

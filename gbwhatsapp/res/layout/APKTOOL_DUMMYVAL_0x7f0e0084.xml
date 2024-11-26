@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/toolbar_layout" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/toolbar_holder" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09ce" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_text_container" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip">
+            <com.gbwhatsapp.WaTextView android:id="@id/see_all_empty_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f00" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" style="@style/APKTOOL_DUMMYVAL_0x7f150442" />
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070c46" android:textColor="?APKTOOL_DUMMYVAL_0x7f0401dd" android:id="@id/view_all_text" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f08" style="@style/APKTOOL_DUMMYVAL_0x7f1505d9" />
+        </LinearLayout>
+        <com.gbwhatsapp.collections.ObservableRecyclerView android:id="@id/see_all_status_list" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca8" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

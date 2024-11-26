@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/send_current_location_btn" android:background="@drawable/selector_orange_gradient" android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07073d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="left" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07073d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07073d">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/send_current_location_icon" android:background="@drawable/send_current_location_background" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070739" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070739" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_current_location" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0407e5" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:layout_gravity="center|left" android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07073d" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:id="@id/send_current_location_text" android:text="@string/APKTOOL_DUMMYVAL_0x7f121f85" style="@style/APKTOOL_DUMMYVAL_0x7f1502a1" />
+        <com.gbwhatsapp.WaTextView android:id="@id/location_description" style="@style/APKTOOL_DUMMYVAL_0x7f1502a0" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/this_location_divider" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+</FrameLayout>

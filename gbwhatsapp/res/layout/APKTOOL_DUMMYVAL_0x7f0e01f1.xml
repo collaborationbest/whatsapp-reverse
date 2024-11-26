@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.banners.WDSBanner android:icon="@drawable/vec_ic_calendar_wds" android:id="@id/community_events_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" app:APKTOOL_DUMMYVAL_0x7f0402b5="@string/APKTOOL_DUMMYVAL_0x7f120d3d" app:APKTOOL_DUMMYVAL_0x7f04051c="@string/APKTOOL_DUMMYVAL_0x7f120d3e" style="@style/APKTOOL_DUMMYVAL_0x7f15061f" />
+</merge>

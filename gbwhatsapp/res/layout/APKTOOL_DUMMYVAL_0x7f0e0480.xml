@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main_gallery_tab_host" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:textColorPrimary="?APKTOOL_DUMMYVAL_0x7f0404f4" android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0404f2" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" android:minHeight="?APKTOOL_DUMMYVAL_0x7f040010" android:layout_alignParentTop="true" app:APKTOOL_DUMMYVAL_0x7f0402d0="gone" app:APKTOOL_DUMMYVAL_0x7f0406c0="@menu/APKTOOL_DUMMYVAL_0x7f110020" app:APKTOOL_DUMMYVAL_0x7f0407c7="@style/APKTOOL_DUMMYVAL_0x7f1505d1" app:APKTOOL_DUMMYVAL_0x7f040a48="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/gallery_tab_layout" android:background="@color/APKTOOL_DUMMYVAL_0x7f0604fc" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_below="@id/toolbar" app:APKTOOL_DUMMYVAL_0x7f0409da="fill" app:APKTOOL_DUMMYVAL_0x7f0409e5="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0409e7="fixed" app:APKTOOL_DUMMYVAL_0x7f0409f0="?APKTOOL_DUMMYVAL_0x7f0407e8" app:APKTOOL_DUMMYVAL_0x7f0409f2="@style/APKTOOL_DUMMYVAL_0x7f1503d0" app:APKTOOL_DUMMYVAL_0x7f0409f3="@color/APKTOOL_DUMMYVAL_0x7f0609d7" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/gallery_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/gallery_tab_layout" />
+        <include android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_alignParentBottom="true" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0475" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

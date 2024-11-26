@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaDynamicRoundCornerImageView android:id="@id/media_preview" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0709da" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709da" android:scaleType="centerCrop" app:APKTOOL_DUMMYVAL_0x7f040828="@dimen/APKTOOL_DUMMYVAL_0x7f070224"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/collection_divider" android:visibility="gone" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginTop="12.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f15029b" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" android:layout_weight="1.0">
+            <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f040630" android:ellipsize="end" android:gravity="left" android:id="@id/textview_collection_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f04062d" android:ellipsize="end" android:gravity="left" android:id="@id/textview_collection_subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060952" android:id="@id/button_collection_see_all" android:background="@null" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12074b" android:textAllCaps="false" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d4" app:APKTOOL_DUMMYVAL_0x7f040ac7="borderless" />
+    </LinearLayout>
+</LinearLayout>

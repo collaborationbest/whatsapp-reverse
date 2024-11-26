@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/lonely_state_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070740" android:text="@string/APKTOOL_DUMMYVAL_0x7f1212db" app:APKTOOL_DUMMYVAL_0x7f04000c="calling" app:APKTOOL_DUMMYVAL_0x7f040ac7="tonal" app:APKTOOL_DUMMYVAL_0x7f040b41="small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

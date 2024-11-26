@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/APKTOOL_DUMMYVAL_0x7f121fbf" android:key="settings_chat_history"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.preference.ChatHistoryPreference android:icon="@drawable/ic_settings_export" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07d9" android:title="@string/APKTOOL_DUMMYVAL_0x7f122b2d" android:key="email_chat_history" />
+    <com.gbwhatsapp.preference.ChatHistoryPreference android:icon="@drawable/ic_action_archive" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07d9" android:title="@string/APKTOOL_DUMMYVAL_0x7f122898" android:key="msgstore_archive_all_chats" />
+    <com.gbwhatsapp.preference.ChatHistoryPreference android:icon="@drawable/ic_settings_clearchat" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07d9" android:title="@string/APKTOOL_DUMMYVAL_0x7f1228e6" android:key="msgstore_clear_all_chats" />
+    <com.gbwhatsapp.preference.ChatHistoryPreference android:icon="@drawable/ic_settings_delete" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07d9" android:title="@string/APKTOOL_DUMMYVAL_0x7f122940" android:key="msgstore_delete_all_chats" />
+</PreferenceScreen>

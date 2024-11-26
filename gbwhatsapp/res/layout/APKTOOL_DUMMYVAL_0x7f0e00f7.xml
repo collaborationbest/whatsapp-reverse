@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progressbar" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b1f" />
+    <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f15043a" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120317" android:layout_toRightOf="@id/progressbar" android:layout_toEndOf="@id/progressbar" />
+</RelativeLayout>

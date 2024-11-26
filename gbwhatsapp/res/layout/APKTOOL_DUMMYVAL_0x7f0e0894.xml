@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/empty_search_carousal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070bc6" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" app:APKTOOL_DUMMYVAL_0x7f0405b7="androidx.recyclerview.widget.StaggeredGridLayoutManager" app:APKTOOL_DUMMYVAL_0x7f04095e="3" />
+    <View android:background="@color/APKTOOL_DUMMYVAL_0x7f060c6c" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+</androidx.appcompat.widget.LinearLayoutCompat>

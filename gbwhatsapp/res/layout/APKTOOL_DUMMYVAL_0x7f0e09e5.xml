@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca9" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/update_email_shimmer_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03c0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/update_email_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center_horizontal" android:id="@id/update_email_description_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12013c" style="@style/APKTOOL_DUMMYVAL_0x7f150644" />
+                <com.gbwhatsapp.WaEditText android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:textColorHint="?APKTOOL_DUMMYVAL_0x7f040530" android:ellipsize="end" android:id="@id/update_email_text_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:hint="@string/APKTOOL_DUMMYVAL_0x7f120bc3" android:maxLines="1" android:lines="1" android:singleLine="true" android:imeOptions="actionDone" />
+                <ViewStub android:id="@id/invalid_email_sub_text_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e056d" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <com.gbwhatsapp.wds.components.button.WDSButton android:enabled="false" android:id="@id/update_email_submit" android:layout_width="fill_parent" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:text="@string/APKTOOL_DUMMYVAL_0x7f12159b" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/community_view_groups_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07066c" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07066c" app:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_add_new_group" app:APKTOOL_DUMMYVAL_0x7f040617="false" app:APKTOOL_DUMMYVAL_0x7f04061a="@dimen/APKTOOL_DUMMYVAL_0x7f070287" />
+</merge>

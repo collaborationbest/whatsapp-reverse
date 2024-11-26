@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.wds.components.list.listitem.WDSListItem android:id="@id/settings_debug_new" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040855="@string/APKTOOL_DUMMYVAL_0x7f122b09" app:APKTOOL_DUMMYVAL_0x7f040857="body2" app:APKTOOL_DUMMYVAL_0x7f040858="@string/APKTOOL_DUMMYVAL_0x7f121fca" app:APKTOOL_DUMMYVAL_0x7f040859="body1" app:APKTOOL_DUMMYVAL_0x7f04085a="true" app:APKTOOL_DUMMYVAL_0x7f040867="@drawable/vec_ic_settings_bug_report" app:APKTOOL_DUMMYVAL_0x7f040872="icon"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

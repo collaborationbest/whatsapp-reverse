@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/event_action_divider" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" style="@style/APKTOOL_DUMMYVAL_0x7f150366" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/event_action" android:background="?android:selectableItemBackground" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0703e2" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060237" android:gravity="center" android:id="@id/event_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120d2f" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/event_action_icon" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070eb7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070eb7" android:src="@drawable/ic_chevron_down" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f0605c3" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/title_toolbar" android:layout_width="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" style="@style/APKTOOL_DUMMYVAL_0x7f1505d0" />
+    <com.gbwhatsapp.WaFrameLayout android:id="@id/search_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?APKTOOL_DUMMYVAL_0x7f040034" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/title_toolbar" />
+    <View android:id="@id/divider" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/search_holder" style="@style/APKTOOL_DUMMYVAL_0x7f150364" />
+    <ListView android:id="@android:id/list" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0702e2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dip" android:choiceMode="singleChoice" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/divider" style="@style/APKTOOL_DUMMYVAL_0x7f1501ad" />
+</androidx.constraintlayout.widget.ConstraintLayout>

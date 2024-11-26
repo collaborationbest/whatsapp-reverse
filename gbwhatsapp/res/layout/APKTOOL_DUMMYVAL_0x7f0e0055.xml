@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?APKTOOL_DUMMYVAL_0x7f040010">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01fb" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01fa" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

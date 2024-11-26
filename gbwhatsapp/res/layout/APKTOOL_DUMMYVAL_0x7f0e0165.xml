@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/business_row_container" android:background="?APKTOOL_DUMMYVAL_0x7f0408b2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f0703fd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_business_profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0166" />
+    <com.gbwhatsapp.WaImageView android:id="@id/btn_profile_info" android:background="@drawable/selector_orange_gradient" android:padding="17.0dip" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b38" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b38" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_action_info" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f0407e5" />
+</RelativeLayout>

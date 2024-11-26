@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070c13" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/settings_2fa_done" />
+        <com.gbwhatsapp.WaTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1223e9" style="@style/APKTOOL_DUMMYVAL_0x7f1503d8" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <include android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_above="@id/done_button" android:layout_centerHorizontal="true" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071b" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="bottom|center" android:id="@id/done_button" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120b40" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_rectangle" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@id/pay_service_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:APKTOOL_DUMMYVAL_0x7f04022f="0.0dip" app:APKTOOL_DUMMYVAL_0x7f040232="0.0dip" />
+    <View style="@style/APKTOOL_DUMMYVAL_0x7f150361" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.payments.ui.widget.PaymentMethodRow android:id="@id/payment_method_row" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/account_actions_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03a0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/account_actions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e085d" />
+                <com.gbwhatsapp.payments.ui.widget.PaymentMethodRow android:id="@id/step_up_row_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

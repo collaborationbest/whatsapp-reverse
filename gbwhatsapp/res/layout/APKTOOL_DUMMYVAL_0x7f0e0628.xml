@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/media_recipients_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0708b3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0708b6" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d59" android:layout_gravity="center_vertical" android:id="@id/recipients_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0404cc="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+    <HorizontalScrollView android:layout_gravity="center_vertical" android:id="@id/recipients_scroller" android:scrollbars="none" android:fadingEdge="horizontal" android:fadingEdgeLength="60.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0708b4" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0708b5" android:requiresFadingEdge="horizontal" android:importantForAccessibility="yes">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+            <com.gbwhatsapp.status.audienceselector.StatusQuickShareButton android:id="@id/recipients_contacts_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070b24" />
+            <com.gbwhatsapp.status.audienceselector.StatusQuickShareButton android:id="@id/recipients_selected_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

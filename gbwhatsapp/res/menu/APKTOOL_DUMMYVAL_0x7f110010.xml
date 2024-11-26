@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/actions">
+        <item android:icon="@drawable/ic_send_outline" android:id="@id/fun_stickers_send" android:title="@string/APKTOOL_DUMMYVAL_0x7f122b20" app:APKTOOL_DUMMYVAL_0x7f040554="?APKTOOL_DUMMYVAL_0x7f04033c" />
+        <item android:icon="@drawable/sticker_favorites_focus" android:id="@id/fun_stickers_favorite" android:title="@string/APKTOOL_DUMMYVAL_0x7f122b70" app:APKTOOL_DUMMYVAL_0x7f040554="?APKTOOL_DUMMYVAL_0x7f04033c" />
+    </group>
+    <group android:id="@id/report">
+        <item android:icon="@drawable/ic_spam_report_wds" android:id="@id/fun_stickers_report" android:title="@string/APKTOOL_DUMMYVAL_0x7f1229d5" app:APKTOOL_DUMMYVAL_0x7f040554="?APKTOOL_DUMMYVAL_0x7f04033c" />
+    </group>
+</menu>

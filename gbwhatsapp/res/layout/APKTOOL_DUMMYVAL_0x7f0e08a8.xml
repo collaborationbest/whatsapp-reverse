@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bee" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070bd6" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/search_hint_fade_in" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.WaTextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/search_hint_fade_out" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:layout_gravity="top" android:id="@id/fade_in_search_hint_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bf3" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:layout_gravity="bottom" android:id="@id/fade_out_search_hint_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bf3" />
+    <com.gbwhatsapp.text.FinalBackspaceAwareEntry android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/search_input" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070bee" android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f070bd6" android:maxLines="1" android:layout_weight="1.0" />
+</FrameLayout>

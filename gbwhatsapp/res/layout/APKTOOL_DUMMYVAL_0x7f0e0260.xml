@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.pushtorecordmedia.PushToRecordIconAnimation android:layout_gravity="center" android:id="@id/conversation_entry_action_button_push_to_record_icon_animation" android:visibility="gone" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07034e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07034e"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

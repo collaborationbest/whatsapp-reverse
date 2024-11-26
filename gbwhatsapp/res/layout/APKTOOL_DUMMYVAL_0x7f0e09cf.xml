@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/wds_bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?APKTOOL_DUMMYVAL_0x7f040034"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09cd" />
+    <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" android:layout_marginTop="14.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+</FrameLayout>

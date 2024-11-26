@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer_toolbar" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070ce3" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070ce2" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405d6="parent" app:APKTOOL_DUMMYVAL_0x7f0405da="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <com.google.android.material.button.MaterialButtonToggleGroup android:layout_gravity="center_vertical" android:id="@id/reactions_toggle_tabs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f0408b7="true" app:APKTOOL_DUMMYVAL_0x7f040948="true">
+            <com.google.android.material.button.MaterialButton android:id="@id/emojis" android:paddingLeft="19.0dip" android:paddingRight="15.0dip" android:visibility="visible" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/vec_ic_emoji" style="@style/APKTOOL_DUMMYVAL_0x7f1503c3" />
+            <com.google.android.material.button.MaterialButton android:id="@id/avatar_stickers" android:paddingLeft="16.0dip" android:paddingRight="19.0dip" android:visibility="visible" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040548="@drawable/ic_avatar_tray_normal" style="@style/APKTOOL_DUMMYVAL_0x7f1503c3" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

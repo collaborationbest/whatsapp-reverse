@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pinnedMessagesBanner" android:background="?APKTOOL_DUMMYVAL_0x7f040176" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityTraversalBefore="@android:id/list"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07022a" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f150621">
+        <com.gbwhatsapp.pininchat.banner.PinInChatBannerMultiplePinsIndicator android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/pinnedMessagesBanner_multiple_pins_indicator" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:visibility="invisible" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070acd" android:layout_height="fill_parent" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+        <com.gbwhatsapp.WaImageView android:background="@drawable/rounded_square" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070f58" android:clickable="false" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120268" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_pin_in_chat" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060c5e" style="@style/APKTOOL_DUMMYVAL_0x7f150623" />
+        <com.gbwhatsapp.TextEmojiLabel android:ellipsize="end" android:id="@id/pinnedMessagesBanner_content" android:lines="1" android:layout_weight="1.0" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" style="@style/APKTOOL_DUMMYVAL_0x7f150624" />
+        <ViewStub android:id="@id/pinnedMessagesBanner_thumbnail_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07a8" android:inflatedId="@id/pinnedMessagesBanner_thumbnail" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07022e" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07022e" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/APKTOOL_DUMMYVAL_0x7f150361" />
+</LinearLayout>

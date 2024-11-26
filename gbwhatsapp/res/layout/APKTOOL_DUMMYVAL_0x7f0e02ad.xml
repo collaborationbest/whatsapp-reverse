@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/thumb_container" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0706f4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706f3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/thumb" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0706f4" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0706f3" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="start|bottom|center" android:id="@id/video_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070497" android:src="@drawable/mark_video" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070497" />
+</FrameLayout>

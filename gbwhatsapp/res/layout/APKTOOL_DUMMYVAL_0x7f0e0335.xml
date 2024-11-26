@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.headerfooter.InteropView android:id="@id/interop_header_container_row" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703f3"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/toolbar" android:background="?APKTOOL_DUMMYVAL_0x7f0401eb" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" android:minHeight="?APKTOOL_DUMMYVAL_0x7f040010" style="@style/APKTOOL_DUMMYVAL_0x7f1505cf" />
+    <com.gbwhatsapp.KeyboardPopupLayout android:gravity="bottom" android:id="@id/conversation_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/footer_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/message_bubble_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_above="@id/edit_composer" />
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_composer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <FrameLayout android:id="@id/mention_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_marginBottom="-3.5dip" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0262222" />
+                <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.gbwhatsapp.KeyboardPopupLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/feedback_explanation" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0701b1" android:text="@string/APKTOOL_DUMMYVAL_0x7f120c5b" style="@style/APKTOOL_DUMMYVAL_0x7f1504eb" />
+    <com.gbwhatsapp.StarRatingBar android:layout_gravity="center_horizontal" android:id="@id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0701b1" android:importantForAccessibility="yes" />
+    <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/rating_description" android:visibility="invisible" style="@style/APKTOOL_DUMMYVAL_0x7f1504eb" />
+</com.gbwhatsapp.WaLinearLayout>

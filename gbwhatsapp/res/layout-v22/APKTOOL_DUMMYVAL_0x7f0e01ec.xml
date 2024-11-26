@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150361" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d77" android:textColor="?APKTOOL_DUMMYVAL_0x7f04024c" android:gravity="center" android:id="@id/comment_disabled_input_disclaimer_text" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+</LinearLayout>

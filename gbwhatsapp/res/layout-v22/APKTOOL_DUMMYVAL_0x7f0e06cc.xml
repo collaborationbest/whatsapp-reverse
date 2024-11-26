@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/newsletter_guidelines_what_this_means" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f66" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060959" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12151f" android:lineSpacingExtra="5.0sp" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f65" android:id="@id/newsletter_guidelines_what_this_means_description" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/newsletter_guidelines_what_you_can_do" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f66" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060959" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121523" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f65" android:id="@id/newsletter_guidelines_what_you_can_do_description" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+    </LinearLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e08c6" />
+</LinearLayout>

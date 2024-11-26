@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c88"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:id="@id/contact_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c87" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c87" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fb="true" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070c83" />
+        <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/view_stub_status_reaction" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0962" android:inflatedId="@id/status_reaction" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:layout_gravity="center|left" android:orientation="vertical" android:paddingLeft="56.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+        <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:id="@id/date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150291" />
+    </LinearLayout>
+</FrameLayout>

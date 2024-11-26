@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:tag="one_top_card" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <rc.whatsapp.rounded.RoundedLayoutLinearToolbar android:id="@id/holder" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:APKTOOL_DUMMYVAL_0x7f0405f5="exitUntilCollapsed|scroll|snap" whatsapp:APKTOOL_DUMMYVAL_0x7f040a48="@style/APKTOOL_DUMMYVAL_0x7f1505ce">
+        <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/one_toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" whatsapp:APKTOOL_DUMMYVAL_0x7f0405bc="none" whatsapp:APKTOOL_DUMMYVAL_0x7f040a48="@style/APKTOOL_DUMMYVAL_0x7f1505ce" />
+    </rc.whatsapp.rounded.RoundedLayoutLinearToolbar>
+</FrameLayout>

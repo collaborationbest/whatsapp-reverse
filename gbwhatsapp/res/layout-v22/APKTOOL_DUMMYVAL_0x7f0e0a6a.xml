@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06a5" />
+    <ViewStub android:id="@id/add_to_call_button_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a68" android:inflatedId="@id/add_to_call_button_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:layout_marginVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

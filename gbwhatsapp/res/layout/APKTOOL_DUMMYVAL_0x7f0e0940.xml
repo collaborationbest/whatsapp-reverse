@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_selector" android:layout_width="72.0dip" android:layout_height="56.0dip" android:layout_alignParentLeft="true">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@id/contactpicker_row_photo" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c87" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c87" android:scaleType="fitCenter" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fb="true" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070c83" />
+    </FrameLayout>
+    <FrameLayout android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070725" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/selection" android:layout_toRightOf="@id/contact_selector" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="center|left" android:id="@id/contactpicker_row_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/selection" android:background="@drawable/selection_check_circle" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c08" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c08" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.gbwhatsapp.components.SelectionCheckView android:id="@id/selection_check" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070c08" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070c08" whatsapp:APKTOOL_DUMMYVAL_0x7f040885="0.0dip" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@drawable/flows_fragment_curved_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wabloks.ui.PercentageBasedMaxHeightLinearLayout android:orientation="vertical" android:id="@id/flows_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/toolbar_layout" android:background="@color/APKTOOL_DUMMYVAL_0x7f060c6e" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:theme="@style/APKTOOL_DUMMYVAL_0x7f15055c" android:id="@id/flows_bottom_sheet_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04070f="@string/APKTOOL_DUMMYVAL_0x7f1228e8" />
+                <View android:id="@id/divider_under_nav_bar" android:layout_below="@id/flows_bottom_sheet_toolbar" style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+                <com.gbwhatsapp.flows.phoenix.view.FlowsInitialLoadingView android:orientation="vertical" android:id="@id/flows_initial_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider_under_nav_bar" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/flows_web_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.gbwhatsapp.WaFrameLayout>
+    </com.gbwhatsapp.wabloks.ui.PercentageBasedMaxHeightLinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

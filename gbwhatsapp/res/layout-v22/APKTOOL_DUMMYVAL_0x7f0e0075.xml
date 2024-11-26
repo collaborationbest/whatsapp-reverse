@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0402fb="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405f5="enterAlways|scroll|snap">
+            <include android:id="@id/toolbar_holder" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09ce" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <com.gbwhatsapp.collections.ObservableRecyclerView android:id="@id/filter_list" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070ca3" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+        <View android:layout_gravity="bottom" android:id="@id/filter_divider" android:background="?APKTOOL_DUMMYVAL_0x7f0402d2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.gbwhatsapp.collections.ObservableRecyclerView android:id="@id/newsletter_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0405bb="@string/APKTOOL_DUMMYVAL_0x7f122886" />
+    <ViewStub android:id="@id/discovery_list_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e039f" android:inflatedId="@id/discovery_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0405bb="@string/APKTOOL_DUMMYVAL_0x7f122886" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

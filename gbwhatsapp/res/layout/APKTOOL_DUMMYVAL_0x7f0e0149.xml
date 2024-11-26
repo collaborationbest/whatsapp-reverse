@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b24"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/filter_chip_shimmer_background" android:layout_width="120.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07046a" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" style="BusinessLoadingFilterBarShimmerItem" />
+    <View android:background="@drawable/filter_chip_shimmer_background" android:layout_width="120.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07046a" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" style="BusinessLoadingFilterBarShimmerItem" />
+    <View android:background="@drawable/filter_chip_shimmer_background" android:layout_width="120.0dip" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07046a" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" style="BusinessLoadingFilterBarShimmerItem" />
+</LinearLayout>

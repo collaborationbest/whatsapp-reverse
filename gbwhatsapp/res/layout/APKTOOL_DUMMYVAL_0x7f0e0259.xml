@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150146"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/not_in_contacts_text" android:inflatedId="@id/not_in_contacts_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="13.0sp" android:textStyle="bold" android:id="@id/block_btn" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120335" style="@style/APKTOOL_DUMMYVAL_0x7f150145" />
+    <View android:id="@id/divider" android:background="@drawable/abc_list_divider_mtrl_alpha" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="13.0sp" android:textStyle="bold" android:id="@id/add_btn" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121354" style="@style/APKTOOL_DUMMYVAL_0x7f150145" />
+</LinearLayout>

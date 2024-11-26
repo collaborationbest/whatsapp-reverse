@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/APKTOOL_DUMMYVAL_0x7f1501ad"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.contact.picker.BidiContactListView android:id="@id/contact_list_view" android:background="@android:color/transparent" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0702e2" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0702e3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/contact_list_view">
+        <ProgressBar android:layout_gravity="center" android:id="@id/init_contacts_progress" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070ca5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+        <LinearLayout android:orientation="vertical" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/share_link_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/contacts_section" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:id="@id/invite_empty_description" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070caf" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07064b" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070cac" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1503d6" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@id/button_open_permission_settings" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca6" android:text="@string/APKTOOL_DUMMYVAL_0x7f121ae6" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:background="?APKTOOL_DUMMYVAL_0x7f0407e7" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070f5e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06c0" />
+            <com.gbwhatsapp.WaTextView android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150648" android:gravity="center" android:id="@id/header_title" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070f65" android:gravity="center_horizontal" android:id="@id/header_description" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f56" android:lineSpacingExtra="4.0sp" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070ca7" />
+                <ViewStub android:layout_gravity="center" android:id="@id/description_loading_state_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06dd" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <androidx.fragment.app.FragmentContainerView android:id="@id/newsletter_guidelines_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c">
+            <ViewStub android:layout_gravity="center" android:id="@id/description_review_loading_state_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06dc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/delete_button_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+            <ViewStub android:id="@id/review_button_view_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06eb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070ca2" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09cc" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="@null" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@color/APKTOOL_DUMMYVAL_0x7f060ad6" android:layout_weight="1.0" />
+</LinearLayout>

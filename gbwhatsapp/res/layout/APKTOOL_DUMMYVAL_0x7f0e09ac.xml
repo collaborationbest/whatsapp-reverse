@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0703e2" android:textColor="?APKTOOL_DUMMYVAL_0x7f040263" android:id="@id/top_message" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0703a5" />
+    <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04003e="true">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0703e3" android:textColor="?APKTOOL_DUMMYVAL_0x7f040255" android:layout_gravity="left" android:id="@id/bottom_message" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070391" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0703de" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070355" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15060f" />
+        </LinearLayout>
+    </com.gbwhatsapp.components.TextAndDateLayout>
+    <View android:id="@id/button_divider" style="@style/APKTOOL_DUMMYVAL_0x7f150360" />
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/action_btn_1" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1503d1" />
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/action_btn_2" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1503d1" />
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/action_btn_3" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f1503d1" />
+    <com.whatsapp.conversation.conversationrow.TemplateButtonListLayout android:id="@id/template_button_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

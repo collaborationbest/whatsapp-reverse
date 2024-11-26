@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <SwitchPreference android:title="@string/convo_confirm_before_sendingStatus" android:key="status_wantsendconfirmation" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoHideDiv" android:key="Hide_div" android:summary="@string/yoHideDivS" android:defaultValue="false" />
+    <com.abuarab.gold.settings.GoldPreferenceCategory android:title="@string/Forward_Settings">
+        <SwitchPreference android:title="@string/frequently_contacted" android:key="Hide_contact_picker_section_frequent_chats" android:summary="@string/frequently_contacted_sum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/other_contacts" android:key="Hide_contact_picker_section_other_contacts" android:summary="@string/other_contacts_sum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/recent_chats" android:key="Hide_contact_picker_section_recent_chats" android:summary="@string/recent_chats_sum" android:defaultValue="false" />
+    </com.abuarab.gold.settings.GoldPreferenceCategory>
+</PreferenceScreen>

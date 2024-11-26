@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageView android:focusable="false" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0709b3" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709b3" android:scaleType="centerInside" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121490" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/new_community_refresh_icon"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

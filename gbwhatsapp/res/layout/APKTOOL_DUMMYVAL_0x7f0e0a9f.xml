@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge style="@style/APKTOOL_DUMMYVAL_0x7f150619"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/banner_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="fitCenter" android:cropToPadding="true" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_banner_default" />
+    <com.gbwhatsapp.WaImageView android:id="@id/dismiss_icon" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f12294f" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/vec_ic_close" app:APKTOOL_DUMMYVAL_0x7f040a5f="@color/APKTOOL_DUMMYVAL_0x7f060ca3" style="@style/APKTOOL_DUMMYVAL_0x7f15061a" />
+    <com.gbwhatsapp.WaTextView android:id="@id/banner_header" app:APKTOOL_DUMMYVAL_0x7f0405ca="@id/dismiss_icon" app:APKTOOL_DUMMYVAL_0x7f0405db="@id/banner_icon" app:APKTOOL_DUMMYVAL_0x7f0405e0="@id/dismiss_icon" style="@style/APKTOOL_DUMMYVAL_0x7f15061b" />
+    <com.gbwhatsapp.WaTextView android:id="@id/banner_description" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405db="@id/banner_icon" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/banner_header" style="@style/APKTOOL_DUMMYVAL_0x7f15061e" />
+</merge>

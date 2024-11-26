@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:id="@id/fab_tool_tip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1214a0" android:textIsSelectable="true" style="@style/APKTOOL_DUMMYVAL_0x7f15060b"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

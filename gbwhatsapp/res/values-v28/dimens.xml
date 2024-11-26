@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f07086a">0.16</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f07086b">0.2</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f07086c">0.4</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f07086d">0.12</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f070952">0.24</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f070953">0.4</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f070954">0.4</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f070955">0.24</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f070956">0.12</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f070957">0.2</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f070958">0.2</item>
+    <item type="dimen" name="APKTOOL_DUMMYVAL_0x7f070959">0.12</item>
+</resources>

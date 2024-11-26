@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0605c3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f120cf4" style="@style/APKTOOL_DUMMYVAL_0x7f150644"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

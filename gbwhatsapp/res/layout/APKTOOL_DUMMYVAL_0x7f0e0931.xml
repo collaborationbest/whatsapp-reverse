@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0407e8" android:layout_gravity="center_horizontal" android:id="@id/send_invite_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:fontFamily="?APKTOOL_DUMMYVAL_0x7f0404d6" />
+            <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/send_invite_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/invite_contacts_recycler" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/btn_send_invites" android:layout_width="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f1211dd" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/btn_not_now" android:layout_width="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f12161e" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

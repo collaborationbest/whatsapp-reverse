@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070a27" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070a27"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:visibility="gone" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e09cc" />
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/hero_img" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="16.0dip" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f121839" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_account_found" />
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/enter_dob_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f120852" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/APKTOOL_DUMMYVAL_0x7f1502d2" />
+            <com.gbwhatsapp.WaTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f04062d" android:gravity="center" android:id="@id/enter_dob_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+            <com.google.android.material.textfield.TextInputLayout android:textColorHint="?APKTOOL_DUMMYVAL_0x7f040530" android:id="@id/enter_dob_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" app:APKTOOL_DUMMYVAL_0x7f04032a="@style/APKTOOL_DUMMYVAL_0x7f150202">
+                <com.gbwhatsapp.WaEditText android:textColor="?APKTOOL_DUMMYVAL_0x7f040756" android:id="@id/enter_dob" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUMMYVAL_0x7f1224a3" android:drawableRight="@drawable/payment_dropdown_icon" android:drawablePadding="8.0dip" android:inputType="none" app:APKTOOL_DUMMYVAL_0x7f040097="?APKTOOL_DUMMYVAL_0x7f040530" style="@style/APKTOOL_DUMMYVAL_0x7f15043e" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070a31" android:textColor="?APKTOOL_DUMMYVAL_0x7f040006" android:layout_gravity="center_horizontal" android:id="@id/continue_cta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070a27" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070a27" android:text="@string/APKTOOL_DUMMYVAL_0x7f120850" app:APKTOOL_DUMMYVAL_0x7f040ac7="filled" />
+</LinearLayout>

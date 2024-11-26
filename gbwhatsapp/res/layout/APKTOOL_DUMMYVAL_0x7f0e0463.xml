@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070666" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070666" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/shops_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c3="@id/see_all" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_shops_logo" app:APKTOOL_DUMMYVAL_0x7f040a5f="?APKTOOL_DUMMYVAL_0x7f04010b" />
+        <com.gbwhatsapp.WaTextView android:textColor="?APKTOOL_DUMMYVAL_0x7f040118" android:id="@id/see_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1204b8" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1204b8" android:textAllCaps="true" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="4.0dip">
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f040909="false" app:APKTOOL_DUMMYVAL_0x7f040914="0.7">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/placeholder_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <com.facebook.rendercore.RootHostView android:id="@id/bk_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

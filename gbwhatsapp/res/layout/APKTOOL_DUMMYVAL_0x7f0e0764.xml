@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/p2p_onboarding_nudge_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:scaleType="fitXY" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/ic_personal" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070b1e">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d71" android:text="@string/APKTOOL_DUMMYVAL_0x7f1217ab" android:singleLine="true" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150295" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609d7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f070d71" android:text="@string/APKTOOL_DUMMYVAL_0x7f1217aa" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/p2p_onboarding_nudge_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121827" style="@style/APKTOOL_DUMMYVAL_0x7f1505fe" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

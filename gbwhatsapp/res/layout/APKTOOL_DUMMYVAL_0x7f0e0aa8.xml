@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070f5d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070f5a" android:minHeight="200.0dip" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070f5c" app:APKTOOL_DUMMYVAL_0x7f040145="@dimen/APKTOOL_DUMMYVAL_0x7f070ee9">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/attributes_recycler_View" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:APKTOOL_DUMMYVAL_0x7f0405b7="androidx.recyclerview.widget.LinearLayoutManager" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/values_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/attributes_recycler_View" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</merge>

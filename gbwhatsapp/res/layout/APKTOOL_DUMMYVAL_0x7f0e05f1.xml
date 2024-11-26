@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.textlayout.WDSTextLayout android:gravity="center_horizontal" android:id="@id/textlayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0402b5="Description" app:APKTOOL_DUMMYVAL_0x7f040518="@drawable/logout" app:APKTOOL_DUMMYVAL_0x7f04051c="Title" app:APKTOOL_DUMMYVAL_0x7f0405b8="view" />
+</LinearLayout>

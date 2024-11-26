@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070ccf" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070ccf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contact_selector" android:background="@drawable/more_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center|left" android:id="@id/contact_thumbnail" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070649" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070649" android:src="@drawable/vec_ic_arrow_right" android:scaleType="centerInside" whatsapp:APKTOOL_DUMMYVAL_0x7f0409f9="?APKTOOL_DUMMYVAL_0x7f0402d2" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fa="1.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fb="false" whatsapp:APKTOOL_DUMMYVAL_0x7f0409fd="@dimen/APKTOOL_DUMMYVAL_0x7f070c83" />
+    </FrameLayout>
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070d04" android:ellipsize="end" android:gravity="center" android:id="@id/contact_name" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070d96" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070d01" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f12143f" android:singleLine="true" style="@style/APKTOOL_DUMMYVAL_0x7f15018e" />
+</LinearLayout>

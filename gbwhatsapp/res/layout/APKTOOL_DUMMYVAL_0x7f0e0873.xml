@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:id="@id/title_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:APKTOOL_DUMMYVAL_0x7f040a48="@style/APKTOOL_DUMMYVAL_0x7f1507e3">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/title" android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070b8a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e32" style="@style/APKTOOL_DUMMYVAL_0x7f15033f" />
+    </com.gbwhatsapp.wds.components.topbar.WDSToolbar>
+    <ScrollView android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070b8a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/chat_transfer_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f121e31" style="@style/APKTOOL_DUMMYVAL_0x7f15043e" />
+            <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/restore_option" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_settings_backup" whatsapp:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f121e27" />
+            <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/transfer_option" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" whatsapp:APKTOOL_DUMMYVAL_0x7f040615="@drawable/ic_settings_change_number" whatsapp:APKTOOL_DUMMYVAL_0x7f040618="@string/APKTOOL_DUMMYVAL_0x7f1223b8" />
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/continue_button" android:layout_width="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f120447" style="@style/APKTOOL_DUMMYVAL_0x7f1505fc" />
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/skip_button" android:layout_width="fill_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f122b52" style="@style/APKTOOL_DUMMYVAL_0x7f150604" />
+        </LinearLayout>
+    </ScrollView>
+</com.gbwhatsapp.WaLinearLayout>

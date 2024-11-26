@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:orientation="vertical" android:id="@id/main_layout" android:background="?APKTOOL_DUMMYVAL_0x7f0408bc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/proxy_host_text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+                <EditText android:id="@id/proxy_host" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUMMYVAL_0x7f122afc" android:ems="10" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <View android:id="@id/manual_proxy_setting_divider" android:layout_marginTop="16.0dip" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/proxy_host_text_input_layout" style="@style/APKTOOL_DUMMYVAL_0x7f15036d" />
+            <com.gbwhatsapp.WaTextView android:id="@id/waTextView" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/APKTOOL_DUMMYVAL_0x7f121c78" app:APKTOOL_DUMMYVAL_0x7f0405ca="@id/proxy_host_text_input_layout" app:APKTOOL_DUMMYVAL_0x7f0405d2="0.0" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/manual_proxy_setting_divider" style="?APKTOOL_DUMMYVAL_0x7f0408d6" />
+            <include android:id="@id/chat_port_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/waTextView" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a2e" />
+            <include android:id="@id/media_port_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" app:APKTOOL_DUMMYVAL_0x7f0405dc="parent" app:APKTOOL_DUMMYVAL_0x7f0405df="@id/chat_port_layout" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a2e" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.fab.WDSFab android:id="@id/save_proxy_button" android:src="@drawable/ic_done" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f120b40" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405c9="parent" style="@style/APKTOOL_DUMMYVAL_0x7f150606" />
+</androidx.constraintlayout.widget.ConstraintLayout>

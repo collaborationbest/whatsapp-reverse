@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.PagerSlidingTabStrip android:background="?APKTOOL_DUMMYVAL_0x7f0401e9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040010" android:elevation="4.0dip" app:APKTOOL_DUMMYVAL_0x7f040804="@color/APKTOOL_DUMMYVAL_0x7f060ad6" app:APKTOOL_DUMMYVAL_0x7f040805="?APKTOOL_DUMMYVAL_0x7f040534" app:APKTOOL_DUMMYVAL_0x7f040806="4.0dip" app:APKTOOL_DUMMYVAL_0x7f0409e0="@color/APKTOOL_DUMMYVAL_0x7f060d59"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

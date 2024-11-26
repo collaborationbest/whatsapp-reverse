@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/gdpr_report_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:APKTOOL_DUMMYVAL_0x7f04096f="@drawable/settings_account_info" />
+    <com.gbwhatsapp.TextEmojiLabel android:gravity="left" android:id="@id/gdpr_report_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:singleLine="false" android:lineSpacingExtra="4.0dip" style="?APKTOOL_DUMMYVAL_0x7f0408db" />
+</LinearLayout>

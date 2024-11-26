@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/APKTOOL_DUMMYVAL_0x7f060b36" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" app:APKTOOL_DUMMYVAL_0x7f0405c3="parent" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent">
+        <FrameLayout android:id="@id/view_once_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <com.gbwhatsapp.wds.components.topbar.WDSToolbar android:theme="@style/APKTOOL_DUMMYVAL_0x7f1501d8" android:id="@id/toolbar" android:background="@color/APKTOOL_DUMMYVAL_0x7f060ad7" android:layout_width="fill_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070069" app:APKTOOL_DUMMYVAL_0x7f0405e0="parent" app:APKTOOL_DUMMYVAL_0x7f0407c7="@style/APKTOOL_DUMMYVAL_0x7f1505d1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

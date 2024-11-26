@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/tooltip_ptt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/push_to_record_lottie_animation" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0a43" android:inflatedId="@id/push_to_record_lottie_animation" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b45" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b45" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070e3f" />
+    <ViewStub android:id="@id/push_to_record_media_tooltip_push_to_record_icon_animation_stub" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0826" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070b45" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070b45" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f070e3f" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070e41" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060d59" android:layout_gravity="center|right" android:id="@id/voice_note_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1226b6" />
+</LinearLayout>

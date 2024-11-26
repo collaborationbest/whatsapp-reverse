@@ -1,0 +1,42 @@
+.class public final LX/Arf;
+.super LX/00c;
+.source ""
+
+# interfaces
+.implements LX/00d;
+
+
+# instance fields
+.field public final synthetic this$0:LX/8bf;
+
+
+# direct methods
+.method public constructor <init>(LX/8bf;)V
+    .locals 1
+
+    iput-object p1, p0, LX/Arf;->this$0:LX/8bf;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/00c;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 2
+
+    iget-object v1, p0, LX/Arf;->this$0:LX/8bf;
+
+    sget-object v0, LX/0D3;->A0I:Ljava/util/List;
+
+    iget-object v0, v1, LX/8bf;->A01:LX/00e;
+
+    invoke-static {v0}, LX/9Ay;->A00(LX/00e;)LX/0AT;
+
+    move-result-object v0
+
+    return-object v0
+.end method
